@@ -22,6 +22,18 @@ Fast interpretation:
 
 Then explain which axis is the bottleneck. Do not just report the score.
 
+## Default Critique Protocol
+
+When diagnosing an idea, answer in this order:
+
+1. Give the score.
+2. Name the single biggest bottleneck.
+3. Explain the mechanism.
+4. Recommend the smallest fix.
+5. Warn against the most tempting wrong move.
+
+This usually produces better output than listing many medium-strength concerns.
+
 ## 1. Name The Primitive Motivation
 
 Consumer products usually win because they attach to a deep recurring motive, not because they are functionally complete.

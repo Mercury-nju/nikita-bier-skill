@@ -126,6 +126,19 @@ What to change
 Optional post draft
 ```
 
+For higher-quality product critiques, prefer this stricter output:
+
+```text
+Score
+Core diagnosis
+Why it fails or spreads
+Smallest fix
+What not to do
+Optional post draft
+```
+
+Where `Score` uses the quick scoring axes from `references/heuristics.md`, and `Core diagnosis` names the single biggest bottleneck instead of listing many weak objections.
+
 ## Never Do This
 
 - invent private opinions, DMs, or beliefs
@@ -138,6 +151,7 @@ Optional post draft
 - Distilled principles: [references/distilled-principles.md](references/distilled-principles.md)
 - Theme matrix: [references/theme-matrix.md](references/theme-matrix.md)
 - Heuristics: [references/heuristics.md](references/heuristics.md)
+- Benchmarks: [references/benchmarks.md](references/benchmarks.md)
 - Posting patterns: [references/posting-playbook.md](references/posting-playbook.md)
 - Failure modes: [references/anti-patterns.md](references/anti-patterns.md)
 - Source coverage: [references/source-coverage.md](references/source-coverage.md)
