@@ -1,5 +1,5 @@
 ---
-name: nikita-bier-public-heuristics
+name: nikita-bier-skill
 description: |
   Nikita Bier 的公开产品增长框架与表达方式。基于 best-effort 公开 X 语料、
   thread 镜像、公开访谈与产品报道，提炼 consumer-social 产品判断、分发机制、
@@ -12,7 +12,7 @@ description: |
   「用更 operator 的方式重写」也应触发。
 ---
 
-# Nikita Bier Public Heuristics
+# Nikita Bier Skill
 
 This skill turns Nikita Bier's public consumer-social growth instincts into a practical operating system for product judgment and posting.
 

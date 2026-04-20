@@ -1,4 +1,4 @@
-# nikita-bier-public-heuristics
+# nikita-bier-skill
 
 Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，也不是角色扮演皮肤，而是一个可复用的判断系统。
 
@@ -35,7 +35,7 @@ Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，
 安装后直接在对话里这样提：
 
 ```text
-用 nikita-bier-public-heuristics 帮我判断这个社交产品点子
+用 nikita-bier-skill 帮我判断这个社交产品点子
 Nikita Bier 会怎么看这个增长策略？
 用更 Nikita Bier 的方式锐化这条推文
 这个产品为什么 retain 了但不 spread？
@@ -137,7 +137,7 @@ Nikita Bier 会怎么看这个增长策略？
 ## 目录结构
 
 ```text
-nikita-bier-public-heuristics/
+nikita-bier-skill/
 ├── README.md
 ├── SKILL.md
 ├── examples/

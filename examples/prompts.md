@@ -3,7 +3,7 @@
 ## Product Diagnosis
 
 ```text
-用 nikita-bier-public-heuristics 帮我判断这个匿名校园社交产品为什么起不来。
+用 nikita-bier-skill 帮我判断这个匿名校园社交产品为什么起不来。
 ```
 
 ```text
