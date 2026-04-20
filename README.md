@@ -1,10 +1,30 @@
 # nikita-bier-skill
 
+> A public-materials skill derived from Nikita Bier's writing, interviews, and product history.
+
 Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，也不是角色扮演皮肤，而是一个可复用的判断系统。
 
 基于 best-effort 公开 X 语料、thread 镜像、公开访谈和产品报道，
 提炼出关于 `dense networks`、`time-to-value`、`distribution advantage`、
 `viral vs durable`、`interest-graph cold start` 的一套实战启发式。
+
+## 先说边界
+
+这个项目的目标不是模仿真人，也不是声称“还原 Nikita Bier 本人”。
+
+它只做一件事：
+
+- 把公开材料里反复出现、可操作、可复用的 consumer-social heuristics 整理成一个 skill
+
+所以你应该把它理解成：
+
+- a public-heuristics package
+
+而不是：
+
+- an identity simulator
+
+这个 skill 与 Nikita Bier 本人没有官方关系，也不代表其本人立场。
 
 ## 这是什么
 
@@ -21,6 +41,7 @@ Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，
 - Nikita Bier 本人语气模拟器
 - 完整历史推文档案
 - 万能增长答案生成器
+- 对真人身份、人格或私有观点的重建
 
 ## 适合什么问题
 
@@ -36,8 +57,8 @@ Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，
 
 ```text
 用 nikita-bier-skill 帮我判断这个社交产品点子
-Nikita Bier 会怎么看这个增长策略？
-用更 Nikita Bier 的方式锐化这条推文
+用 Nikita Bier 的公开 heuristics 看这个增长策略
+把这条观点改得更有 mechanism，不要 cosplay
 这个产品为什么 retain 了但不 spread？
 ```
 
@@ -165,6 +186,25 @@ consumer 产品不是 B2B 软件。
 
 更多示例见 [examples/prompts.md](examples/prompts.md)。
 
+## 为什么这个项目可能有用
+
+很多“名人 skill”最后变成两种东西：
+
+- 语气模仿器
+- 断章取义的语录合集
+
+这两个方向都很容易失真。
+
+这个项目更关心的是另一层：
+
+- 哪些判断在不同公开材料里反复出现
+- 哪些结论是可执行的，而不只是好听
+- 哪些启发式在真实产品讨论里能复用
+
+所以它重点不是“像他讲话”，而是：
+
+- 帮你更快定位 consumer/social 产品里的机制问题
+
 ## 蒸馏了什么
 
 这份 skill 当前重点覆盖：
@@ -197,6 +237,47 @@ consumer 产品不是 B2B 软件。
 - [references/source-coverage.md](references/source-coverage.md)
 - [references/sources.md](references/sources.md)
 
+## 可能被质疑的点
+
+### 1. 为什么 repo 直接用了真人名字？
+
+因为这个 skill 的研究对象就是 Nikita Bier 的公开材料。
+
+但项目内容始终强调：
+
+- public materials
+- heuristics
+- no identity simulation
+
+如果你希望进一步降低误解风险，可以在自己的 fork 中改成更中性的名字，比如：
+
+- `consumer-social-growth-skill`
+- `public-consumer-growth-heuristics`
+
+### 2. 为什么不是“完整推文全集”？
+
+因为公开网页、镜像站、搜索接口和 API 配额都有限。
+
+所以这里明确采用的是：
+
+- best-effort public corpus
+
+而不是：
+
+- complete historical archive
+
+### 3. 会不会把个人风格误当成普适真理？
+
+会，所以仓库专门加入了：
+
+- source coverage
+- theme matrix
+- anti-patterns
+
+它们的目的就是提醒使用者：
+
+- 这是提炼出来的 lens，不是不可挑战的 doctrine
+
 ## 使用边界
 
 你可以说：
@@ -209,6 +290,20 @@ consumer 产品不是 B2B 软件。
 - 这就是 Nikita 本人的真实观点
 - 这完整覆盖了他全部历史推文
 - 这是对真人身份的模仿
+
+## 更好的使用方式
+
+推荐这样用：
+
+- 分析一个 consumer/social 产品为什么不传播
+- 拆解 launch、cold start、network density、shareability
+- 把一段平庸的增长表达改得更有机制感
+
+不推荐这样用：
+
+- “请完整扮演 Nikita Bier”
+- “请像他本人一样骂人”
+- “请给我生成他没说过的私人观点”
 
 ## 目录结构
 

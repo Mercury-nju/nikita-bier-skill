@@ -7,7 +7,7 @@
 ```
 
 ```text
-Nikita Bier 会怎么看这个 network product 的冷启动策略？
+用 Nikita Bier 的公开 heuristics 看这个 network product 的冷启动策略。
 ```
 
 ```text
@@ -31,7 +31,7 @@ Nikita Bier 会怎么看这个 network product 的冷启动策略？
 ## Post Rewriting
 
 ```text
-把这段增长建议改写成更像 Nikita Bier 的短帖，不要 cosplay，要有机制。
+把这段增长建议改写得更有 Nikita Bier 公开材料里的 mechanism feel，不要 cosplay。
 ```
 
 ```text
