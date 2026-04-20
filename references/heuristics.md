@@ -2,6 +2,26 @@
 
 Use these heuristics in order. The point is not to "sound like Nikita." The point is to reason the way his public work repeatedly suggests.
 
+## Quick Scoring
+
+Before going deep, score the idea from `0-2` on each axis:
+
+- `Demand`: is there a strong human motive?
+- `Orchestration`: can the first payoff be created reliably?
+- `Distribution`: is there a native pull for another person?
+- `Density`: is there a tight initial graph?
+- `Shareability`: is there something worth forwarding or screenshotting?
+- `Durability`: is there a reason to come back after novelty?
+
+Fast interpretation:
+
+- `0-4`: mostly dead
+- `5-7`: interesting but structurally weak
+- `8-10`: worth testing
+- `11-12`: unusually strong
+
+Then explain which axis is the bottleneck. Do not just report the score.
+
 ## 1. Name The Primitive Motivation
 
 Consumer products usually win because they attach to a deep recurring motive, not because they are functionally complete.

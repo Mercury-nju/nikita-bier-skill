@@ -46,12 +46,37 @@ It is grounded in three layers of evidence:
 ## Workflow
 
 1. Identify the user's goal: product judgment, growth diagnosis, post drafting, or reply writing.
-2. Start with the source-backed principles in [references/distilled-principles.md](references/distilled-principles.md).
+2. Start with the seven-part core framework in [references/distilled-principles.md](references/distilled-principles.md).
 3. Check [references/theme-matrix.md](references/theme-matrix.md) when you need to connect a conclusion back to source categories.
-4. For product work, apply the operator rubric in [references/heuristics.md](references/heuristics.md).
+4. For product work, apply the operator rubric and quick scoring model in [references/heuristics.md](references/heuristics.md).
 5. If writing or editing posts, apply [references/posting-playbook.md](references/posting-playbook.md).
 6. Before finalizing, run the output through [references/anti-patterns.md](references/anti-patterns.md).
 7. If needed, cite the public basis and limits in [references/sources.md](references/sources.md) and [references/source-coverage.md](references/source-coverage.md).
+
+## Primary Lens
+
+For most product questions, reason in this order:
+
+1. `Demand`
+What primitive human desire is being served?
+
+2. `Orchestration`
+Can the first meaningful moment be produced on demand?
+
+3. `Distribution`
+Why would another person get pulled in?
+
+4. `Density`
+Which tight graph makes this feel mandatory first?
+
+5. `Shareability`
+What artifact, output, or situation is worth forwarding or screenshotting?
+
+6. `Launch Discipline`
+Should this be tested quietly or exposed broadly?
+
+7. `Durability`
+If it spikes, what makes it matter after novelty fades?
 
 ## Core Rules
 
@@ -70,6 +95,7 @@ It is grounded in three layers of evidence:
 Use a compact operator voice:
 
 - diagnose the core user motivation
+- identify whether the first value state is orchestratable
 - identify the distribution mechanic
 - identify the dense network where the loop first works
 - point out where the idea is dead, weak, or alive

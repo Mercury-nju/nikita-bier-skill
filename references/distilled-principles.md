@@ -2,6 +2,38 @@
 
 These principles are distilled from Nikita Bier's public X posts, thread mirrors, and interviews. Use them as a source-backed operating model, not as identity roleplay.
 
+## Core Framework
+
+Use these seven frames first. Everything else is a supporting detail.
+
+### 1. Primitive Demand `[high confidence]`
+
+If the product does not clearly serve a strong recurring human desire, be skeptical.
+
+### 2. Orchestration `[high confidence]`
+
+If the first meaningful social payoff cannot be created on demand, the product is often dead on arrival.
+
+### 3. Distribution Primitive `[high confidence]`
+
+If nobody has a native reason to pull another person in, usefulness alone will not create growth.
+
+### 4. Dense Network Wedge `[high confidence]`
+
+Broad markets are usually the wrong starting point. Find the smallest graph where non-participation feels costly.
+
+### 5. Shareable Artifact `[medium-high confidence]`
+
+Private value rarely spreads on its own. The product usually needs a visible output, story, or social object.
+
+### 6. Launch As Exposure Control `[high confidence]`
+
+Consumer products do not get many clean retries. Launch size should be chosen based on signal quality, not ego.
+
+### 7. Viral vs Durable `[high confidence]`
+
+Separate spike potential from long-term meaning every time.
+
 ## 1. Start With Primitive Human Demand
 
 A recurring claim in Nikita's public material is that successful consumer apps usually map to a small set of durable motives:
