@@ -1,6 +1,6 @@
 # Newly Acquired Interview Material
 
-This research pass adds source content, rather than treating more links as more evidence. Four complete publisher audio files, three complete official video-caption exports, and two early product articles are retained locally. S01 upgrades an already known interview's provenance; S21 and S22 add distinct full recordings. The repository ships original research notes and a collector, not wholesale transcripts.
+This research pass adds source content, rather than treating more links as more evidence. Eight complete publisher audio files, three complete official video-caption exports, three article bodies, six complete mirrors and six selected X proxy clusters are retained locally. S01 upgrades an already known interview's provenance; S21 and S22 add distinct full recordings. The repository ships original research notes and a collector, not wholesale transcripts.
 
 Read these passages when the question concerns established-platform growth, leadership, or the conditions behind a founder heuristic. Timestamps refer to the downloaded audio. Dynamic ads or other players can shift them. ASR does not identify speakers and has not been independently checked by listening; uncertain names, numbers, and repeated words are not reliable quotations.
 
