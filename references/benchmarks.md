@@ -10,6 +10,8 @@ The source-attribution case measures package knowledge, so a no-skill answer may
 
 The [2026-10-09 comparison record](../examples/evaluation-2026-10-09.json) retains the prompts, 30 exact responses, review, and limitations of the grouped-case runs. It is a small regression check, not the stronger independent-per-case protocol described above.
 
+The revised and no-skill conditions both passed 10/10 cases. This suite has not demonstrated incremental skill value and does not test fidelity to Nikita's documented decisions. A source-held-out fidelity evaluation and a matched usefulness comparison would address different claims; see [representation and evaluation](source-coverage.md#representation-and-evaluation).
+
 ## sparse-campus
 
 User request:

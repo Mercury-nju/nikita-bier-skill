@@ -21,6 +21,25 @@ Use a relevant original statement or accessible faithful mirror for attribution.
 
 Multiple posts by the same person, a mirror of those posts, and an interview repeating the same argument are not independent product experiments. Recurrence can identify an important theme; it does not establish a universal causal law.
 
+## Representation And Evaluation
+
+The eleven principle-source entries have uneven review depth:
+
+| Review depth | Entries |
+| --- | --- |
+| Official interview summary and chapters; no full transcript/audio review | S01 |
+| Complete thread text available through a mirror | S02, S03 |
+| Retained local harvested text; no fresh original-page verification | S04, S06, S07, S08, S09, S10 |
+| Partial mirror excerpts | S05, S11 |
+
+This supports selected attributed learning material, not a representative model of the person. The package has not systematically reconstructed failed launches, alternatives considered, changing constraints, or changes in his views. The February 2026 Out of Office interview is a newly located gap: its official description and chapter list were checked, but its full content has not been reviewed or distilled. See [pending material](sources.md#located-but-not-yet-distilled).
+
+The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures, not fidelity to Nikita's reasoning, and demonstrates no incremental benefit on that suite. The grouped, single-run design cannot establish equivalence or general effectiveness either.
+
+Further research should preserve decisions as cases: goal and constraints -> alternatives -> choice and stated rationale -> reported outcome and limitations. Cover multiple products and career stages, including failures and counterexamples. Cross-reference each inferred pattern to its actual passages and distinguish a recurring preference from a context-specific tactic.
+
+Before claiming fidelity, reserve real source cases from the distillation process and compare the resulting analysis with his documented choices and reasons, using only information available before the choice. Test helpfulness separately against the same model without the skill, and measure whether readers make better supported decisions. Neither test can certify access to his private thinking.
+
 ## Known Limits
 
 - The harvest's search queries and completeness are not documented sufficiently to reproduce the full collection.

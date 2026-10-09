@@ -95,6 +95,15 @@ Verification notes below describe what was checked on 2026-10-09. An accessible 
 
 The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800197768981762396.html) returned an access error during verification. It is retained here as a historical pointer, not as checked evidence. Use S02 and S04 for the supported launch discussion.
 
+## Located But Not Yet Distilled
+
+### Out Of Office, 2026-02-10
+
+- [Publisher's episode listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201); [official video](https://www.youtube.com/watch?v=tF4j4LB-2rk); [Lightspeed's episode announcement](https://www.linkedin.com/posts/lightspeed-venture-partners_so-much-of-a-businesss-success-these-days-activity-7427037840208760832-l0Z2).
+- Checked: the official listing's date, description, and chapter markers, plus the publisher's short promotional transcript. The full video fetch was throttled; no full transcript or audio review was completed.
+- Relevant chapters to review: 09:14 X growth, 15:44 product leadership, 29:13 free speech and authenticity, 34:58 AI and links, 37:22 engagement, 50:13 tbh/Gas, and 01:10:09 AI and app development.
+- This identifies a substantive coverage gap. Chapter titles locate material; they do not establish the speaker's reasoning or support new product rules. This entry is separate from S01-S11 and has not been incorporated into the principle map.
+
 ## Attribution
 
 Use wording such as “Nikita's 2022 thread argues...” for a mapped statement, “this package infers...” for a synthesis, and “in your cohort...” for case-specific advice. If a source is unavailable, disclose that rather than claiming to have read it. Background reporting or biographies can establish chronology but cannot authenticate this package's scoring rules.

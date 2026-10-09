@@ -5,7 +5,7 @@ description: Use when evaluating consumer-social activation, network cold starts
 
 # Nikita Bier Skill
 
-Use Nikita Bier's public consumer-social heuristics to identify a testable product bottleneck. Preserve the user's product and goal. The workflow is this package's synthesis, not a model published or endorsed by Nikita.
+Use selected public consumer-social heuristics from Nikita Bier to identify a testable product bottleneck. Preserve the user's product and goal. The workflow is this package's synthesis, not a model published or endorsed by Nikita. Coverage is selective; fidelity to his broader decision-making has not been evaluated. Do not present case-specific advice as what he personally would decide.
 
 ## Product Analysis
 
