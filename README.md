@@ -1,324 +1,76 @@
 # nikita-bier-skill
 
-> A public-materials skill derived from Nikita Bier's writing, interviews, and product history.
+从 Nikita Bier 的公开访谈和帖子中整理的消费社交产品分析 Skill，免费分享给想学习产品的人。
 
-Nikita Bier 的公开 consumer-social 产品增长框架。不是语录合集，也不是角色扮演皮肤，而是一个可复用的判断系统。
+它帮助你把一个产品问题转成可以验证的判断：用户何时获得首次价值、哪些人需要同时参与、下一位用户如何到来，以及热度过去后为什么回来。
 
-基于 best-effort 公开 X 语料、thread 镜像、公开访谈和产品报道，
-提炼出关于 `dense networks`、`time-to-value`、`distribution advantage`、
-`viral vs durable`、`interest-graph cold start` 的一套实战启发式。
+## 适合用在哪
 
-## 先说边界
+- 社交产品首次体验差、冷启动困难，想找到优先验证的瓶颈。
+- 用户会使用，却很少邀请别人，想区分获取用户与持续使用的问题。
+- 决定先在独立社区重复测试，还是组织一个集中启动的初始网络。
+- 学习 Nikita 的公开产品观点，同时了解原文依据和适用条件。
+- 明确要求改写产品观点，并保留事实与必要的不确定性。
 
-这个项目的目标不是模仿真人，也不是声称“还原 Nikita Bier 本人”。
+私人工具、企业 SaaS 可以借用首次价值和实验设计的思路，但好友关系、截图分享、病毒传播不必成为它们的目标。这个项目与 Nikita Bier 本人没有官方关系，不代表其本人对具体产品的意见。
 
-它只做一件事：
+## 安装与使用
 
-- 把公开材料里反复出现、可操作、可复用的 consumer-social heuristics 整理成一个 skill
+以 Codex 的技能目录为例，把仓库克隆到一个尚不存在的目标目录：
 
-所以你应该把它理解成：
-
-- a public-heuristics package
-
-而不是：
-
-- an identity simulator
-
-这个 skill 与 Nikita Bier 本人没有官方关系，也不代表其本人立场。
-
-## 这是什么
-
-这个 skill 用来做两类事：
-
-1. 看产品
-用于评估 consumer app、社交产品、分发机制、冷启动、传播路径和增长风险。
-
-2. 写观点
-用于把一段普通的产品/增长表达，改写成更短、更尖锐、更有机制感的短帖或判断。
-
-它不是：
-
-- Nikita Bier 本人语气模拟器
-- 完整历史推文档案
-- 万能增长答案生成器
-- 对真人身份、人格或私有观点的重建
-
-## 适合什么问题
-
-- 这个社交 app 为什么“有用但不传播”？
-- 这个 network product 为什么 dead on arrival？
-- 这个 launch 应该怎么做，还是根本不该 launch？
-- 这个点子该先切哪个 dense network？
-- 这条增长观点怎么改得更尖锐、更像 operator？
-
-## 使用方式
-
-安装后直接在对话里这样提：
-
-```text
-用 nikita-bier-skill 帮我判断这个社交产品点子
-用 Nikita Bier 的公开 heuristics 看这个增长策略
-把这条观点改得更有 mechanism，不要 cosplay
-这个产品为什么 retain 了但不 spread？
+```bash
+git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/nikita-bier-skill
 ```
 
-## 效果示例
+其他支持 `SKILL.md` 的工具，请按该工具的技能目录约定安装。目录中应保留 `SKILL.md` 和 `references/`。
 
-### 问：这个匿名社交产品为什么总是拉不起来？
-
-```text
-匿名不是这个产品的优势。
-它只是包装纸。
-
-真正的问题是：
-你没法稳定制造第一口 social dopamine。
-
-用户打开之后，没有人等着他，没有内容让他紧张，
-没有反馈让他想截图，也没有关系让他立刻回来。
-
-这类产品最常见的误判是把“匿名”当成机制。
-不是的。
-
-机制是：
-用户为什么要现在打开？
-为什么要把别人拉进来？
-为什么拉进来之后场子会立刻热起来？
-
-如果这三件事回答不了，
-那这个产品不是增长差。
-是 dead on arrival。
-```
-
-### 问：这个产品很有用，为什么没人分享？
+在对话中调用：
 
 ```text
-因为 usefulness 不是 distribution.
-
-用户会保留一个工具。
-但他们只会邀请朋友进入一个 social situation。
-
-所以问题不是“这东西有没有价值”。
-问题是“这个价值有没有社交形态”。
-
-如果输出物不能被截图、转发、比较、炫耀、
-丢进群聊里引发一句“这是什么，发我”，
-那它就只是 utility。
-
-utility 可以留住一部分人。
-但 spread 需要谈资、身份信号和分享动机。
-
-很多产品死在这里：
-他们把留存逻辑误以为是传播逻辑。
+用 $nikita-bier-skill 分析这个校园社交产品。
+目标是提高首次有效互动。已知数据是……
+请区分事实与假设，给出本周能完成的实验。
 ```
 
-### 问：帮我把这条增长观点改得更像 Nikita Bier
+如果只有一个点子，也可以直接使用。回答应说明还不知道什么，给出候选解释和验证方法，而不是编造分数或断言产品必死。[更多提问示例](examples/prompts.md)
 
-原句：
+## 学习时看什么
 
-```text
-很多产品失败是因为没有做好增长。
-```
+先读 [核心原则与例外](references/distilled-principles.md)，再用 [诊断与实验方法](references/heuristics.md) 分析自己的产品。每次选择一个适用原则，写下它的作用机制、可能不适用的条件，以及什么观察会改变你的判断。
 
-改写：
+例如，较长的注册流程可能拖慢首次体验，也可能通过导入真实关系提高激活。检查完成首次价值的比例和后续使用，再决定哪些步骤值得保留；不能仅凭步骤多就删掉。
 
-```text
-大多数产品不是死于增长太弱。
-而是死于第一口价值太难被编排出来。
+## 一个有数据的例子
 
-你以为你缺的是 distribution.
-其实你缺的是一个能被稳定触发的 moment.
+假设 200 人安装，20 人完成首次有意义的互动；这 20 人中，14 人第 7 天回来，10 人邀请了同学。
 
-一个连价值都无法按需制造出来的产品，
-根本还没资格谈增长。
-```
+可以确定首次互动完成率为 10%，完成互动者的七日回访率为 70%。这 14 人占安装者的 7%，但如果没有测量其余 180 人的回访，就不能断言全体安装者的回访率只有 7%。这批完成互动的人也可能更积极。
 
-### 问：我们该大范围 launch，还是先小范围测试？
+下一步先检查 180 人在哪里离开，再选择一个干预。保持招募对象和真实互动供给尽量一致，定义什么算首次有效互动，记录改动前后的完成率，并追踪后续回访。通过人工协助跑通后，还要检查减少协助时价值能否继续发生。
 
-```text
-不要把 launch 当成庆典。
-把它当成曝光管理。
+## 资料与方法的边界
 
-consumer 产品不是 B2B 软件。
-用户不会给你 7 次机会慢慢修。
+- [来源清单](references/sources.md) 提供日期、原文链接、支持的观点和核验状态。
+- [主题映射](references/theme-matrix.md) 对应原则与来源，区分公开观点和整理者归纳。
+- [覆盖说明](references/source-coverage.md) 记录语料范围及局限。原始本地集合有 662 个唯一帖子链接，其中 637 条有正文；其中也包含回复和闲谈，不能当成 662 条增长知识。
 
-如果产品需要 network density 才成立，
-那过早曝光最危险的地方不是“转化低”。
-而是你会得到一堆被污染的信号：
-看起来像没人要，
-其实只是场子没热起来。
+诊断流程、定性维度和实验格式是整理者的归纳。旧版 12 分评分表也由整理者加入，缺少校准依据，现已移除。原文中的年龄、时间和数量经验不能直接当作所有产品通用的阈值。
 
-正确的问题不是：
-“我们该不该 launch？”
+## 怎样判断它有没有帮助
 
-而是：
-“我们有没有办法在一个足够小、足够密、足够可重复的环境里，
-先把价值状态稳定编排出来？”
+看使用后是否更忠实于证据、更能找到实际瓶颈、更能提出可以执行的实验，而不是看回答是否显得尖锐。
 
-如果能，就先测试。
-如果不能，再考虑一次性打满的大 launch。
-但那不是更轻松，
-那只是更贵的赌博。
-```
+仓库提供 [10 个行为检查场景](references/benchmarks.md)，用于检查信息不足、非社交工具、指标分母、社区重叠、长注册流程和人工协助等情况。它们是回归检查，不是商业效果证明。当前没有真实产品结果证明这个 Skill 能提高增长，也没有足够对照实验支持它普遍优于不加载 Skill 的模型。
 
-### 问：为什么很多做 messaging 的团队最后都死了？
+本轮的 [对照检查记录](examples/evaluation-2026-10-09.json) 保存了 10 个场景、三种条件下的 30 条原始回答及审阅方法，包含发现的问题和测试局限，方便复核。
 
-```text
-因为他们低估了 messaging 不是功能竞争，
-而是基础设施竞争。
+欢迎带着具体输入、输出和实际观察反馈：哪里解释有帮助、哪里判断错了、哪个实验真正改变了下一步。维护时优先修正这些问题。
 
-用户对聊天产品的预期不是“还不错”。
-而是：
-100% 送达、
-所有联系人都在、
-功能没有短板、
-切过去没有成本。
+## 文件
 
-这几乎是创业公司最不该正面硬撞的赛道。
+- `SKILL.md`：触发条件与执行入口。
+- `agents/openai.yaml`：Codex 展示和默认调用提示。
+- `references/`：原则、诊断、表达、来源和行为检查。
+- `examples/prompts.md`：可直接使用的提问方式。
 
-更糟的是，
-如果你真的把聊天迁进自己产品，
-还可能削弱原本的外部传播。
-因为用户不再把链接和内容发到第三方 app 里。
-
-所以多数团队不是输在产品做得不够好。
-而是从一开始就选了一个需要奇迹才能赢的战场。
-```
-
-更多示例见 [examples/prompts.md](examples/prompts.md)。
-
-## 为什么这个项目可能有用
-
-很多“名人 skill”最后变成两种东西：
-
-- 语气模仿器
-- 断章取义的语录合集
-
-这两个方向都很容易失真。
-
-这个项目更关心的是另一层：
-
-- 哪些判断在不同公开材料里反复出现
-- 哪些结论是可执行的，而不只是好听
-- 哪些启发式在真实产品讨论里能复用
-
-所以它重点不是“像他讲话”，而是：
-
-- 帮你更快定位 consumer/social 产品里的机制问题
-
-## 蒸馏了什么
-
-这份 skill 当前重点覆盖：
-
-- primitive human demand
-- dead-on-arrival orchestration
-- replace launch with test
-- do things that don't scale
-- dense networks over broad abstraction
-- teens vs adults in social spread
-- latent demand over polite research
-- screenshots / group chats as high-intent signals
-- viral vs durable
-- messaging as a brutal category
-- interest-graph cold start
-- distribution advantages decay
-
-## 资料基础
-
-当前主要依据包括：
-
-- best-effort 公开 X corpus：`2024-01` 到 `2026-04`，去重后 `662` 条帖子
-- Thread Reader 等公开 thread 镜像
-- Lenny's Podcast / transcript
-- TechCrunch、Lightspeed、Berkeley、Wikipedia 等公开报道与背景资料
-
-详见：
-
-- [SKILL.md](SKILL.md)
-- [references/source-coverage.md](references/source-coverage.md)
-- [references/sources.md](references/sources.md)
-
-## 可能被质疑的点
-
-### 1. 为什么 repo 直接用了真人名字？
-
-因为这个 skill 的研究对象就是 Nikita Bier 的公开材料。
-
-但项目内容始终强调：
-
-- public materials
-- heuristics
-- no identity simulation
-
-如果你希望进一步降低误解风险，可以在自己的 fork 中改成更中性的名字，比如：
-
-- `consumer-social-growth-skill`
-- `public-consumer-growth-heuristics`
-
-### 2. 为什么不是“完整推文全集”？
-
-因为公开网页、镜像站、搜索接口和 API 配额都有限。
-
-所以这里明确采用的是：
-
-- best-effort public corpus
-
-而不是：
-
-- complete historical archive
-
-### 3. 会不会把个人风格误当成普适真理？
-
-会，所以仓库专门加入了：
-
-- source coverage
-- theme matrix
-- anti-patterns
-
-它们的目的就是提醒使用者：
-
-- 这是提炼出来的 lens，不是不可挑战的 doctrine
-
-## 使用边界
-
-你可以说：
-
-- 基于 Nikita Bier 的公开材料提炼
-- 用 Nikita Bier 的公开 consumer-growth heuristics 分析
-
-你不应该说：
-
-- 这就是 Nikita 本人的真实观点
-- 这完整覆盖了他全部历史推文
-- 这是对真人身份的模仿
-
-## 更好的使用方式
-
-推荐这样用：
-
-- 分析一个 consumer/social 产品为什么不传播
-- 拆解 launch、cold start、network density、shareability
-- 把一段平庸的增长表达改得更有机制感
-
-不推荐这样用：
-
-- “请完整扮演 Nikita Bier”
-- “请像他本人一样骂人”
-- “请给我生成他没说过的私人观点”
-
-## 目录结构
-
-```text
-nikita-bier-skill/
-├── README.md
-├── SKILL.md
-├── examples/
-│   └── prompts.md
-└── references/
-    ├── anti-patterns.md
-    ├── distilled-principles.md
-    ├── heuristics.md
-    ├── posting-playbook.md
-    ├── source-coverage.md
-    ├── sources.md
-    └── theme-matrix.md
-```
+按 [MIT License](LICENSE) 免费使用和分享。

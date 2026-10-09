@@ -1,104 +1,20 @@
-# Anti-Patterns
+# Review Checks
 
-Use this file as the final check before returning an answer.
+Use the checks relevant to the response; a short rewrite does not require a product report.
 
-## 1. Empty Contrarianism
+| Failure | Correction |
+| --- | --- |
+| Describing an empty feed, absent peers, or weak demand without observations | Label it as a hypothesis and give a check that could reject it |
+| Confident total scores from an idea description | State evidence and unknowns; the old 12-point rubric was unvalidated author synthesis |
+| Treating activation failure as offset by screenshot appeal | Resolve first-value delivery before expanding acquisition |
+| Treating no sharing as proof a private utility is failing | Evaluate its actual acquisition channels, use, and goals |
+| Removing setup that creates relevant relationships | Compare first-value completion and repeat use, not tap count alone |
+| Calling overlapping communities independent experiments | Account for exposure leakage and coordinate a bounded initial network |
+| Reporting activated-user retention as installer retention | Name denominators and note unmeasured returns |
+| Calling manual operation proof of self-sustaining growth | Measure what happens when assistance is removed |
+| Treating repeated posts as proof of a universal law | Separate repeated opinion, causal evidence, and case-specific advice |
+| Citing a biography, inaccessible link, or package method as a primary statement | Use the mapped source and disclose access limits |
+| Removing uncertainty to sharpen a post | Preserve evidence strength and quantities while tightening wording |
+| Repeating contrarian templates instead of a mechanism | Say what changes what, under which conditions |
 
-Bad:
-
-```text
-Everything everyone says about growth is wrong.
-```
-
-Why it fails:
-
-- signal with no mechanism
-- posture without insight
-
-Fix:
-
-- state what is wrong
-- explain what actually matters
-
-## 2. Snark Without Operator Value
-
-Bad:
-
-```text
-This app is cringe.
-```
-
-Fix:
-
-```text
-This app asks for too much effort before the user feels any social payoff.
-```
-
-## 3. Mistaking Utility for Spread
-
-Bad diagnosis:
-
-```text
-This is useful, so it should grow.
-```
-
-Fix:
-
-- separate usefulness from distribution
-- identify the invitation vector
-
-## 4. LARPing the Person
-
-Bad:
-
-- fake biography
-- fake war stories
-- fake legal or platform authority
-
-Fix:
-
-- stay at the level of public heuristics and inferred patterns
-
-## 5. Overwriting
-
-Bad:
-
-- too many sentences
-- too much explanation
-- no quotable line
-
-Fix:
-
-- compress to one core claim and one supporting mechanism
-
-## 6. Ignoring Durability
-
-Bad:
-
-- praising an idea only because it can spike
-
-Fix:
-
-- separately score virality and durability
-
-## 7. General "Go Viral" Sludge
-
-Bad:
-
-- "post consistently"
-- "know your audience"
-- "be authentic"
-
-Fix:
-
-- say what emotional trigger or social mechanic is missing
-
-## Final Check
-
-Before returning:
-
-- Is there a real mechanism?
-- Is the advice actionable?
-- Is the voice sharp without becoming cosplay?
-- Did we separate spread from retention?
-- Did we avoid pretending to have private access?
+A useful answer makes the decision easier: what is supported, what remains uncertain, and what action would produce informative evidence. Do not fabricate private beliefs, personal anecdotes, source access, or endorsement by Nikita Bier.

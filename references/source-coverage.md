@@ -1,72 +1,36 @@
-# Source Coverage
+# Evidence Coverage
 
-This file describes what kinds of public materials were used to build the skill and how much weight to give each category.
+## What Was Available
 
-## Source Hierarchy
+The original package used a best-effort local collection of public X records, public thread mirrors, an interview, and product reporting. The retained collection covers January 2024 through April 2026. Counts recomputed from its JSONL on 2026-10-09:
 
-Use these in descending order of authority:
+- 662 records, with 662 unique post URLs;
+- 637 records with nonempty text;
+- 25 records without text, which cannot independently support text-based principles;
+- 176 records with at least 100 characters; length alone is not relevance or quality.
 
-1. Public X corpus from `@nikitabier`
-2. Public thread mirrors of Nikita's own threads
-3. Long-form interviews and transcripts where he explains the mechanisms in full sentences
-4. Primary reporting on tbh, Gas, Explode, and his later roles
-5. Bios and background pages for chronology, not heuristics
+This collection includes replies, jokes, and platform commentary as well as product advice. Record count is not a count of useful growth principles. It excludes the earlier founder thread and does not establish complete historical coverage.
 
-## Current X Corpus Coverage
+The local artifact checked had SHA-256 `494f86a0cc127b3dee96539e381b1d9cf9878a351cbd7d49b475fe09c570e0a7`. This identifies the reviewed collection; it is not an authentication of each post. The raw corpus is not shipped or required for installation. The repository provides selected summaries, original URLs, and access notes in [sources.md](sources.md), so readers do not depend on an author's local file paths.
 
-The working corpus currently used for this skill is a best-effort public harvest of `@nikitabier` posts from `2024-01` through `2026-04`, deduped into `662` posts.
+## How To Weight Evidence
 
-What this corpus is good for:
+Use a relevant original statement or accessible faithful mirror for attribution. Prefer a fuller explanation when a short post omits conditions. Treat interviews as the speaker's reported experience, product reporting as context, and this package's method as author synthesis.
 
-- repeated opinions and heuristics
-- current phrasing and posting patterns
-- frequency of themes
-- recent shifts in emphasis
+Multiple posts by the same person, a mirror of those posts, and an interview repeating the same argument are not independent product experiments. Recurrence can identify an important theme; it does not establish a universal causal law.
 
-What it is not good for:
+## Known Limits
 
-- proving complete historical coverage
-- reconstructing deleted posts
-- representing every era of his writing equally
+- The harvest's search queries and completeness are not documented sufficiently to reproduce the full collection.
+- Some X pages and mirrors are inaccessible. A retained local record is distinguished from a newly checked original.
+- Empty records and missing media may omit important context.
+- Most examples concern consumer-social products, including tightly connected teen networks; transfer to other markets requires checking the mechanism.
+- Public commentary, memorable successes, and selected examples can introduce survivorship and selection bias.
+- Platform constraints change. Dates belong to the evidence, not to a guarantee that an old tactic still works.
+- Neither source provenance nor a behavioral test establishes business outcomes or forecasts success.
 
-## Thread Mirror Coverage
+## Updating The Package
 
-Thread mirrors are especially useful when a short X post is expanded into a more complete argument.
+When adding a principle, include a dated source, a concise supported claim, the access status, and its application limits. Label new workflows as author synthesis. When a source conflicts with an existing rule, preserve the useful counterexample and narrow the rule rather than discarding it.
 
-High-signal thread categories used here:
-
-- January 2022 "everything you need to know" founder thread
-- June 2024 "replace launch with test" thread
-- August 2024 "do things that don't scale to validate" thread
-- January 2025 Death Clock thread
-- January 2023 fragmentation/subgroups thread
-
-## Interview Coverage
-
-Interviews matter because they explain why certain heuristics exist, not just what the hot take is.
-
-Most important interview source:
-
-- Lenny's Podcast / transcript on virality, tbh, Gas, teen density, latent demand, and why durable social products are rare
-
-## Reporting Coverage
-
-Reporting fills in chronology and product context:
-
-- how tbh was framed and why positivity mattered
-- how fast tbh scaled
-- how Gas and later projects were positioned
-- what constraints changed across platforms, such as address-book permissions
-
-## How To Use This Coverage
-
-If multiple sources align, treat the conclusion as strong.
-
-Examples of strong conclusions:
-
-- dense networks beat broad launches
-- viral and durable are different problems
-- first impressions matter disproportionately in consumer apps
-- distribution hacks decay and must be rediscovered
-
-If a conclusion appears only in a bio or a single third-party article, treat it as context, not doctrine.
+Behavioral evaluation should compare the same requests, model settings, and context with and without the skill; judge factual fidelity, diagnosis, scope, and actionable learning. Retain the actual answers and report failures as well as passes. Use [benchmarks.md](benchmarks.md) as a small regression suite, not as a claim of predictive accuracy.

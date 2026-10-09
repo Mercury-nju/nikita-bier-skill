@@ -1,4 +1,4 @@
 interface:
-  display_name: "Nikita Bier Distilled"
-  short_description: "Consumer-social growth and posting lens"
-  default_prompt: "Use $nikita-bier-distilled to critique this consumer product idea and rewrite my draft into a sharper, more viral post."
+  display_name: "Nikita Bier Skill"
+  short_description: "Consumer-social diagnosis and experiment design"
+  default_prompt: "Use $nikita-bier-skill to assess this consumer-social product, distinguish evidence from hypotheses, and propose the smallest informative experiment."

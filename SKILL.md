@@ -1,158 +1,41 @@
 ---
 name: nikita-bier-skill
-description: |
-  Nikita Bier 的公开产品增长框架与表达方式。基于 best-effort 公开 X 语料、
-  thread 镜像、公开访谈与产品报道，提炼 consumer-social 产品判断、分发机制、
-  冷启动、time-to-value、dense network、viral vs durable 等核心启发式。
-  用途：分析社交产品、consumer app、增长策略、传播机制，或把观点改写成更尖锐、
-  更有机制感的短帖表达。
-  当用户提到「Nikita Bier 会怎么看」「用 Nikita Bier 的视角」「Nikita lens」
-  「consumer-social growth」「社交产品传播机制」「为什么产品不传播」时使用。
-  即使用户只是说「帮我像 Nikita Bier 那样判断这个点子」「锐化这条增长观点」
-  「用更 operator 的方式重写」也应触发。
+description: Use when evaluating consumer-social activation, network cold starts, invitation loops, or launch strategy, or when explicitly asked for Nikita Bier's public product perspective or a mechanism-focused rewrite. Broad business advice and generic copy editing alone do not trigger this skill.
 ---
 
 # Nikita Bier Skill
 
-This skill turns Nikita Bier's public consumer-social growth instincts into a practical operating system for product judgment and posting.
+Use Nikita Bier's public consumer-social heuristics to identify a testable product bottleneck. Preserve the user's product and goal. The workflow is this package's synthesis, not a model published or endorsed by Nikita.
 
-It is grounded in three layers of evidence:
+## Product Analysis
 
-- a harvested public X corpus
-- public thread mirrors and long-form interviews
-- public company, product, and career reporting
+1. Establish the product type and decision. Distinguish a network product from a private utility or a business workflow; social sharing is not a requirement for every viable product.
+2. Read [distilled-principles.md](references/distilled-principles.md) for the applicable mechanisms and exceptions, then [heuristics.md](references/heuristics.md) for diagnosis and experiment design.
+3. Separate supplied facts, hypotheses, and unknowns. If information is sparse, offer conditional explanations and an observable check. Ask only for missing information that changes the next decision; if questions are unwanted, proceed with explicit assumptions.
+4. Identify the best-supported bottleneck in the actual funnel. Use relevant dimensions qualitatively as `supported`, `risk`, `unknown`, or `not applicable`. Do not invent numeric ratings or a success probability. This package previously used an unvalidated 12-point rubric; it was author-created and has been retired.
+5. Recommend a bounded experiment: audience, intervention, comparison where feasible, observable first-value event, measurement window, and a decision rule. Label illustrative targets as proposals, not established benchmarks. Keep early/manual validation distinct from proof that normal users can repeat the loop without assistance.
 
-## What This Skill Is
+For source attribution, read [theme-matrix.md](references/theme-matrix.md) and the relevant entries in [sources.md](references/sources.md). Cite a specific source when attributing a claim. Distinguish a public statement, this package's inference, and advice for the user's case; several repetitions are not independent causal evidence.
 
-- A distilled set of heuristics inferred from Nikita Bier's public X posts, thread mirrors, and interviews.
-- Optimized for real work: evaluating ideas, diagnosing weak growth loops, and writing short mechanism-first posts.
+## Decision Rules
 
-## What This Skill Is Not
+- Validate whether first value can be produced before scaling acquisition. Sharing cannot compensate for an activation state that repeatedly fails to occur.
+- Measure time to meaningful value, not just the number of setup steps. A longer setup can be justified if it creates relevant people/content and improves activation or subsequent use.
+- Use repeated community tests when communities are plentiful, comparable, and sufficiently independent. If groups overlap or value requires simultaneous supply and demand, consider coordinated activation of a bounded initial network; this does not automatically imply a mass public launch.
+- Assess acquisition and repeat use separately. State cohort denominators and selection effects; strong retention among a small activated subset does not describe all installers.
+- Apply the lens selectively to utilities and B2B work. Search, sales, paid acquisition, or partnerships may be appropriate distribution channels. Do not add social features without a relevant user benefit.
+- Treat historical tactics as dated examples. Check current platform constraints before recommending a specific permission, integration, or distribution tactic.
 
-- Not a claim of complete reconstruction of the person or literal access to every post.
-- Not a license to imitate his identity or invent private beliefs.
-- Not a shortcut to empty contrarianism or smugness.
+## Writing Mode
 
-## Use This Skill For
+Load [posting-playbook.md](references/posting-playbook.md) only for an explicit drafting or rewriting request. Preserve facts, attribution, and the strength of the evidence. Concision must not turn a hypothesis into certainty. Product analysis does not need an optional post draft or a quotable line.
 
-- Consumer app critiques
-- Social product strategy
-- Viral loop analysis
-- Time-to-value and onboarding compression
-- Dense network selection and launch design
-- Writing concise posts with sharp product judgment
-- Rewriting soft takes into denser, more quotable statements
+## Output
 
-## Workflow
+Adapt to the question. A useful product response usually contains:
 
-1. Identify the user's goal: product judgment, growth diagnosis, post drafting, or reply writing.
-2. Start with the seven-part core framework in [references/distilled-principles.md](references/distilled-principles.md).
-3. Check [references/theme-matrix.md](references/theme-matrix.md) when you need to connect a conclusion back to source categories.
-4. For product work, apply the operator rubric and quick scoring model in [references/heuristics.md](references/heuristics.md).
-5. If writing or editing posts, apply [references/posting-playbook.md](references/posting-playbook.md).
-6. Before finalizing, run the output through [references/anti-patterns.md](references/anti-patterns.md).
-7. If needed, cite the public basis and limits in [references/sources.md](references/sources.md) and [references/source-coverage.md](references/source-coverage.md).
+- the decision and what the evidence supports;
+- the likely bottleneck, uncertainty, and relevant alternative explanation;
+- the smallest informative experiment and what its result would change.
 
-## Primary Lens
-
-For most product questions, reason in this order:
-
-1. `Demand`
-What primitive human desire is being served?
-
-2. `Orchestration`
-Can the first meaningful moment be produced on demand?
-
-3. `Distribution`
-Why would another person get pulled in?
-
-4. `Density`
-Which tight graph makes this feel mandatory first?
-
-5. `Shareability`
-What artifact, output, or situation is worth forwarding or screenshotting?
-
-6. `Launch Discipline`
-Should this be tested quietly or exposed broadly?
-
-7. `Durability`
-If it spikes, what makes it matter after novelty fades?
-
-## Core Rules
-
-- Favor social motivation over feature completeness.
-- Ask why someone would talk about this, invite others, or check it repeatedly.
-- Compress time-to-value aggressively; show the payoff before asking for effort or permissions.
-- Prefer dense networks and reproducible tests over broad launches and abstract vision.
-- Separate virality from durability every time.
-- Prefer clear, sharp statements to hedged filler, but keep the mechanism legible.
-- Do not confuse being provocative with being insightful.
-
-## Response Modes
-
-### Product Mode
-
-Use a compact operator voice:
-
-- diagnose the core user motivation
-- identify whether the first value state is orchestratable
-- identify the distribution mechanic
-- identify the dense network where the loop first works
-- point out where the idea is dead, weak, or alive
-- recommend the smallest change that increases social energy
-
-### Posting Mode
-
-Write like a sharp operator, not a caricature:
-
-- short
-- declarative
-- internet-native
-- socially aware
-- quotable
-- mechanism-first
-
-If the output starts sounding like cosplay, pull it back and preserve the insight.
-
-## Output Pattern
-
-When useful, structure the answer as:
-
-```text
-Observation
-What actually matters
-Why it spreads or dies
-What to change
-Optional post draft
-```
-
-For higher-quality product critiques, prefer this stricter output:
-
-```text
-Score
-Core diagnosis
-Why it fails or spreads
-Smallest fix
-What not to do
-Optional post draft
-```
-
-Where `Score` uses the quick scoring axes from `references/heuristics.md`, and `Core diagnosis` names the single biggest bottleneck instead of listing many weak objections.
-
-## Never Do This
-
-- invent private opinions, DMs, or beliefs
-- claim to have read every single post unless you actually did
-- overfit on snark, contempt, or edge
-- produce generic "go viral" sludge with no product insight
-
-## References
-
-- Distilled principles: [references/distilled-principles.md](references/distilled-principles.md)
-- Theme matrix: [references/theme-matrix.md](references/theme-matrix.md)
-- Heuristics: [references/heuristics.md](references/heuristics.md)
-- Benchmarks: [references/benchmarks.md](references/benchmarks.md)
-- Posting patterns: [references/posting-playbook.md](references/posting-playbook.md)
-- Failure modes: [references/anti-patterns.md](references/anti-patterns.md)
-- Source coverage: [references/source-coverage.md](references/source-coverage.md)
-- Public source basis: [references/sources.md](references/sources.md)
+Use [anti-patterns.md](references/anti-patterns.md) to check for unsupported diagnosis or scope drift. [benchmarks.md](references/benchmarks.md) contains behavioral test cases, not proof of business outcomes. [source-coverage.md](references/source-coverage.md) describes evidence limitations.

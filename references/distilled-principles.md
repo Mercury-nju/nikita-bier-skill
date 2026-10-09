@@ -1,259 +1,70 @@
-# Distilled Principles
+# Public Principles And Their Limits
 
-These principles are distilled from Nikita Bier's public X posts, thread mirrors, and interviews. Use them as a source-backed operating model, not as identity roleplay.
+These summaries are learning prompts, not universal laws. Source IDs resolve in [sources.md](sources.md). The diagnosis workflow and qualitative dimensions are this package's synthesis.
 
-## Core Framework
+## 1. Look For Existing Motivation
 
-Use these seven frames first. Everything else is a supporting detail.
+**Public basis:** S01 discusses basic motivations and inefficient existing behaviors as opportunities.
 
-### 1. Primitive Demand `[high confidence]`
+**Application:** identify the outcome users already seek and the workaround they currently accept. Test behavior rather than relying only on polite approval.
 
-If the product does not clearly serve a strong recurring human desire, be skeptical.
+**Limit:** love, money, play, status, and belonging are examples rather than an exhaustive classification. Do not reject health, accessibility, or professional utility merely because it does not match a short list of motives.
 
-### 2. Orchestration `[high confidence]`
+## 2. Make First Value Possible
 
-If the first meaningful social payoff cannot be created on demand, the product is often dead on arrival.
+**Public basis:** S02 describes coordination requirements that make consumer-social ideas difficult to activate.
 
-### 3. Distribution Primitive `[high confidence]`
+**Application:** list the people, content, timing, and effort needed for the first meaningful experience. Validate whether those conditions can be produced repeatedly.
 
-If nobody has a native reason to pull another person in, usefulness alone will not create growth.
+**Limit:** manual help can demonstrate maximum appeal (S03). Its success does not yet establish that users can reproduce the experience without staff. Test removal of assistance separately.
 
-### 4. Dense Network Wedge `[high confidence]`
+## 3. Optimize Meaningful Value, Not Minimum Setup
 
-Broad markets are usually the wrong starting point. Find the smallest graph where non-participation feels costly.
+**Public basis:** S01 emphasizes fast time to value. S02 also allows long sign-up flows when they increase activation.
 
-### 5. Shareable Artifact `[medium-high confidence]`
+**Application:** remove steps that delay payoff without improving it; retain steps that create relevance, trust, or the necessary graph. Evaluate first-value completion and later use together.
 
-Private value rarely spreads on its own. The product usually needs a visible output, story, or social object.
+**Limit:** the interview's three-second framing is an ambition for immediate payoff, not a universal deadline. A short onboarding ending in an irrelevant or empty product can perform worse than a longer useful setup.
 
-### 6. Launch As Exposure Control `[high confidence]`
+## 4. Concentrate A Network, Then Choose The Right Test
 
-Consumer products do not get many clean retries. Launch size should be chosen based on signal quality, not ego.
+**Public basis:** S02 favors narrow starting audiences. S04 specifies when repeated tests work: plentiful, comparable, sufficiently independent communities. It discusses concentrated launches when a single connected community must activate together.
 
-### 7. Viral vs Durable `[high confidence]`
+**Application:** find the smallest network supplying actual value. Check exposure leakage and coordination needs before choosing repeated cohorts or a joint activation event.
 
-Separate spike potential from long-term meaning every time.
+**Limit:** a dense graph matters to network-dependent products, not every utility. Overlapping groups are not independent tests; a public launch is not a remedy for unresolved activation.
 
-## 1. Start With Primitive Human Demand
+## 5. Evaluate Distribution Separately From Product Use
 
-A recurring claim in Nikita's public material is that successful consumer apps usually map to a small set of durable motives:
+**Public basis:** S02 discusses distribution channels; S05 is a specific case where a private utility acquired a shareable moment. S08 discusses screenshots as sharing signals.
 
-- finding a mate
-- making or saving money
-- escaping reality
-- gaining status, validation, or belonging
+**Application:** follow how an appropriate new user arrives and reaches value. For social products, look for invitation or forwarding motives. For utilities, examine channels such as search or partnerships.
 
-If an idea does not clearly attach to one of these motives, treat it as suspect.
+**Limit:** screenshot appeal is neither necessary nor sufficient for growth. Sharing must lead to relevant demand. Do not expose private information or distort the product to manufacture a social artifact.
 
-## 2. Dead-on-Arrival Is Usually an Orchestration Problem
+## 6. Keep Virality And Durability Separate
 
-One of his strongest recurring ideas is that many ideas are not bad in theory. They are impossible to activate reliably in the real world.
+**Public basis:** S01 and S06 distinguish rapid spread from a durable social network.
 
-Questions:
+**Application:** measure acquisition, activation, and cohort repeat use separately. Use the intended frequency and goal rather than demanding daily use from every product.
 
-- How many people must coordinate before the product works?
-- Can that state be reached repeatedly, not just once?
-- Does the loop survive without heroic effort from the first user?
+**Limit:** a launch spike does not establish durable demand. A small activated subset can hide poor overall activation. The rarity of durable social networks does not make retention work futile or every temporary product worthless.
 
-If the value requires "get 7 adult friends to all install this right now," the idea is probably dead on arrival.
+## 7. Treat Distribution Tactics As Dated
 
-## 3. Reproducible Testing Beats One Brilliant Idea
+**Public basis:** S07 describes changing growth advantages. S09 discusses messaging competition; S10 discusses interest-graph activation.
 
-Public threads and interviews repeatedly elevate iteration speed over visionary storytelling.
+**Application:** understand the mechanism and verify current constraints before copying a tactic. Separate importing relationships from constructing a relevant feed for a new user.
 
-Use this bias:
+**Limit:** examples and predictions do not establish today's platform behavior. Messaging's competitive baseline is a warning about replacing the main inbox, not a prohibition on every task-specific communication feature.
 
-- prefer faster shots on goal
-- prefer simple experiments over ornate strategy decks
-- optimize the testing machine before the product mythology
+## Contextual Extensions
 
-## 4. Compress Time-to-Value Relentlessly
+- **Teen networks (S01):** frequent contact and social urgency can help spread. Evaluate the actual communication pattern of the audience; a reported age trend does not justify treating adults as incapable of adopting a social product.
+- **Early fragmentation (S11):** splitting a small pool of relevant content can reduce interaction opportunities. Measure engagement per useful contribution before adding subgroups; separate groups can still be right when their needs differ.
+- **Messaging (S09):** replacing a default inbox faces existing reach and reliability expectations. A narrow communication feature that completes the product's main task has a different competitive burden.
+- **Interest graphs (S10):** importing contacts does not supply a relevant interest feed. Test whether sparse onboarding signals produce useful initial content; do not assume a generic feed or an AI label solves relevance.
 
-Nikita repeatedly argues that the value has to land almost instantly.
+## Learning Habit
 
-Good sequence:
-
-```text
-show payoff
-ask for action
-deepen the loop
-```
-
-Bad sequence:
-
-```text
-permissions
-setup
-tutorial
-empty state
-```
-
-If a product needs contact access, profile completion, or multiple taps before any emotional reward, assume the onboarding is too slow.
-
-## 5. Dense Networks Beat Broad Audiences
-
-His public advice consistently favors tightly connected clusters over generic "everyone" launches.
-
-Start with:
-
-- schools
-- friend groups
-- cities with shared context
-- fandoms
-- cohorts with high repeated interaction
-
-Ask:
-
-- where would not using this create visible social loss?
-- which graph makes the product feel mandatory first?
-
-## 6. Younger Users Share More Aggressively
-
-In public interviews, Nikita cites an observed pattern that invites drop sharply with age during the teen-to-adult transition. Treat this as directional guidance:
-
-- younger, higher-frequency communicators spread social products better
-- adult social acquisition usually needs more paid help
-- "this is for everyone" often means "this spreads with no one"
-
-## 7. Latent Demand Is Better Than Polite User Research
-
-A strong repeated theme is to look for ugly existing behavior:
-
-- screenshots used as workflow
-- group chats doing a product's job badly
-- spreadsheet/notes hacks
-- rituals people already repeat manually
-
-If users already perform a clumsy version of the behavior, there may be real demand even if surveys sound weak.
-
-## 8. Utility Usually Needs a Shareable Moment
-
-His public examples often turn a private utility into a social story:
-
-- rename for sharper intrigue
-- create a vivid personalized output
-- give users something to screenshot, compare, or forward
-
-If the product helps me privately but gives me nothing discussable, it may retain some users but struggle to spread.
-
-## 9. Fragmentation Kills Early Communities
-
-One public thread argues that layers, subgroups, and fragmented identities increase failure risk for early communities.
-
-Implications:
-
-- reduce namespace complexity
-- avoid too many subworlds too early
-- protect engagement density per post
-- optimize for a thicker shared feed before niche subdivision
-
-## 10. Separate Viral From Durable
-
-Nikita's public stance is unusually clear here:
-
-- viral can often be engineered
-- durability is much harder and rarer
-
-When evaluating anything, score both:
-
-- spike potential
-- long-term reason to return
-
-Never let a strong invite loop hide weak long-term meaning.
-
-## 11. Replace "Launch" With "Test"
-
-One repeated theme in both threads and interviews is that consumer products do not get many clean second chances.
-
-Implications:
-
-- control exposure deliberately
-- do not assume disappointed users will retry later
-- broad visibility before the product works can permanently poison the well
-
-Useful rewrite:
-
-```text
-launch plan -> exposure-control plan
-```
-
-## 12. Do Things That Don't Scale During Validation
-
-Public threads repeatedly argue that founders should validate peak user appeal before optimizing for elegant long-term operations.
-
-Examples:
-
-- hand-curated feeds
-- manually supervised chats
-- direct founder involvement in content quality
-
-The key question:
-
-- did the concept fail, or did the cheap version fail?
-
-## 13. Distribution Advantages Are Temporary
-
-The corpus repeatedly returns to one idea: breakout apps often exploit a temporary distribution vulnerability in an incumbent platform.
-
-Implications:
-
-- unfair advantages decay
-- old hacks stop working
-- each product cycle requires rediscovery
-
-This creates a strong bias toward tactical experimentation over static playbooks.
-
-## 14. Messaging Is A Special Kind Of Trap
-
-One repeated warning in the corpus is that messaging is one of the hardest product categories to invade.
-
-Why:
-
-- users expect perfect delivery
-- incumbents already hold the graph
-- feature parity expectations are brutal
-- success can even reduce your outbound distribution if people stop sharing through third-party apps
-
-Default stance:
-
-- avoid building "yet another messenger" unless the wedge is overwhelming
-
-## 15. Interest-Graph Products Have A Cold-Start Tax
-
-The later corpus, especially around X, highlights a different activation problem from contact-based social apps.
-
-In contact-based apps:
-
-- import the graph
-
-In interest-graph apps:
-
-- create relevance from sparse signals
-
-Implications:
-
-- onboarding and feed quality matter even more
-- relevance generation is the real product
-- AI-assisted interest understanding can reduce this tax, but does not eliminate it
-
-## 16. Screenshots And Group Chats Are High-Intent Signals
-
-A recurring pattern in the corpus is that screenshots and high-intent group-chat sharing matter more than vanity metrics.
-
-Use this bias:
-
-- visible forwarding beats weak engagement
-- screenshot-worthiness is a product property
-- if people share it privately with urgency, distribution may be real even before public metrics catch up
-
-## 17. If The Static Version Isn't Shareable, The App Usually Won't Save It
-
-Another recurring heuristic is that servers and app complexity do not magically create appeal.
-
-Test:
-
-- can you manually assemble a page, feed, or artifact that is already engaging and shareable?
-
-If not:
-
-- turning it into software often just hides the weak core idea behind more machinery
+For an applicable principle, explain the causal chain, what would make it inapplicable, and the observation that could change the advice. Use the material to ask better product questions rather than memorize verdicts.
