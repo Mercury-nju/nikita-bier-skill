@@ -4,7 +4,7 @@ The package combines public statements with author inference. The workflow, qual
 
 Verification notes below describe what was checked on 2026-10-09. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
 
-The [corpus index](corpus-index.md) lists the 662 collected public X URLs and access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
+The [corpus index](corpus-index.md) lists 695 public X URLs: the original 662 and 33 non-overlapping posts from complete thread mirrors, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
 
 ## Biographical Context
 
@@ -12,7 +12,7 @@ The [corpus index](corpus-index.md) lists the 662 collected public X URLs and ac
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the seventeen principle-source entries below. The collected X corpus ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
+- These are background sources, separate from the twenty source entries below (two cohost episodes are collected but not distilled). The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
@@ -29,7 +29,7 @@ The [corpus index](corpus-index.md) lists the 662 collected public X URLs and ac
 
 - [Original thread](https://x.com/nikitabier/status/1481118406749220868)
 - [Readable thread mirror](https://threadreaderapp.com/thread/1481118406749220868.html)
-- Checked: the mirror displayed the 25-post founder thread, including reproducible testing, coordination requirements, narrow audiences, and a warning to treat his advice cautiously.
+- Checked: the mirror displayed the 25-post founder thread, including reproducible testing, coordination requirements, narrow audiences, and a warning to treat his advice cautiously. This pass extracted all 25 attributed post texts; none of their URLs was in the original 662-record harvest. They are now indexed separately as S02.
 - Important counterpoint: the same thread permits longer sign-up flows when they produce higher activation. Optimizing first value does not mean removing all setup.
 - Limit: categorical statements in a founder thread are heuristics; this package retains their conditions rather than treating them as product laws. The former link ending in `1460652115823497221` points to a different 2021 thread and is not the basis for these principles.
 
@@ -51,8 +51,8 @@ The [corpus index](corpus-index.md) lists the 662 collected public X URLs and ac
 ## S05 — Death Clock Case, 2025-01-22
 
 - [Original thread](https://x.com/nikitabier/status/1882152092221222946)
-- [Mirror discovery index](https://threadreaderapp.com/user/nikitabier)
-- Checked: readable mirror excerpts describe renaming the app and a personalized result that gave users something to discuss. The full thread was not independently verified in this check.
+- [Complete thread mirror](https://threadreaderapp.com/thread/1882152092221222946.html)
+- Checked: all four attributed post texts were extracted and read. The thread describes the rename from Most Days, a personalized result, and press as well as sharing. Attached media were not reviewed. These four URLs were absent from the original 662-record harvest and are now indexed.
 - Supports: an example of adding a sharing motive to a private utility.
 - Limit: one case does not establish that all utilities need social features or independently verify the reported acquisition-cost claim.
 
@@ -92,8 +92,8 @@ The [corpus index](corpus-index.md) lists the 662 collected public X URLs and ac
 ## S11 — Community Fragmentation, 2023-01-25
 
 - [Original thread](https://x.com/nikitabier/status/1618294904538685446)
-- [Mirror discovery index](https://threadreaderapp.com/user/nikitabier)
-- Checked: readable mirror excerpts link fragmentation with diluted early engagement.
+- [Complete thread mirror](https://threadreaderapp.com/thread/1618294904538685446.html)
+- Checked: all four attributed post texts were extracted and read, including the username example, limited content inventory, and per-post engagement. These four pre-2024 URLs are now indexed.
 - Limit: the thread's percentage language is not a calibrated estimate of failure probability. Segmentation may be necessary when audience needs differ.
 
 ## S12 — UC Berkeley Talk Report, 2018-02-02
@@ -137,18 +137,37 @@ The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800
 
 ## S17 — Out Of Office, 2026-02-10
 
-- [Publisher's episode listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201); [official video](https://www.youtube.com/watch?v=tF4j4LB-2rk); [public transcript excerpt](https://podscan.fm/podcasts/out-of-office-16/episodes/nikita-bier-is-out-of-office); [Lightspeed's episode announcement](https://www.linkedin.com/posts/lightspeed-venture-partners_so-much-of-a-businesss-success-these-days-activity-7427037840208760832-l0Z2).
-- Checked: the official listing's date, description, and chapter markers, plus the public transcript excerpt. The excerpt attributes to Nikita an early lesson about thinking like an adversary so consumer software can anticipate spam, manipulation, and unintended use. This is used only as a defensive product-review lens.
-- Supports: checking misuse and unintended behavior as part of product design, alongside the episode's stated topics of X, product leadership, growth, tbh/Gas, and AI.
-- Limit: the full episode remains gated or unavailable for independent review. AI-generated summaries were used for discovery only and are not treated as evidence. This source does not support claims about app-store rankings or a complete X product strategy.
+- [Official video](https://www.youtube.com/watch?v=tF4j4LB-2rk); [publisher RSS with complete audio](https://anchor.fm/s/10b4d950c/podcast/rss); [episode listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201).
+- Checked: the publisher's 75:17 audio was downloaded in full, machine-transcribed, and its text read. The previous partial-excerpt status is superseded. No independent listening-based verification or speaker diarization was completed.
+- Supports: specific accounts of X onboarding and Starter Packs, the link-reader interface, public-feedback privacy constraints, responsibility boundaries with xAI, quick wins vs foundational work, founder/advisory experience, and referral-plus-paid growth for utilities. [Passage notes and timestamps](interview-notes.md#s17--out-of-office-2026-02-10).
+- Limit: self-reported rankings, downloads, time spent, revenue, and anti-spam results are not independently verified causal outcomes. ASR can misrecognize names and numbers. AI-generated summaries remain discovery aids, not evidence.
 
-## Located But Not Yet Distilled
+## S18 — Where It Happens, 2022-02-15
 
-### Full Out Of Office Episode
+- [Official video](https://www.youtube.com/watch?v=Rql6GZakVTI); [publisher RSS](https://rss2.flightcast.com/ordbkg8yojpehffas7vr7qpc.xml); [secondary transcript mirror](https://podscripts.co/podcasts/the-startup-ideas-podcast/will-meta-bounce-back-with-nikita-bier).
+- Checked: the full 72:50 publisher audio was downloaded and machine-transcribed. The substantive guest segment, approximately 06:56–26:46, was read; the farewell establishes the boundary before the hosts continue without him. No independent listening-based verification was completed.
+- Supports: repeated failed attempts before tbh, preparation for scaling, the distinction between established-product growth and zero-to-one creation, founder incentives, and his changed perception of incumbent copying risk. [Passage notes](interview-notes.md#s18--where-it-happens-2022-02-15).
+- Limit: organizational timelines and regulatory/market comments are dated opinions, not current rules or measured averages. Hosts' subsequent NFT, music, and network discussions are excluded from Nikita attribution.
 
-- The [official listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201) exposes chapter markers, while the [public transcript page](https://podscan.fm/podcasts/out-of-office-16/episodes/nikita-bier-is-out-of-office) exposes only an initial excerpt. The full video fetch was throttled; no full transcript or audio review was completed.
-- Relevant chapters to review: 09:14 X growth, 15:44 product leadership, 29:13 free speech and authenticity, 34:58 AI and links, 37:22 engagement, 50:13 tbh/Gas, and 01:10:09 AI and app development.
-- This remains a substantive coverage gap. Chapter titles and a short excerpt locate material; they do not establish the speaker's complete reasoning or support a full product playbook. S17 therefore contributes one narrow, attributed safety lens rather than a broad new theory.
+## S19 — Three Cartoon Avatars, Episode 2, 2022-02-05
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: publisher description explicitly names Nikita alongside Logan Bartlett and Zak Kukoff. Complete 41:23 audio was acquired and machine-transcribed.
+- Status: collected research material; not reliably speaker-attributed or distilled into principles. The episode covers Wordle, Miami Tech, and Facebook earnings. Do not attribute the whole transcript to Nikita.
+
+## S20 — Three Cartoon Avatars, Episode 11, 2022-04-09
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: the episode explicitly refers to Nikita's contribution; complete 54:22 audio was acquired and machine-transcribed.
+- Status: collected research material; not reliably speaker-attributed or distilled into principles. Twitter history and product commentary may merit further review; other speakers' explanations are not Nikita evidence.
+
+## Located But Not Yet Acquired Or Distilled
+
+- [Official Solana Ship or Die panel](https://www.youtube.com/watch?v=4zK8ZI8lJIs): the video and caption track were located, but timed-text responses were empty and audio download returned HTTP 403. No full transcript was acquired.
+- [Official Solana Originals video](https://www.youtube.com/watch?v=kCht01Ycif0): located through [Solana's consumer page](https://solana.com/solutions/consumer); audio extraction failed. No full transcript was acquired.
+- [Alex Heath's X interview](https://sources.news/p/x-wants-its-haters-back), 2025-12-12: a public teaser was read; the full interview is paywalled. It is not counted as a complete interview or a principle source.
+- S19 and S20 have full audio/ASR but remain pending reliable speaker attribution. The show feed has 163 episodes; that catalogue is not 163 Nikita interviews.
+- See [acquisition manifest](acquisition-manifest.json) for actual artifacts, hashes, and statuses, and [collection instructions](interview-notes.md#reproduce-the-collection) for reproducible acquisition.
 
 ## Attribution
 

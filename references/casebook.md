@@ -5,7 +5,7 @@ This casebook is the evidence layer between public material and the package's de
 ## Evidence tiers
 
 - **A — direct first-person material:** an accessible original post or thread mirror that preserves the relevant context.
-- **B — first-person material with incomplete access:** a retained local record or a short excerpt where the full context was not independently reviewed.
+- **B — first-person material with access or transcription uncertainty:** a retained local record, partial excerpt, secondary transcript, or machine transcript not independently checked against audio. Full audio acquisition improves coverage but does not authenticate every ASR sentence.
 - **C — reported context:** an institutional report, interview summary, or independent profile.
 
 Use a case to generate a hypothesis. Do not turn one case into a threshold, benchmark, or universal rule.
@@ -129,6 +129,60 @@ Use a case to generate a hypothesis. Do not turn one case into a threshold, benc
 - **Observation:** these are public statements during his Head of Product tenure, not a complete internal strategy or proof that each intervention worked.
 - **Transfer limit:** apply this as a defensive systems lens. Do not infer private motives, implementation details, or universal policy positions from public replies.
 - **Sources:** [human-signal post](https://x.com/nikitabier/status/2025712861650305512), [anti-spam post](https://x.com/nikitabier/status/2011825522817270230), [crypto phishing post](https://x.com/nikitabier/status/2039341761156538644).
+
+## C13 — X links: inspect the interface before explaining the algorithm
+
+- **Situation / constraint:** article reading covered the interaction controls, leaving little visible feedback for recommendations.
+- **Choice:** keep the post and engagement controls available while the page is open.
+- **Proposed mechanism:** a layout change restores the opportunity to express preference.
+- **Reported observation:** link impressions increased while time spent stayed flat. No experiment design or dataset was disclosed.
+- **Transfer limit:** inspect signal generation before asserting deliberate suppression; do not generalize this explanation to all platforms or current ranking behavior.
+- **Source:** S17, 36:57–40:29, tier B.
+
+## C14 — X Starter Packs: construct a relevant first feed
+
+- **Situation / constraint:** new users could not easily find their interest niche; contacts alone were insufficient.
+- **Choice:** use AI-generated account candidates with human curation and interest/location onboarding.
+- **Proposed mechanism:** relevant initial content reduces the learning burden before recommendations have a history.
+- **Reported observation:** higher new-user time spent; its denominator, time window, and counterfactual were not disclosed.
+- **Transfer limit:** measure useful repeat visits and content relevance as well as time spent; AI suggestions still need review.
+- **Source:** S17, 25:28–28:47, tier B.
+
+## C15 — Country labels: a preview changes the product constraint
+
+- **Situation / constraint:** identity transparency can conflict with privacy and safe expression, especially during travel or in restrictive countries.
+- **Choice:** preview the feature, solicit feedback, and add broader region display.
+- **Proposed mechanism:** public input reveals constraints missing from the original specification.
+- **Reported observation:** the region option became part of the release; no independent safety evaluation was supplied.
+- **Transfer limit:** provenance context is not proof of truth; a loud feedback channel may miss vulnerable or quieter users.
+- **Source:** S17, 31:14–33:06, tier B.
+
+## C16 — Utility growth: referrals can complement paid acquisition
+
+- **Situation / constraint:** a useful individual app may have insufficient peer propagation for entirely organic growth.
+- **Choice:** improve relevant referral/sharing surfaces and supplement them with paid acquisition; inspect existing organic sources first.
+- **Proposed mechanism:** partial referral acquisition can improve blended economics without a self-sustaining loop.
+- **Reported observation:** the interview gives advisory examples and contextual K-factor targets, not an independently measured lift.
+- **Transfer limit:** do not impose those targets on another app. Measure activated referrals, acquisition costs, and contribution margin separately; publicity spikes are not a repeating product loop.
+- **Source:** S17, 64:48–68:40, tier B.
+
+## C17 — Leadership: quick wins and foundational work are different choices
+
+- **Situation / constraint:** an established platform has both funnel improvements and expensive infrastructure/recommendation changes to consider.
+- **Reported contrast:** Nikita describes his own tendency toward quick growth wins and Musk's insistence on foundational work, alongside smaller teams and lower approval overhead.
+- **Inferred mechanism:** the appropriate horizon depends on the bottleneck and ownership, not a universal preference for the fastest change.
+- **Observation limit:** this is a participant's account, not proof that flat organizations or short deadlines cause better outcomes.
+- **Transfer limit:** keep founder-era distribution tactics distinct from operating a mature platform.
+- **Source:** S17, 19:35–20:50 and 41:09–43:26, tier B.
+
+## C18 — Facebook: a growth engine is not a new-product engine
+
+- **Situation / constraint:** in a 2022 discussion of Facebook's competitive problems, Nikita separates scaling existing products from creating a new category.
+- **Reported explanation:** internal-founder incentives and research/approval overhead can make new bets difficult, despite strong growth expertise.
+- **Change in his view:** as a founder he feared immediate copying; after working inside he perceived a slower response process.
+- **Observation limit:** his examples are a participant's opinion; they do not prove incumbents cannot innovate or supply a strategy that would have worked.
+- **Transfer limit:** inspect incentives and decision authority before assuming headcount or distribution alone solves zero-to-one work.
+- **Source:** S18, 11:26–16:18, tier B.
 
 ## Cross-case patterns
 

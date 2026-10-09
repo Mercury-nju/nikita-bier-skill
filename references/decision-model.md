@@ -17,7 +17,7 @@ Before recommending a change, describe the product using the variables that can 
 | **C — cost / speed** | What must be spent or built before the unknown becomes answerable? | Optimizing infrastructure before learning the key unknown |
 | **S — system integrity** | How can the product be spammed, manipulated, or made unsafe? | Growth incentives that corrupt the environment |
 
-## Causal order
+## Analysis order
 
 The default chain is:
 
@@ -26,7 +26,9 @@ M → V → D → E → A → R
        ↘ C     ↘ S
 ```
 
-The arrows are dependencies, not a score. If V cannot occur, A is usually premature. If D is required and missing, a distribution test may only measure the ability to install users. If E is too weak, non-use is ambiguous. If A works but R is unknown, the result is viral or distributed, not durable. If S is ignored, a metric can improve while the product's value is degraded.
+This is an order for describing the problem, not a causal graph: D and E can be prerequisites for V. If V cannot occur, A is usually premature. If D is required and missing, a distribution test may only measure the ability to install users. If E is too weak, non-use is ambiguous. If A works but R is unknown, the result is viral or distributed, not durable. If S is ignored, a metric can improve while the product's value is degraded.
+
+S17 also describes a different starting point for an operating product: identify where organic acquisition already occurs and inspect the whole funnel. Do not force a successful, established product to restart with an abstract motivation exercise. An interest feed, a local friend graph, and a private utility have different activation prerequisites.
 
 ## Decision sequence
 

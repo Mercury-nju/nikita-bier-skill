@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-09",
+  "scope": "Seven acquired sources; not an exhaustive bibliography. ASR text includes hosts and is not a count of Nikita statements.",
+  "sources": [
+    {
+      "id": "S02",
+      "name": "Founder thread",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1481118406749220868.html",
+      "expected_posts": 25,
+      "observed": {
+        "id": "S02",
+        "retrieved_at": "2026-10-09T15:04:07.226799+00:00",
+        "url": "https://threadreaderapp.com/thread/1481118406749220868.html",
+        "status": "collected",
+        "records": 25,
+        "text_words": 795,
+        "page_sha256": "412c145361fb03891ba130c364c69ee1434781988dfedccef52ed82dd4dd4bc1",
+        "text_sha256": "ae5c965e5ec941cdbb5b9670e5dae6a8280272bfc9c39b0dc40409e3caf808f5",
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S05",
+      "name": "Death Clock",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1882152092221222946.html",
+      "expected_posts": 4,
+      "observed": {
+        "id": "S05",
+        "retrieved_at": "2026-10-09T15:04:08.658394+00:00",
+        "url": "https://threadreaderapp.com/thread/1882152092221222946.html",
+        "status": "collected",
+        "records": 4,
+        "text_words": 166,
+        "page_sha256": "1e81712d18a4bf52a682b6389604c9a791fb9652861cdc51aa03055545343a63",
+        "text_sha256": "bf6e34ee2fd1447037f6a76b9888ebd88a08f311582b8c149f95dc9d9f7b7bec",
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S11",
+      "name": "Community fragmentation",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1618294904538685446.html",
+      "expected_posts": 4,
+      "observed": {
+        "id": "S11",
+        "retrieved_at": "2026-10-09T15:04:09.547016+00:00",
+        "url": "https://threadreaderapp.com/thread/1618294904538685446.html",
+        "status": "collected",
+        "records": 4,
+        "text_words": 134,
+        "page_sha256": "f6c1877523cc99119e8c5d17613b59dce8838c2dd6f1d8a7d3ff09be84600dd9",
+        "text_sha256": "1024c854a1f591bbb51b94e384a3cbde3c026f60a3b1189af4512c341eba7893",
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S17",
+      "name": "Out of Office",
+      "kind": "podcast",
+      "url": "https://www.youtube.com/watch?v=tF4j4LB-2rk",
+      "feed_url": "https://anchor.fm/s/10b4d950c/podcast/rss",
+      "episode_title": "Nikita Bier is Out Of Office",
+      "publication_date": "10 Feb 2026",
+      "observed": {
+        "id": "S17",
+        "retrieved_at": "2026-10-09T15:06:17.004903+00:00",
+        "url": "https://www.youtube.com/watch?v=tF4j4LB-2rk",
+        "status": "collected",
+        "audio_url": "https://anchor.fm/s/10b4d950c/podcast/play/115272752/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417807632-44100-2-a76038fa1719.mp3",
+        "duration_seconds": 4517.076009,
+        "audio_bytes": 72274337,
+        "audio_sha256": "e9844f1cb6ab8de9a692dffcbbfbbfd52e3a4e117615e02a6930b76ed401a002",
+        "feed_sha256": "5bde8a1b35ff30d944e9650fc744169b0c6fa06dfb6df3c1d4935e7334274845",
+        "asr": {
+          "engine": "mlx-whisper",
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+          "words": 13007,
+          "segments": 1282,
+          "sha256": "87d476b6dbfd3154f493f662cde294ba1620bf1749b7547c971d5b25fed82a24",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false
+        },
+        "text_review_windows_seconds": [
+          [
+            0,
+            4517
+          ]
+        ],
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S18",
+      "name": "Where It Happens",
+      "kind": "podcast",
+      "url": "https://www.youtube.com/watch?v=Rql6GZakVTI",
+      "feed_url": "https://rss2.flightcast.com/ordbkg8yojpehffas7vr7qpc.xml",
+      "episode_title": "Will Meta Bounce Back? (with Nikita Bier)",
+      "publication_date": "15 Feb 2022",
+      "observed": {
+        "id": "S18",
+        "retrieved_at": "2026-10-09T15:06:17.151535+00:00",
+        "url": "https://www.youtube.com/watch?v=Rql6GZakVTI",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/beptuxop2cxwd0t2jq9jup8g.mp3",
+        "duration_seconds": 4369.998367,
+        "audio_bytes": 52361927,
+        "audio_sha256": "24d504c46f9e7605cf7ca5d5a921d1a853acbf0de78b2d7089e86744067589b4",
+        "feed_sha256": "5b3465ba2dd62eac178a53d4b08b24dd9d595c0b29e38bae9130037b51b2912c",
+        "asr": {
+          "engine": "mlx-whisper",
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+          "words": 12983,
+          "segments": 719,
+          "sha256": "7004d781239e86852b882a7b6cc02e94ce39c439c7e4a22d07a34b8999d2cf62",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false
+        },
+        "text_review_windows_seconds": [
+          [
+            416,
+            1606
+          ]
+        ],
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S19",
+      "name": "Three Cartoon Avatars episode 2",
+      "kind": "podcast",
+      "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 2: Wordle, Wordcels & Shape Rotators, Miami Tech, and FB Earnings",
+      "publication_date": "05 Feb 2022",
+      "observed": {
+        "id": "S19",
+        "retrieved_at": "2026-10-09T15:06:17.229371+00:00",
+        "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/gucckd0iiuuwqbj1kcc43gib.mp3",
+        "duration_seconds": 2483.356735,
+        "audio_bytes": 29756082,
+        "audio_sha256": "1515850218fd8948428dc60c224c83f72eedf246f61f82218dd4eea9b2c56e66",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "engine": "mlx-whisper",
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+          "words": 7700,
+          "segments": 713,
+          "sha256": "2916ab5079950c6c0cb18a610a2eaad95d92250c042f30879b8d8768f57e51db",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false
+        },
+        "text_review_windows_seconds": [],
+        "used_for_principles": false,
+        "raw_artifacts_shipped": false
+      }
+    },
+    {
+      "id": "S20",
+      "name": "Three Cartoon Avatars episode 11",
+      "kind": "podcast",
+      "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 11: Elon Musk Buys 9.2% of Twitter, A Deep Dive Into Twitter History, The End of Fast, and Nikita's Best Man Speech",
+      "publication_date": "09 Apr 2022",
+      "observed": {
+        "id": "S20",
+        "retrieved_at": "2026-10-09T15:06:17.288005+00:00",
+        "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/ifz8w8gh7kzlatjajc16hhbs.mp3",
+        "duration_seconds": 3261.831837,
+        "audio_bytes": 39083991,
+        "audio_sha256": "89f734f670c3dc269c928bd141e0d6480873a544efeaab0a27b755bed73d5953",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "engine": "mlx-whisper",
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+          "words": 9438,
+          "segments": 725,
+          "sha256": "49f5f2bbba1e0c236c96a69e65865aa599c036a0014173e433e6bf958e6f72f7",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false
+        },
+        "text_review_windows_seconds": [],
+        "used_for_principles": false,
+        "raw_artifacts_shipped": false
+      }
+    }
+  ],
+  "unacquired": [
+    {
+      "url": "https://www.youtube.com/watch?v=4zK8ZI8lJIs",
+      "title": "Ship or Die 2025: Going Viral on the App Store",
+      "status": "video located; caption response empty; audio download HTTP 403"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kCht01Ycif0",
+      "title": "Solana tokens are the new content on the internet",
+      "status": "video located; audio extraction failed"
+    },
+    {
+      "url": "https://sources.news/p/x-wants-its-haters-back",
+      "title": "X wants its haters back",
+      "status": "public teaser collected; full interview paywalled"
+    }
+  ],
+  "totals": {
+    "added_unique_x_posts": 33,
+    "indexed_unique_x_posts": 695,
+    "new_thread_words": 1095,
+    "acquired_audio_files": 4,
+    "acquired_audio_duration_seconds": 14632.263,
+    "raw_asr_words_all_speakers": 43128,
+    "attributed_nikita_word_count": null
+  }
+}

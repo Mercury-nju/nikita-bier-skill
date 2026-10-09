@@ -1,6 +1,6 @@
 # nikita-bier-skill
 
-基于 Nikita Bier 有限公开材料整理的消费社交产品学习 Skill，免费分享给想学习产品的人。当前版本不具备代表其完整思维或预测其判断的证据。
+基于 Nikita Bier 的公开帖子、长访谈与产品案例整理的学习 Skill，免费分享给想学习产品的人。它提供可追溯的公开判断材料，尚不能代表他的全部思维。
 
 它帮助你把一个产品问题转成可以验证的判断：用户何时获得首次价值、哪些人需要同时参与、下一位用户如何到来，以及热度过去后为什么回来。
 
@@ -33,7 +33,7 @@
 git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/nikita-bier-skill
 ```
 
-其他支持 `SKILL.md` 的工具，请按该工具的技能目录约定安装。目录中应保留 `SKILL.md` 和 `references/`。
+其他支持 `SKILL.md` 的工具，请按该工具的技能目录约定安装。目录中应保留 `SKILL.md`、`references/` 和用于复跑采集的 `scripts/`。
 
 在对话中调用：
 
@@ -59,24 +59,37 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 
 下一步先检查 180 人在哪里离开，再选择一个干预。保持招募对象和真实互动供给尽量一致，定义什么算首次有效互动，记录改动前后的完成率，并追踪后续回访。通过人工协助跑通后，还要检查减少协助时价值能否继续发生。
 
+## 这次真正补到了哪些数据
+
+原有 662 条帖子不是完整历史语料，连 2025 年 Death Clock 的完整案例线程也没有收录。增加整理框架无法弥补这个缺口。本次新增的是可读正文与原始音频：
+
+| 材料 | 实际获取内容 | 阅读状态 |
+| --- | --- | --- |
+| 2022 年创业者线程、2023 年社区分层线程、2025 年 Death Clock 线程 | 33 条完整镜像正文，与原有 662 条无重复；索引扩至 695 条 | 正文已读，附件媒体未核验 |
+| Lightspeed《Out of Office》，2026-02-10 | 75 分钟完整官方音频及带时间戳的机器转录 | 转录全文已读，补 X 产品工作与顾问经历 |
+|《Where It Happens》，2022-02-15 | 73 分钟完整官方音频及机器转录 | 已读 Nikita 实际参与部分；他离场后的主持人讨论不归到他名下 |
+|《Three Cartoon Avatars》第 2、11 期，2022 年 | 合计约 96 分钟完整官方音频及机器转录 | 已采集，多人发言归属仍待核对，不用于支撑原则 |
+
+共获取约 **4 小时 4 分钟**音频，包含其他人的发言、广告和闲谈，不能说成四小时 Nikita 思维。机器转录也可能认错人名、数字和说话者，尚未完成逐段听音复核。
+
+新增的有效内容包括：X 的 Starter Packs 如何解决兴趣冷启动、链接阅读界面如何影响推荐信号、公开预览如何暴露隐私约束、工具类产品为何可以结合转介绍与付费获客，以及他对大公司创新激励的解释。这里的增长数字是本人报告，尚无独立实验数据验证。
+
+[访谈阅读笔记与时间戳](references/interview-notes.md) · [实际采集清单与哈希](references/acquisition-manifest.json) · [可复跑采集脚本](scripts/collect_sources.py)。完整研究音频和转录保留在本地；朋友可以用脚本获取自己的可读语料，无需依赖作者的电脑路径。这是资料采集与基于资料的 Skill 修订，没有训练新的模型权重。
+
 ## 资料与方法的边界
 
 - [来源清单](references/sources.md) 提供日期、原文链接、支持的观点和核验状态。
 - [主题映射](references/theme-matrix.md) 对应原则与来源，区分公开观点和整理者归纳。
 - [覆盖说明](references/source-coverage.md) 记录语料范围及局限。原始本地集合有 662 个唯一帖子链接，其中 637 条有正文；本轮还直接恢复了 658 个 X 页面公开元数据，但部分只是 @mention 或回复，不能当成 658 条增长知识。
-- [语料索引](references/corpus-index.md) 提供 662 个公开帖子链接和访问元数据；[案例库](references/casebook.md)、[主张账本](references/claim-ledger.md)和[决策模型](references/decision-model.md)把其中一小部分连接成可审计的机制。
+- [语料索引](references/corpus-index.md) 提供 695 个公开帖子链接和访问元数据；[案例库](references/casebook.md)、[主张账本](references/claim-ledger.md)和[决策模型](references/decision-model.md)把其中一小部分连接成可审计的机制。
 
 诊断流程、定性维度和实验格式是整理者的归纳。旧版 12 分评分表也由整理者加入，缺少校准依据，现已移除。原文中的年龄、时间和数量经验不能直接当作所有产品通用的阈值。
 
 ## 能代表他的思维吗
 
-目前不能。现有 17 组原则来源中，1 组有官方访谈页和第三方逐字稿，2 组读到完整线程镜像，6 组依赖本地采集记录，2 组只核验到镜像片段，3 组直接核验到 X 页面元数据，3 组是机构报道、媒体资料或公开访谈片段。662 条原始帖子没有随仓库提供，也不等于 662 条经过上下文分析的产品经验。
+目前不能完整代表。现有 20 组来源中，18 组被用于有边界的学习材料，2 组早期多人节目仍待核对发言归属。新增长访谈补到了具体产品取舍和职业阶段，但历史 X 帖子、多数失败产品的逐案记录、内部实验和完整任职经历仍有缺口。Solana 的两段官方视频未取得完整转录，Alex Heath 的访谈只读到付费墙前的公开介绍，均没有冒充已精读来源。
 
-当前内容仍缺少对完整访谈、失败案例、不同阶段取舍及观点变化的系统整理。2026 年 2 月的 Lightspeed《Out of Office》访谈已核验官方节目资料和一段公开逐字稿，但完整音频与逐字稿仍未独立精读，列入[待精读来源](references/sources.md#located-but-not-yet-distilled)。补充履历和增加链接并不能自动补齐产品判断的依据。
-
-要进一步提炼他的公开决策方式，需要保留每个案例的目标、约束、候选方案、选择理由及后续结果，并用未参与提炼的真实材料检查是否忠实。[覆盖与验证缺口](references/source-coverage.md#representation-and-evaluation)
-
-本轮新增了[案例库](references/casebook.md)、[主张账本](references/claim-ledger.md)和[决策模型](references/decision-model.md)。它们把“帖子”转换成情境、约束、选择、机制、反例和停止条件；但留出案例的忠实度测试尚未得到成功结果，所以仍不能声称完成了完整人格或思维复制。
+[案例库](references/casebook.md)现有 18 个案例，[主张账本](references/claim-ledger.md)现有 22 条带条件的主张。它们说明材料如何支持一个判断；并不证明模型能预测他的真实选择。要检验忠实度，还需要用未参与提炼的真实案例做对照，而不是用新增字数或泛化建议的正确率代替。[覆盖与验证缺口](references/source-coverage.md#representation-and-evaluation)
 
 ## 怎样判断它有没有帮助
 
@@ -95,6 +108,7 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 - `SKILL.md`：触发条件与执行入口。
 - `agents/openai.yaml`：Codex 展示和默认调用提示。
 - `references/`：决策模型、案例库、主张账本、原则、诊断、表达、来源和行为检查。
+- `scripts/collect_sources.py`：获取已登记的完整线程与官方音频，可选本地机器转录。
 - `examples/prompts.md`：可直接使用的提问方式。
 
 按 [MIT License](LICENSE) 免费使用和分享。

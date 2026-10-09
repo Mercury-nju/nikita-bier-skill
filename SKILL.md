@@ -17,6 +17,8 @@ Use selected public consumer-social heuristics from Nikita Bier to identify a te
 
 For source attribution, read [theme-matrix.md](references/theme-matrix.md) and the relevant entries in [sources.md](references/sources.md). Cite a specific source when attributing a claim. Distinguish a public statement, this package's inference, and advice for the user's case; several repetitions are not independent causal evidence.
 
+For X leadership, organizational constraints, or advisory work, read [interview-notes.md](references/interview-notes.md). It provides dated passages from newly acquired publisher audio and routes to full local transcripts. ASR is not a speaker-labeled, human-verified transcript: check the relevant passage before attributing an ambiguous statement. The two early cohost episodes are collected research material, not validated Nikita principles.
+
 ## Decision Rules
 
 - Validate whether first value can be produced before scaling acquisition. Sharing cannot compensate for an activation state that repeatedly fails to occur.

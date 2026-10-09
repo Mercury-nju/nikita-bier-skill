@@ -17,7 +17,24 @@ Nikita announced joining X as Head of Product on 2025-06-30 and stepping down on
 
 The local artifact checked had SHA-256 `494f86a0cc127b3dee96539e381b1d9cf9878a351cbd7d49b475fe09c570e0a7`. This identifies the reviewed collection; it is not an authentication of each post. The raw corpus is not shipped or required for installation. The repository provides selected summaries, original URLs, and access notes in [sources.md](sources.md), so readers do not depend on an author's local file paths.
 
-The repository now ships a metadata-only [corpus index](corpus-index.md). This improves auditability without presenting every harvested record as a verified product insight. The manually reconstructed cases and claims are intentionally smaller than the index.
+## Content Acquired In The Latest Pass
+
+The [corpus index](corpus-index.md) now has **695 unique X URLs**: the original 662 plus **33 non-overlapping post texts** extracted from complete S02, S05, and S11 mirrors. S02 was already known but absent from the indexed corpus. S05 and S11 were previously only partly read. The three extracted threads contain 1,095 whitespace-separated words, excluding recommended threads and page boilerplate. Attached media were not reviewed.
+
+Four complete publisher audio files were also acquired and locally machine-transcribed:
+
+| Source | Published | Acquired audio | Attribution/review status |
+| --- | --- | --- | --- |
+| S17, Out of Office | 2026-02-10 | 75:17 | Full ASR text read; no independent listening verification |
+| S18, Where It Happens | 2022-02-15 | 72:50 | Substantive guest segment 06:56–26:46 read; later hosts-only content excluded |
+| S19, Three Cartoon Avatars #2 | 2022-02-05 | 41:23 | Full ASR collected; reliable speaker attribution pending |
+| S20, Three Cartoon Avatars #11 | 2022-04-09 | 54:22 | Full ASR collected; reliable speaker attribution pending |
+
+Total acquired audio is approximately **4 hours 4 minutes**, including other speakers, ads, and non-product conversation. It is not four hours of Nikita's own statements. Dynamic ads can change future episode bytes and timing.
+
+[The acquisition manifest](acquisition-manifest.json) records the exact durations, source URLs, hashes, ASR counts, and review boundaries. [Interview notes](interview-notes.md) provide passage-level findings. [The collector](../scripts/collect_sources.py) obtains full thread text and official audio so a reader can build a local corpus. The repository ships original notes and metadata, not full copyrighted transcripts or audio.
+
+This is a substantive content expansion, but not an exhaustive historical harvest. It exposed omissions in the old corpus: even the four Death Clock posts from 2025 were missing. Record count cannot establish representativeness.
 
 ## How To Weight Evidence
 
@@ -27,20 +44,19 @@ Multiple posts by the same person, a mirror of those posts, and an interview rep
 
 ## Representation And Evaluation
 
-The seventeen principle-source entries have uneven review depth:
+The twenty source entries have uneven review depth; two are collected but not used to justify principles:
 
 | Review depth | Entries |
 | --- | --- |
-| Official interview summary and chapters plus a readable third-party transcript; no independent audio review | S01 |
-| Complete thread text available through a mirror | S02, S03 |
+| Official interview summary and chapters plus a readable secondary transcript; no independent audio review | S01 |
+| Complete thread text available through a mirror | S02, S03, S05, S11 |
 | Retained local harvested text; no fresh original-page verification | S04, S06, S07, S08, S09, S10 |
-| Partial mirror excerpts | S05, S11 |
-| Institutional event report | S12 |
-| Independent media profile | S13 |
+| Institutional event report or independent profile | S12, S13 |
 | Direct X page metadata; short posts, no full conversation context | S14, S15, S16 |
-| Official episode listing plus a public transcript excerpt; full episode not reviewed | S17 |
+| Complete official audio plus local ASR; relevant text reviewed, no independent listening verification | S17, S18 |
+| Complete official audio plus local ASR; reliable speaker attribution pending | S19, S20 |
 
-This supports selected attributed learning material, not a representative model of the person. The package has not systematically reconstructed failed launches, alternatives considered, changing constraints, or changes in his views. The February 2026 Out of Office interview is partly reviewed through public metadata and an excerpt, but its full content has not been reviewed or distilled. See [pending material](sources.md#located-but-not-yet-distilled).
+New data adds concrete platform choices and some early-career explanations. It does not systematically reconstruct the individual failed apps, all alternatives considered, or every change of view. The unacquired Solana videos and paywalled Alex Heath interview remain explicitly pending. Neither discovered links nor hosts' statements inflate the attributed evidence.
 
 The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures, not fidelity to Nikita's reasoning, and demonstrates no incremental benefit on that suite. The grouped, single-run design cannot establish equivalence or general effectiveness either.
 
@@ -53,7 +69,7 @@ The package now treats a “complete” public distillation as a chain with four
 3. **Claim:** state the reusable mechanism with its precondition and a way it could be falsified.
 4. **Holdout:** test whether the model can apply the claim to a case that was not used while writing the rule.
 
-The repository currently contains the first three links for the cases in [casebook.md](casebook.md) and the claims in [claim-ledger.md](claim-ledger.md). The fourth link has a protocol but no successful fidelity result yet. This is why the package can be substantially more useful and auditable without claiming to be a complete replica of a living person's private judgment.
+The repository currently contains 18 reconstructed cases and 22 claims for the first three links. See the cases in [casebook.md](casebook.md) and [claim-ledger.md](claim-ledger.md). The fourth link has a protocol but no successful fidelity result yet. This is why the package can be substantially more useful and auditable without claiming to be a complete replica of a living person's private judgment.
 
 Further research should preserve decisions as cases: goal and constraints -> alternatives -> choice and stated rationale -> reported outcome and limitations. Cover multiple products and career stages, including failures and counterexamples. Cross-reference each inferred pattern to its actual passages and distinguish a recurring preference from a context-specific tactic.
 
@@ -61,9 +77,9 @@ Before claiming fidelity, reserve real source cases from the distillation proces
 
 ## Known Limits
 
-- The harvest's search queries and completeness are not documented sufficiently to reproduce the full collection.
+- The original 662-record harvest's search queries and completeness are not documented sufficiently to reproduce it. The new seven-source acquisition is reproducible separately.
 - Some X pages and mirrors are inaccessible. A retained local record is distinguished from a newly checked original.
-- Empty records and missing media may omit important context.
+- Empty records, missing media, replies without their parent, and ASR errors may omit or distort important context. ASR word counts include all speakers and can contain repetitions; they are not verified Nikita-word counts.
 - Most examples concern consumer-social products, including tightly connected teen networks; transfer to other markets requires checking the mechanism.
 - Public commentary, memorable successes, and selected examples can introduce survivorship and selection bias.
 - Platform constraints change. Dates belong to the evidence, not to a guarantee that an old tactic still works.
