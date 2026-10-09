@@ -76,11 +76,11 @@ These summaries are learning prompts, not universal laws. Source IDs resolve in 
 
 ## 10. Design For Abuse Resistance
 
-**Public basis:** S12 reports that TBH constrained input and answer formats to reduce abuse and cyberbullying. S17's public transcript excerpt attributes an adversarial lens to Nikita's early software experiments: anticipate spam, manipulation, and unintended use.
+**Public basis:** S12 reports that TBH constrained input and answer formats to reduce abuse and cyberbullying. S01's official video (25:04–29:19) explains the choice of positive authored polls; S17's full local ASR provides his reported defensive lens toward software misuse.
 
 **Application:** treat foreseeable misuse as a product requirement. Enumerate how a feature could be gamed or weaponized, then change affordances, defaults, rate limits, or moderation paths and test the failure modes. Keep the analysis defensive; do not reproduce attack instructions.
 
-**Limit:** the evidence is one reported product case and one partial interview excerpt. It supports a review habit, not a claim that all abuse can be designed away.
+**Limit:** the evidence is reporting and retrospective participant accounts, not an independent safety evaluation. It supports a review habit, not a claim that all abuse can be designed away.
 
 ## 11. Make The Tested Path Credible
 
@@ -104,6 +104,9 @@ These summaries are learning prompts, not universal laws. Source IDs resolve in 
 - **Early fragmentation (S11):** splitting a small pool of relevant content can reduce interaction opportunities. Measure engagement per useful contribution before adding subgroups; separate groups can still be right when their needs differ.
 - **Messaging (S09):** replacing a default inbox faces existing reach and reliability expectations. A narrow communication feature that completes the product's main task has a different competitive burden.
 - **Interest graphs (S10):** importing contacts does not supply a relevant interest feed. Test whether sparse onboarding signals produce useful initial content; do not assume a generic feed or an AI label solves relevance.
+- **Model boundaries (S22, C19):** specify which effects a calculation includes, and which remain unknown. A usable direct-effect model is not evidence that omitted downstream effects are zero.
+- **Portable objects (S21, C20):** token or content propagation can happen through other interfaces. Establish which app receives activated users rather than treating the object's popularity as that app's retention.
+- **Invitation identity (S01, C22):** a name/icon may change the meaning of recommending a product. The reported bundled change needs a product-specific test, not a universal audience stereotype.
 
 ## Learning Habit
 

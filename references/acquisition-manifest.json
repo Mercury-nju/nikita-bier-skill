@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "review_date": "2026-10-09",
-  "scope": "Seven acquired sources; not an exhaustive bibliography. ASR text includes hosts and is not a count of Nikita statements.",
+  "scope": "Fourteen acquired inputs; not an exhaustive bibliography. Caption/ASR counts include hosts, ads, and audience cues, not only Nikita statements.",
   "sources": [
     {
       "id": "S02",
@@ -198,19 +198,222 @@
         "used_for_principles": false,
         "raw_artifacts_shipped": false
       }
+    },
+    {
+      "id": "S01",
+      "name": "Lenny's Podcast official captions",
+      "kind": "youtube_captions",
+      "url": "https://www.youtube.com/watch?v=bhnfZhJWCWY",
+      "video_id": "bhnfZhJWCWY",
+      "publication_date": "2024-08-25",
+      "duration_seconds": 5901,
+      "minimum_last_cue_seconds": 5892,
+      "caption_type": "authored_or_unspecified",
+      "speaker_attribution": "inferred_from_question_response_context",
+      "observed": {
+        "id": "S01",
+        "retrieved_at": "2026-10-09T15:38:24.139236+00:00",
+        "url": "https://www.youtube.com/watch?v=bhnfZhJWCWY",
+        "status": "collected",
+        "acquisition": "browser_transcript_export",
+        "duration_seconds": 5901,
+        "caption_words_all_speakers": 15566,
+        "segments": 955,
+        "last_cue_seconds": 5892,
+        "caption_sha256": "557f47a243ef597e2179d4533d2824d0963f68e3dc431346bb4bf6e1c2bcd84b",
+        "parsed_sha256": "e66aebc7d013e1fd06a5b6ddf1315cf41755368ea3793bfd0602ffbd041b7278",
+        "caption_type": "authored_or_unspecified",
+        "speaker_attribution": "inferred_from_question_response_context",
+        "human_audio_verified": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true,
+        "text_review_windows_seconds": [
+          [
+            396,
+            1950
+          ],
+          [
+            4552,
+            4619
+          ],
+          [
+            5237,
+            5741
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S21",
+      "name": "Solana Ship or Die panel",
+      "kind": "youtube_captions",
+      "url": "https://www.youtube.com/watch?v=4zK8ZI8lJIs",
+      "video_id": "4zK8ZI8lJIs",
+      "publication_date": "2025-05-22",
+      "duration_seconds": 1053,
+      "minimum_last_cue_seconds": 1047,
+      "caption_type": "auto_generated",
+      "speaker_attribution": "bounded_by_explicit_moderator_prompts",
+      "observed": {
+        "id": "S21",
+        "retrieved_at": "2026-10-09T15:38:24.157812+00:00",
+        "url": "https://www.youtube.com/watch?v=4zK8ZI8lJIs",
+        "status": "collected",
+        "acquisition": "browser_transcript_export",
+        "duration_seconds": 1053,
+        "caption_words_all_speakers": 2792,
+        "segments": 390,
+        "last_cue_seconds": 1047,
+        "caption_sha256": "2d42c436be92c6a814b27bf597b7821cd430dc1934126f950a388c330d236979",
+        "parsed_sha256": "f8fbad99b78b118df1ecd55bd0df7fa9064006295acbaa60c17dced5d6a5ea05",
+        "caption_type": "auto_generated",
+        "speaker_attribution": "bounded_by_explicit_moderator_prompts",
+        "human_audio_verified": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true,
+        "text_review_windows_seconds": [
+          [
+            344,
+            435
+          ],
+          [
+            459,
+            502
+          ],
+          [
+            640,
+            719
+          ],
+          [
+            885,
+            1035
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S22",
+      "name": "TEDxBoston Outline talk",
+      "kind": "youtube_captions",
+      "url": "https://www.youtube.com/watch?v=k9QTVII_lkg",
+      "video_id": "k9QTVII_lkg",
+      "publication_date": "2013-07-11",
+      "duration_seconds": 703,
+      "minimum_last_cue_seconds": 693,
+      "caption_type": "authored_or_unspecified",
+      "speaker_attribution": "single_presenter_with_caption_credits_and_audience_reactions",
+      "observed": {
+        "id": "S22",
+        "retrieved_at": "2026-10-09T15:38:24.171627+00:00",
+        "url": "https://www.youtube.com/watch?v=k9QTVII_lkg",
+        "status": "collected",
+        "acquisition": "browser_transcript_export",
+        "duration_seconds": 703,
+        "caption_words_all_speakers": 1789,
+        "segments": 205,
+        "last_cue_seconds": 693,
+        "caption_sha256": "2c117e0ceee2cb689140da2bdbc62e3695c1e7d81812590baa76036a08e66843",
+        "parsed_sha256": "c06d69fca8a39f7ae7b390e916dbb73a230465d914fa66158c574899fdda42d3",
+        "caption_type": "authored_or_unspecified",
+        "speaker_attribution": "single_presenter_with_caption_credits_and_audience_reactions",
+        "human_audio_verified": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true,
+        "text_review_windows_seconds": [
+          [
+            0,
+            703
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S23",
+      "name": "Outline company announcement",
+      "kind": "article",
+      "url": "https://www.prnewswire.com/news-releases/outlinecom-announces-850k-seed-round-and-successful-bid-with-massachusetts-222963991.html",
+      "publication_date": "2013-09-09",
+      "container_class": "release-body",
+      "minimum_words": 400,
+      "observed": {
+        "id": "S23",
+        "retrieved_at": "2026-10-09T15:38:56.868561+00:00",
+        "url": "https://www.prnewswire.com/news-releases/outlinecom-announces-850k-seed-round-and-successful-bid-with-massachusetts-222963991.html",
+        "status": "collected",
+        "text_words": 477,
+        "acquisition": "http_or_cached_page",
+        "page_sha256": "fc0f52b97fc1ad06b0f5ada6dd99e41e568ca61694e87735f3995470bac303dc",
+        "text_sha256": "927f704e509929528e06f2e4f70854cd7bf73212c5e2dc3015e1fc43dbef3589",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true,
+        "body_text_reviewed": true,
+        "page_representation": "publisher_html"
+      }
+    },
+    {
+      "id": "S24",
+      "name": "Shipping as repeated user learning",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1990479124536905866.html",
+      "expected_posts": 1,
+      "observed": {
+        "id": "S24",
+        "retrieved_at": "2026-10-09T15:38:24.186559+00:00",
+        "url": "https://threadreaderapp.com/thread/1990479124536905866.html",
+        "status": "collected",
+        "records": 1,
+        "text_words": 55,
+        "page_sha256": "3a3fa3f120e29fae7e48f7ebfa83c3f47a87ab2e484871aef5a82fa1c8acdbc1",
+        "text_sha256": "b58b9d5561ecf7892611c75da1c1e57bd5d90d0d5c22431c45f4f17ab7ab49d8",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S25",
+      "name": "Berkeley Five launch report",
+      "kind": "article",
+      "url": "https://news.berkeley.edu/2015/03/18/new-app-where-students-can-hang-out/",
+      "publication_date": "2015-03-18",
+      "container_class": "site-main__content",
+      "minimum_words": 200,
+      "page_representation": "rendered_article_body_text_in_html_wrapper",
+      "observed": {
+        "id": "S25",
+        "retrieved_at": "2026-10-09T15:38:56.882622+00:00",
+        "url": "https://news.berkeley.edu/2015/03/18/new-app-where-students-can-hang-out/",
+        "status": "collected",
+        "text_words": 213,
+        "acquisition": "imported_page",
+        "page_sha256": "b501a5107897d699c32df88ed2d1ffd992ff36005918ee1a0e4d6ffa049ba1f5",
+        "text_sha256": "ecea3e925afab51fe5217f25e754a31a03790ab8ef88ef0e12304c2f8aa8a03a",
+        "page_representation": "rendered_article_body_text_in_html_wrapper",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": false,
+        "body_text_reviewed": true
+      }
+    },
+    {
+      "id": "S03",
+      "name": "Manual validation complete thread",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1820660351366738276.html",
+      "expected_posts": 2,
+      "observed": {
+        "id": "S03",
+        "retrieved_at": "2026-10-09T15:38:24.191935+00:00",
+        "url": "https://threadreaderapp.com/thread/1820660351366738276.html",
+        "status": "collected",
+        "records": 2,
+        "text_words": 165,
+        "page_sha256": "07df0080c6c1b2a04722f3946293267529c4ec790a954c47fecca62abb9efb04",
+        "text_sha256": "921f94456f15d270dbcaf319cd96c0b97390c1aab315fdb690042a7fd14d14d1",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
     }
   ],
   "unacquired": [
-    {
-      "url": "https://www.youtube.com/watch?v=4zK8ZI8lJIs",
-      "title": "Ship or Die 2025: Going Viral on the App Store",
-      "status": "video located; caption response empty; audio download HTTP 403"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=kCht01Ycif0",
-      "title": "Solana tokens are the new content on the internet",
-      "status": "video located; audio extraction failed"
-    },
     {
       "url": "https://sources.news/p/x-wants-its-haters-back",
       "title": "X wants its haters back",
@@ -218,12 +421,35 @@
     }
   ],
   "totals": {
-    "added_unique_x_posts": 33,
-    "indexed_unique_x_posts": 695,
-    "new_thread_words": 1095,
+    "added_unique_x_posts": 36,
+    "indexed_unique_x_posts": 698,
+    "new_thread_words": 1315,
     "acquired_audio_files": 4,
     "acquired_audio_duration_seconds": 14632.263,
     "raw_asr_words_all_speakers": 43128,
-    "attributed_nikita_word_count": null
-  }
+    "attributed_nikita_word_count": null,
+    "acquired_caption_exports": 3,
+    "caption_video_duration_seconds": 7657,
+    "raw_caption_words_all_speakers": 20147,
+    "newly_added_distinct_video_duration_seconds": 1756,
+    "early_article_bodies": 2,
+    "early_article_words": 690,
+    "source_entries": 25,
+    "casebook_entries": 24,
+    "claim_ledger_entries": 26
+  },
+  "rejected_or_duplicate_leads": [
+    {
+      "url": "https://www.youtube.com/watch?v=kCht01Ycif0",
+      "reason": "Direct page is a Solana Actions SDK tutorial, not a Nikita interview. The consumer-page Originals card actually embeds S21; do not count it twice."
+    },
+    {
+      "url": "https://threadreaderapp.com/thread/1482186934579437568.html",
+      "reason": "Four-post NFT joke/promotion; no substantive product reasoning. Not added to the learning corpus."
+    },
+    {
+      "url": "https://threadreaderapp.com/thread/1460652115823497221.html",
+      "reason": "A mock lessons thread and an empty/media-only post, not the substantive 2022 founder thread."
+    }
+  ]
 }

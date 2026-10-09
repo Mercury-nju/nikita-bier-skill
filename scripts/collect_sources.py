@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect registered public threads and publisher audio; optionally transcribe it."""
+"""Collect public threads, publisher articles/audio, and exported video captions."""
 
 import argparse
 import datetime as dt
@@ -7,6 +7,7 @@ import hashlib
 from html.parser import HTMLParser
 import json
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -53,6 +54,67 @@ class ThreadParser(HTMLParser):
     def handle_data(self, data):
         if self.current is not None:
             self.current["parts"].append(data)
+
+
+class ArticleParser(HTMLParser):
+    """Extract the registered article container, excluding surrounding navigation."""
+
+    def __init__(self, container_class):
+        super().__init__()
+        self.container_class = container_class
+        self.container_tag = None
+        self.depth = 0
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if self.depth and tag == self.container_tag:
+            self.depth += 1
+        elif not self.depth and self.container_class in attrs.get("class", "").split():
+            self.container_tag = tag
+            self.depth = 1
+        if self.depth and tag in ("p", "br", "h2", "h3", "li"):
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if self.depth and tag == self.container_tag:
+            self.depth -= 1
+        if self.depth and tag in ("p", "h2", "h3", "li"):
+            self.parts.append("\n")
+
+    def handle_data(self, data):
+        if self.depth:
+            self.parts.append(data)
+
+    def text(self):
+        return "\n".join(" ".join(line.split()) for line in
+                         "".join(self.parts).splitlines() if line.strip())
+
+
+def parse_captions(path, source):
+    """Validate a browser export against its video ID and observed final cue."""
+    raw = path.read_text(encoding="utf-8")
+    if "Video ID: " + source["video_id"] not in raw.splitlines():
+        raise ValueError("Caption export does not match the registered video ID")
+    segments = []
+    for line in raw.splitlines():
+        match = re.fullmatch(r"\[(\d+:\d{2}(?::\d{2})?)\]\s+(.+)", line)
+        if not match:
+            continue
+        seconds = 0
+        values = match[1].split(":")
+        if any(int(value) >= 60 for value in values[1:]):
+            raise ValueError("Invalid caption timestamp")
+        for value in values:
+            seconds = seconds * 60 + int(value)
+        if segments and seconds < segments[-1]["start"]:
+            raise ValueError("Caption timestamps are not monotonic")
+        segments.append({"start": seconds, "text": match[2]})
+    if not segments or segments[-1]["start"] < source["minimum_last_cue_seconds"]:
+        raise ValueError("Caption export is empty or ends before the observed final cue")
+    if segments[-1]["start"] > source["duration_seconds"]:
+        raise ValueError("Caption timestamp exceeds registered video duration")
+    return segments
 
 
 def digest(path):
@@ -129,7 +191,48 @@ def collect(source, output, args):
             record.update(status="collected", records=len(posts),
                           text_words=sum(len(post["text"].split()) for post in posts),
                           page_sha256=digest(page), text_sha256=digest(text_path))
-        else:
+        elif source["kind"] == "youtube_captions":
+            captions = source_dir / "captions.txt"
+            supplied = args.caption_files.get(source["id"])
+            if supplied:
+                # Validate before replacing a previously usable local export.
+                parse_captions(supplied, source)
+                if supplied.resolve() != captions.resolve():
+                    shutil.copyfile(supplied, captions)
+            elif args.refresh or not captions.exists():
+                raise ValueError("Export the official video's transcript, then provide "
+                                 "--caption-file " + source["id"] + "=/absolute/path.txt")
+            segments = parse_captions(captions, source)
+            parsed = source_dir / "captions.json"
+            parsed.write_text(json.dumps(segments, ensure_ascii=False, indent=2), encoding="utf-8")
+            record.update(status="collected", acquisition="browser_transcript_export",
+                          duration_seconds=source["duration_seconds"],
+                          caption_words_all_speakers=sum(len(s["text"].split()) for s in segments),
+                          segments=len(segments), last_cue_seconds=segments[-1]["start"],
+                          caption_sha256=digest(captions), parsed_sha256=digest(parsed),
+                          caption_type=source["caption_type"],
+                          speaker_attribution=source["speaker_attribution"],
+                          human_audio_verified=False)
+        elif source["kind"] == "article":
+            page = source_dir / "page.html"
+            supplied = args.page_files.get(source["id"])
+            if supplied:
+                if supplied.resolve() != page.resolve():
+                    shutil.copyfile(supplied, page)
+            elif args.refresh or not page.exists():
+                fetch(source["url"], page)
+            parser = ArticleParser(source["container_class"])
+            parser.feed(page.read_text(encoding="utf-8"))
+            body = parser.text()
+            if len(body.split()) < source["minimum_words"]:
+                raise ValueError("Article container is missing or unexpectedly short")
+            text_path = source_dir / "article.txt"
+            text_path.write_text(body, encoding="utf-8")
+            record.update(status="collected", text_words=len(body.split()),
+                          acquisition="imported_page" if supplied else "http_or_cached_page",
+                          page_representation=source.get("page_representation", "publisher_html"),
+                          page_sha256=digest(page), text_sha256=digest(text_path))
+        elif source["kind"] == "podcast":
             feed_path = source_dir / "feed.xml"
             if args.refresh or not feed_path.exists():
                 fetch(source["feed_url"], feed_path)
@@ -148,9 +251,11 @@ def collect(source, output, args):
                           audio_sha256=digest(audio), feed_sha256=digest(feed_path))
             if args.transcribe:
                 record["asr"] = transcribe(audio, source_dir / "asr.json", args.asr_model)
-        (source_dir / "result.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
+        else:
+            raise ValueError("Unsupported source kind: " + source["kind"])
     except Exception as error:
         record.update(status="failed", error=f"{type(error).__name__}: {error}")
+    (source_dir / "result.json").write_text(json.dumps(record, indent=2), encoding="utf-8")
     return record
 
 
@@ -161,12 +266,32 @@ def main():
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--transcribe", action="store_true", help="Requires mlx-whisper and a model")
     parser.add_argument("--asr-model", default="mlx-community/whisper-large-v3-turbo")
+    parser.add_argument("--caption-file", action="append", default=[], metavar="ID=PATH",
+                        help="Register a UTF-8 browser transcript export for a video source")
+    parser.add_argument("--page-file", action="append", default=[], metavar="ID=PATH",
+                        help="Import a saved publisher article HTML or rendered DOM export")
     args = parser.parse_args()
     manifest = Path(__file__).resolve().parents[1] / "references" / "acquisition-manifest.json"
     sources = json.loads(manifest.read_text(encoding="utf-8"))["sources"]
     known = {source["id"] for source in sources}
     if args.source and set(args.source) - known:
         parser.error("Unknown source IDs: " + ", ".join(sorted(set(args.source) - known)))
+    args.caption_files = {}
+    for item in args.caption_file:
+        source_id, separator, path = item.partition("=")
+        if not separator or source_id not in known or not Path(path).is_file():
+            parser.error("Expected a known source ID and an existing caption file: " + item)
+        if source_id in args.caption_files:
+            parser.error("Duplicate caption file for " + source_id)
+        args.caption_files[source_id] = Path(path)
+    args.page_files = {}
+    for item in args.page_file:
+        source_id, separator, path = item.partition("=")
+        if not separator or source_id not in known or not Path(path).is_file():
+            parser.error("Expected a known source ID and an existing page file: " + item)
+        if source_id in args.page_files:
+            parser.error("Duplicate page file for " + source_id)
+        args.page_files[source_id] = Path(path)
     args.output.mkdir(parents=True, exist_ok=True)
     selected = [source for source in sources if not args.source or source["id"] in args.source]
     records = []

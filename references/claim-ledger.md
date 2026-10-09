@@ -26,6 +26,12 @@ This ledger prevents a memorable post from becoming a universal law. A claim is 
 | Q20 | Curated initial content can activate an interest network without relying on contact import. | S17, C14 | B | Specific interests predict valuable people or content. | Packs fail to improve useful first or repeat visits. |
 | Q21 | Partial referral growth can complement paid acquisition for a private utility. | S17, C16 | B | Referred users activate and unit economics support paid traffic. | Referrals fail to activate or the combined channel loses money. |
 | Q22 | Public previews can expose product constraints before broad release. | S17, C15 | B | Relevant affected users can meaningfully respond. | Feedback misses affected groups or the released mitigation fails. |
+| Q23 | A model should state the boundary of effects it can support. | S22, C19 | B | Uncertain downstream effects are deliberately omitted. | Omissions materially reverse the decision or the included effects are inaccurate. |
+| Q24 | A portable object's popularity does not by itself establish adoption of its originating app. | S21, C20 | B | Users can circulate or trade the object elsewhere. | Object propagation demonstrably produces qualified app activation and repeat use. |
+| Q25 | Product presentation may alter the willingness to send an invitation. | S01, C22 | B | Recommending the product communicates something socially meaningful. | A controlled comparison finds no durable effect on activated referrals. |
+| Q26 | Consumer demand and buyer procurement are separate requirements. | S01, S23, C23 | A/B | A popular consumer tool is becoming a licensed institutional product. | Buyer commitment, delivery economics, and repeat revenue are already demonstrated. |
+
+S24 emphasizes repeated shipping as a way to learn what users want. Its categorical opening is not a separate validated law that speed dominates all other constraints. Pair it with S03/S01's requirements for interpretable tests and S22's explicit uncertainty boundary.
 
 ## Use rule
 

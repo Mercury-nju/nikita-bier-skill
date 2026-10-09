@@ -1,6 +1,6 @@
 # Newly Acquired Interview Material
 
-This research pass adds source content, rather than treating more links as more evidence. Four complete publisher audio files were acquired from official RSS feeds. Full timestamped machine transcripts are retained locally; the repository ships concise original research notes and a collector, not wholesale transcripts.
+This research pass adds source content, rather than treating more links as more evidence. Four complete publisher audio files, three complete official video-caption exports, and two early product articles are retained locally. S01 upgrades an already known interview's provenance; S21 and S22 add distinct full recordings. The repository ships original research notes and a collector, not wholesale transcripts.
 
 Read these passages when the question concerns established-platform growth, leadership, or the conditions behind a founder heuristic. Timestamps refer to the downloaded audio. Dynamic ads or other players can shift them. ASR does not identify speakers and has not been independently checked by listening; uncertain names, numbers, and repeated words are not reliable quotations.
 
@@ -51,9 +51,62 @@ The episode is useful partly because it contradicts a caricature of an expert wi
 
 These expand the accessible early-career material. Their full ASR includes multiple speakers. They are **collected, not reliably speaker-attributed or distilled**. No case or principle in this package relies on assigning an ambiguous passage to Nikita. The feed contains 163 episodes, many without him; 163 is not a count of Nikita sources.
 
+## S01 — Official Lenny Video Captions, 2024-08-25
+
+[Official video](https://www.youtube.com/watch?v=bhnfZhJWCWY) · 98:21 · 955 cues, 15,566 words including the host, advertisements, and repeated introductory clips.
+
+The complete caption export replaces reliance on a secondary transcript for the passages below. It does not add a second interview. The exported track reports “authored or unspecified”; that label is not proof of independent checking. Selected passages were reviewed. These timestamps are for the current official **video**, and differ from some publisher chapters and podcast players.
+
+| Video window | Material | Attribution and transfer limit |
+| --- | --- | --- |
+| 06:36–10:41 | Politify → Outline; a canceled contract during a shutdown; investor discussion before the consumer pivot; Five Labs and subsequent app experiments. | His retrospective account does not establish a general failure of government software. Five Labs is distinct from the 2015 Five chat app. |
+| 19:01–23:55 | Faster building and reproducible tests; the earliest-starting school; infrastructure and cash constraints during tbh's launch. | Building faster, creating useful tests, and handling growth are separate capabilities. Historical costs and installs are not targets. |
+| 25:04–29:19 | Existing Snapchat behavior, Sarahah's language barrier, bullying complaints, and the choice of authored positive polls. | Latent demand came from observable workarounds; choosing a constrained format is not proof of psychological safety. |
+| 29:37–32:11 | He explicitly distinguishes seeding a school for a valid test from the app's later organic growth. | Repeating the Instagram seeding tactic is not a validated scalable acquisition strategy. |
+| 75:52–76:59 | He reports lower invitations under the Crush name and an increase after the Gas name/icon change. | Name and icon changed together; no isolated causal estimate or general rule about gender was supplied. |
+| 87:17–91:45 | Dupe's existing workaround, memorable URL entry point, and contact-import friction. | A dated advisory case, not a guarantee that a domain trick or current platform API works for another product. |
+| 92:20–95:41 | Inspect analytics, activation milestones, and all entry funnels; align community identity across ads, onboarding, and invitations; work in the actual design. | Claimed advisory returns and conversion forecasts are self-reports, not an audited service guarantee. |
+
+## S21 — Solana Ship Or Die Panel, 2025-05-22
+
+[Official recording](https://www.youtube.com/watch?v=4zK8ZI8lJIs) · 17:33 · full automatic captions, 390 cues, 2,792 words across **all three participants**.
+
+Pedro Miranda explicitly addresses Nikita before the reviewed answer windows. Speaker attribution uses those question/answer boundaries, not voice recognition. The opening hardware/security explanation and the later timing/curation explanation belong to Anatoly Yakovenko and are excluded from Nikita attribution.
+
+| Nikita answer window | Specific material | Limit |
+| --- | --- | --- |
+| 05:44–07:15 | App-store rejection is a platform dependency; switching to a wallet imposes cognitive friction; embedded transactions could support small anti-spam charges. | The conversion benefit and anti-spam business model are hypotheses. The preceding “10–20%” friction estimate is **Anatoly's**, not Nikita's. |
+| 07:39–08:22 | Existing wallets and spam could create an opening for different consumer experiences, while distribution remains an obstacle. | His “why now” explanation differs from Anatoly's following answer; do not merge them into one doctrine. |
+| 10:40–11:59 | Tokens may spread while people trade through other interfaces; the Believe example couples token creation with a tweet. | Distinguish the spreading object from acquisition/retention of the originating app. His 15% sharing/four-invite examples are personal heuristics, not universal pass marks. |
+| 14:45–17:15 | Broader uses beyond crypto speculation; unresolved creator-token problems; skepticism toward a token for every post and preference for concentration around a movement. | The financial/regulatory suggestions are dated opinions, not validated products or legal guidance. No retention results were supplied. |
+
+The [consumer-page](https://solana.com/solutions/consumer) card titled “Solana tokens are the new content on the internet” embeds **this same recording**. It is not another interview. The previously recorded `kCht01Ycif0` lead is a developer tutorial and was rejected after checking its actual title and the card's rendered iframe.
+
+## S22 — TEDxBoston Outline Demonstration, 2013-07-11
+
+[Official TEDx recording](https://www.youtube.com/watch?v=k9QTVII_lkg) · 11:43 · complete caption export, 205 cues, 1,789 words including caption credits and audience reactions. The video displays transcriber/reviewer credits; no independent audio review was performed here.
+
+| Video window | Specific material | Limit |
+| --- | --- | --- |
+| 04:35–06:40 | Politify exposed individualized consequences of policy choices and led to government requests. | Usage, voting change, and causal claims are the presenter's reports. The cited study's design/data were not acquired; a vote is not reducible to financial self-interest. |
+| 06:47–07:37 | The move from an election tool to a broader policy simulator required a year of data integration. | This is evidence of a product choice and cost, not an audited model-quality claim. |
+| 07:48–08:28 | He chooses direct policy effects and deliberately excludes uncertain, politicized second-order effects. | This is a particularly clear model-boundary decision. Excluding an effect does not make that effect zero. |
+| 08:42–10:26 | A Massachusetts pilot demonstrates different household and income-group effects; the tool shifts from communication toward policy construction. | Demonstration speed does not establish accuracy or procurement success. |
+| 10:42–10:53 | He expresses an expectation for future policy coverage. | A forecast, not evidence that the coverage occurred. |
+
+See C19 and C23 for the bounded modeling choice and the distinction between an initial use case, a paying customer, and a viable business.
+
+## S23 / S25 — Contemporaneous Early Product Records
+
+[Outline's company release](https://www.prnewswire.com/news-releases/outlinecom-announces-850k-seed-round-and-successful-bid-with-massachusetts-222963991.html), 2013-09-09, reports seed funding and a successful-bid status **pending contract negotiations**, plus an endorsement feature linking citizens and officials. It supports the intended business/product at that time, not later contract performance.
+
+[Berkeley's Five launch report](https://news.berkeley.edu/2015/03/18/new-app-where-students-can-hang-out/), 2015-03-18, describes campus-email entry and semi-anonymous rooms. Its early download count does not supply activation, retention, revenue, or a shutdown outcome. The complete visible article body was captured through the browser because command-line requests returned HTTP 403; the local HTML wrapper preserves its text, not the publisher's original response bytes.
+
+These records make the chronology more specific without inventing what each unsuccessful app taught him. That missing explanation remains a real gap.
+
 ## Reproduce the collection
 
-The [manifest](acquisition-manifest.json) registers seven acquired inputs, records observed counts and hashes, and lists three important inputs that remain inaccessible. Its hashes identify this retrieval, not future byte-for-byte stability: feeds and inserted ads can change.
+The [manifest](acquisition-manifest.json) registers fourteen acquired inputs, records counts and hashes, and retains blocked, rejected, and duplicate leads. Its hashes identify this retrieval, not future byte-for-byte stability: feeds, ads, and caption tracks can change.
 
 From the repository root, collect three complete thread texts:
 
@@ -78,6 +131,17 @@ python3 scripts/collect_sources.py --source S17 --output research --transcribe \
 
 This explicit flag can download model weights if absent. Other systems can transcribe the downloaded audio with their available ASR tool. Read `research/S17/asr.json` for timestamped segments; `research/S02/posts.jsonl` retains attributed post IDs and full thread text. These local research files are ignored by Git. The skill's installed reference notes work without a local model or corpus download.
 
+For an official video, use a browser's transcript export or save its complete timestamped transcript as UTF-8 text. The collector expects `Video ID: 4zK8ZI8lJIs` in the header and lines such as `[5:44] ...`; preserve the final cues. Codex's browser transcript exporter supplies this format. Then import and verify it:
+
+```bash
+python3 scripts/collect_sources.py --source S21 --output research \
+  --caption-file S21=/absolute/path/to/export.txt
+```
+
+The importer checks the video ID, timestamp order, and observed final cue. It does not authenticate every sentence or verify speaker identities. It never substitutes another video's text when captions are unavailable. S01 and S22 work the same way; rerunning without an import file uses an existing validated local export.
+
+Publisher articles can be fetched with `--source S23`. If a normal browser is required, save the article HTML or its rendered body and import it with `--page-file S25=/absolute/path/to/page.html`. A missing/short body fails instead of being counted. Publisher HTML and a rendered DOM representation have different hashes; the manifest identifies which was actually retained.
+
 ## Remaining acquisition gaps
 
-The Solana panel and Originals video were located on official channels, but caption requests returned empty content or audio requests failed. The Alex Heath interview has a readable teaser and a paywall. They remain acquisition leads, not read interviews or evidence for a full Solana/X strategy. Historical X coverage, most failed-app decision records, and replies/media context are still incomplete.
+The Alex Heath interview has a readable teaser and a paywall; its full content remains unacquired. Historical X coverage, most failed-app decision records, replies/media context, and reliable speaker attribution of S19/S20 remain incomplete. The Solana acquisition gap is now resolved for S21, and its duplicate card is explicitly excluded from source counts.

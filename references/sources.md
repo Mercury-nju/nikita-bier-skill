@@ -4,7 +4,7 @@ The package combines public statements with author inference. The workflow, qual
 
 Verification notes below describe what was checked on 2026-10-09. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
 
-The [corpus index](corpus-index.md) lists 695 public X URLs: the original 662 and 33 non-overlapping posts from complete thread mirrors, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
+The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 and 36 non-overlapping posts from five complete mirrors, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
 
 ## Biographical Context
 
@@ -12,18 +12,19 @@ The [corpus index](corpus-index.md) lists 695 public X URLs: the original 662 an
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the twenty source entries below (two cohost episodes are collected but not distilled). The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
+- These are background sources, separate from the twenty-five source entries below (two cohost episodes are collected but not distilled). The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement remains a background reference. S24 adds one selected statement from November 2025; it does not establish continuous historical coverage.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
 - [Official episode and summary](https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier)
+- [Official video and complete captions](https://www.youtube.com/watch?v=bhnfZhJWCWY)
 - [Readable timestamped transcript mirror](https://www.usetranscribe.io/yt/bhnfZhJWCWY/viral-growth-strategies)
 - Selected direct posts: [teen invitation pattern](https://x.com/nikitabier/status/1573365055802036224), [inverting time to value](https://x.com/nikitabier/status/1813735668276928682), [basic motivations](https://x.com/nikitabier/status/1481118417973243907)
 - Relevant sections: 08:42 consumer apps; 13:45 TBH; 16:43 teens; 01:13:14 durability; 01:26:53 Dupe and first value.
-- Checked: official summary and chapter list were readable. A third-party page exposed timestamped transcript segments, including product design, staged validation, growth funnels, and the distinction between viral and durable products. The three direct X pages returned public page metadata. No independent audio review was completed.
+- Checked: official summary and chapters were readable; a complete official video-caption export was subsequently acquired (98:21, 955 cues). Selected first-person passages were reviewed, including the earlier products, school-seeding/test distinction, naming, and advisory work. This upgrades source access rather than adding another interview. The three direct X pages returned public metadata. No independent audio review was completed.
 - Supports: motivation, latent demand, rapid payoff, observed teen invitation patterns, staged validation, the role of pixels and flows in consumer products, and the distinction between viral and durable products.
 - Limit: the age-related invitation figure and three-second framing are his reported observations/advice, not universally validated coefficients or deadlines.
-- Limit: the transcript mirror is secondary and may omit context; a single interview cannot represent his complete or stable view.
+- Limit: caption speaker roles are inferred from conversational context. Video timing can differ from publisher chapters and podcast advertisements; use the explicitly labeled [video passage notes](interview-notes.md#s01--official-lenny-video-captions-2024-08-25). A single interview cannot represent his complete or stable view.
 
 ## S02 — Consumer-Social Founder Thread, 2022-01-12
 
@@ -37,7 +38,7 @@ The [corpus index](corpus-index.md) lists 695 public X URLs: the original 662 an
 
 - [Original post](https://x.com/nikitabier/status/1820660351366738276)
 - [Readable mirror](https://threadreaderapp.com/thread/1820660351366738276.html)
-- Checked: mirror text discusses maximizing execution quality manually, then removing manual work to test whether appeal survives.
+- Checked: both attributed posts in the complete mirror were acquired and indexed. The substantive first post discusses maximizing execution quality manually, then removing manual work to test whether appeal survives; the second is a joke about posting and supplies no product principle.
 - Supports: separating weak execution from weak demand during an initial test.
 - Limit: initial success under founder assistance does not prove repeatable user activation or scalable operation.
 
@@ -161,10 +162,44 @@ The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800
 - Checked: the episode explicitly refers to Nikita's contribution; complete 54:22 audio was acquired and machine-transcribed.
 - Status: collected research material; not reliably speaker-attributed or distilled into principles. Twitter history and product commentary may merit further review; other speakers' explanations are not Nikita evidence.
 
+## S21 — Solana Ship Or Die Panel, 2025-05-22
+
+- [Official video](https://www.youtube.com/watch?v=4zK8ZI8lJIs); [consumer-page card](https://solana.com/solutions/consumer).
+- Checked: complete automatic-caption export acquired (17:33, 390 cues). Moderator prompts bound Nikita's answers; Anatoly Yakovenko's hardware, timing, and curation answers are excluded. [Passage notes](interview-notes.md#s21--solana-ship-or-die-panel-2025-05-22).
+- Supports: wallet friction, platform dependencies, the distinction between token propagation and app use, and skepticism toward token-per-post fragmentation.
+- Limit: these are hypotheses and examples, not measured app-retention or economic results. The cited 15%/four-invite numbers are contextual heuristics. The consumer card's different title embeds the same video, not a separate interview.
+
+## S22 — TEDxBoston Outline Demonstration, 2013-07-11
+
+- [Official TEDx video](https://www.youtube.com/watch?v=k9QTVII_lkg).
+- Checked: complete caption export acquired (11:43, 205 cues); the player displays transcriber/reviewer credits. The date is the video's publication date. [Passage notes](interview-notes.md#s22--tedxboston-outline-demonstration-2013-07-11).
+- Supports: a specific early product's user problem, a policy-modeling boundary, and a demonstrated shift from communicating policy toward constructing alternatives.
+- Limit: usage, voting effects, and future coverage are reported claims/forecasts; the underlying study and model validation were not acquired. Do not assume a financial projection explains a voter's whole preference.
+
+## S23 — Outline Company Announcement, 2013-09-09
+
+- [Company release distributed by PR Newswire](https://www.prnewswire.com/news-releases/outlinecom-announces-850k-seed-round-and-successful-bid-with-massachusetts-222963991.html).
+- Checked: the complete release body was acquired and read. It describes a licensed dashboard, citizen endorsements visible to officials, and a successful-bid status pending negotiations.
+- Supports: contemporaneous product and business intent, distinct from later recollection.
+- Limit: a company announcement is interested testimony; it does not establish completed procurement, delivery, or recurring revenue. Do not conflate its Massachusetts opportunity with a later unnamed canceled contract.
+
+## S24 — Shipping As Repeated User Learning, 2025-11-17
+
+- [Original post](https://x.com/nikitabier/status/1990479124536905866); [complete mirror](https://threadreaderapp.com/thread/1990479124536905866.html).
+- Checked: the mirror supplies one attributed substantive post (55 words), absent from the original collection. The date is decoded from its post ID.
+- Supports: his emphasis on frequent exposure to user behavior and fallibility of product judgment.
+- Limit: the categorical opening about shipping is rhetoric, not causal evidence that speed is the only relevant variable. Read alongside S01/S03's test-quality requirements.
+
+## S25 — Five Campus Chat Launch, 2015-03-18
+
+- [University's contemporaneous report](https://news.berkeley.edu/2015/03/18/new-app-where-students-can-hang-out/).
+- Checked: the complete visible body was acquired via browser and read after CLI requests returned HTTP 403. The retained representation is body text in an HTML wrapper, not the raw publisher response.
+- Supports: Five's actual campus-email restriction and semi-anonymous topic rooms; a specific earlier product distinct from Five Labs.
+- Limit: initial downloads provide no activation, retention, revenue, or later failure explanation. Its design is context, not a validated tactic.
+
 ## Located But Not Yet Acquired Or Distilled
 
-- [Official Solana Ship or Die panel](https://www.youtube.com/watch?v=4zK8ZI8lJIs): the video and caption track were located, but timed-text responses were empty and audio download returned HTTP 403. No full transcript was acquired.
-- [Official Solana Originals video](https://www.youtube.com/watch?v=kCht01Ycif0): located through [Solana's consumer page](https://solana.com/solutions/consumer); audio extraction failed. No full transcript was acquired.
+- The earlier caption/audio failures for the Solana panel were resolved through the official video's browser caption export; see S21. The old `kCht01Ycif0` pointer is a Solana Actions tutorial, not a Nikita interview, and was rejected. The Originals card embeds S21 and is counted once.
 - [Alex Heath's X interview](https://sources.news/p/x-wants-its-haters-back), 2025-12-12: a public teaser was read; the full interview is paywalled. It is not counted as a complete interview or a principle source.
 - S19 and S20 have full audio/ASR but remain pending reliable speaker attribution. The show feed has 163 episodes; that catalogue is not 163 Nikita interviews.
 - See [acquisition manifest](acquisition-manifest.json) for actual artifacts, hashes, and statuses, and [collection instructions](interview-notes.md#reproduce-the-collection) for reproducible acquisition.

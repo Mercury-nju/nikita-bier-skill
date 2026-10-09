@@ -215,6 +215,8 @@ date,url,local_text_chars,local_text_present,page_metadata_present,metadata_stat
 2024-08-01T06:06:49Z,https://x.com/nikitabier/status/1818891112209371471,23,True,True,ok,original_local_harvest,harvested_record
 2024-08-01T06:26:22Z,https://x.com/nikitabier/status/1818896032685867031,111,True,True,ok,original_local_harvest,harvested_record
 2024-08-01T06:32:22Z,https://x.com/nikitabier/status/1818897544581464347,2,True,True,ok,original_local_harvest,harvested_record
+2024-08-06T03:17:08.656000Z,https://x.com/nikitabier/status/1820660351366738276,735,True,False,not_attempted,S03,complete_thread_mirror
+2024-08-06T03:31:53.976000Z,https://x.com/nikitabier/status/1820664064668024881,155,True,False,not_attempted,S03,complete_thread_mirror
 2024-08-16T01:08:33Z,https://x.com/nikitabier/status/1824251869264482552,224,True,True,ok,original_local_harvest,harvested_record
 2024-08-16T01:44:40Z,https://x.com/nikitabier/status/1824260959642456084,2,True,True,ok,original_local_harvest,harvested_record
 2024-08-16T02:16:52Z,https://x.com/nikitabier/status/1824269062190535077,166,True,True,ok,original_local_harvest,harvested_record
@@ -589,6 +591,7 @@ date,url,local_text_chars,local_text_present,page_metadata_present,metadata_stat
 2025-11-16T02:34:50Z,https://x.com/nikitabier/status/1989884840767033640,17,True,True,ok,original_local_harvest,harvested_record
 2025-11-16T04:47:25Z,https://x.com/nikitabier/status/1989918203682910441,0,False,True,ok,original_local_harvest,none
 2025-11-16T07:23:01Z,https://x.com/nikitabier/status/1989957363999429029,132,True,True,ok,original_local_harvest,harvested_record
+2025-11-17T17:56:19.260000Z,https://x.com/nikitabier/status/1990479124536905866,303,True,False,not_attempted,S24,complete_thread_mirror
 2025-11-23T00:16:03Z,https://x.com/nikitabier/status/1992386627562615190,237,True,True,ok,original_local_harvest,harvested_record
 2025-11-23T01:13:27Z,https://x.com/nikitabier/status/1992401072259006576,15,True,True,ok,original_local_harvest,harvested_record
 2025-11-23T01:46:30Z,https://x.com/nikitabier/status/1992409391560339499,167,True,True,ok,original_local_harvest,harvested_record

@@ -184,6 +184,60 @@ Use a case to generate a hypothesis. Do not turn one case into a threshold, benc
 - **Transfer limit:** inspect incentives and decision authority before assuming headcount or distribution alone solves zero-to-one work.
 - **Source:** S18, 11:26–16:18, tier B.
 
+## C19 — Outline: bound the model before claiming useful certainty
+
+- **Situation / constraint:** citizens and officials need understandable policy consequences, but secondary economic effects are uncertain and politically contested.
+- **Choice:** model direct resource transfers and deliberately exclude second-order effects; expose household and group impacts through an interactive pilot.
+- **Proposed mechanism:** a narrower, explicit claim makes the model's output interpretable without requiring agreement about every downstream effect.
+- **Observation:** the TEDx recording demonstrates the product and explains the exclusion. It supplies no independently reviewed model error or realized policy coverage.
+- **Transfer limit:** an omitted effect is unknown, not zero. For another product, specify the model's boundary, data assumptions, uncertainty, and consequences of omission.
+- **Source:** S22, 07:48–10:26, tier B; speaker context is a single presenter with caption credits.
+
+## C20 — Crypto: identify what actually spreads
+
+- **Situation / constraint:** a token can become popular while trading happens through interfaces other than the site where it originated.
+- **Choice:** separate the token/content propagation mechanism from the originating app's user funnel; examine the Believe tweet-to-token example as a coupled action.
+- **Proposed mechanism:** a portable object can circulate independently of its original interface, so object popularity does not establish app adoption or retention.
+- **Observation:** this is Nikita's distinction and example in a moderated panel; no attributed cohort or retention dataset was provided.
+- **Transfer limit:** measure object sharing, referred arrivals, activation, and repeat use separately. His sharing/invitation figures are contextual heuristics, not thresholds to copy.
+- **Source:** S21, 10:40–11:59, tier B; moderator prompt bounds the answer.
+
+## C21 — Tokenized content: fragmentation can weaken a shared object
+
+- **Situation / constraint:** founders propose a separate token for every post.
+- **Reported choice:** Nikita is skeptical of that granularity and prefers concentration around a broader movement; he describes creator-token models as unresolved.
+- **Inferred mechanism:** attention and coordination may disperse across too many objects before any one becomes meaningful to a community.
+- **Observation:** a dated product hypothesis, with no measured comparison of token designs.
+- **Transfer limit:** compare participation and useful activity per object before concluding that fewer objects are better. This is not advice to launch, buy, or sell a token.
+- **Sources:** S21, 14:45–17:15, tier B; S11 offers an analogous concern about community fragmentation, not an independent experiment.
+
+## C22 — Gas naming: presentation can affect the invitation moment
+
+- **Situation / constraint:** a renamed polling app received fewer invitations under the Crush presentation.
+- **Reported choice:** change the name and icon together to Gas and a dark flame; invitations then increased in his account.
+- **Proposed mechanism:** the identity of the app changes what recommending it communicates between friends.
+- **Observation limit:** neither an isolated name effect nor an isolated icon effect was reported; cohort sizes, comparison period, and persistence were not disclosed.
+- **Transfer limit:** test presentation against qualified invitations and recipient activation. Do not turn his explanation of one audience's behavior into a universal gender rule.
+- **Source:** S01, official video 75:52–76:59, tier B.
+
+## C23 — Politify to Outline: interest and procurement are different evidence
+
+- **Situation / constraint:** a consumer-facing policy tool led to government interest and a licensed-product opportunity.
+- **Observed record:** the 2013 company release reports a successful-bid status pending negotiations. The 2024 interview recounts a canceled contract during a shutdown and a later change of direction discussed with investors.
+- **Inferred mechanism:** consumer attention, buyer interest, procurement completion, delivery, and the founder's willingness to operate the business are distinct requirements.
+- **Observation limit:** these sources do not establish that the same contract was canceled or that government software is inherently unviable.
+- **Transfer limit:** test the actual buyer, contracting dependencies, and delivery economics. Keep a contemporaneous announcement distinct from a retrospective explanation.
+- **Sources:** S23, tier A for a direct company announcement; S01, official video 06:36–09:28, tier B for the reported recollection.
+
+## C24 — Five: a specific earlier product with an unknown outcome
+
+- **Situation / constraint:** the 2015 campus app limited entry to university email addresses and offered semi-anonymous topic rooms.
+- **Observed record:** the university's launch report describes this design and an initial download count.
+- **Inferred mechanism:** campus verification could constrain the initial community while topic rooms organize conversation; the source does not establish whether this produced a useful network.
+- **Missing outcome:** no activation, retention, revenue, eventual closure date, or named lesson was acquired.
+- **Transfer limit:** retrieve this case for chronology and as an example of missing evidence, not as a successful tactic or a verified failed-app diagnosis. Five is not Five Labs.
+- **Source:** S25, tier C for institutional reporting.
+
 ## Cross-case patterns
 
 The strongest repeated structure is conditional rather than absolute:

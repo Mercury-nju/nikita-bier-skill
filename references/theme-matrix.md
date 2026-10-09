@@ -29,5 +29,12 @@ Use this map to find the relevant entry in [sources.md](sources.md). A source ma
 | Referrals plus paid acquisition for utilities | S17, C16 | Partial propagation can complement paid growth; contextual K-factor examples are not universal targets |
 | Quick wins vs foundational platform work | S17, C17 | A participant's account of management choices; preserve horizon and responsibility boundaries |
 | Established growth vs zero-to-one capability | S18, C18 | Incentives and approval overhead are his 2022 explanation, not proof that incumbents cannot innovate |
+| Explicit modeling boundaries | S22, C19 | Excluded secondary effects remain unknown; a fast demonstration does not establish accuracy |
+| Object virality vs originating-app use | S21, C20 | Tokens can circulate through other interfaces; measure app activation and repeat use separately |
+| Token/community fragmentation | S11, S21, C21 | A repeated concern, not independent evidence that concentration improves retention |
+| Names and icons at the invitation moment | S01, C22 | The reported changes were bundled; no isolated name or icon effect |
+| Consumer interest vs institutional procurement | S01, S23, C23 | A successful-bid announcement is not completed procurement or recurring revenue |
+| Specific earlier campus experiment | S25, C24 | Five's design is documented; its outcome and lesson remain unknown |
+| Shipping as repeated user learning | S24, S03, S01 | Preserve feedback and test quality; do not treat shipping speed as the only objective |
 | Qualitative diagnostic dimensions and experiment format | Package-author synthesis | Not a published Nikita rubric or a validated predictor |
 | Retired 12-point scoring model | Package-author addition | Removed; no primary source or calibrated cutoffs |
