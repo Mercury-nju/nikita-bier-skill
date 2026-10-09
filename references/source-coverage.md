@@ -17,6 +17,8 @@ Nikita announced joining X as Head of Product on 2025-06-30 and stepping down on
 
 The local artifact checked had SHA-256 `494f86a0cc127b3dee96539e381b1d9cf9878a351cbd7d49b475fe09c570e0a7`. This identifies the reviewed collection; it is not an authentication of each post. The raw corpus is not shipped or required for installation. The repository provides selected summaries, original URLs, and access notes in [sources.md](sources.md), so readers do not depend on an author's local file paths.
 
+The repository now ships a metadata-only [corpus index](corpus-index.md). This improves auditability without presenting every harvested record as a verified product insight. The manually reconstructed cases and claims are intentionally smaller than the index.
+
 ## How To Weight Evidence
 
 Use a relevant original statement or accessible faithful mirror for attribution. Prefer a fuller explanation when a short post omits conditions. Treat interviews as the speaker's reported experience, product reporting as context, and this package's method as author synthesis.
@@ -41,6 +43,17 @@ The seventeen principle-source entries have uneven review depth:
 This supports selected attributed learning material, not a representative model of the person. The package has not systematically reconstructed failed launches, alternatives considered, changing constraints, or changes in his views. The February 2026 Out of Office interview is partly reviewed through public metadata and an excerpt, but its full content has not been reviewed or distilled. See [pending material](sources.md#located-but-not-yet-distilled).
 
 The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures, not fidelity to Nikita's reasoning, and demonstrates no incremental benefit on that suite. The grouped, single-run design cannot establish equivalence or general effectiveness either.
+
+## Distillation Standard
+
+The package now treats a “complete” public distillation as a chain with four required links:
+
+1. **Corpus:** locate the relevant public material and preserve its URL, date, and access status.
+2. **Case:** reconstruct the situation, constraint, choice, mechanism, observation, and transfer limit.
+3. **Claim:** state the reusable mechanism with its precondition and a way it could be falsified.
+4. **Holdout:** test whether the model can apply the claim to a case that was not used while writing the rule.
+
+The repository currently contains the first three links for the cases in [casebook.md](casebook.md) and the claims in [claim-ledger.md](claim-ledger.md). The fourth link has a protocol but no successful fidelity result yet. This is why the package can be substantially more useful and auditable without claiming to be a complete replica of a living person's private judgment.
 
 Further research should preserve decisions as cases: goal and constraints -> alternatives -> choice and stated rationale -> reported outcome and limitations. Cover multiple products and career stages, including failures and counterexamples. Cross-reference each inferred pattern to its actual passages and distinguish a recurring preference from a context-specific tactic.
 

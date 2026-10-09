@@ -47,7 +47,7 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 
 ## 学习时看什么
 
-先读 [核心原则与例外](references/distilled-principles.md)，再用 [诊断与实验方法](references/heuristics.md) 分析自己的产品。每次选择一个适用原则，写下它的作用机制、可能不适用的条件，以及什么观察会改变你的判断。
+先读 [决策模型](references/decision-model.md)，再从 [案例库](references/casebook.md) 找到两个或三个相似案例，最后用 [核心原则与例外](references/distilled-principles.md) 和 [诊断与实验方法](references/heuristics.md) 分析自己的产品。每次选择一个适用原则，写下它的作用机制、可能不适用的条件，以及什么观察会改变你的判断。不要直接套用一句看起来尖锐的帖子。
 
 例如，较长的注册流程可能拖慢首次体验，也可能通过导入真实关系提高激活。检查完成首次价值的比例和后续使用，再决定哪些步骤值得保留；不能仅凭步骤多就删掉。
 
@@ -64,6 +64,7 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 - [来源清单](references/sources.md) 提供日期、原文链接、支持的观点和核验状态。
 - [主题映射](references/theme-matrix.md) 对应原则与来源，区分公开观点和整理者归纳。
 - [覆盖说明](references/source-coverage.md) 记录语料范围及局限。原始本地集合有 662 个唯一帖子链接，其中 637 条有正文；本轮还直接恢复了 658 个 X 页面公开元数据，但部分只是 @mention 或回复，不能当成 658 条增长知识。
+- [语料索引](references/corpus-index.md) 提供 662 个公开帖子链接和访问元数据；[案例库](references/casebook.md)、[主张账本](references/claim-ledger.md)和[决策模型](references/decision-model.md)把其中一小部分连接成可审计的机制。
 
 诊断流程、定性维度和实验格式是整理者的归纳。旧版 12 分评分表也由整理者加入，缺少校准依据，现已移除。原文中的年龄、时间和数量经验不能直接当作所有产品通用的阈值。
 
@@ -74,6 +75,8 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 当前内容仍缺少对完整访谈、失败案例、不同阶段取舍及观点变化的系统整理。2026 年 2 月的 Lightspeed《Out of Office》访谈已核验官方节目资料和一段公开逐字稿，但完整音频与逐字稿仍未独立精读，列入[待精读来源](references/sources.md#located-but-not-yet-distilled)。补充履历和增加链接并不能自动补齐产品判断的依据。
 
 要进一步提炼他的公开决策方式，需要保留每个案例的目标、约束、候选方案、选择理由及后续结果，并用未参与提炼的真实材料检查是否忠实。[覆盖与验证缺口](references/source-coverage.md#representation-and-evaluation)
+
+本轮新增了[案例库](references/casebook.md)、[主张账本](references/claim-ledger.md)和[决策模型](references/decision-model.md)。它们把“帖子”转换成情境、约束、选择、机制、反例和停止条件；但留出案例的忠实度测试尚未得到成功结果，所以仍不能声称完成了完整人格或思维复制。
 
 ## 怎样判断它有没有帮助
 
@@ -91,7 +94,7 @@ git clone https://github.com/Mercury-nju/nikita-bier-skill.git ~/.codex/skills/n
 
 - `SKILL.md`：触发条件与执行入口。
 - `agents/openai.yaml`：Codex 展示和默认调用提示。
-- `references/`：原则、诊断、表达、来源和行为检查。
+- `references/`：决策模型、案例库、主张账本、原则、诊断、表达、来源和行为检查。
 - `examples/prompts.md`：可直接使用的提问方式。
 
 按 [MIT License](LICENSE) 免费使用和分享。

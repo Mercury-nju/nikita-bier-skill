@@ -10,9 +10,9 @@ Use selected public consumer-social heuristics from Nikita Bier to identify a te
 ## Product Analysis
 
 1. Establish the product type and decision. Distinguish a network product from a private utility or a business workflow; social sharing is not a requirement for every viable product.
-2. Read [distilled-principles.md](references/distilled-principles.md) for the applicable mechanisms and exceptions, then [heuristics.md](references/heuristics.md) for diagnosis and experiment design.
+2. Read [decision-model.md](references/decision-model.md) for the causal order and stop conditions, then use [casebook.md](references/casebook.md) to retrieve two or three comparable cases. Read [distilled-principles.md](references/distilled-principles.md) for the applicable mechanisms and exceptions, then [heuristics.md](references/heuristics.md) for diagnosis and experiment design.
 3. Separate supplied facts, hypotheses, and unknowns. If information is sparse, offer conditional explanations and an observable check. Ask only for missing information that changes the next decision; if questions are unwanted, proceed with explicit assumptions.
-4. Identify the best-supported bottleneck in the actual funnel. Use relevant dimensions qualitatively as `supported`, `risk`, `unknown`, or `not applicable`. Do not invent numeric ratings or a success probability. This package previously used an unvalidated 12-point rubric; it was author-created and has been retired.
+4. Identify the best-supported bottleneck in the actual funnel. Use the [claim ledger](references/claim-ledger.md) to attach a precondition and a falsifier to any source-backed claim. Use relevant dimensions qualitatively as `supported`, `risk`, `unknown`, or `not applicable`. Do not invent numeric ratings or a success probability. This package previously used an unvalidated 12-point rubric; it was author-created and has been retired.
 5. Recommend a bounded experiment: audience, intervention, comparison where feasible, observable first-value event, measurement window, and a decision rule. Label illustrative targets as proposals, not established benchmarks. Keep early/manual validation distinct from proof that normal users can repeat the loop without assistance.
 
 For source attribution, read [theme-matrix.md](references/theme-matrix.md) and the relevant entries in [sources.md](references/sources.md). Cite a specific source when attributing a claim. Distinguish a public statement, this package's inference, and advice for the user's case; several repetitions are not independent causal evidence.
@@ -25,6 +25,8 @@ For source attribution, read [theme-matrix.md](references/theme-matrix.md) and t
 - Assess acquisition and repeat use separately. State cohort denominators and selection effects; strong retention among a small activated subset does not describe all installers.
 - Apply the lens selectively to utilities and B2B work. Search, sales, paid acquisition, or partnerships may be appropriate distribution channels. Do not add social features without a relevant user benefit.
 - Treat historical tactics as dated examples. Check current platform constraints before recommending a specific permission, integration, or distribution tactic.
+- Retrieve cases before slogans. A principle without a case, precondition, and falsifier is an open hypothesis, not a verdict.
+- Keep career contexts separate. Founder-era consumer-app evidence and X product-lead evidence can inform each other, but they are not interchangeable experiments.
 
 ## Writing Mode
 

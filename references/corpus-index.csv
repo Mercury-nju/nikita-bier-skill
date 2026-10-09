@@ -1,0 +1,663 @@
+date,url,local_text_chars,local_text_present,page_metadata_present,metadata_status
+2024-01-15T05:12:54Z,https://x.com/nikitabier/status/1746762358272426387,184,True,True,ok
+2024-01-15T06:45:13Z,https://x.com/nikitabier/status/1746785591755182544,24,True,True,ok
+2024-01-15T20:35:48Z,https://x.com/nikitabier/status/1746994614886891647,31,True,True,ok
+2024-01-16T17:30:42Z,https://x.com/nikitabier/status/1747310421625979005,264,True,True,ok
+2024-01-16T17:32:56Z,https://x.com/nikitabier/status/1747310981355823323,47,True,True,ok
+2024-01-16T17:43:47Z,https://x.com/nikitabier/status/1747313712544026716,141,True,True,ok
+2024-01-16T18:08:24Z,https://x.com/nikitabier/status/1747319906557931812,33,True,True,ok
+2024-01-16T21:35:13Z,https://x.com/nikitabier/status/1747371955542774043,37,True,True,ok
+2024-01-16T22:53:52Z,https://x.com/nikitabier/status/1747391747142115564,25,True,True,ok
+2024-01-16T23:09:50Z,https://x.com/nikitabier/status/1747395768573637000,25,True,True,ok
+2024-01-29 20:27:19,https://x.com/nikitabier/status/1752065909429338524,111,True,True,ok
+2024-01-29 20:45:03,https://x.com/nikitabier/status/1752070372097470532,83,True,True,ok
+2024-01-29 20:50:49,https://x.com/nikitabier/status/1752071822844346455,182,True,True,ok
+2024-01-30 00:23:47,https://x.com/nikitabier/status/1752125420349403526,42,True,True,ok
+2024-01-30 05:15:03,https://x.com/nikitabier/status/1752198719720894807,73,True,True,ok
+2024-01-30 09:05:42,https://x.com/nikitabier/status/1752256763762770265,50,True,True,ok
+2024-01-31 05:56:59,https://x.com/nikitabier/status/1752571658127425736,27,True,True,ok
+2024-01-31 06:33:14,https://x.com/nikitabier/status/1752580781690773555,38,True,True,ok
+2024-01-31 17:35:21,https://x.com/nikitabier/status/1752747407325245924,23,True,True,ok
+2024-01-31 23:53:34,https://x.com/nikitabier/status/1752842588741353587,37,True,True,ok
+2024-02-06 01:33:18,https://x.com/nikitabier/status/1754679627916726754,0,False,True,ok
+2024-02-06 01:34:59,https://x.com/nikitabier/status/1754680050551591285,30,True,True,ok
+2024-02-06 01:40:32,https://x.com/nikitabier/status/1754681448143945793,50,True,True,ok
+2024-02-06 15:55:53,https://x.com/nikitabier/status/1754896706880127185,865,True,True,ok
+2024-02-06 21:23:58,https://x.com/nikitabier/status/1754979270403731661,111,True,True,ok
+2024-02-07 14:49:47,https://x.com/nikitabier/status/1755242457300681102,135,True,True,ok
+2024-02-07 17:05:45,https://x.com/nikitabier/status/1755276673187029026,57,True,True,ok
+2024-02-08 21:16:48,https://x.com/nikitabier/status/1755702241489494480,0,False,True,ok
+2024-02-08 22:01:55,https://x.com/nikitabier/status/1755713594535137687,16,True,True,ok
+2024-02-08 22:19:27,https://x.com/nikitabier/status/1755718007072891030,48,True,True,ok
+2024-02-13T05:43:21Z,https://x.com/nikitabier/status/1757279270362103988,54,True,True,ok
+2024-02-13T06:07:24Z,https://x.com/nikitabier/status/1757285323229303050,331,True,True,ok
+2024-02-13T06:09:20Z,https://x.com/nikitabier/status/1757285810779365708,8,True,True,ok
+2024-02-13T06:40:02Z,https://x.com/nikitabier/status/1757293534745346364,98,True,True,ok
+2024-02-13T16:07:23Z,https://x.com/nikitabier/status/1757436313622479138,625,True,True,ok
+2024-02-13T16:13:31Z,https://x.com/nikitabier/status/1757437856304246831,142,True,True,ok
+2024-02-14T01:59:33Z,https://x.com/nikitabier/status/1757585337491095726,60,True,True,ok
+2024-02-14T02:22:55Z,https://x.com/nikitabier/status/1757591217255207383,125,True,True,ok
+2024-02-14T02:31:56Z,https://x.com/nikitabier/status/1757593485610291444,67,True,True,ok
+2024-02-14T02:39:32Z,https://x.com/nikitabier/status/1757595398535815474,63,True,True,ok
+2024-02-14T02:52:37Z,https://x.com/nikitabier/status/1757598693371330816,251,True,True,ok
+2024-02-14T14:35:30Z,https://x.com/nikitabier/status/1757775579116380536,27,True,True,ok
+2024-02-14T14:43:59Z,https://x.com/nikitabier/status/1757777712150663621,51,True,True,ok
+2024-02-15T01:09:01Z,https://x.com/nikitabier/status/1757935009233535082,154,True,True,ok
+2024-02-15T02:35:18Z,https://x.com/nikitabier/status/1757956721975164999,45,True,True,ok
+2024-02-15T02:43:55Z,https://x.com/nikitabier/status/1757958890526797894,66,True,True,ok
+2024-02-15T14:44:43Z,https://x.com/nikitabier/status/1758140284985041141,33,True,True,ok
+2024-02-15T15:21:04Z,https://x.com/nikitabier/status/1758149433902993593,152,True,True,ok
+2024-02-15T19:56:22Z,https://x.com/nikitabier/status/1758218715072463341,81,True,True,ok
+2024-02-15T19:57:16Z,https://x.com/nikitabier/status/1758218943632642425,63,True,True,ok
+2024-02-27T15:46:55Z,https://x.com/nikitabier/status/1762504593668280665,100,True,True,ok
+2024-02-28T02:04:33Z,https://x.com/nikitabier/status/1762660024873021908,30,True,False,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+2024-02-28T02:20:46Z,https://x.com/nikitabier/status/1762664108506161358,20,True,True,ok
+2024-02-28T04:17:22Z,https://x.com/nikitabier/status/1762693451286466974,82,True,True,ok
+2024-02-28T14:20:16Z,https://x.com/nikitabier/status/1762845173770224034,216,True,True,ok
+2024-02-28T22:23:46Z,https://x.com/nikitabier/status/1762966853599564017,21,True,True,ok
+2024-02-29T17:12:36Z,https://x.com/nikitabier/status/1763250931011813663,39,True,True,ok
+2024-02-29T17:14:39Z,https://x.com/nikitabier/status/1763251446487609467,0,False,True,ok
+2024-02-29T17:22:39Z,https://x.com/nikitabier/status/1763253462043656568,24,True,True,ok
+2024-03-07 15:42:05,https://x.com/nikitabier/status/1765764869821776313,0,False,True,ok
+2024-03-07 15:57:54,https://x.com/nikitabier/status/1765768850266603564,153,True,True,ok
+2024-03-08 15:27:36,https://x.com/nikitabier/status/1766123610563829775,102,True,True,ok
+2024-03-08 15:32:09,https://x.com/nikitabier/status/1766124757806649518,85,True,True,ok
+2024-03-08 20:06:02,https://x.com/nikitabier/status/1766193682368127372,158,True,True,ok
+2024-03-08 20:36:44,https://x.com/nikitabier/status/1766201406699061737,13,True,True,ok
+2024-03-08 20:44:11,https://x.com/nikitabier/status/1766203281401893207,147,True,True,ok
+2024-03-08 22:12:55,https://x.com/nikitabier/status/1766225612845297852,26,True,True,ok
+2024-03-08 22:49:23,https://x.com/nikitabier/status/1766234789869129878,103,True,True,ok
+2024-03-08 23:25:56,https://x.com/nikitabier/status/1766243988124651672,129,True,True,ok
+2024-03-15T20:32:34Z,https://x.com/nikitabier/status/1768737074784452797,58,True,True,ok
+2024-03-15T21:59:11Z,https://x.com/nikitabier/status/1768758870812315969,70,True,True,ok
+2024-03-16T14:52:27Z,https://x.com/nikitabier/status/1769013866061553977,42,True,True,ok
+2024-03-16T15:24:46Z,https://x.com/nikitabier/status/1769021999081275820,206,True,True,ok
+2024-03-16T18:17:48Z,https://x.com/nikitabier/status/1769065545746305271,144,True,True,ok
+2024-03-16T18:18:04Z,https://x.com/nikitabier/status/1769065614113468584,3,True,True,ok
+2024-03-16T18:19:56Z,https://x.com/nikitabier/status/1769066084882141443,54,True,True,ok
+2024-03-16T19:28:15Z,https://x.com/nikitabier/status/1769083276025634942,22,True,True,ok
+2024-03-16T20:11:19Z,https://x.com/nikitabier/status/1769094113394130992,1,True,True,ok
+2024-03-22T21:55:50Z,https://x.com/nikitabier/status/1771294744846520480,43,True,True,ok
+2024-03-23T13:37:37Z,https://x.com/nikitabier/status/1771531750356795725,8,True,True,ok
+2024-03-23T14:11:38Z,https://x.com/nikitabier/status/1771540310360768563,26,True,True,ok
+2024-03-23T16:42:14Z,https://x.com/nikitabier/status/1771578210473386150,161,True,True,ok
+2024-03-23T20:09:41Z,https://x.com/nikitabier/status/1771630418552344754,121,True,True,ok
+2024-03-23T20:35:11Z,https://x.com/nikitabier/status/1771636836496019518,65,True,True,ok
+2024-03-23T21:38:21Z,https://x.com/nikitabier/status/1771652733189103700,42,True,True,ok
+2024-03-24T14:56:18Z,https://x.com/nikitabier/status/1771913939028193648,29,True,True,ok
+2024-03-24T18:39:20Z,https://x.com/nikitabier/status/1771970067988713975,62,True,True,ok
+2024-03-24T21:26:43Z,https://x.com/nikitabier/status/1772012191379554452,266,True,True,ok
+2024-03-24T21:26:44Z,https://x.com/nikitabier/status/1772012194009374762,231,True,True,ok
+2024-03-24T21:44:39Z,https://x.com/nikitabier/status/1772016704534594029,0,False,True,ok
+2024-03-24T21:49:28Z,https://x.com/nikitabier/status/1772017917355339987,124,True,True,ok
+2024-03-24T21:58:16Z,https://x.com/nikitabier/status/1772020129221542308,44,True,True,ok
+2024-03-24T22:05:40Z,https://x.com/nikitabier/status/1772021992721358873,46,True,True,ok
+2024-03-24T22:07:37Z,https://x.com/nikitabier/status/1772022482515464321,24,True,True,ok
+2024-03-24T22:19:02Z,https://x.com/nikitabier/status/1772025356687393274,0,False,True,ok
+2024-03-24T22:21:59Z,https://x.com/nikitabier/status/1772026101163811141,32,True,True,ok
+2024-03-24T22:52:43Z,https://x.com/nikitabier/status/1772033832478216269,34,True,True,ok
+2024-03-24T23:57:59Z,https://x.com/nikitabier/status/1772050259713138923,25,True,True,ok
+2024-03-31T20:01:47,https://x.com/nikitabier/status/1774527530352980175,36,True,True,ok
+2024-03-31T20:10:27,https://x.com/nikitabier/status/1774529713966350365,20,True,True,ok
+2024-03-31T21:26:23,https://x.com/nikitabier/status/1774548824507187654,40,True,True,ok
+2024-04-01T01:09:46,https://x.com/nikitabier/status/1774605038192595345,12,True,True,ok
+2024-04-01T13:46:42,https://x.com/nikitabier/status/1774795525939712119,0,False,True,ok
+2024-04-01T14:06:41,https://x.com/nikitabier/status/1774800554771845389,60,True,True,ok
+2024-04-01T14:08:21,https://x.com/nikitabier/status/1774800973917037039,53,True,True,ok
+2024-04-01T16:34:13,https://x.com/nikitabier/status/1774837684516639014,30,True,False,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+2024-04-01T16:39:04,https://x.com/nikitabier/status/1774838902991311292,21,True,True,ok
+2024-04-01T16:48:00,https://x.com/nikitabier/status/1774841153646391493,61,True,True,ok
+2024-04-23T07:43:10Z,https://x.com/nikitabier/status/1782676573860303102,12,True,True,ok
+2024-04-23T16:54:52Z,https://x.com/nikitabier/status/1782815413514170851,3,True,True,ok
+2024-04-23T19:22:33Z,https://x.com/nikitabier/status/1782852581154562144,80,True,True,ok
+2024-04-23T19:28:18Z,https://x.com/nikitabier/status/1782854028109705512,62,True,True,ok
+2024-04-25T18:21:42Z,https://x.com/nikitabier/status/1783562042311602631,50,True,True,ok
+2024-04-25T23:35:01Z,https://x.com/nikitabier/status/1783640889471963439,51,True,True,ok
+2024-04-28T18:49:21Z,https://x.com/nikitabier/status/1784656165663920323,236,True,True,ok
+2024-04-29T01:53:49Z,https://x.com/nikitabier/status/1784762984075784231,171,True,True,ok
+2024-04-29T19:48:36Z,https://x.com/nikitabier/status/1785033463919411652,34,True,True,ok
+2024-04-30T20:10:32Z,https://x.com/nikitabier/status/1785401369375228376,188,True,True,ok
+2024-05-28T04:56:04Z,https://x.com/nikitabier/status/1795318098377257036,103,True,True,ok
+2024-05-28T05:26:59Z,https://x.com/nikitabier/status/1795325876042945007,85,True,True,ok
+2024-05-28T05:31:53Z,https://x.com/nikitabier/status/1795327110875353237,105,True,True,ok
+2024-05-28T08:28:44Z,https://x.com/nikitabier/status/1795371615590694962,70,True,True,ok
+2024-05-28T09:27:25Z,https://x.com/nikitabier/status/1795386385878389233,29,True,True,ok
+2024-05-28T11:02:05Z,https://x.com/nikitabier/status/1795410209634193668,20,True,True,ok
+2024-05-29T22:13:19Z,https://x.com/nikitabier/status/1795941518898790657,73,True,True,ok
+2024-05-30T01:40:15Z,https://x.com/nikitabier/status/1795993595121660068,47,True,True,ok
+2024-05-31T03:55:30Z,https://x.com/nikitabier/status/1796390019772682398,15,True,True,ok
+2024-05-31T16:19:24Z,https://x.com/nikitabier/status/1796577226093457643,141,True,True,ok
+2024-06-15 20:50:35,https://x.com/nikitabier/status/1802081289799192811,36,True,True,ok
+2024-06-16 03:39:10,https://x.com/nikitabier/status/1802184116089299450,581,True,True,ok
+2024-06-16 03:47:26,https://x.com/nikitabier/status/1802186193964314756,276,True,True,ok
+2024-06-16 03:50:16,https://x.com/nikitabier/status/1802186906975043890,66,True,True,ok
+2024-06-16 03:56:52,https://x.com/nikitabier/status/1802188570243023116,146,True,True,ok
+2024-06-16 03:59:11,https://x.com/nikitabier/status/1802189152366088700,0,False,True,ok
+2024-06-16 04:17:31,https://x.com/nikitabier/status/1802193763890294806,23,True,True,ok
+2024-06-16 15:14:32,https://x.com/nikitabier/status/1802359108122861588,2,True,True,ok
+2024-06-16 15:54:03,https://x.com/nikitabier/status/1802369052163408276,120,True,True,ok
+2024-06-16 20:42:34,https://x.com/nikitabier/status/1802441661378961421,37,True,True,ok
+2024-06-28T01:32:22Z,https://x.com/nikitabier/status/1806500858928263311,124,True,True,ok
+2024-06-28T01:53:12Z,https://x.com/nikitabier/status/1806506101883752666,37,True,True,ok
+2024-06-28T03:45:53Z,https://x.com/nikitabier/status/1806534458524484063,52,True,True,ok
+2024-06-28T17:46:04Z,https://x.com/nikitabier/status/1806745898816516397,45,True,True,ok
+2024-06-29T01:18:23Z,https://x.com/nikitabier/status/1806859728297107619,11,True,True,ok
+2024-06-29T02:09:17Z,https://x.com/nikitabier/status/1806872536766173313,38,True,True,ok
+2024-06-29T08:03:30Z,https://x.com/nikitabier/status/1806961678116081877,212,True,True,ok
+2024-06-29T21:10:55Z,https://x.com/nikitabier/status/1807159839279522096,28,True,True,ok
+2024-06-30T17:56:08Z,https://x.com/nikitabier/status/1807473209027252416,130,True,True,ok
+2024-06-30T22:48:28Z,https://x.com/nikitabier/status/1807546773961146675,95,True,True,ok
+2024-07-10T13:27:06Z,https://x.com/nikitabier/status/1811029379637784855,15,True,True,ok
+2024-07-10T18:28:18Z,https://x.com/nikitabier/status/1811105182736077156,37,True,True,ok
+2024-07-11T04:25:13Z,https://x.com/nikitabier/status/1811255400466931814,11,True,True,ok
+2024-07-11T14:38:47Z,https://x.com/nikitabier/status/1811409809121620049,47,True,True,ok
+2024-07-11T14:39:01Z,https://x.com/nikitabier/status/1811409866738778120,15,True,True,ok
+2024-07-13T16:18:40Z,https://x.com/nikitabier/status/1812159722394714315,454,True,True,ok
+2024-07-15T04:08:26Z,https://x.com/nikitabier/status/1812700728236167340,69,True,True,ok
+2024-07-16T01:08:45Z,https://x.com/nikitabier/status/1813017897322881250,74,True,True,ok
+2024-07-16T03:20:27Z,https://x.com/nikitabier/status/1813051040495010254,71,True,True,ok
+2024-07-16T03:44:34Z,https://x.com/nikitabier/status/1813057108713349310,93,True,True,ok
+2024-07-21 17:38:32,https://x.com/nikitabier/status/1815078925061812692,109,True,True,ok
+2024-07-21 18:38:37,https://x.com/nikitabier/status/1815094042478391528,233,True,True,ok
+2024-07-21 21:02:44,https://x.com/nikitabier/status/1815130311963168831,980,True,True,ok
+2024-07-21 21:29:13,https://x.com/nikitabier/status/1815136976615747681,11,True,True,ok
+2024-07-22 03:02:27,https://x.com/nikitabier/status/1815220836133175342,10,True,True,ok
+2024-07-23 14:32:34,https://x.com/nikitabier/status/1815756898676932709,10,True,True,ok
+2024-07-24 03:43:03,https://x.com/nikitabier/status/1815955831650935003,18,True,True,ok
+2024-07-24 16:38:58,https://x.com/nikitabier/status/1816151097922445709,140,True,True,ok
+2024-07-24 22:29:00,https://x.com/nikitabier/status/1816239186829353426,334,True,True,ok
+2024-07-28T04:49:28Z,https://x.com/nikitabier/status/1817422096546553930,185,True,True,ok
+2024-07-28T22:59:20Z,https://x.com/nikitabier/status/1817696372306645105,129,True,True,ok
+2024-07-29T01:16:36Z,https://x.com/nikitabier/status/1817730914002366796,22,True,True,ok
+2024-07-29T01:28:03Z,https://x.com/nikitabier/status/1817733798144176286,2,True,True,ok
+2024-07-30T05:27:48Z,https://x.com/nikitabier/status/1818156519487357257,59,True,True,ok
+2024-07-30T06:32:44Z,https://x.com/nikitabier/status/1818172860814540948,3,True,True,ok
+2024-07-30T06:34:05Z,https://x.com/nikitabier/status/1818173198531514480,30,True,True,ok
+2024-07-30T14:57:02Z,https://x.com/nikitabier/status/1818299769363775574,161,True,True,ok
+2024-07-30T23:55:09Z,https://x.com/nikitabier/status/1818435194330005974,165,True,True,ok
+2024-07-31T01:12:47Z,https://x.com/nikitabier/status/1818454728860172333,13,True,True,ok
+2024-07-31T03:18:23Z,https://x.com/nikitabier/status/1818486339618373860,6,True,True,ok
+2024-07-31T04:24:08Z,https://x.com/nikitabier/status/1818502885472145869,32,True,True,ok
+2024-07-31T04:45:54Z,https://x.com/nikitabier/status/1818508362516238777,172,True,True,ok
+2024-07-31T14:42:56Z,https://x.com/nikitabier/status/1818658612161789964,61,True,True,ok
+2024-08-01T01:01:55Z,https://x.com/nikitabier/status/1818814382878736442,23,True,True,ok
+2024-08-01T02:45:11Z,https://x.com/nikitabier/status/1818840370417217990,36,True,True,ok
+2024-08-01T05:06:51Z,https://x.com/nikitabier/status/1818876024060624905,34,True,True,ok
+2024-08-01T06:06:49Z,https://x.com/nikitabier/status/1818891112209371471,23,True,True,ok
+2024-08-01T06:26:22Z,https://x.com/nikitabier/status/1818896032685867031,111,True,True,ok
+2024-08-01T06:32:22Z,https://x.com/nikitabier/status/1818897544581464347,2,True,True,ok
+2024-08-16T01:08:33Z,https://x.com/nikitabier/status/1824251869264482552,224,True,True,ok
+2024-08-16T01:44:40Z,https://x.com/nikitabier/status/1824260959642456084,2,True,True,ok
+2024-08-16T02:16:52Z,https://x.com/nikitabier/status/1824269062190535077,166,True,True,ok
+2024-08-16T02:20:18Z,https://x.com/nikitabier/status/1824269927382966523,11,True,True,ok
+2024-08-16T02:33:24Z,https://x.com/nikitabier/status/1824273223225315481,284,True,True,ok
+2024-08-16T02:46:37Z,https://x.com/nikitabier/status/1824276549086089303,7,True,True,ok
+2024-08-16T17:01:01Z,https://x.com/nikitabier/status/1824491565622104552,1506,True,True,ok
+2024-08-16T17:14:13Z,https://x.com/nikitabier/status/1824494888119123986,57,True,True,ok
+2024-08-16T17:30:45Z,https://x.com/nikitabier/status/1824499047207670057,1,True,True,ok
+2024-08-16T18:45:01Z,https://x.com/nikitabier/status/1824517737437335635,141,True,True,ok
+2024-08-28T17:52:58Z,https://x.com/nikitabier/status/1828853295630496248,148,True,True,ok
+2024-08-28T17:55:16Z,https://x.com/nikitabier/status/1828853874683486428,134,True,True,ok
+2024-08-29T19:35:14Z,https://x.com/nikitabier/status/1829241420634259893,26,True,True,ok
+2024-08-29T19:42:06Z,https://x.com/nikitabier/status/1829243147085377563,70,True,True,ok
+2024-08-30T03:59:33Z,https://x.com/nikitabier/status/1829368334284214717,25,True,True,ok
+2024-08-30T14:57:49Z,https://x.com/nikitabier/status/1829533990342336519,48,True,True,ok
+2024-08-30T18:24:13Z,https://x.com/nikitabier/status/1829585935979380750,539,True,True,ok
+2024-08-30T22:01:25Z,https://x.com/nikitabier/status/1829640594475663570,29,True,True,ok
+2024-08-30T23:08:31Z,https://x.com/nikitabier/status/1829657481469104503,118,True,True,ok
+2024-08-31T17:49:34Z,https://x.com/nikitabier/status/1829939603727663392,102,True,True,ok
+2024-09-27T05:13:07Z,https://x.com/nikitabier/status/1839533709231337977,158,True,True,ok
+2024-09-27T05:28:22Z,https://x.com/nikitabier/status/1839537547015262589,8,True,True,ok
+2024-09-27T05:53:51Z,https://x.com/nikitabier/status/1839543958717841648,75,True,True,ok
+2024-09-27T16:06:53Z,https://x.com/nikitabier/status/1839698235004166359,77,True,True,ok
+2024-09-27T16:24:17Z,https://x.com/nikitabier/status/1839702611903000941,38,True,True,ok
+2024-09-27T16:28:09Z,https://x.com/nikitabier/status/1839703586407629166,42,True,True,ok
+2024-09-28T17:52:12Z,https://x.com/nikitabier/status/1840087125728854472,9,True,True,ok
+2024-09-29T00:26:46Z,https://x.com/nikitabier/status/1840186419429683555,17,True,True,ok
+2024-09-30T14:55:12Z,https://x.com/nikitabier/status/1840767358727589915,69,True,True,ok
+2024-09-30T20:41:07Z,https://x.com/nikitabier/status/1840854411322802469,0,False,True,ok
+2024-10-07 02:58:56,https://x.com/nikitabier/status/1843123819000856738,9,True,True,ok
+2024-10-07 03:22:26,https://x.com/nikitabier/status/1843129730264129908,7,True,True,ok
+2024-10-07 03:23:59,https://x.com/nikitabier/status/1843130124201521267,88,True,True,ok
+2024-10-08 03:15:34,https://x.com/nikitabier/status/1843490391427035350,118,True,True,ok
+2024-10-08 03:52:28,https://x.com/nikitabier/status/1843499677561278789,25,True,True,ok
+2024-10-08 03:54:36,https://x.com/nikitabier/status/1843500214038212999,27,True,True,ok
+2024-10-08 03:57:22,https://x.com/nikitabier/status/1843500909948743809,30,True,True,ok
+2024-10-08 04:34:48,https://x.com/nikitabier/status/1843510331047289314,11,True,True,ok
+2024-10-08 05:58:51,https://x.com/nikitabier/status/1843531483082010927,55,True,True,ok
+2024-10-08 16:55:06,https://x.com/nikitabier/status/1843696635622371715,62,True,True,ok
+2024-10-13T17:53:00Z,https://x.com/nikitabier/status/1845523145148584070,72,True,True,ok
+2024-10-14T15:05:08Z,https://x.com/nikitabier/status/1845843289435464107,56,True,True,ok
+2024-10-15T05:12:06Z,https://x.com/nikitabier/status/1846056432929583317,94,True,True,ok
+2024-10-15T14:47:44Z,https://x.com/nikitabier/status/1846201296887435297,130,True,True,ok
+2024-10-15T14:48:44Z,https://x.com/nikitabier/status/1846201549766131871,67,True,True,ok
+2024-10-15T15:33:53Z,https://x.com/nikitabier/status/1846212908646387860,95,True,True,ok
+2024-10-16T16:03:46Z,https://x.com/nikitabier/status/1846582818459259167,306,True,True,ok
+2024-10-16T18:40:58Z,https://x.com/nikitabier/status/1846622378631078389,29,True,True,ok
+2024-10-16T20:43:34Z,https://x.com/nikitabier/status/1846653232808185920,6,True,True,ok
+2024-10-16T22:55:52Z,https://x.com/nikitabier/status/1846686526903820379,4,True,True,ok
+2024-10-31 01:03:12,https://x.com/nikitabier/status/1851791999978082814,46,True,True,ok
+2024-10-31 01:09:51,https://x.com/nikitabier/status/1851793677078639072,142,True,True,ok
+2024-10-31 01:14:43,https://x.com/nikitabier/status/1851794899974107445,76,True,True,ok
+2024-10-31 01:19:35,https://x.com/nikitabier/status/1851796123926532368,14,True,True,ok
+2024-10-31 01:24:25,https://x.com/nikitabier/status/1851797342283788476,23,True,True,ok
+2024-10-31 02:29:27,https://x.com/nikitabier/status/1851813708462170535,81,True,True,ok
+2024-10-31 02:43:58,https://x.com/nikitabier/status/1851817361810063594,67,True,True,ok
+2024-10-31 02:54:58,https://x.com/nikitabier/status/1851820127068487724,222,True,True,ok
+2024-10-31 03:06:05,https://x.com/nikitabier/status/1851822926661550285,2,True,True,ok
+2024-10-31 14:19:15,https://x.com/nikitabier/status/1851992333744537680,21,True,True,ok
+2024-11-16T17:39:44Z,https://x.com/nikitabier/status/1857840991631184095,40,True,True,ok
+2024-11-16T19:13:34Z,https://x.com/nikitabier/status/1857864606305206555,55,True,True,ok
+2024-11-16T19:15:21Z,https://x.com/nikitabier/status/1857865055041122487,84,True,True,ok
+2024-11-16T19:28:07Z,https://x.com/nikitabier/status/1857868266938757464,2,True,True,ok
+2024-11-16T21:20:01Z,https://x.com/nikitabier/status/1857896428317630893,750,True,True,ok
+2024-11-16T21:29:20Z,https://x.com/nikitabier/status/1857898772438856150,61,True,True,ok
+2024-11-16T21:47:14Z,https://x.com/nikitabier/status/1857903280539709913,43,True,True,ok
+2024-11-16T23:22:30Z,https://x.com/nikitabier/status/1857927254250254573,35,True,True,ok
+2024-11-19T03:14:04Z,https://x.com/nikitabier/status/1858710306135953511,338,True,True,ok
+2024-11-19T03:22:20Z,https://x.com/nikitabier/status/1858712386040914302,362,True,True,ok
+2024-11-19T03:25:39Z,https://x.com/nikitabier/status/1858713219973484577,0,False,True,ok
+2024-11-19T03:33:39Z,https://x.com/nikitabier/status/1858715235026079835,214,True,True,ok
+2024-11-19T16:35:37Z,https://x.com/nikitabier/status/1858912022509044060,56,True,True,ok
+2024-11-19T16:46:12Z,https://x.com/nikitabier/status/1858914685774344370,13,True,True,ok
+2024-11-19T17:48:29Z,https://x.com/nikitabier/status/1858930356990173269,33,True,True,ok
+2024-11-20T05:13:13Z,https://x.com/nikitabier/status/1859102677545656603,41,True,True,ok
+2024-11-20T05:24:02Z,https://x.com/nikitabier/status/1859105398499717447,112,True,True,ok
+2024-11-20T18:52:11Z,https://x.com/nikitabier/status/1859308776526069949,23,True,True,ok
+2024-11-21T02:27:03Z,https://x.com/nikitabier/status/1859423246858281443,15,True,True,ok
+2024-11-21T03:58:42Z,https://x.com/nikitabier/status/1859446312137101746,58,True,True,ok
+2024-11-21T07:17:59Z,https://x.com/nikitabier/status/1859496465665577372,37,True,True,ok
+2024-11-21T16:06:59Z,https://x.com/nikitabier/status/1859629593126216123,53,True,True,ok
+2024-11-22T17:28:41Z,https://x.com/nikitabier/status/1860012539092041812,363,True,True,ok
+2024-11-22T18:43:58Z,https://x.com/nikitabier/status/1860031487137185941,43,True,True,ok
+2024-11-23T20:06:58Z,https://x.com/nikitabier/status/1860414759000047930,93,True,True,ok
+2024-11-23T21:18:24Z,https://x.com/nikitabier/status/1860432738030858696,23,True,True,ok
+2024-11-23T23:39:15Z,https://x.com/nikitabier/status/1860468184140116439,29,True,True,ok
+2024-11-29 06:10:16,https://x.com/nikitabier/status/1862378526181064739,5,True,True,ok
+2024-11-29 16:44:28,https://x.com/nikitabier/status/1862538125743989141,12,True,True,ok
+2024-11-30 00:57:22,https://x.com/nikitabier/status/1862662167754928335,57,True,True,ok
+2024-11-30 06:22:55,https://x.com/nikitabier/status/1862744095178772902,77,True,True,ok
+2024-11-30 17:58:39,https://x.com/nikitabier/status/1862919185501683773,155,True,True,ok
+2024-11-30 18:07:20,https://x.com/nikitabier/status/1862921369568055683,72,True,True,ok
+2024-11-30 22:56:26,https://x.com/nikitabier/status/1862994123080483111,216,True,True,ok
+2024-12-01 03:31:12,https://x.com/nikitabier/status/1863063272410485115,299,True,True,ok
+2024-12-01 19:09:35,https://x.com/nikitabier/status/1863299424425755070,16,True,True,ok
+2024-12-01 20:46:21,https://x.com/nikitabier/status/1863323776223498713,11,True,True,ok
+2024-12-05T07:08:09Z,https://x.com/nikitabier/status/1864567420729413717,23,True,True,ok
+2024-12-05T23:00:26Z,https://x.com/nikitabier/status/1864807071062884740,22,True,True,ok
+2024-12-06T01:43:10Z,https://x.com/nikitabier/status/1864848023878062314,11,True,True,ok
+2024-12-07T03:59:03Z,https://x.com/nikitabier/status/1865244605685600757,158,True,True,ok
+2024-12-07T04:01:57Z,https://x.com/nikitabier/status/1865245334873723185,62,True,True,ok
+2024-12-07T04:04:04Z,https://x.com/nikitabier/status/1865245870448611578,16,True,True,ok
+2024-12-07T05:05:51Z,https://x.com/nikitabier/status/1865261418360246734,184,True,True,ok
+2024-12-07T05:58:16Z,https://x.com/nikitabier/status/1865274607038525541,13,True,True,ok
+2024-12-07T06:00:26Z,https://x.com/nikitabier/status/1865275153950679548,6,True,True,ok
+2024-12-07T17:56:01Z,https://x.com/nikitabier/status/1865455237512724704,22,True,True,ok
+2024-12-07T18:29:25Z,https://x.com/nikitabier/status/1865463641606136004,75,True,True,ok
+2024-12-07T23:37:14Z,https://x.com/nikitabier/status/1865541108199235792,17,True,True,ok
+2024-12-08T00:20:13Z,https://x.com/nikitabier/status/1865551923593503178,38,True,True,ok
+2024-12-08T01:18:02Z,https://x.com/nikitabier/status/1865566475140083972,115,True,True,ok
+2024-12-08T01:41:17Z,https://x.com/nikitabier/status/1865572324965319092,29,True,True,ok
+2024-12-08T18:15:47Z,https://x.com/nikitabier/status/1865822596761010203,89,True,True,ok
+2024-12-08T18:18:10Z,https://x.com/nikitabier/status/1865823199943885204,93,True,True,ok
+2024-12-08T20:43:33Z,https://x.com/nikitabier/status/1865859786824167424,170,True,True,ok
+2024-12-08T20:55:32Z,https://x.com/nikitabier/status/1865862801119703062,65,True,True,ok
+2024-12-08T21:27:10Z,https://x.com/nikitabier/status/1865870763380908121,157,True,True,ok
+2024-12-15T03:55:22Z,https://x.com/nikitabier/status/1868142782742937619,113,True,True,ok
+2024-12-15T17:50:40Z,https://x.com/nikitabier/status/1868352992170385721,94,True,True,ok
+2024-12-15T22:52:58Z,https://x.com/nikitabier/status/1868429071140684175,504,True,True,ok
+2024-12-15T23:09:18Z,https://x.com/nikitabier/status/1868433177788002724,72,True,True,ok
+2024-12-16T04:04:48Z,https://x.com/nikitabier/status/1868507544723067178,57,True,True,ok
+2024-12-16T06:19:50Z,https://x.com/nikitabier/status/1868541526009430332,37,True,True,ok
+2024-12-16T17:53:55Z,https://x.com/nikitabier/status/1868716198990430630,153,True,True,ok
+2024-12-16T18:00:44Z,https://x.com/nikitabier/status/1868717912233853125,22,True,True,ok
+2024-12-16T18:19:14Z,https://x.com/nikitabier/status/1868722569765175481,21,True,True,ok
+2024-12-16T18:31:55Z,https://x.com/nikitabier/status/1868725760552583184,16,True,True,ok
+2024-12-21T05:21:46Z,https://x.com/nikitabier/status/1870338853816406284,0,False,True,ok
+2024-12-21T15:30:31Z,https://x.com/nikitabier/status/1870492049440485738,61,True,True,ok
+2024-12-21T15:40:45Z,https://x.com/nikitabier/status/1870494626483970190,128,True,True,ok
+2024-12-21T17:33:02Z,https://x.com/nikitabier/status/1870522882050101431,59,True,True,ok
+2024-12-21T18:37:37Z,https://x.com/nikitabier/status/1870539136329015719,38,True,True,ok
+2024-12-21T19:25:54Z,https://x.com/nikitabier/status/1870551288465002723,65,True,True,ok
+2024-12-21T19:30:55Z,https://x.com/nikitabier/status/1870552549700280517,15,True,True,ok
+2024-12-21T19:37:46Z,https://x.com/nikitabier/status/1870554270724153690,22,True,True,ok
+2024-12-21T19:40:47Z,https://x.com/nikitabier/status/1870555033487712622,57,True,True,ok
+2024-12-21T19:44:38Z,https://x.com/nikitabier/status/1870556002573328870,56,True,True,ok
+2024-12-22T01:29:37Z,https://x.com/nikitabier/status/1870642819481706611,580,True,True,ok
+2024-12-22T08:38:17Z,https://x.com/nikitabier/status/1870750697421254716,123,True,True,ok
+2024-12-22T23:17:29Z,https://x.com/nikitabier/status/1870971952757899680,28,True,True,ok
+2024-12-23T00:50:41Z,https://x.com/nikitabier/status/1870995410116055219,23,True,True,ok
+2024-12-23T02:17:11Z,https://x.com/nikitabier/status/1871017177035280645,194,True,True,ok
+2024-12-23T02:38:07Z,https://x.com/nikitabier/status/1871022446779695263,20,True,True,ok
+2024-12-24T14:33:20Z,https://x.com/nikitabier/status/1871564822606946392,218,True,True,ok
+2024-12-24T17:34:47Z,https://x.com/nikitabier/status/1871610488628686980,45,True,True,ok
+2024-12-24T19:29:54Z,https://x.com/nikitabier/status/1871639456891252949,106,True,True,ok
+2024-12-24T21:04:47Z,https://x.com/nikitabier/status/1871663336196317646,0,False,True,ok
+2024-12-28 06:26:04,https://x.com/nikitabier/status/1872891748797808786,46,True,True,ok
+2024-12-28 17:04:08,https://x.com/nikitabier/status/1873052323179839741,16,True,True,ok
+2024-12-28 17:16:30,https://x.com/nikitabier/status/1873055435374379183,172,True,True,ok
+2024-12-28 17:19:22,https://x.com/nikitabier/status/1873056160313684317,63,True,True,ok
+2024-12-28 17:55:02,https://x.com/nikitabier/status/1873065132621971504,27,True,True,ok
+2024-12-28 18:36:19,https://x.com/nikitabier/status/1873075522886160471,35,True,True,ok
+2024-12-28 19:35:41,https://x.com/nikitabier/status/1873090463387001062,45,True,True,ok
+2024-12-28 19:49:28,https://x.com/nikitabier/status/1873093932353212596,253,True,True,ok
+2024-12-28 20:09:28,https://x.com/nikitabier/status/1873098966763782443,16,True,True,ok
+2024-12-28 22:55:01,https://x.com/nikitabier/status/1873140627426460047,80,True,True,ok
+2024-12-29 05:27:44,https://x.com/nikitabier/status/1873239458856014139,51,True,True,ok
+2024-12-29 22:37:36,https://x.com/nikitabier/status/1873498633536167953,312,True,True,ok
+2024-12-29 22:51:58,https://x.com/nikitabier/status/1873502248552329265,14,True,True,ok
+2024-12-30 18:32:47,https://x.com/nikitabier/status/1873799410234404895,82,True,False,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+2024-12-31 00:45:42,https://x.com/nikitabier/status/1873893257954156701,202,True,True,ok
+2024-12-31 04:26:11,https://x.com/nikitabier/status/1873948743755874644,78,True,True,ok
+2024-12-31 04:29:14,https://x.com/nikitabier/status/1873949512521441569,61,True,True,ok
+2024-12-31 08:43:18,https://x.com/nikitabier/status/1874013451087208724,280,True,True,ok
+2024-12-31 08:44:48,https://x.com/nikitabier/status/1874013825093275834,114,True,True,ok
+2024-12-31 08:48:40,https://x.com/nikitabier/status/1874014802043166944,112,True,True,ok
+2025-01-30,https://x.com/nikitabier/status/1884767374621982971,26,True,True,ok
+2025-01-30,https://x.com/nikitabier/status/1884777614901948722,15,True,True,ok
+2025-01-30,https://x.com/nikitabier/status/1884794112567562414,30,True,True,ok
+2025-01-30,https://x.com/nikitabier/status/1884804939509092459,35,True,True,ok
+2025-01-30,https://x.com/nikitabier/status/1884814345625854357,10,True,True,ok
+2025-01-31,https://x.com/nikitabier/status/1885133657603498494,52,True,True,ok
+2025-01-31,https://x.com/nikitabier/status/1885374826904158230,393,True,True,ok
+2025-01-31,https://x.com/nikitabier/status/1885379672508191172,245,True,True,ok
+2025-01-31,https://x.com/nikitabier/status/1885453777525740014,23,True,True,ok
+2025-02-01,https://x.com/nikitabier/status/1885725612943290779,10,True,True,ok
+2025-02-08T18:18:57Z,https://x.com/nikitabier/status/1888291444844093488,35,True,True,ok
+2025-02-08T22:28:34Z,https://x.com/nikitabier/status/1888354259697270970,176,True,True,ok
+2025-02-08T22:59:28Z,https://x.com/nikitabier/status/1888362037329224036,23,True,True,ok
+2025-02-08T23:05:03Z,https://x.com/nikitabier/status/1888363443473789431,29,True,True,ok
+2025-02-08T23:53:35Z,https://x.com/nikitabier/status/1888375654850453743,148,True,True,ok
+2025-02-14 16:59:01,https://x.com/nikitabier/status/1890445656554197068,44,True,True,ok
+2025-02-14 17:12:58,https://x.com/nikitabier/status/1890449163420078087,23,True,True,ok
+2025-02-15 00:00:11,https://x.com/nikitabier/status/1890551645278249461,153,True,True,ok
+2025-02-15 19:08:06,https://x.com/nikitabier/status/1890840528339529978,419,True,True,ok
+2025-02-15 19:36:15,https://x.com/nikitabier/status/1890847613269774588,349,True,True,ok
+2025-02-21 20:25:10,https://x.com/nikitabier/status/1893034248405209357,78,True,True,ok
+2025-02-21 20:34:33,https://x.com/nikitabier/status/1893036609714483314,10,True,True,ok
+2025-02-22 00:00:00,https://x.com/nikitabier/status/1893088313478647820,34,True,True,ok
+2025-02-22 00:06:07,https://x.com/nikitabier/status/1893089851898999024,19,True,True,ok
+2025-02-22 16:01:03,https://x.com/nikitabier/status/1893330171337351473,32,True,True,ok
+2025-02-28T04:59:10Z,https://x.com/nikitabier/status/1895337926608986242,122,True,True,ok
+2025-02-28T05:09:34Z,https://x.com/nikitabier/status/1895340546740346968,98,True,True,ok
+2025-02-28T05:27:32Z,https://x.com/nikitabier/status/1895345067000570309,53,True,True,ok
+2025-02-28T05:31:21Z,https://x.com/nikitabier/status/1895346025864552627,17,True,True,ok
+2025-02-28T16:33:01Z,https://x.com/nikitabier/status/1895512542212161673,29,True,True,ok
+2025-03-06 14:20:50,https://x.com/nikitabier/status/1897653604942573962,68,True,True,ok
+2025-03-06 16:03:22,https://x.com/nikitabier/status/1897679408410116404,35,True,True,ok
+2025-03-06 17:47:28,https://x.com/nikitabier/status/1897705604699017401,10,True,True,ok
+2025-03-07 14:52:54,https://x.com/nikitabier/status/1898024062158328049,14,True,True,ok
+2025-03-07 15:32:23,https://x.com/nikitabier/status/1898033998108000550,9,True,True,ok
+2025-03-14 15:12:38,https://x.com/nikitabier/status/1900565741751136717,52,True,True,ok
+2025-03-14 19:54:07,https://x.com/nikitabier/status/1900636581675102688,28,True,True,ok
+2025-03-15 05:56:55,https://x.com/nikitabier/status/1900788278661365908,36,True,True,ok
+2025-03-15 06:06:51,https://x.com/nikitabier/status/1900790778995323230,24,True,True,ok
+2025-03-15 06:31:31,https://x.com/nikitabier/status/1900796985394798957,136,True,True,ok
+2025-03-22,https://x.com/nikitabier/status/1903583609946337566,52,True,True,ok
+2025-03-23,https://x.com/nikitabier/status/1903926808174854344,94,True,True,ok
+2025-03-23,https://x.com/nikitabier/status/1903946011111788739,144,True,True,ok
+2025-03-24,https://x.com/nikitabier/status/1903962240056779136,81,True,True,ok
+2025-03-24,https://x.com/nikitabier/status/1903976883449983160,26,True,True,ok
+2025-03-31 11:55:42,https://x.com/nikitabier/status/1906676776916414752,53,True,True,ok
+2025-03-31 13:10:48,https://x.com/nikitabier/status/1906695674894151982,86,True,True,ok
+2025-03-31 21:25:32,https://x.com/nikitabier/status/1906820180061078012,80,True,True,ok
+2025-04-01 14:08:14,https://x.com/nikitabier/status/1907072517572813023,237,True,True,ok
+2025-04-01 23:35:26,https://x.com/nikitabier/status/1907215257849774135,12,True,True,ok
+2025-04-08T12:30:23Z,https://x.com/nikitabier/status/1909584608414330965,64,True,True,ok
+2025-04-08T12:55:01Z,https://x.com/nikitabier/status/1909590805842395389,68,True,True,ok
+2025-04-08T12:58:38Z,https://x.com/nikitabier/status/1909591716971044940,178,True,True,ok
+2025-04-08T20:31:26Z,https://x.com/nikitabier/status/1909705667033674168,9,True,True,ok
+2025-04-08T23:26:35Z,https://x.com/nikitabier/status/1909749747478409714,23,True,True,ok
+2025-04-13 22:32:34,https://x.com/nikitabier/status/1911548093184491667,56,True,True,ok
+2025-04-13 22:53:23,https://x.com/nikitabier/status/1911553331807367394,91,True,True,ok
+2025-04-14 00:57:01,https://x.com/nikitabier/status/1911584444177145863,174,True,True,ok
+2025-04-14 01:35:33,https://x.com/nikitabier/status/1911594141118558566,35,True,True,ok
+2025-04-14 22:50:19,https://x.com/nikitabier/status/1911914947769933932,126,True,True,ok
+2025-04-20T20:56:21Z,https://x.com/nikitabier/status/1914060591083278782,20,True,True,ok
+2025-04-21T01:27:54Z,https://x.com/nikitabier/status/1914128930887393285,77,True,True,ok
+2025-04-21T04:00:49Z,https://x.com/nikitabier/status/1914167411760074913,107,True,True,ok
+2025-04-23T03:12:15Z,https://x.com/nikitabier/status/1914879965524365808,23,True,True,ok
+2025-04-23T03:21:13Z,https://x.com/nikitabier/status/1914882222072438898,9,True,True,ok
+2025-05-01T02:14:34,https://x.com/nikitabier/status/1917764555217715609,4,True,True,ok
+2025-05-01T03:07:13,https://x.com/nikitabier/status/1917777801018478748,14,True,True,ok
+2025-05-01T13:18:17,https://x.com/nikitabier/status/1917931582670733394,1447,True,True,ok
+2025-05-01T22:40:39,https://x.com/nikitabier/status/1918073108394852470,4,True,True,ok
+2025-05-01T22:47:36,https://x.com/nikitabier/status/1918074855720710209,4,True,True,ok
+2025-05-06 12:16:11,https://x.com/nikitabier/status/1919727895712260379,0,False,True,ok
+2025-05-07,https://x.com/nikitabier/status/1919940544098124080,59,True,True,ok
+2025-05-07,https://x.com/nikitabier/status/1919943271498797286,41,True,True,ok
+2025-05-07 01:20:39,https://x.com/nikitabier/status/1919925312197996861,23,True,True,ok
+2025-05-07 01:23:02,https://x.com/nikitabier/status/1919925912352526684,0,False,True,ok
+2025-05-08,https://x.com/nikitabier/status/1920273382240588079,66,True,True,ok
+2025-05-08,https://x.com/nikitabier/status/1920332327009358323,126,True,True,ok
+2025-05-15 03:58:18,https://x.com/nikitabier/status/1922864090277392756,1021,True,True,ok
+2025-05-15 04:00:28,https://x.com/nikitabier/status/1922864633938858328,57,True,True,ok
+2025-05-15 04:19:58,https://x.com/nikitabier/status/1922869541144576412,34,True,True,ok
+2025-05-15 13:00:56,https://x.com/nikitabier/status/1923000645541408839,459,True,True,ok
+2025-05-15 14:49:50,https://x.com/nikitabier/status/1923028050804875422,37,True,True,ok
+2025-05-16T03:47:40Z,https://x.com/nikitabier/status/1923223799157141827,30,True,True,ok
+2025-05-16T04:18:07Z,https://x.com/nikitabier/status/1923231462859366634,23,True,True,ok
+2025-05-16T04:20:12Z,https://x.com/nikitabier/status/1923231989299065120,9,True,True,ok
+2025-05-16T05:02:27Z,https://x.com/nikitabier/status/1923242619116654631,184,True,True,ok
+2025-05-16T05:07:21Z,https://x.com/nikitabier/status/1923243855224193467,30,True,True,ok
+2025-05-24T18:45:37Z,https://x.com/nikitabier/status/1926348878107861420,246,True,True,ok
+2025-05-24T19:45:25Z,https://x.com/nikitabier/status/1926363929392922915,40,True,True,ok
+2025-05-24T20:19:37Z,https://x.com/nikitabier/status/1926372535727169725,193,True,True,ok
+2025-05-24T22:09:15Z,https://x.com/nikitabier/status/1926400125007458790,208,True,True,ok
+2025-05-24T22:12:35Z,https://x.com/nikitabier/status/1926400963297919134,65,True,True,ok
+2025-05-31T12:54:40Z,https://x.com/nikitabier/status/1928797276656279563,37,True,True,ok
+2025-05-31T13:01:15Z,https://x.com/nikitabier/status/1928798934488723564,26,True,True,ok
+2025-05-31T16:12:47Z,https://x.com/nikitabier/status/1928847135216382109,785,True,True,ok
+2025-05-31T16:18:19Z,https://x.com/nikitabier/status/1928848525946925488,8,True,True,ok
+2025-05-31T16:53:08Z,https://x.com/nikitabier/status/1928857289508753635,50,True,True,ok
+2025-06-01T23:02:49Z,https://x.com/nikitabier/status/1929312707586498875,42,True,True,ok
+2025-06-01T23:10:43Z,https://x.com/nikitabier/status/1929314698203156629,40,True,True,ok
+2025-06-08 16:39:08,https://x.com/nikitabier/status/1931752868786176061,34,True,True,ok
+2025-06-08 17:14:30,https://x.com/nikitabier/status/1931761768075763867,57,True,True,ok
+2025-06-08 21:05:30,https://x.com/nikitabier/status/1931819899334307903,94,True,True,ok
+2025-06-08 22:14:24,https://x.com/nikitabier/status/1931837239417606374,64,True,True,ok
+2025-06-08 22:17:15,https://x.com/nikitabier/status/1931837959336231379,23,True,True,ok
+2025-06-14T12:53:46,https://x.com/nikitabier/status/1933870479397536224,76,True,True,ok
+2025-06-14T13:41:29,https://x.com/nikitabier/status/1933882487618597156,126,True,True,ok
+2025-06-15T17:23:22,https://x.com/nikitabier/status/1934300714559299721,63,True,True,ok
+2025-06-15T17:25:56,https://x.com/nikitabier/status/1934301361388015745,7,True,True,ok
+2025-06-15T18:09:11,https://x.com/nikitabier/status/1934312244021531005,0,False,True,ok
+2025-06-21 15:15:55,https://x.com/nikitabier/status/1936442969210380515,105,True,True,ok
+2025-06-21 16:27:43,https://x.com/nikitabier/status/1936461038699880761,24,True,True,ok
+2025-06-21 16:29:35,https://x.com/nikitabier/status/1936461507275223088,19,True,True,ok
+2025-06-22 14:10:40,https://x.com/nikitabier/status/1936788935730143609,29,True,True,ok
+2025-06-23 07:25:05,https://x.com/nikitabier/status/1937049253207228688,88,True,True,ok
+2025-06-30T16:31:30Z,https://x.com/nikitabier/status/1939723480716697902,113,True,True,ok
+2025-06-30T19:03:27Z,https://x.com/nikitabier/status/1939761716973441365,32,True,True,ok
+2025-06-30T20:27:23Z,https://x.com/nikitabier/status/1939782841510031529,60,True,True,ok
+2025-06-30T20:44:17Z,https://x.com/nikitabier/status/1939787092755980620,53,True,True,ok
+2025-06-30T23:40:22Z,https://x.com/nikitabier/status/1939831409369374939,13,True,True,ok
+2025-07-06T00:27:57Z,https://x.com/nikitabier/status/1941655321413615889,132,True,True,ok
+2025-07-06T00:30:46Z,https://x.com/nikitabier/status/1941656030095831129,30,True,True,ok
+2025-07-06T20:24:32Z,https://x.com/nikitabier/status/1941956453205725545,201,True,True,ok
+2025-07-07T05:12:28Z,https://x.com/nikitabier/status/1942089310246940685,9,True,True,ok
+2025-07-07T16:42:33Z,https://x.com/nikitabier/status/1942262976502980809,127,True,True,ok
+2025-07-14 03:06:05,https://x.com/nikitabier/status/1944594218472615954,31,True,True,ok
+2025-07-14 17:56:51,https://x.com/nikitabier/status/1944818387835871460,66,True,True,ok
+2025-07-15 05:57:03,https://x.com/nikitabier/status/1944999631676481864,52,True,True,ok
+2025-07-15 17:05:33,https://x.com/nikitabier/status/1945167865826414903,70,True,True,ok
+2025-07-16 16:09:42,https://x.com/nikitabier/status/1945516198617382931,128,True,True,ok
+2025-07-24 15:56:50,https://x.com/nikitabier/status/1948412063786901760,110,True,True,ok
+2025-07-24 15:57:55,https://x.com/nikitabier/status/1948412337171706247,15,True,True,ok
+2025-07-24 15:58:37,https://x.com/nikitabier/status/1948412511914803207,18,True,True,ok
+2025-07-24 16:06:29,https://x.com/nikitabier/status/1948414493404393816,89,True,True,ok
+2025-07-24 16:10:24,https://x.com/nikitabier/status/1948415477736452474,56,True,False,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+2025-07-31 15:39:47,https://x.com/nikitabier/status/1950944488530264174,137,True,True,ok
+2025-07-31 15:44:10,https://x.com/nikitabier/status/1950945590336278595,13,True,True,ok
+2025-08-01 04:42:04,https://x.com/nikitabier/status/1951141358514872362,297,True,True,ok
+2025-08-01 05:01:00,https://x.com/nikitabier/status/1951146119552962930,25,True,True,ok
+2025-08-01 16:14:01,https://x.com/nikitabier/status/1951315490711687467,25,True,True,ok
+2025-08-07 06:39:22,https://x.com/nikitabier/status/1953345204284481731,26,True,True,ok
+2025-08-07 06:47:50,https://x.com/nikitabier/status/1953347333908771293,0,False,True,ok
+2025-08-07 16:08:34,https://x.com/nikitabier/status/1953488447106068596,76,True,True,ok
+2025-08-07 16:12:57,https://x.com/nikitabier/status/1953489550548050426,0,False,True,ok
+2025-08-07 16:23:19,https://x.com/nikitabier/status/1953492159329681631,16,True,True,ok
+2025-08-16T15:48:19Z,https://x.com/nikitabier/status/1956744840898851066,93,True,True,ok
+2025-08-16T19:47:35Z,https://x.com/nikitabier/status/1956805055883129262,0,False,True,ok
+2025-08-16T22:07:49Z,https://x.com/nikitabier/status/1956840345939157315,90,True,True,ok
+2025-08-16T23:41:18Z,https://x.com/nikitabier/status/1956863871958081640,164,True,True,ok
+2025-08-16T23:57:21Z,https://x.com/nikitabier/status/1956867912213696599,53,True,True,ok
+2025-08-24T20:33:13Z,https://x.com/nikitabier/status/1959715642615210491,46,True,True,ok
+2025-08-24T20:51:45Z,https://x.com/nikitabier/status/1959720306614075668,135,True,True,ok
+2025-08-24T20:56:25Z,https://x.com/nikitabier/status/1959721478968217730,41,True,True,ok
+2025-08-24T23:22:22Z,https://x.com/nikitabier/status/1959758209754832916,5,True,True,ok
+2025-08-24T23:50:14Z,https://x.com/nikitabier/status/1959765222530638161,38,True,True,ok
+2025-09-01T19:25:54Z,https://x.com/nikitabier/status/1962597805593440653,80,True,True,ok
+2025-09-01T19:29:27Z,https://x.com/nikitabier/status/1962598698564886788,56,True,True,ok
+2025-09-01T21:38:20Z,https://x.com/nikitabier/status/1962631131716821133,112,True,True,ok
+2025-09-01T22:22:24Z,https://x.com/nikitabier/status/1962642220567404743,66,True,True,ok
+2025-09-01T22:49:39Z,https://x.com/nikitabier/status/1962649078246039946,34,True,True,ok
+2025-09-07T18:11:54Z,https://x.com/nikitabier/status/1964753509808767055,45,True,True,ok
+2025-09-07T18:53:51Z,https://x.com/nikitabier/status/1964764066716799048,84,True,True,ok
+2025-09-07T19:47:46Z,https://x.com/nikitabier/status/1964777634275201297,116,True,True,ok
+2025-09-07T20:26:38Z,https://x.com/nikitabier/status/1964787416721727886,73,True,True,ok
+2025-09-07T20:31:46Z,https://x.com/nikitabier/status/1964788707019592142,31,True,True,ok
+2025-09-16T07:51:17Z,https://x.com/nikitabier/status/1967858814415507572,0,False,True,ok
+2025-09-16T14:29:15Z,https://x.com/nikitabier/status/1967958967797318095,31,True,True,ok
+2025-09-16T14:52:56Z,https://x.com/nikitabier/status/1967964929396453386,39,True,True,ok
+2025-09-16T15:03:12Z,https://x.com/nikitabier/status/1967967511972032839,26,True,True,ok
+2025-09-16T16:15:02Z,https://x.com/nikitabier/status/1967985589699097071,78,True,True,ok
+2025-09-22T01:59:15,https://x.com/nikitabier/status/1969944549595525213,110,True,True,ok
+2025-09-22T02:29:55,https://x.com/nikitabier/status/1969952267458732407,59,True,True,ok
+2025-09-22T02:47:14,https://x.com/nikitabier/status/1969956627379077454,23,True,True,ok
+2025-09-23T03:28:38,https://x.com/nikitabier/status/1970329431702151317,11,True,True,ok
+2025-09-23T15:20:33,https://x.com/nikitabier/status/1970508593515634698,207,True,True,ok
+2025-09-30T14:58:39Z,https://x.com/nikitabier/status/1973039795657154804,0,False,True,ok
+2025-10-01T04:11:02Z,https://x.com/nikitabier/status/1973239206014288309,93,True,True,ok
+2025-10-01T04:27:27Z,https://x.com/nikitabier/status/1973243337961607366,41,True,True,ok
+2025-10-01T04:33:32Z,https://x.com/nikitabier/status/1973244869859745994,71,True,True,ok
+2025-10-01T05:00:56Z,https://x.com/nikitabier/status/1973251765664620805,79,True,True,ok
+2025-10-16T07:09:08Z,https://x.com/nikitabier/status/1978719844489929167,23,True,True,ok
+2025-10-16T16:24:19Z,https://x.com/nikitabier/status/1978859560484892861,264,True,True,ok
+2025-10-16T20:16:43Z,https://x.com/nikitabier/status/1978918048674222165,1,True,True,ok
+2025-10-16T21:05:50Z,https://x.com/nikitabier/status/1978930409296601166,200,True,True,ok
+2025-10-23T05:59:31Z,https://x.com/nikitabier/status/1981239040633688587,116,True,True,ok
+2025-10-24T06:08:19Z,https://x.com/nikitabier/status/1981603643926454639,42,True,True,ok
+2025-10-24T06:18:48Z,https://x.com/nikitabier/status/1981606281921319133,0,False,True,ok
+2025-10-24T17:21:33Z,https://x.com/nikitabier/status/1981773065559421436,40,True,True,ok
+2025-10-24T22:08:05Z,https://x.com/nikitabier/status/1981845177464705266,28,True,True,ok
+2025-10-31T23:09:03Z,https://x.com/nikitabier/status/1984397234830492030,73,True,True,ok
+2025-11-01T03:08:40Z,https://x.com/nikitabier/status/1984457534615535952,33,True,True,ok
+2025-11-01T22:54:18Z,https://x.com/nikitabier/status/1984755909512536302,71,True,True,ok
+2025-11-01T23:11:05Z,https://x.com/nikitabier/status/1984760134476976256,89,True,True,ok
+2025-11-01T23:12:57Z,https://x.com/nikitabier/status/1984760604620685798,26,True,True,ok
+2025-11-08 04:16:46,https://x.com/nikitabier/status/1987011387210805564,29,True,True,ok
+2025-11-08 06:35:20,https://x.com/nikitabier/status/1987046259275014485,6,True,True,ok
+2025-11-08 08:40:08,https://x.com/nikitabier/status/1987077666978271303,72,True,True,ok
+2025-11-08 20:52:28,https://x.com/nikitabier/status/1987261965727899956,26,True,True,ok
+2025-11-08 23:17:16,https://x.com/nikitabier/status/1987298406365372468,38,True,True,ok
+2025-11-15T23:09:28Z,https://x.com/nikitabier/status/1989833156757950742,54,True,True,ok
+2025-11-16T02:33:09Z,https://x.com/nikitabier/status/1989884413170118919,86,True,True,ok
+2025-11-16T02:34:50Z,https://x.com/nikitabier/status/1989884840767033640,17,True,True,ok
+2025-11-16T04:47:25Z,https://x.com/nikitabier/status/1989918203682910441,0,False,True,ok
+2025-11-16T07:23:01Z,https://x.com/nikitabier/status/1989957363999429029,132,True,True,ok
+2025-11-23T00:16:03Z,https://x.com/nikitabier/status/1992386627562615190,237,True,True,ok
+2025-11-23T01:13:27Z,https://x.com/nikitabier/status/1992401072259006576,15,True,True,ok
+2025-11-23T01:46:30Z,https://x.com/nikitabier/status/1992409391560339499,167,True,True,ok
+2025-11-23T02:01:23Z,https://x.com/nikitabier/status/1992413136822088155,9,True,True,ok
+2025-11-23T02:25:18Z,https://x.com/nikitabier/status/1992419155744792869,23,True,True,ok
+2025-11-29T19:23:54Z,https://x.com/nikitabier/status/1994849819068932478,67,True,True,ok
+2025-11-30T07:55:39Z,https://x.com/nikitabier/status/1995039004799242264,38,True,True,ok
+2025-11-30T20:13:34Z,https://x.com/nikitabier/status/1995224707483009435,0,False,True,ok
+2025-11-30T21:35:12Z,https://x.com/nikitabier/status/1995245249741152655,25,True,True,ok
+2025-12-01T03:21:01Z,https://x.com/nikitabier/status/1995332279904895485,56,True,True,ok
+2025-12-08 03:37:43,https://x.com/nikitabier/status/1997873194959867915,49,True,True,ok
+2025-12-08 04:31:42,https://x.com/nikitabier/status/1997886782441160864,157,True,True,ok
+2025-12-08 04:58:34,https://x.com/nikitabier/status/1997893545378890047,8,True,True,ok
+2025-12-08 05:01:43,https://x.com/nikitabier/status/1997894335216697677,55,True,True,ok
+2025-12-08 23:46:22,https://x.com/nikitabier/status/1998177363646132463,59,True,True,ok
+2025-12-15T19:31:51Z,https://x.com/nikitabier/status/2000650029330276666,71,True,True,ok
+2025-12-16T04:34:33Z,https://x.com/nikitabier/status/2000786604156444889,186,True,True,ok
+2025-12-16T04:46:45Z,https://x.com/nikitabier/status/2000789672054960259,123,True,True,ok
+2025-12-16T04:54:52Z,https://x.com/nikitabier/status/2000791717084324137,68,True,True,ok
+2025-12-16T10:36:59Z,https://x.com/nikitabier/status/2000877812992106565,29,True,True,ok
+2025-12-22T16:45:31Z,https://x.com/nikitabier/status/2003144881611678022,104,True,True,ok
+2025-12-22T16:48:51Z,https://x.com/nikitabier/status/2003145723181924382,48,True,True,ok
+2025-12-24T02:45:11Z,https://x.com/nikitabier/status/2003658184419086359,15,True,True,ok
+2025-12-24T19:53:11Z,https://x.com/nikitabier/status/2003916886560657673,207,True,True,ok
+2025-12-24T21:17:20Z,https://x.com/nikitabier/status/2003938065237037231,498,True,True,ok
+2025-12-31 18:25:50,https://x.com/nikitabier/status/2006431621675630794,51,True,True,ok
+2025-12-31 18:59:57,https://x.com/nikitabier/status/2006440206539567533,178,True,True,ok
+2025-12-31 19:21:14,https://x.com/nikitabier/status/2006445560665170231,230,True,True,ok
+2025-12-31 21:35:11,https://x.com/nikitabier/status/2006479270097690816,108,True,True,ok
+2025-12-31 23:48:58,https://x.com/nikitabier/status/2006512937532621207,23,True,True,ok
+2026-01-07T17:29:44Z,https://x.com/nikitabier/status/2008954216304587252,253,True,True,ok
+2026-01-07T17:49:02Z,https://x.com/nikitabier/status/2008959072637456622,85,True,True,ok
+2026-01-07T18:11:32Z,https://x.com/nikitabier/status/2008964736763990497,110,True,True,ok
+2026-01-07T23:43:13Z,https://x.com/nikitabier/status/2009048208253784088,38,True,True,ok
+2026-01-08T11:31:42Z,https://x.com/nikitabier/status/2009226502710374428,46,True,True,ok
+2026-01-15T06:53:34Z,https://x.com/nikitabier/status/2011693224826720410,35,True,True,ok
+2026-01-15T11:02:04Z,https://x.com/nikitabier/status/2011755760557183108,61,True,True,ok
+2026-01-15T15:39:17Z,https://x.com/nikitabier/status/2011825522817270230,488,True,True,ok
+2026-01-15T15:57:13Z,https://x.com/nikitabier/status/2011830037608280109,81,True,True,ok
+2026-01-15T17:54:31Z,https://x.com/nikitabier/status/2011859555014361581,278,True,True,ok
+2026-01-22,https://x.com/nikitabier/status/2014462285486706710,26,True,True,ok
+2026-01-23,https://x.com/nikitabier/status/2014570454984622158,15,True,True,ok
+2026-01-23,https://x.com/nikitabier/status/2014735767193714975,35,True,True,ok
+2026-01-23,https://x.com/nikitabier/status/2014786958766309430,18,True,True,ok
+2026-01-23,https://x.com/nikitabier/status/2014799678249042033,67,True,True,ok
+2026-02-01T02:27:24Z,https://x.com/nikitabier/status/2017786832461959269,61,True,True,ok
+2026-02-01T02:41:50Z,https://x.com/nikitabier/status/2017790464884457863,109,True,True,ok
+2026-02-01T02:56:19Z,https://x.com/nikitabier/status/2017794110850232641,33,True,True,ok
+2026-02-01T03:23:07Z,https://x.com/nikitabier/status/2017800853642743906,25,True,True,ok
+2026-02-01T04:42:19Z,https://x.com/nikitabier/status/2017820786577576116,178,True,True,ok
+2026-02-08,https://x.com/nikitabier/status/2020550535250858016,302,True,True,ok
+2026-02-08,https://x.com/nikitabier/status/2020566376306638876,79,True,True,ok
+2026-02-08,https://x.com/nikitabier/status/2020573451283751063,42,True,True,ok
+2026-02-08,https://x.com/nikitabier/status/2020606769052160152,0,False,True,ok
+2026-02-08,https://x.com/nikitabier/status/2020634655570223272,50,True,True,ok
+2026-02-14T17:34:30Z,https://x.com/nikitabier/status/2022726156202709067,124,True,True,ok
+2026-02-14T21:02:20Z,https://x.com/nikitabier/status/2022778457630085392,154,True,True,ok
+2026-02-14T22:28:10Z,https://x.com/nikitabier/status/2022800057742037126,15,True,True,ok
+2026-02-15T16:27:25Z,https://x.com/nikitabier/status/2023071661520777723,59,True,True,ok
+2026-02-15T19:00:35Z,https://x.com/nikitabier/status/2023110207036104759,62,True,True,ok
+2026-02-22T03:17:28Z,https://x.com/nikitabier/status/2025409580054835485,77,True,True,ok
+2026-02-22T08:08:53Z,https://x.com/nikitabier/status/2025482918026772780,43,True,True,ok
+2026-02-22T23:22:36Z,https://x.com/nikitabier/status/2025712861650305512,576,True,True,ok
+2026-02-22T23:37:26Z,https://x.com/nikitabier/status/2025716594576617655,79,True,True,ok
+2026-02-22T23:59:22Z,https://x.com/nikitabier/status/2025722113110487442,60,True,True,ok
+2026-03-01T21:42:22Z,https://x.com/nikitabier/status/2028224351255048654,37,True,True,ok
+2026-03-01T21:46:59Z,https://x.com/nikitabier/status/2028225514801103022,14,True,True,ok
+2026-03-01T21:55:05Z,https://x.com/nikitabier/status/2028227551618113778,225,True,True,ok
+2026-03-01T22:03:20Z,https://x.com/nikitabier/status/2028229628360642616,10,True,True,ok
+2026-03-01T22:41:14Z,https://x.com/nikitabier/status/2028239165746454757,114,True,True,ok
+2026-03-07T20:46:55Z,https://x.com/nikitabier/status/2030384725706305536,15,True,True,ok
+2026-03-07T21:01:35Z,https://x.com/nikitabier/status/2030388415729143864,24,True,True,ok
+2026-03-07T21:45:36Z,https://x.com/nikitabier/status/2030399493016059954,15,True,True,ok
+2026-03-07T22:17:50Z,https://x.com/nikitabier/status/2030407605521396148,59,True,True,ok
+2026-03-07T22:34:08Z,https://x.com/nikitabier/status/2030411706711908543,37,True,True,ok
+2026-03-15T20:48:43Z,https://x.com/nikitabier/status/2033284281183932781,24,True,True,ok
+2026-03-16T01:30:38Z,https://x.com/nikitabier/status/2033355228096139673,50,True,True,ok
+2026-03-16T02:10:26Z,https://x.com/nikitabier/status/2033365243607621870,25,True,True,ok
+2026-03-16T04:39:23Z,https://x.com/nikitabier/status/2033402726516973935,22,True,True,ok
+2026-03-16T20:19:40Z,https://x.com/nikitabier/status/2033639357274591643,23,True,True,ok
+2026-03-23T06:44:03,https://x.com/nikitabier/status/2035970815926436137,54,True,True,ok
+2026-03-23T07:17:22,https://x.com/nikitabier/status/2035979199081824558,45,True,True,ok
+2026-03-23T17:21:57,https://x.com/nikitabier/status/2036131346977009758,58,True,True,ok
+2026-03-23T17:33:02,https://x.com/nikitabier/status/2036134136369529324,103,True,True,ok
+2026-03-24T01:58:58,https://x.com/nikitabier/status/2036261458359754774,35,True,True,ok
+2026-04-01T13:58:59Z,https://x.com/nikitabier/status/2039341761156538644,283,True,True,ok
+2026-04-01T14:01:35Z,https://x.com/nikitabier/status/2039342414494826690,79,True,True,ok
+2026-04-01T14:05:29Z,https://x.com/nikitabier/status/2039343396519846326,27,True,True,ok
+2026-04-01T14:31:24Z,https://x.com/nikitabier/status/2039349919342014640,33,True,True,ok
+2026-04-01T16:02:13Z,https://x.com/nikitabier/status/2039372775077675305,395,True,True,ok
+2026-04-08T16:13:41Z,https://x.com/nikitabier/status/2041912375738237147,103,True,True,ok
+2026-04-08T16:21:53Z,https://x.com/nikitabier/status/2041914436458574289,62,True,True,ok
+2026-04-08T17:38:59Z,https://x.com/nikitabier/status/2041933841313755606,84,True,True,ok
+2026-04-08T18:37:32Z,https://x.com/nikitabier/status/2041948575392035192,362,True,True,ok
+2026-04-08T18:44:03Z,https://x.com/nikitabier/status/2041950215448752209,91,True,True,ok
+2026-04-15T06:50:27,https://x.com/nikitabier/status/2044307345942163870,32,True,True,ok
+2026-04-15T18:26:05,https://x.com/nikitabier/status/2044482407517102137,52,True,True,ok
+2026-04-16T04:09:37,https://x.com/nikitabier/status/2044629258308337771,13,True,True,ok
+2026-04-16T04:43:51,https://x.com/nikitabier/status/2044637873471738283,41,True,True,ok
+2026-04-16T22:13:53,https://x.com/nikitabier/status/2044902122995548330,177,True,True,ok
+2026-04-17T14:56:32Z,https://x.com/nikitabier/status/2045154449522356517,145,True,True,ok
+2026-04-17T19:20:13Z,https://x.com/nikitabier/status/2045220806716776876,46,True,True,ok
+2026-04-17T19:56:23Z,https://x.com/nikitabier/status/2045229911015563314,77,True,True,ok
+2026-04-19T15:13:31Z,https://x.com/nikitabier/status/2045883498985132495,110,True,True,ok
+2026-04-19T15:46:26Z,https://x.com/nikitabier/status/2045891783150703031,0,False,True,ok

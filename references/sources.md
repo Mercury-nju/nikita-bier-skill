@@ -4,6 +4,8 @@ The package combines public statements with author inference. The workflow, qual
 
 Verification notes below describe what was checked on 2026-10-09. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
 
+The [corpus index](corpus-index.md) lists the 662 collected public X URLs and access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
+
 ## Biographical Context
 
 - [Lightspeed profile](https://lsvp.com/team-member/nikita-bier/) supports his tbh and Gas founder background and investment/advisory work with consumer apps including Locket, BeReal, and Flo.
