@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect public threads, publisher articles/audio, and exported video captions."""
+"""Collect public posts, publisher articles/audio, and exported video captions."""
 
 import argparse
 import datetime as dt
@@ -122,6 +122,28 @@ def digest(path):
         return hashlib.sha256(stream.read()).hexdigest()
 
 
+def parse_proxy_post(path, expected_id):
+    """Check the requested post identity without claiming original-page access."""
+    response = json.loads(path.read_text(encoding="utf-8"))
+    post = response.get("tweet") or {}
+    if (response.get("code") != 200 or str(post.get("id")) != expected_id
+            or post.get("author", {}).get("screen_name", "").lower() != "nikitabier"):
+        raise ValueError("Proxy response has the wrong post ID, author, or status")
+    text = post.get("text", "").strip()
+    if not text or all(part.startswith("@") for part in text.split()):
+        raise ValueError("No substantive text; review mentions-only/media records separately")
+    milliseconds = (int(expected_id) >> 22) + 1288834974657
+    if int(post.get("created_timestamp", -1)) != milliseconds // 1000:
+        raise ValueError("Proxy date disagrees with the post ID")
+    return {"id": expected_id, "url": "https://x.com/nikitabier/status/" + expected_id,
+            "date": dt.datetime.fromtimestamp(milliseconds / 1000, dt.timezone.utc)
+                      .isoformat().replace("+00:00", "Z"),
+            "text": text, "access": "third_party_x_json",
+            "replying_to_status": post.get("replying_to_status"),
+            "media_present": bool(post.get("media")),
+            "quote_url": (post.get("quote") or {}).get("url")}
+
+
 def fetch(url, path):
     partial = path.with_suffix(path.suffix + ".part")
     try:
@@ -191,6 +213,28 @@ def collect(source, output, args):
             record.update(status="collected", records=len(posts),
                           text_words=sum(len(post["text"].split()) for post in posts),
                           page_sha256=digest(page), text_sha256=digest(text_path))
+        elif source["kind"] == "x_proxy":
+            posts, hashes = [], {}
+            if (not source["post_ids"]
+                    or len(set(source["post_ids"])) != len(source["post_ids"])):
+                raise ValueError("Empty or duplicate registered post IDs")
+            for post_id in source["post_ids"]:
+                response_path = source_dir / (post_id + ".json")
+                if args.refresh or not response_path.exists():
+                    fetch(source["provider_base_url"] + post_id, response_path)
+                post = parse_proxy_post(response_path, post_id)
+                post["source_id"] = source["id"]
+                posts.append(post)
+                hashes[post_id] = digest(response_path)
+            text_path = source_dir / "posts.jsonl"
+            text_path.write_text("".join(json.dumps(post, ensure_ascii=False) + "\n"
+                                         for post in posts), encoding="utf-8")
+            record.update(status="collected", records=len(posts),
+                          acquisition="third_party_x_json",
+                          provider_base_url=source["provider_base_url"],
+                          text_words=sum(len(post["text"].split()) for post in posts),
+                          response_sha256=hashes, text_sha256=digest(text_path),
+                          original_page_verified=False, attached_media_reviewed=False)
         elif source["kind"] == "youtube_captions":
             captions = source_dir / "captions.txt"
             supplied = args.caption_files.get(source["id"])

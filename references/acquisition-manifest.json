@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "review_date": "2026-10-10",
-  "scope": "Sixteen acquired inputs; not an exhaustive bibliography. Caption/ASR counts include hosts, ads, and audience cues, not only Nikita statements.",
+  "scope": "Twenty-six acquired inputs, including an upgrade of S15; not an exhaustive bibliography. Caption/ASR counts include other speakers. X proxy responses are third-party access, not fresh original-page verification.",
   "sources": [
     {
       "id": "S02",
@@ -263,6 +263,26 @@
           [
             5237,
             5741
+          ],
+          [
+            2954,
+            3103
+          ],
+          [
+            3230,
+            3580
+          ],
+          [
+            3985,
+            4300
+          ],
+          [
+            4380,
+            4750
+          ],
+          [
+            4900,
+            5200
           ]
         ]
       }
@@ -525,6 +545,328 @@
         "text_review_date": "2026-10-10",
         "used_as_frozen_version_holdout": true
       }
+    },
+    {
+      "id": "S28",
+      "name": "Meta tbh closure announcement",
+      "kind": "article",
+      "url": "https://about.fb.com/news/2018/07/hello-tbh-moving-on/",
+      "container_class": "entry-content",
+      "minimum_words": 190,
+      "observed": {
+        "id": "S28",
+        "retrieved_at": "2026-10-09T17:15:41.457460+00:00",
+        "url": "https://about.fb.com/news/2018/07/hello-tbh-moving-on/",
+        "status": "collected",
+        "text_words": 200,
+        "acquisition": "http_or_cached_page",
+        "page_representation": "publisher_html",
+        "page_sha256": "3681b25cc209cc401edfc76fba5e12461b7c65c78a1319f5204df99806632c59",
+        "text_sha256": "3f320185e46b993cddbd1334c0a03b340c77afd216e9f055d317c10033c5e1ac",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S15",
+      "name": "MVP reconsideration",
+      "kind": "thread",
+      "url": "https://threadreaderapp.com/thread/1857896428317630893.html",
+      "expected_posts": 1,
+      "observed": {
+        "id": "S15",
+        "retrieved_at": "2026-10-09T17:36:50.291824+00:00",
+        "url": "https://threadreaderapp.com/thread/1857896428317630893.html",
+        "status": "collected",
+        "records": 1,
+        "text_words": 124,
+        "page_sha256": "b34932b66b5f8867f3a08b41a0035239ace92632fbdef825c6123fbd381e2a8c",
+        "text_sha256": "63a2bf04db29d08b5dc9a3bc36667039bf5442c51eddd701b3cb132d295ad00b",
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S30",
+      "name": "Fundraising with limited lead access",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/1870642819481706611",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "1870642819481706611"
+      ],
+      "observed": {
+        "id": "S30",
+        "retrieved_at": "2026-10-09T17:15:41.475205+00:00",
+        "url": "https://x.com/nikitabier/status/1870642819481706611",
+        "status": "collected",
+        "records": 1,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 104,
+        "response_sha256": {
+          "1870642819481706611": "14fd7dffcfb6dd5a3a46e26812490de3f60c78f920c37ef1c1c8b2537ec1da41"
+        },
+        "text_sha256": "adcaf02fa8db3c3b1560f1d2d06110fe07a5834937fa9d6d29e081c05ebc7f67",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S31",
+      "name": "High-value partnership exception",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/1816239186829353426",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "1816239186829353426"
+      ],
+      "observed": {
+        "id": "S31",
+        "retrieved_at": "2026-10-09T17:15:41.478169+00:00",
+        "url": "https://x.com/nikitabier/status/1816239186829353426",
+        "status": "collected",
+        "records": 1,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 54,
+        "response_sha256": {
+          "1816239186829353426": "c5de58331a53b83a32454ea069c35d8290dc846338229c94c7549d8c81f1f3bb"
+        },
+        "text_sha256": "b9c528a3e790ed0648a97ab080bd626fffd8653cef5045f6aa706b8e2e612bbe",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S32",
+      "name": "Outline retrospective and synthetic-data clarification",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/1858710306135953511",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "1858710306135953511",
+        "1858715235026079835"
+      ],
+      "observed": {
+        "id": "S32",
+        "retrieved_at": "2026-10-09T17:15:41.480530+00:00",
+        "url": "https://x.com/nikitabier/status/1858710306135953511",
+        "status": "collected",
+        "records": 2,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 94,
+        "response_sha256": {
+          "1858710306135953511": "f691df47f8c4a08ba5f86ef9d1f32fe2d8c8471c2b8e10d35f1cb63514bb68fb",
+          "1858715235026079835": "61a95b542bbd4b2ed36544b7c17fb5c081abcedeaceda864e63adf1ee5c7e577"
+        },
+        "text_sha256": "17424328e350eb914db2b500b47689d4863fb84610aa7f4c5b857494e647ce43",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "context_response_sha256": {
+          "1858638005327561062": "d1971b62ff2afb07ec3f17a48082491e5389c2a97ff990435317e3a789afa6f3",
+          "1858714199226282397": "1c69ee9bb359af0c9c37adf1a414deca0f509b1a888a686ca5f172dbf1ebdd69"
+        },
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S33",
+      "name": "X integrity and public-space tradeoffs",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/2011825522817270230",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "2011825522817270230",
+        "2011830037608280109",
+        "2006445560665170231",
+        "2025712861650305512",
+        "2025716594576617655",
+        "2003916886560657673"
+      ],
+      "observed": {
+        "id": "S33",
+        "retrieved_at": "2026-10-09T17:15:42.506455+00:00",
+        "url": "https://x.com/nikitabier/status/2011825522817270230",
+        "status": "collected",
+        "records": 6,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 286,
+        "response_sha256": {
+          "2011825522817270230": "8ecd0afdc3b19b6912f900e2f796eeb9ebb95b67f2a255f962f615fcb7356596",
+          "2011830037608280109": "70feaa27f89eeb2b81243ece7d700f4cd4237d11b81801e4239ba3d011f19345",
+          "2006445560665170231": "3b938f849ca2e033b1282be00bdf5ee40e812e5ab41efabfc07f5a335b5ef4c0",
+          "2025712861650305512": "cb07d0bbd31382ab7e63d22d3b4a808e04e43aadf3ae2ecc86b4ddb7d4c6a51a",
+          "2025716594576617655": "e5de9628407b9cbf2c297d5303d9e90638574f7c13e08acd8a1040caece49659",
+          "2003916886560657673": "b019ef9edac87cb7bf919eee34a1e0dda1a12745b9bd6d6d57a829dbc6e57dab"
+        },
+        "text_sha256": "d6d14d1abafe849d530452f1b42504aa3bfe3cea1e619ac642bdcdcff4a58020",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "context_response_sha256": {
+          "2003192654545539400": "3de85ee375a221c7f3cbaa22e9ec0980ebf746dd02d53974725a996d4a16cfa0",
+          "2006443971002904924": "6205af12f78b4800e1b634da39bff0ce47d9363fdc6a0d5b24262902e706faeb",
+          "2011829615946580432": "7c132ef9e0eb830c0b9ed271e89349b2f1c855e480b194bd56f6dbbb1b1f0334",
+          "2025714720133484992": "b5e8b8dc1607c946ec2faee15ff262809fc28142828344006ac4ddc1ee85912b"
+        },
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S34",
+      "name": "Advisory business and capacity",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/1815130311963168831",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "1815130311963168831",
+        "1812159722394714315",
+        "1757585337491095726"
+      ],
+      "observed": {
+        "id": "S34",
+        "retrieved_at": "2026-10-09T17:15:45.817433+00:00",
+        "url": "https://x.com/nikitabier/status/1815130311963168831",
+        "status": "collected",
+        "records": 3,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 277,
+        "response_sha256": {
+          "1815130311963168831": "07251d419d687929fa2f8a994d6c9178aa77ecffde5982fd4e2a55e3d40d5983",
+          "1812159722394714315": "5e5fabf2a705ac6fb29dcc3f8ed63af61ec7293cf07de78a241b4d319a50ca53",
+          "1757585337491095726": "7dd1f14c306a408ff4e5318838d9c533f86219c1c6a455dea9584e0e6b224760"
+        },
+        "text_sha256": "9bae1f2d6ad189dae10f17e84afa872425a020d9b0e972f55dfd1ce3607a5650",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "context_response_sha256": {
+          "1757418416783376605": "f80ff3fcf9abdbec57466e8e6931128fde7693bcbcb65bf0d2736c68811632c5",
+          "1810954404222337270": "ddbcb1bd8e06f6553a5523e22c3104bd9b75f41180b72398fa435101eb5d4b04"
+        },
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S35",
+      "name": "Explode original launch",
+      "kind": "x_proxy",
+      "url": "https://x.com/nikitabier/status/1879206793118658974",
+      "provider_base_url": "https://api.fxtwitter.com/status/",
+      "post_ids": [
+        "1879206793118658974"
+      ],
+      "observed": {
+        "id": "S35",
+        "retrieved_at": "2026-10-09T17:15:48.129229+00:00",
+        "url": "https://x.com/nikitabier/status/1879206793118658974",
+        "status": "collected",
+        "records": 1,
+        "acquisition": "third_party_x_json",
+        "provider_base_url": "https://api.fxtwitter.com/status/",
+        "text_words": 122,
+        "response_sha256": {
+          "1879206793118658974": "6fee013190ad2ef1adbd851211f942410c86268b9456c6a677b58a2f8a565bc7"
+        },
+        "text_sha256": "25d6e3614362e538b484eec26b63aa673f9925a06ad401587e961cc3fcabcddc",
+        "original_page_verified": false,
+        "attached_media_reviewed": false,
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true
+      }
+    },
+    {
+      "id": "S36",
+      "name": "Three Cartoon Avatars episode 1",
+      "kind": "podcast",
+      "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 1: Bolt vs. Stripe, Calendly, Market Meltdown and Billionaires Tweeting",
+      "publication_date": "29 Jan 2022",
+      "observed": {
+        "id": "S36",
+        "retrieved_at": "2026-10-09T17:15:41.457466+00:00",
+        "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/htdf3hpxkpjdvdkje9o8fh11.mp3",
+        "duration_seconds": 3189.368163,
+        "audio_bytes": 38215681,
+        "audio_sha256": "67b9c1f75b95cb9b891d227609dac6439f152620940443e05ba4c4b1512592da",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "words": 10207,
+          "segments": 640,
+          "sha256": "d367bb10a388d89fc8725505aefca79b72750e490c89c4a18c1e76ee2db17404",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false,
+          "engine": "mlx-whisper",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb"
+        },
+        "raw_artifacts_shipped": false,
+        "used_for_principles": false,
+        "text_review_windows_seconds": [
+          [
+            1200,
+            1640
+          ],
+          [
+            2640,
+            2660
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S37",
+      "name": "Three Cartoon Avatars episode 5",
+      "kind": "podcast",
+      "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 5: Coinbase Tweet Storm, Truth Social, Death of the Five Day Work Week and the ClearCo Breakup",
+      "publication_date": "26 Feb 2022",
+      "observed": {
+        "id": "S37",
+        "retrieved_at": "2026-10-09T17:18:27.656159+00:00",
+        "url": "https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/quny8sgadsn33xurh6wxj5nl.mp3",
+        "duration_seconds": 2976.052245,
+        "audio_bytes": 35659651,
+        "audio_sha256": "de1fb901a320dd0e73649a3459be9700bf130967cea7dcf2b9c682780567fd6c",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "words": 9127,
+          "segments": 652,
+          "sha256": "bdb4fd0cea8ee0f26cf6a312831024a64145648a1d7b30b4db0e2cfd6eb94636",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false,
+          "engine": "mlx-whisper",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb"
+        },
+        "raw_artifacts_shipped": false,
+        "used_for_principles": true,
+        "text_review_windows_seconds": [
+          [
+            740,
+            1224
+          ],
+          [
+            1246,
+            1810
+          ]
+        ]
+      }
     }
   ],
   "unacquired": [
@@ -534,15 +876,19 @@
       "status": "public teaser read; full interview not acquired",
       "normal_browser_check_date": "2026-10-10",
       "access_note": "Publisher offers a one-post free unlock requiring a subscription/account and the Substack app; no account was created and no unlock was claimed."
+    },
+    {
+      "url": "https://discord.com/blog/welcoming-gas-to-discord",
+      "status": "redirects to general blog; acquisition announcement body not acquired",
+      "normal_browser_check_date": "2026-10-10"
     }
   ],
   "totals": {
-    "added_unique_x_posts": 36,
-    "indexed_unique_x_posts": 698,
-    "new_thread_words": 1315,
-    "acquired_audio_files": 6,
-    "acquired_audio_duration_seconds": 19979.763356,
-    "raw_asr_words_all_speakers": 59730,
+    "added_unique_x_posts": 37,
+    "indexed_unique_x_posts": 699,
+    "acquired_audio_files": 8,
+    "acquired_audio_duration_seconds": 26145.183764,
+    "raw_asr_words_all_speakers": 79064,
     "attributed_nikita_word_count": null,
     "acquired_caption_exports": 3,
     "caption_video_duration_seconds": 7657,
@@ -550,9 +896,17 @@
     "newly_added_distinct_video_duration_seconds": 1756,
     "early_article_bodies": 2,
     "early_article_words": 690,
-    "source_entries": 27,
-    "casebook_entries": 31,
-    "claim_ledger_entries": 31
+    "source_entries": 37,
+    "casebook_entries": 45,
+    "claim_ledger_entries": 42,
+    "original_unique_x_posts": 662,
+    "acquired_inputs": 26,
+    "acquired_article_bodies": 3,
+    "acquired_article_words": 890,
+    "complete_mirror_words": 1439,
+    "proxy_post_records": 14,
+    "proxy_post_words": 937,
+    "non_overlapping_mirror_addition_words": 1315
   },
   "rejected_or_duplicate_leads": [
     {
@@ -566,7 +920,167 @@
     {
       "url": "https://threadreaderapp.com/thread/1460652115823497221.html",
       "reason": "A mock lessons thread and an empty/media-only post, not the substantive 2022 founder thread."
+    },
+    {
+      "url": "https://x.com/nikitabier/status/1879229105876664666",
+      "reason": "Media-only Explode follow-up; no substantive text recovered. Original launch S35 used instead; media not reviewed."
     }
   ],
-  "latest_review_date": "2026-10-10"
+  "latest_review_date": "2026-10-10",
+  "corpus_text_screening": {
+    "date": "2026-10-10",
+    "reviewer": "assistant",
+    "method": "Read retained text in four batches; selectively reconstructed source-backed cases. Not human verification, attachment review or full reply-context review. Length uses whitespace-separated tokens including URLs and mentions.",
+    "before_addition": {
+      "records": 698,
+      "text_words": 11875,
+      "raw_sha256": "6fbdcfb9b7f950d44ad967bc4e470dd11ed69d82510b55a90088217e02d59a49",
+      "length_buckets": {
+        "empty": 25,
+        "10_to_29_words": 252,
+        "under_10_words": 309,
+        "30_to_59_words": 87,
+        "60_or_more_words": 25
+      }
+    },
+    "after_addition": {
+      "records": 699,
+      "text_words": 11997,
+      "raw_sha256": "58dbc0fe239198fe3ecbfdb4fb832c15ebb6c84e81f8a87f1a7893be30938a9f"
+    }
+  },
+  "empty_record_recovery": {
+    "provider_base_url": "https://api.fxtwitter.com/status/",
+    "checked_records": 25,
+    "substantive_text_recovered": 0,
+    "attached_media_reviewed": false,
+    "records": {
+      "1754679627916726754": {
+        "response_sha256": "01c28790e0c84336106f7a4cc87c337b3ce5385240c0b40cc08fd1ab82ecaccc",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1755702241489494480": {
+        "response_sha256": "63e5fc754b6c3a21661566db945b443c9633ba931cdf0bdd77d36d481bae9760",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1763251446487609467": {
+        "response_sha256": "fb37d07ae396f4505b9782158e54ea93978622f7cabcad5c4c36c2b89413ef37",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1765764869821776313": {
+        "response_sha256": "b8cf00fc3528e58eea7454cae87056b9f2102dbe79fe80d341aeea23e91cf10a",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1772016704534594029": {
+        "response_sha256": "27b601fc972f5a2ef998c26821ab7ec680abb7616c7d68172531d0ecb7005b0f",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1772025356687393274": {
+        "response_sha256": "1820b6f348dae0ce83b4bf4ed08e7491a57bc682d94e701727ab534b31fa0175",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1774795525939712119": {
+        "response_sha256": "2246ff5f055b963a8efaac097d485c41071a185a9c6ad5300e47a319b971a502",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1802189152366088700": {
+        "response_sha256": "f737266f7aea8e61dec05ed2dca6187f2b249907285a798a4d93a47855da4cbd",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1840854411322802469": {
+        "response_sha256": "97569425861bd07c4c2f631d47b0378e537435577643daf0b5c97c7a418c603e",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1858713219973484577": {
+        "response_sha256": "aae2106778d618ae7b717b0bb10d918d9efcb9e221a7966d69c154f90987e857",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1870338853816406284": {
+        "response_sha256": "0599f450a2c11d8916b02e5b2e07d3bd1e7423a63d5c9e5505e1cf1f31cba553",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1871663336196317646": {
+        "response_sha256": "19bc01a770ae3ead89bf5917cf5b7936b230b7d8bf074b6f02c9eed95d2d7fb5",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1919727895712260379": {
+        "response_sha256": "691c4ecb4d545fba6e57922d7eb3d031fa42754ea752047f54fc65a4f7e6d3e7",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1919925912352526684": {
+        "response_sha256": "b3c7d3a2083b761e6dad3b38f5043dec6863ebc297a64f5c2a6c5d065070a6b0",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1934312244021531005": {
+        "response_sha256": "d0f75488cf67a3710a277e672b79b965bd8aa43eac702411fa5aace991554a3c",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1953347333908771293": {
+        "response_sha256": "24b69e9335769a6da51623bea4070202f117669b87a26d3e28afff3e40259a43",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1953489550548050426": {
+        "response_sha256": "6c2b6931db87075ddf3adb7a8f45d03ee9fa596e22a4946d391b728328a6561a",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1956805055883129262": {
+        "response_sha256": "59834ab0a28b2aac7eea269074bac6f0287d03162c381ec63640b173c1f009ca",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1967858814415507572": {
+        "response_sha256": "0a46cf7fc5622ff6478e9a2be282dfec9b65053f3c4a3c496530c7fb0c7ebe36",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1973039795657154804": {
+        "response_sha256": "c89abdcd37ca2c759795781dc35c4bf8474547fba05f64e3a324d39738cac7d9",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1981606281921319133": {
+        "response_sha256": "203daecd7b34c2536b436b448221f1d04e92a96fb1b72a8f0e1507493d0d08b9",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1989918203682910441": {
+        "response_sha256": "023c58e95daf7ecb83e99f88049b82a7bfb5181f2965aea6a544ecde895cf369",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "1995224707483009435": {
+        "response_sha256": "c5035c17d4fe30c862d43f5d14396f2347b1b6c669deaa72ba520f1bad3d3dcd",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "2020606769052160152": {
+        "response_sha256": "b9b6c58f33418678880e07f4b4d82671215cc0d4078e4978cf5ccb19b6fa4e5d",
+        "text_is_mentions_only": true,
+        "media_present": true
+      },
+      "2045891783150703031": {
+        "response_sha256": "8617f88474ff353a1ed05b366f1de63f22095eadb10bdbe2afac89fa7a7388f4",
+        "text_is_mentions_only": true,
+        "media_present": true
+      }
+    },
+    "raw_artifacts_shipped": false
+  }
 }

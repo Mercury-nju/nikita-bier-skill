@@ -86,6 +86,12 @@ The complete caption export replaces reliance on a secondary transcript for the 
 | 19:01–23:55 | Faster building and reproducible tests; the earliest-starting school; infrastructure and cash constraints during tbh's launch. | Building faster, creating useful tests, and handling growth are separate capabilities. Historical costs and installs are not targets. |
 | 25:04–29:19 | Existing Snapchat behavior, Sarahah's language barrier, bullying complaints, and the choice of authored positive polls. | Latent demand came from observable workarounds; choosing a constrained format is not proof of psychological safety. |
 | 29:37–32:11 | He explicitly distinguishes seeding a school for a valid test from the app's later organic growth. | Repeating the Instagram seeding tactic is not a validated scalable acquisition strategy. |
+| 49:14–51:43 | Functional-role separation, design ownership, and the host's challenge to the PM critique. | Nikita explicitly calls it exaggerated, particularly for zero-to-one work, and acknowledges coordination/regulation/scale needs; C32. |
+| 54:19–57:58 | Revisit reported tbh payment requests, retest Gas and rebuild distribution under changed constraints. | Motivation and requests are reported; no audited willingness-to-pay test or privacy/paywall specification; C34. |
+| 66:25–69:41 | Search corrections, institutional retractions, review cleanup and a video at deletion during the Gas rumor crisis. | The reported 3% → 0.1% daily deletion change bundles interventions; no isolated causal estimate; C33. |
+| 70:03–71:20 | Monetization, negotiated startup credits, no-investor operation and later buyer interest. | Credits are temporary; cash flow and sale options are self-reports, not recurring financials; C34. |
+| 73:20–75:33 | A rename/relaunch failed to isolate the rumor when an invitation linked states. | The origin remains unknown; reputation can travel with the network rather than branding alone; C33. |
+| 81:56–83:26 | Founder proceeds, long-term commitment and lean operating principles for a potential venture-backed company. | Contextual preference, not a universal return comparison or rejection of every venture-backed business; C34. |
 | 75:52–76:59 | He reports lower invitations under the Crush name and an increase after the Gas name/icon change. | Name and icon changed together; no isolated causal estimate or general rule about gender was supplied. |
 | 87:17–91:45 | Dupe's existing workaround, memorable URL entry point, and contact-import friction. | A dated advisory case, not a guarantee that a domain trick or current platform API works for another product. |
 | 92:20–95:41 | Inspect analytics, activation milestones, and all entry funnels; align community identity across ads, onboarding, and invitations; work in the actual design. | Claimed advisory returns and conversion forecasts are self-reports, not an audited service guarantee. |
@@ -127,9 +133,31 @@ See C19 and C23 for the bounded modeling choice and the distinction between an i
 
 These records make the chronology more specific without inventing what each unsuccessful app taught him. That missing explanation remains a real gap.
 
+## S15 / S28 / S30–S35 — Company Context And Selected X Rechecks
+
+S28 is the complete Meta article body, read as company context. S15 is upgraded to a complete one-post mirror already present in the indexed corpus. S30–S35 contain 14 post texts acquired through public third-party FxTwitter JSON; author, post ID and snowflake date were checked. This is access through a proxy, not fresh full original-page verification. Original URLs remain in [sources.md](sources.md).
+
+Selected immediate parents were also read for the Outline clarification, API-revenue reply, quote-control reply and advisory exchanges. Their hashes are separate in the manifest; parents by other people are context, not new Nikita statements. The augmentation parent article returns no text, the full quote-control ancestor conversation is absent, and attached media were not reviewed. C23 and C36–C43 record what can and cannot be reconstructed.
+
+The 25 originally text-empty records were retried through the same proxy. Every recovered textual payload consists only of mentions and has media. No new product statement was extracted; the attachments remain unknown. Do not change the substantive-source count just because these responses succeeded.
+
+## S36 / S37 — Additional Audio, 2022
+
+Two more complete official episodes were acquired: S36, episode 1 (2022-01-29), 53:09; S37, episode 5 (2022-02-26), 49:36. The 19,334 all-speaker ASR words include banter, financial opinions and other people's explanations. No independent listening or diarization was performed.
+
+| Source and audio window | Reviewed material | Attribution and use |
+| --- | --- | --- |
+| S36, 20:00–27:20 | Calendly scheduling/etiquette discussion | The clear named exchange is joking. The wider product explanations cannot be reliably assigned from this pass; no new product claim promoted. |
+| S37, 12:21–14:00 | Moderator asks about the provocative company-origin tweet; Nikita distinguishes its joke from his creative-license recommendation. | Explicitly addressed answer; cohosts' later historical examples excluded; C45. |
+| S37, 18:09–20:24 | Moderator asks for tbh's actual origin and simpler mission story; he explains observing Sarahah and creating a retellable FAQ/team narrative. | Preserve source observation, product constraint and mission distinction; reported mental-health messages are not clinical evidence; C45. |
+| S37, 25:11–26:55 | Named question about converting launch attention into sustained use; he reports restricting tbh to three states while rebuilding despite team objections. | Answer starts 25:31, next speaker 26:55. Approximate six-week timing is unverified; C44. |
+| S37, 28:37–29:07 | Follow-up contrasts Twitter's earlier intrinsic utility with acquisition preceding first value. | The host's preceding argument and following political jokes are excluded. No later app outcome is used to validate the opinion; C44. |
+
+These are learning additions, not a fresh fidelity holdout. S37's numerical failure claims and stock recommendation are deliberately excluded from reusable product rules.
+
 ## Reproduce the collection
 
-The [manifest](acquisition-manifest.json) registers fourteen acquired inputs, records counts and hashes, and retains blocked, rejected, and duplicate leads. Its hashes identify this retrieval, not future byte-for-byte stability: feeds, ads, and caption tracks can change.
+The [manifest](acquisition-manifest.json) registers twenty-six acquired inputs, records counts and hashes, and retains blocked, rejected, and duplicate leads. Its hashes identify this retrieval, not future byte-for-byte stability: feeds, ads, and caption tracks can change.
 
 From the repository root, collect three complete thread texts:
 
@@ -163,8 +191,10 @@ python3 scripts/collect_sources.py --source S21 --output research \
 
 The importer checks the video ID, timestamp order, and observed final cue. It does not authenticate every sentence or verify speaker identities. It never substitutes another video's text when captions are unavailable. S01 and S22 work the same way; rerunning without an import file uses an existing validated local export.
 
-Publisher articles can be fetched with `--source S23`. If a normal browser is required, save the article HTML or its rendered body and import it with `--page-file S25=/absolute/path/to/page.html`. A missing/short body fails instead of being counted. Publisher HTML and a rendered DOM representation have different hashes; the manifest identifies which was actually retained.
+Selected post clusters can be fetched with `--source S33`. The collector uses the registered public proxy, checks ID/author/date, rejects empty text, and records response hashes. It does not verify media, fetch every ancestor, or prove agreement with the current original page.
+
+Publisher articles can be fetched with `--source S23` or `--source S28`. If a normal browser is required, save the article HTML or its rendered body and import it with `--page-file S25=/absolute/path/to/page.html`. A missing/short body fails instead of being counted. Publisher HTML and a rendered DOM representation have different hashes; the manifest identifies which was actually retained.
 
 ## Remaining acquisition gaps
 
-The Alex Heath interview has a readable teaser and a paywall; its full content remains unacquired. Historical X coverage, most failed-app decision records, replies/media context, and independent audio verification of multiparty passages remain incomplete. Selected S19/S20/S26/S27 answers now have bounded contextual attribution; the full transcripts do not. The Solana acquisition gap is resolved for S21, and its duplicate card is excluded from source counts.
+The Alex Heath interview has a readable teaser and a paywall; its full content remains unacquired. Historical X coverage, most failed-app decision records, replies/media context, and independent audio verification of multiparty passages remain incomplete. Selected S19/S20/S26/S27/S37 answers now have bounded contextual attribution; the full transcripts do not. The Solana acquisition gap is resolved for S21, and its duplicate card is excluded from source counts.

@@ -53,6 +53,10 @@ S17 also describes a different starting point for an operating product: identify
 | “Growth is scientific” vs. “durable networks are rare” | Separate measurable distribution transitions from long-term habit formation. Do not use one as evidence for the other. |
 | “Move fast” vs. “protect the signal” | Spend or polish only where it answers the current high-value unknown or prevents an interpretable test. |
 
+The November 2024 MVP revision (S15, C36) is an explicit change in expressed conviction, while the complete-test requirement also appears in earlier sources. Keep the remaining stopping-rule uncertainty visible: sources do not tell us exactly how long to persist when credible tests repeatedly fail. A bounded disconfirmation rule is the package's proposal.
+
+Partnerships have a stated high-value-complement exception (S31, C37); product-role criticism includes coordination and scale qualifications (S01, C32). Acquisition does not certify durable use (S28, C35), and platform revenue can conflict with the network's purpose (S33, C39). Preserve the specific conflict before turning any of these into a recommendation.
+
 ## Evidence discipline
 
 Every conclusion in a response should carry one of these labels internally:

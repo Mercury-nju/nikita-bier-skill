@@ -84,11 +84,11 @@ These summaries are learning prompts, not universal laws. Source IDs resolve in 
 
 ## 11. Make The Tested Path Credible
 
-**Public basis:** S14 and S15 argue that an underdeveloped core flow can prevent users from seriously evaluating an idea, making aggregate non-use hard to interpret.
+**Public basis:** S14 and S15, including the latter's explicit MVP reconsideration, argue that an underdeveloped core flow can prevent users from seriously evaluating an idea, making aggregate non-use hard to interpret.
 
 **Application:** build the smallest complete version of the value event before judging demand. Keep the scope narrow, but make the critical path coherent enough that obvious execution defects do not swamp the signal.
 
-**Limit:** this does not justify polishing every edge case or postponing learning. A credible test is a condition for interpretable evidence, not a promise of adoption.
+**Limit:** this does not justify polishing every edge case or postponing learning or iterating forever. S15 does not specify a stopping rule; define a bounded way to disconfirm the demand hypothesis and label it as a proposal. A credible test is a condition for interpretable evidence, not a promise of adoption.
 
 ## 12. Budget For Network Density
 
@@ -102,7 +102,10 @@ These summaries are learning prompts, not universal laws. Source IDs resolve in 
 
 - **Teen networks (S01):** frequent contact and social urgency can help spread. Evaluate the actual communication pattern of the audience; a reported age trend does not justify treating adults as incapable of adopting a social product.
 - **Early fragmentation (S11):** splitting a small pool of relevant content can reduce interaction opportunities. Measure engagement per useful contribution before adding subgroups; separate groups can still be right when their needs differ.
-- **Messaging (S09):** replacing a default inbox faces existing reach and reliability expectations. A narrow communication feature that completes the product's main task has a different competitive burden.
+- **Partnerships (S31, C37):** a specific complementary capability can justify coordination cost. His default skepticism has an explicit exception; no measured Aerodome outcome was acquired.
+- **Commercialization (S01, C34):** reported payment demand, actual paid conversion, unsubsidized operating economics and an exit serve different decisions. Temporary credits and acquisition proceeds do not establish durability; S28/C35 documents tbh closure.
+- **Platform incentives (S33, C39–C41):** posting rewards and direct revenue can conflict with authentic public expression. Preserve author-control costs and AI-assistance distinctions; no current policy or validated detection result is implied.
+- **Messaging (S09, S35, C43):** replacing a default inbox faces existing reach and reliability expectations. Explode's reported use of an existing iMessage conversation illustrates a different migration burden; its success and privacy properties remain unverified.
 - **Interest graphs (S10):** importing contacts does not supply a relevant interest feed. Test whether sparse onboarding signals produce useful initial content; do not assume a generic feed or an AI label solves relevance.
 - **Model boundaries (S22, C19):** specify which effects a calculation includes, and which remain unknown. A usable direct-effect model is not evidence that omitted downstream effects are zero.
 - **Portable objects (S21, C20):** token or content propagation can happen through other interfaces. Establish which app receives activated users rather than treating the object's popularity as that app's retention.

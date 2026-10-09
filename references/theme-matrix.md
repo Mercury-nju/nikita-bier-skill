@@ -42,6 +42,21 @@ Use this map to find the relevant entry in [sources.md](sources.md). A source ma
 | Adjacent audio features vs. podcast market limits | S26, C29 | Existing creator/activity fit is a hypothesis, not measured adoption |
 | Conditional asset access and mobile discovery | S26, C30 | Domain reversion preserves recoverability but leaves dilution and lock-up costs |
 | Unproven behavioral dependencies | S27, C31 | Asset ownership is not attention; no universal probability calculation |
+| PM craft vs. organizational coordination | S01, C32 | His categorical critique is explicitly qualified for zero-to-one work |
+| Reputation propagation and exit-point correction | S01, C33 | Renaming did not isolate a connected rumor; bundled response prevents isolated causal attribution |
+| Paid demand, credits, margin and exit choices | S01, C34 | Support requests and early cash flow do not prove repeated paid value or unsubsidized margin |
+| Acquisition vs. continued standalone use | S28, S38, C35 | Closure context constrains durability claims; exact causal data remains absent |
+| Explicit MVP reconsideration | S15, C36 | Preserve the stopping-rule uncertainty alongside earlier credible-test and repeated-failure advice |
+| Useful partnership exception | S31, C37 | Named complement is not a measured outcome or blanket recommendation |
+| Financing access vs. round structure | S30, C38 | Dated founder advice, not transaction terms or current legal requirements |
+| Foregone revenue and integrity | S33, C39 | Reported API revenue and expected improvement are not independently established results |
+| Author control vs. public-space mission | S33, C40 | Immediate parent acquired; full design and ancestor context remain unavailable |
+| Human augmentation vs. misleading expression | S33, C41 | Not a blanket AI ban, classifier or demonstrated policy result |
+| Advisory service inputs and scarce capacity | S34, S01, C42 | Marketing certainty and client returns are not verified or reproduced by the skill |
+| Existing-inbox extension | S35, S09, C43 | Explode's reported installation asymmetry differs from main-inbox replacement; no success or privacy test |
+| Expansion restriction during rebuilding | S37, C44 | Reported momentum/iteration tradeoff, qualified by S04's test geometry |
+| Origin narrative vs. decision history | S37, C45 | Explicit provocative-tweet clarification; preserve facts when writing for users |
+| Acquired episode without promoted product claims | S36 | Clear named Calendly reply is joking; wider attribution is insufficient |
 | Stakeholder priorities and view comparisons | Package-author synthesis in reasoning-atlas.md | Separate explicit changes of view from differences in product or role |
 | Qualitative diagnostic dimensions and experiment format | Package-author synthesis | Not a published Nikita rubric or a validated predictor |
 | Retired 12-point scoring model | Package-author addition | Removed; no primary source or calibrated cutoffs |

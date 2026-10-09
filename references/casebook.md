@@ -5,7 +5,7 @@ This casebook is the evidence layer between public material and the package's de
 ## Evidence tiers
 
 - **A — direct first-person material:** an accessible original post or thread mirror that preserves the relevant context.
-- **B — first-person material with access or transcription uncertainty:** a retained local record, partial excerpt, secondary transcript, or machine transcript not independently checked against audio. Full audio acquisition improves coverage but does not authenticate every ASR sentence.
+- **B — first-person material with access or transcription uncertainty:** a retained local record, third-party X JSON response, partial excerpt, secondary transcript, or machine transcript not independently checked against audio. Full audio acquisition improves coverage but does not authenticate every ASR sentence.
 - **C — reported context:** an institutional report, interview summary, or independent profile.
 
 Use a case to generate a hypothesis. Do not turn one case into a threshold, benchmark, or universal rule.
@@ -223,11 +223,11 @@ Use a case to generate a hypothesis. Do not turn one case into a threshold, benc
 ## C23 — Politify to Outline: interest and procurement are different evidence
 
 - **Situation / constraint:** a consumer-facing policy tool led to government interest and a licensed-product opportunity.
-- **Observed record:** the 2013 company release reports a successful-bid status pending negotiations. The 2024 interview recounts a canceled contract during a shutdown and a later change of direction discussed with investors.
+- **Observed record:** the 2013 company release reports a successful-bid status pending negotiations. The 2024 interview recounts a canceled contract during a shutdown and a later change of direction discussed with investors. A November 2024 post instead emphasizes agencies being asked for budget-cut impacts; its reply clarifies that the tax-record population was synthetic, assembled from sources such as IRS and Census data.
 - **Inferred mechanism:** consumer attention, buyer interest, procurement completion, delivery, and the founder's willingness to operate the business are distinct requirements.
-- **Observation limit:** these sources do not establish that the same contract was canceled or that government software is inherently unviable.
+- **Observation limit:** these sources do not establish whether the recollections concern the same contract, how the reported causes relate, or that government software is inherently unviable. The synthetic-data clarification does not authenticate the model; do not claim access to individual private tax records.
 - **Transfer limit:** test the actual buyer, contracting dependencies, and delivery economics. Keep a contemporaneous announcement distinct from a retrospective explanation.
-- **Sources:** S23, tier A for a direct company announcement; S01, official video 06:36–09:28, tier B for the reported recollection.
+- **Sources:** S23, tier A for a direct company announcement; S01, official video 06:36–09:28, and S32, tier B for the reported recollections and data clarification.
 
 ## C24 — Five: a specific earlier product with an unknown outcome
 
@@ -300,6 +300,128 @@ Use a case to generate a hypothesis. Do not turn one case into a threshold, benc
 - **Observation limit:** the passage gives a dated product/investment opinion, not a prediction validated by later performance. Subsequent speakers' counterarguments, revenue statistics and numerical success odds are excluded from this attribution.
 - **Transfer limit:** test the proposed activity itself and reduce unnecessary dependencies. Funding and ownership do not establish attention, demand or repeat play.
 - **Source:** S27, 11:12–12:53, tier B; the moderator names Nikita, with another speaker beginning at the end of the answer.
+
+## C32 — Product roles: interface craft and coordination have different contexts
+
+- **Situation / constraint:** consumer-app decisions are separated among product, design and data functions, with costly reporting and approval handoffs.
+- **Explanation:** Nikita criticizes roles detached from designing the actual interaction. When challenged, he calls his claim exaggerated and particularly applicable to zero-to-one consumer apps; he also acknowledges coordination, regulation and scaling needs.
+- **Tradeoff:** direct product craft can reduce translation overhead, while a larger operating organization still needs coordination and responsibility.
+- **Observation limit:** this is his account and argument, not a comparison proving one organizational structure performs better.
+- **Transfer limit:** inspect decision authority, interface work and coordination obligations before changing titles or removing roles. His later X leadership is a different operating context, not proof that the earlier categorical slogan was literally true.
+- **Source:** S01, video 49:14–51:43, tier B.
+
+## C33 — Gas rumors: reputation can propagate through the same graph as invitations
+
+- **Situation:** a false human-trafficking rumor spread through screenshots, reviews and school/police statements while Gas was growing.
+- **Reported choices:** search-visible corrections, institutional retractions, review cleanup, and an explanatory video at account deletion. Renaming and relaunching elsewhere failed to contain the rumor when an invitation connected users across states.
+- **Mechanism:** changing branding does not necessarily reset network reputation. A correction at the abandonment decision can reach affected users directly.
+- **Observation limit:** he reports daily deletions falling from 3% to 0.1% during a bundled response. No isolated intervention effect, comparable cohort or independent audit is supplied; the rumor's origin remains unknown.
+- **Transfer limit:** investigate actual abandonment reasons and information paths. Do not assume all criticism is false or that a video is the best response to a different problem.
+- **Source:** S01, video 66:25–69:41 and 73:20–75:33, tier B.
+
+## C34 — Gas commercialization: payment demand, temporary cost relief and exit options
+
+- **Situation:** tbh users had repeatedly asked about paying for sender information. In his later account, Nikita revisited that demand when deciding to build Gas and earn near-term income.
+- **Reported choices:** retest the concept, monetize Gas, negotiate startup credits after seeing early data, and initially operate without investors. Acquisition interest subsequently changed his intention to let the app run independently.
+- **Tradeoff:** a lean cash-generating product and a sale can serve the founder differently from a large venture-backed company. Credits can improve early cash flow without establishing steady-state costs.
+- **Observation limit:** support requests are not realized willingness to pay. Revenue, margins, buyer interest and the absence of investors are self-reported; full financials, paywall mechanics, deal terms and counterfactual proceeds are absent.
+- **Transfer limit:** separate paid conversion, recurring contribution margin without temporary credits, operating burden and founder objectives. Do not infer that payment should reveal another user's identity: this passage establishes demand, not the permitted disclosure or pricing design.
+- **Source:** S01, video 54:19–57:58, 70:03–71:20 and 81:56–83:26, tier B.
+
+## C35 — tbh closure: an acquisition does not establish durable standalone use
+
+- **Observed record:** Meta's July 2018 announcement announces tbh among apps being closed for low usage and explains the need to prioritize work.
+- **Inference:** a successful founder exit and continued standalone use are separate outcomes. This constrains durability claims attached to the earlier launch case.
+- **Missing explanation:** no cohort data, experiment log or precise cause of declining use is supplied. Do not infer that anonymous compliments caused the closure or that every transient product is worthless.
+- **Additional context:** Discord announced Gas closure for November 7, 2023 (S38).
+- **Sources:** S28, tier C for direct buyer/company context; S38, tier C for the reported spokesperson statement; S01/S06 distinguish spread from durability.
+
+## C36 — MVP revision: aggregate non-use may be an invalid rejection test
+
+- **Explicit view change:** in November 2024, Nikita says he is losing conviction in minimum viable products when an incomplete activation path makes aggregate usage hard to interpret.
+- **Proposed choice:** maintain a belief about the desired value, add activation components and test with fresh users; even a component needs enough quality to avoid confounds.
+- **Tension:** S02 also advocates moving on after repeated failures. Credible execution and usable network state can explain part of the distinction, but the sources do not supply an objective stopping rule or prove persistence was correct in every case.
+- **Author proposal:** define a bounded test window and the result that would disconfirm the demand hypothesis before further iteration; this stopping rule is not attributed to him.
+- **Sources:** S15, tier A for a complete mirror; S03/S14 provide related test-quality arguments, not independent experiments.
+
+## C37 — Partnerships: a default warning has a stated exception
+
+- **Situation / constraint:** arranging a partnership can consume time without changing the user's experience.
+- **Explicit qualification:** in July 2024, Nikita keeps his default skepticism but supports a complementary pair of products when it creates substantially greater user value; he names Aerodome as an example.
+- **Inference:** evaluate the incremental value unlocked and the cost of coordination, rather than classifying every partnership as good or bad.
+- **Observation limit:** the post gives no contract, implementation details or measured effect. Its crime-reduction claim is not independently established here.
+- **Transfer limit:** a distribution-logo exchange is not automatically a useful complement. Establish what the user can do with the combined products that neither supplies alone.
+- **Sources:** S31, tier B for third-party X JSON; S02 supplies the earlier categorical warning.
+
+## C38 — Fundraising: contingent promises and cash access are different constraints
+
+- **Situation:** a first-time founder without a track record cannot reliably obtain a lead investor.
+- **Reported advice:** in December 2024, Nikita recommends assembling a round from multiple investors rather than waiting on lead-dependent promises; he acknowledges the cost of a less compact cap table.
+- **Inference:** the available financing path and the founder's runway may matter more than the aesthetically preferred round structure. Verbal interest is not completed funding.
+- **Observation limit:** this is dated founder advice, not a documented comparison of financing outcomes or a verified transaction.
+- **Transfer limit:** use the case to explain the access/coordination tradeoff. It does not determine valuation, instrument terms, suitability or current legal requirements for a user's round.
+- **Source:** S30, tier B for third-party X JSON.
+
+## C39 — X posting rewards: API revenue can conflict with network quality
+
+- **Reported decision:** in January 2026, Nikita announced revoking API access for apps rewarding X posts, attributing AI spam and low-quality replies to those incentives.
+- **Explicit cost:** when asked whether those apps could pay X, he said they already paid millions for Enterprise API access and that X did not want that revenue.
+- **Mechanism:** incentives can increase measured activity and direct revenue while degrading the environment users come for.
+- **Observation limit:** the statement establishes his stated tradeoff; revenue size, spam causation and subsequent improvement are not independently verified. A forecast that the experience should improve is not an observed result.
+- **Transfer limit:** inspect rewarded behavior, meaningful user value and externalities before choosing an activity or revenue metric. This is a historical policy account, not a claim about today's API permissions.
+- **Source:** S33, 2026-01-15 posts and the retrieved parent question, tier B.
+
+## C40 — X quote control: author autonomy and public conversation conflict
+
+- **Reported explanation:** in December 2025, Nikita acknowledged hostile quote use while saying X generally leans toward public space when weighing a thread author's control against its mission.
+- **Competing interests:** an author may want protection or control; other participants may want to respond publicly. Neither interest disappears because the other is valuable.
+- **Observation limit:** the immediate parent discusses quote defaults when replies are disabled, but the full ancestor conversation and a resulting implemented policy were not acquired. His frequency estimate is not a measured abuse rate.
+- **Transfer limit:** identify the actual control, who bears its cost, and the network's promise. This statement cannot settle every moderation or abuse case.
+- **Source:** S33, 2025-12-31 post and immediate parent, tier B.
+
+## C41 — AI: augmenting people differs from misrepresenting their presence
+
+- **Reported position:** his December 2025 reply favors exploring human augmentation before automation. In February 2026, he argues that X should resist machine content or undisclosed sponsored actors misrepresented as independent human expression; a follow-up rejects a single machine-learning solution.
+- **Inference:** the relevant boundary is whether a tool helps a person express themselves or corrupts the perceived source of expression. Product incentives and disclosure matter alongside technical detection.
+- **Observation limit:** these posts do not provide a detection method, validated classifier or completed product result. The augmentation reply's parent article was not acquired; do not attribute its author's thesis to Nikita.
+- **Transfer limit:** do not extrapolate this into a ban on every AI-assisted post, approval of every disclosed automated account, or proof that detection will work.
+- **Source:** S33, 2025-12-24 and 2026-02-22 posts, tier B.
+
+## C42 — Advisory work: public explanations are only part of the offered service
+
+- **Reported business:** in July 2024, he defended a monthly advisory price through funnel review, design work, introductions and unpublished platform knowledge; he claimed full capacity and client successes. An earlier reply describes raising booking prices when too busy.
+- **Reported relationship:** an Intro session is for identifying and fixing product problems; openness while working together can build conviction to invest, rather than turning every booking into a pitch.
+- **Inference:** scarce time, hands-on execution and access can be part of a service's value. Those inputs are not reproduced by a repository of public advice.
+- **Observation limit:** price, client outcomes and predictive certainty are interested marketing claims, not an audited service guarantee or evidence that this skill can predict conversion.
+- **Transfer limit:** learn the stated review practices. Do not promise consulting equivalence, unpublished tactics, introductions, returns or an investment from using this skill; the historical price is not current availability.
+- **Sources:** S34, dated posts with selected immediate-parent context; S01, video 92:20–95:41, tier B.
+
+## C43 — Explode: add a communication capability to an existing graph
+
+- **Reported design:** his January 2025 launch post describes disappearing photos/text inside iMessage, with only the sender needing the app.
+- **Mechanism:** an existing conversation and an asymmetrical installation requirement can reduce the need to migrate both participants into a new network.
+- **Context distinction:** S09 later criticizes replacing a main inbox. An extension that uses an existing inbox has different reach and switching requirements; this is not evidence that a new standalone messenger would succeed.
+- **Observation limit:** no adoption, retention or revenue outcome was acquired. The post's screenshot-protection claim was not technically tested, and its account of Snapchat's conduct is his allegation, not established motive or independent verification.
+- **Transfer limit:** verify sender and recipient value, platform dependencies, privacy properties and actual recipient friction. Do not infer that iMessage integration removes all acquisition or trust costs.
+- **Sources:** S35, tier B for third-party X JSON; S09 for the separate main-inbox warning.
+
+## C44 — tbh expansion: giving up immediate reach can preserve iteration
+
+- **Situation / constraint:** while discussing a celebrity-driven social launch in February 2022, Nikita distinguishes acquisition hype from a network that users already find valuable.
+- **Reported decision:** he says his team objected when he geofenced tbh to three states during growth and spent about six weeks rebuilding before relaunching.
+- **Tradeoff:** preserve attention and a usable test environment at the cost of immediate top-line growth. He contrasts early intrinsic utility with traffic arriving before users experience a reason to stay.
+- **Observation limit:** this is a retrospective account without geography, cohort or release logs. His financial recommendation, numerical failure odds and other speakers' jokes are excluded; no subsequent Truth Social outcome is used to certify this prediction.
+- **Transfer limit:** inspect whether useful network behavior exists before widening access. S04 later permits concentrated launches when independent bounded tests are unavailable, so geofencing is not a universal requirement.
+- **Source:** S37, answer 25:31–26:55 and 28:37–29:07; preceding question 25:11–25:31, tier B.
+
+## C45 — Origin narratives: a public explanation is not a complete decision log
+
+- **Explicit clarification:** asked about a provocative company-origin tweet, Nikita says its universal claim was a joke, while still endorsing creative license and a simplified, compelling account of why a product should exist.
+- **Reported example:** he connects tbh's actual observation of Sarahah's harmful messages to constraining what users could say, then describes a cleaner mission narrative used with his team and FAQs.
+- **Distinction:** an observed user motive, a product constraint, an organizational mission and a retellable origin story can play different roles. His mental-health impact account is user-message testimony, not clinical evidence.
+- **Observation limit:** only his bounded answers are attributed. The other hosts' stories about famous companies do not establish his beliefs or those companies' histories.
+- **Transfer limit:** compare stated narratives with contemporaneous behavior and records. This skill preserves factual accuracy in writing; his creative-license position does not authorize the model to fabricate the user's history or metrics. Do not reinterpret every public account as either literal private reasoning or deliberate deception.
+- **Source:** S37, answer 12:49–14:00 and questions/answers 18:09–20:24, tier B.
 
 ## Cross-case patterns
 

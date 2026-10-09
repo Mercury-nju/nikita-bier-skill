@@ -4,7 +4,7 @@ The package combines public statements with author inference. The workflow, qual
 
 Verification notes describe checks on 2026-10-09 and the additional passage review/audio acquisition on 2026-10-10. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
 
-The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 and 36 non-overlapping posts from five complete mirrors, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
+The [corpus index](corpus-index.md) lists 699 public X URLs: the original 662, 36 non-overlapping posts from five complete mirrors, and the recovered Explode launch post, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
 
 ## Biographical Context
 
@@ -12,7 +12,7 @@ The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 an
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the twenty-seven source entries below. The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement remains a background reference. S24 adds one selected statement from November 2025; it does not establish continuous historical coverage.
+- These are background sources, separate from the thirty-seven source entries below. The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement remains a background reference. S24 adds one selected statement from November 2025; it does not establish continuous historical coverage.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
@@ -21,7 +21,7 @@ The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 an
 - [Readable timestamped transcript mirror](https://www.usetranscribe.io/yt/bhnfZhJWCWY/viral-growth-strategies)
 - Selected direct posts: [teen invitation pattern](https://x.com/nikitabier/status/1573365055802036224), [inverting time to value](https://x.com/nikitabier/status/1813735668276928682), [basic motivations](https://x.com/nikitabier/status/1481118417973243907)
 - Relevant sections: 08:42 consumer apps; 13:45 TBH; 16:43 teens; 01:13:14 durability; 01:26:53 Dupe and first value.
-- Checked: official summary and chapters were readable; a complete official video-caption export was subsequently acquired (98:21, 955 cues). Selected first-person passages were reviewed, including the earlier products, school-seeding/test distinction, naming, and advisory work. This upgrades source access rather than adding another interview. The three direct X pages returned public metadata. No independent audio review was completed.
+- Checked: official summary and chapters were readable; a complete official video-caption export was subsequently acquired (98:21, 955 cues). Selected first-person passages were reviewed, including the earlier products, school-seeding/test distinction, naming, advisory work, role-design qualifications, rumor response, monetization and exit choices. This upgrades source access rather than adding another interview. The three direct X pages returned public metadata. No independent audio review was completed.
 - Supports: motivation, latent demand, rapid payoff, observed teen invitation patterns, staged validation, the role of pixels and flows in consumer products, and the distinction between viral and durable products.
 - Limit: the age-related invitation figure and three-second framing are his reported observations/advice, not universally validated coefficients or deadlines.
 - Limit: caption speaker roles are inferred from conversational context. Video timing can differ from publisher chapters and podcast advertisements; use the explicitly labeled [video passage notes](interview-notes.md#s01--official-lenny-video-captions-2024-08-25). A single interview cannot represent his complete or stable view.
@@ -118,12 +118,12 @@ The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 an
 - Supports: making the tested critical path credible enough to separate weak execution from weak demand.
 - Limit: this is a short statement, not a measured quality threshold. “Polish” should serve the tested value event rather than become an excuse to delay learning.
 
-## S15 — A Minimum Viable Product Still Needs A Believable Core, 2024-11-16
+## S15 — MVP Reconsideration And A Believable Core, 2024-11-16
 
-- [Original post](https://x.com/nikitabier/status/1857896428317630893)
-- Checked: direct X page metadata was readable. He questions releasing an underdeveloped core flow and then interpreting aggregate non-use as proof that the idea has no viability.
-- Supports: distinguish a weak product test from a weak product hypothesis; state the core belief being tested before launch.
-- Limit: this is a founder opinion, not a rejection of every MVP. Scope the prototype tightly while completing the one experience whose value is under test.
+- [Original post](https://x.com/nikitabier/status/1857896428317630893); [complete one-post mirror](https://threadreaderapp.com/thread/1857896428317630893.html).
+- Checked: the earlier direct-X metadata is now supplemented by a complete mirror acquired and read (124 words). This upgrades the same source; the URL already existed in the corpus.
+- Supports: an explicit reported change in conviction and requirements for an interpretable activation test; C36.
+- Limit: no objective stopping rule or complete resolution of the tension with S02's advice to move on after repeated failures. The mirror does not independently establish causal outcomes.
 
 ## S16 — Network Density Is A Real Product Cost, 2024-02-06
 
@@ -221,3 +221,77 @@ The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800
 ## Attribution
 
 Use wording such as “Nikita's 2022 thread argues...” for a mapped statement, “this package infers...” for a synthesis, and “in your cohort...” for case-specific advice. If a source is unavailable, disclose that rather than claiming to have read it. Background reporting or biographies can establish chronology but cannot authenticate this package's scoring rules.
+
+## S28 — Meta's tbh Closure Announcement, 2018-07-02
+
+- [Direct company announcement](https://about.fb.com/news/2018/07/hello-tbh-moving-on/).
+- Checked: complete article body acquired and read (200 words); C35 records closure context separately from founder proceeds.
+- Limit: no retention cohort, experiment log or precise cause of low usage is supplied. This is buyer/company context, not Nikita's own explanation.
+
+## S30 — Fundraising With Limited Lead Access, 2024-12-22
+
+- [Original post](https://x.com/nikitabier/status/1870642819481706611).
+- Checked: complete text acquired through third-party FxTwitter JSON, with matching author, ID and snowflake date. Original-page metadata corroborates only a prefix; this is not fresh full original-page verification.
+- Supports: financing access versus round tidiness and contingent promises; C38.
+- Limit: dated founder advice, not verified transaction results, financing terms or current legal requirements.
+
+## S31 — Partnership Exception, 2024-07-24
+
+- [Original post](https://x.com/nikitabier/status/1816239186829353426).
+- Checked: matching third-party X JSON acquired and read. The original corpus already contained this URL.
+- Supports: his default skepticism has an explicit exception for useful complementary products; C37.
+- Limit: no independently measured Aerodome effect, contract or implementation details were acquired.
+
+## S32 — Outline Retrospective And Data Clarification, 2024-11-19
+
+- [Contract account](https://x.com/nikitabier/status/1858710306135953511); [synthetic-data clarification](https://x.com/nikitabier/status/1858715235026079835).
+- Checked: both matching third-party X JSON texts and their immediate parent posts were acquired and read; both Nikita URLs already existed in the corpus.
+- Supports: a different retrospective emphasis on the government opportunity and clarification that the modeled population was synthetic, using sources such as IRS and Census; C23.
+- Limit: no contract documents, model validation or relation between shutdown and agency-budget explanations is established. Do not claim access to individual private tax records.
+
+## S33 — X Integrity And Public-Space Tradeoffs, 2025-12 to 2026-02
+
+- [Posting-reward policy](https://x.com/nikitabier/status/2011825522817270230); [foregone API revenue](https://x.com/nikitabier/status/2011830037608280109), 2026-01-15.
+- [Quote-control tradeoff](https://x.com/nikitabier/status/2006445560665170231), 2025-12-31.
+- [Authentic human expression](https://x.com/nikitabier/status/2025712861650305512); [no single ML solution](https://x.com/nikitabier/status/2025716594576617655), 2026-02-22.
+- [Augmentation before automation](https://x.com/nikitabier/status/2003916886560657673), 2025-12-24.
+- Checked: six matching third-party X JSON texts read (286 words, including mentions); selected immediate parents retained. These URLs already existed in the corpus. The augmentation reply's parent article was not obtained; the quote-control ancestor conversation remains incomplete.
+- Supports: explicit revenue/quality, control/public-space and assistance/authenticity distinctions; C39–C41.
+- Limit: self-reported cost, causal claims and expected improvements are not verified outcomes or current policies. Short replies do not reveal a full product design.
+
+## S34 — Advisory Business And Capacity, 2024-02 to 2024-07
+
+- [Monthly advisory offer](https://x.com/nikitabier/status/1815130311963168831), 2024-07-21; [Intro and investment conviction](https://x.com/nikitabier/status/1812159722394714315), 2024-07-13; [capacity pricing](https://x.com/nikitabier/status/1757585337491095726), 2024-02-14.
+- Checked: three matching third-party X JSON texts read (277 words, including mentions); immediate parents for the latter two acquired. URLs already existed in the corpus.
+- Supports: the offered service's inputs, scarce time and problem-solving relationship; C42.
+- Limit: client results and promised prediction certainty are interested marketing claims. Public material cannot reproduce unpublished tactics, execution or introductions; historical pricing is not present availability.
+
+## S35 — Explode Original Launch, 2025-01-14
+
+- [Original launch post](https://x.com/nikitabier/status/1879206793118658974).
+- Checked: matching third-party X JSON text read (122 words). This URL was absent from the corpus and is the sole new unique URL in this pass. Attached video was not reviewed; a separate media-only follow-up was excluded from text evidence.
+- Supports: a reported communication extension using an existing iMessage graph with an asymmetrical installation requirement; C43.
+- Limit: no adoption, retention, revenue or tested screenshot-protection result. His account of Snapchat's conduct is an allegation, not a verified motive. The linked product site was unavailable during retrieval.
+
+## S36 — Three Cartoon Avatars, Episode 1, 2022-01-29
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: complete 53:09 publisher audio acquired and locally transcribed (10,207 all-speaker words). Selected Calendly discussion and speaker-name neighborhoods reviewed.
+- No new product claim promoted: the clear named exchange about Calendly is joking; the wider scheduling/product discussion has insufficient speaker attribution. An explicitly addressed personal-trading answer was outside the product-learning scope.
+- Limit: collecting a complete episode does not establish attribution or a new principle. No independent listening verification.
+
+## S37 — Three Cartoon Avatars, Episode 5, 2022-02-26
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: complete 49:36 publisher audio acquired and locally transcribed (9,127 all-speaker words). Explicitly addressed answers bound the narrative clarification and tbh expansion account; [passage notes](interview-notes.md#s36--s37--additional-audio-2022).
+- Supports: limiting exposure during rebuilding and separating an iterative product origin from its public mission narrative; C44/C45.
+- Limit: financial recommendations, unsupported probability figures, hosts' political jokes and other-company histories are excluded. No release logs, independent audio verification or clinical impact evidence.
+
+## S38 — Gas Closure Context, 2023
+
+- [Company-spokesperson confirmation reported by TechCrunch](https://techcrunch.com/2023/10/19/discord-kills-gas-anonymous-compliments-app-bought-nine-months-ago/).
+- Checked: the spokesperson passage; full decision data unavailable. See C35.
+
+## Additional Unavailable Context
+
+Discord's historical acquisition URL, `https://discord.com/blog/welcoming-gas-to-discord`, redirects to the general blog. That page is not counted as an acquired announcement. The media-only Explode follow-up and 25 mention/media replies supply no newly recovered substantive text; their unseen attachments remain a coverage gap.
