@@ -11,6 +11,8 @@ The original package used a best-effort local collection of public X records, pu
 
 This collection includes replies, jokes, and platform commentary as well as product advice. Record count is not a count of useful growth principles. It excludes the earlier founder thread and does not establish complete historical coverage.
 
+Nikita announced joining X as Head of Product on 2025-06-30 and stepping down on 2026-08-05, with a stated plan to remain an advisor. The collection includes some public expression during that tenure, but ends in April 2026 and does not cover the full tenure or departure. Dated biographical references in [sources.md](sources.md#biographical-context) supplement the reader introduction without expanding or recounting the 662-record corpus.
+
 The local artifact checked had SHA-256 `494f86a0cc127b3dee96539e381b1d9cf9878a351cbd7d49b475fe09c570e0a7`. This identifies the reviewed collection; it is not an authentication of each post. The raw corpus is not shipped or required for installation. The repository provides selected summaries, original URLs, and access notes in [sources.md](sources.md), so readers do not depend on an author's local file paths.
 
 ## How To Weight Evidence

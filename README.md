@@ -4,6 +4,17 @@
 
 它帮助你把一个产品问题转成可以验证的判断：用户何时获得首次价值、哪些人需要同时参与、下一位用户如何到来，以及热度过去后为什么回来。
 
+## Nikita Bier 是谁
+
+**Nikita Bier 是前 X（原 Twitter）产品负责人（Head of Product）、消费社交应用创业者和产品增长顾问。** 他创办的 tbh 和 Gas 分别被 Facebook 和 Discord 收购，也为 Locket、BeReal、Flo 等消费产品提供过投资或顾问支持。[Lightspeed 官方介绍](https://lsvp.com/team-member/nikita-bier/)
+
+他的 X 任职经历：
+
+- **2025 年 6 月 30 日**，宣布加入 X，担任产品负责人。[任职报道](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399)
+- **2026 年 8 月 5 日**，宣布卸任，并表示继续担任 X 的顾问。[卸任报道](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/)
+
+截至 2026 年 10 月 9 日，这份介绍采用上述公开时间线。他的经历覆盖社交应用创业与大型社交平台的产品工作；现有 X 语料截至 2026 年 4 月，包含部分任职期间的公开表达，尚未完整覆盖这段任职经历。[履历来源与核验说明](references/sources.md#biographical-context)
+
 ## 适合用在哪
 
 - 社交产品首次体验差、冷启动困难，想找到优先验证的瓶颈。
