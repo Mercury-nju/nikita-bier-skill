@@ -10,7 +10,7 @@ Verification notes below describe what was checked on 2026-10-09. An accessible 
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the fourteen principle-source entries below. The collected X corpus ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
+- These are background sources, separate from the seventeen principle-source entries below. The collected X corpus ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
