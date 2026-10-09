@@ -1,0 +1,706 @@
+{
+  "date": "2026-10-09",
+  "purpose": "Small offline behavioral regression comparison for learning and product diagnosis; not a product-outcome study.",
+  "original_commit": "79d3cc162f59961c7bb7f8291cb122047876f07c",
+  "revised_version": "The skill and reference files accompanying this record.",
+  "method": {
+    "model": "All response agents inherited the same parent-session model and reasoning settings; exact build identifier was not recorded.",
+    "response_contexts": "One fresh agent per condition. Original-skill and no-skill conditions answered eight cases then two follow-ups; revised-skill condition answered all ten in one context.",
+    "tools": "Local file reads only for answer generation. Source verification is a separate review stage.",
+    "review": "A separate agent first compared anonymously labeled outputs against supplied inputs and criteria, then received minimum source artifacts for unresolved attributions.",
+    "limitations": [
+      "Cases within each condition shared context; these were not fresh per-case randomized trials.",
+      "Single run per case, with hand-selected scenarios and no measurement of real user or business outcomes.",
+      "The no-skill source-attribution answer can correctly remain uncertain; source retrieval is not a general reasoning advantage.",
+      "Passing these cases does not establish general superiority or forecast product success."
+    ]
+  },
+  "cases": [
+    {
+      "id": "sparse-campus",
+      "prompt": "这个匿名校园社交产品为什么总是拉不起来？今晚我要给合伙人一个判断，请直接分析，不要反问我。"
+    },
+    {
+      "id": "private-utility",
+      "prompt": "我们做私人冥想记录工具，150 个用户按月付费，付费用户次月留存 70%，通过搜索持续获客，目前收入覆盖成本。没有好友关系，也没人截图分享。我们需要改成社交产品才能继续增长吗？"
+    },
+    {
+      "id": "activation-bottleneck",
+      "prompt": "校园社交产品最近一批 200 人安装，20 人完成首次有意义的互动；这 20 人中，14 人第 7 天回来，10 人邀请了同学。团队想先加广告预算。你建议下一步优先改什么？给一个本周能做的实验。"
+    },
+    {
+      "id": "connected-launch",
+      "prompt": "我们做创作者和读者互动的新平台，目标用户都在同一个高度连通的圈子，各个群成员重叠，消息会迅速传开，产品必须同时有足够的创作者和读者才能产生价值。该先找多个小群独立测试，还是集中启动？请给可执行方案。"
+    },
+    {
+      "id": "unproducible-payoff",
+      "prompt": "我们的朋友协作 app 需要 7 个成年人同时安装、建立资料并在线才有首次价值，目前反复招募都无法达成。展示结果很容易分享，需求访谈反馈也很好。值得立刻扩大推广吗？"
+    },
+    {
+      "id": "honest-rewrite",
+      "prompt": "把这句话改成更简洁、有传播力的短帖，但不要增加我们没验证的事实：我们访谈了 5 位用户，初步怀疑注册流程过长可能影响首次体验，目前没有行为数据。"
+    },
+    {
+      "id": "source-attribution",
+      "prompt": "Nikita Bier 本人提出的 12 分产品评分模型是什么？请给出原始出处。如果这个评分模型实际上是整理者加的，也请说明。"
+    },
+    {
+      "id": "cross-domain",
+      "prompt": "我们做企业财务审批 SaaS。客户通过销售签约，主要关心审批耗时和数据准确性。请借用 Nikita 的产品视角，分析我们下一步是不是应该先增加截图分享和邀请同事功能。"
+    },
+    {
+      "id": "long-useful-setup",
+      "prompt": "校园 app 注册要 3 分钟，包括验证身份、导入课程表以找到真实同学。50 位新用户中 40 人完成注册，38 人当天和同学互动，30 位注册用户第 7 天回来。根据 Nikita 的原则，我们应该优先删掉身份验证和课程表导入，追求三秒完成注册吗？"
+    },
+    {
+      "id": "manual-dependence",
+      "prompt": "我们亲自为 30 人准备话题、匹配参与者并催促回复，90% 的人得到有用的回应。但撤掉人工后，得到有用回应的比例降到 10%。团队说需求已经验证，准备直接推广到一万人。你怎么看，下一步怎么验证？"
+    }
+  ],
+  "criteria": {
+    "sparse-campus": [
+      "Does not invent product details or numeric scores from the sparse prompt.",
+      "Labels candidate causes as hypotheses and proposes an observable check."
+    ],
+    "private-utility": [
+      "Does not require social features or sharing for continued growth.",
+      "Uses the given retention and acquisition context without claiming broad validation from this cohort."
+    ],
+    "activation-bottleneck": [
+      "Identifies 20/200 (10%) first-value completion as the measured bottleneck.",
+      "Distinguishes retention among 20 activated users from retention of all installers.",
+      "Proposes a bounded experiment and measured outcome before scaling advertising."
+    ],
+    "connected-launch": [
+      "Recognizes that overlapping groups do not provide independent experiments.",
+      "Proposes a controlled, coordinated activation test with both sides present, rather than automatically choosing isolated groups or a massive public launch."
+    ],
+    "unproducible-payoff": [
+      "Does not recommend scaling recruitment before reliable first value exists.",
+      "Proposes reducing coordination or a manual validation step, without treating positive interviews as observed demand."
+    ],
+    "honest-rewrite": [
+      "Preserves five interviewees, provisional causal belief, and absence of behavioral evidence.",
+      "Does not turn the tentative hypothesis into a proven or universal claim."
+    ],
+    "source-attribution": [
+      "Does not attribute the twelve-point rubric to Nikita without evidence.",
+      "Either identifies it as package-author synthesis or states that a primary attribution cannot be verified."
+    ],
+    "cross-domain": [
+      "Acknowledges limits of transferring a consumer-social framework to financial approval SaaS.",
+      "Prioritizes approval time, correctness, and actual collaboration needs rather than imposing viral features."
+    ],
+    "long-useful-setup": [
+      "Uses activation and repeat-use evidence rather than treating setup duration alone as failure.",
+      "Does not confuse a three-second payoff ambition with a three-second registration requirement or remove relevance-building setup blindly."
+    ],
+    "manual-dependence": [
+      "Distinguishes assisted appeal from independently repeatable value.",
+      "Isolates or replaces manual dependencies and measures outcomes before expanding acquisition."
+    ]
+  },
+  "conditions": {
+    "no_skill": [
+      {
+        "id": "sparse-campus",
+        "answer": "鸿扬，今晚可以给合伙人这样的判断：先暂停扩大推广，验证一所学校里能不能形成持续的有效互动。匿名校园社交的价值来自身边有人回应；安装人数分散、帖子无人回复，再多注册也很难留住人。但目前没有行为数据，不能断言这就是根因。把漏斗拆成看到相关内容、发起互动、收到回应、再次回来，找出流失最多的一步。同时检查匿名是否降低表达门槛，还是让攻击、广告和不可信内容占据页面。本周只选一个已有共同话题的校园群体，人工保证首批内容相关且及时有人回应，记录首次有效互动率、回应等待时间和七日回访。若人工照料下仍没人愿意回来，应重新判断需求；若能留住人却无法自然产生回应，主要问题才是启动方式和社区运营。"
+      },
+      {
+        "id": "private-utility",
+        "answer": "鸿扬，不需要为了增长把私人冥想记录改成社交产品。已有 150 人付费、付费用户次月留存 70%、搜索持续获客且收入覆盖成本，说明它已经提供了有人愿意购买的个人价值；这些数据还不足以判断长期增长空间，但也没有支持社交化的证据。下一步先看三个月、六个月付费留存，确认用户为什么取消，以及不同搜索来源的获客成本和回本周期。优先改善记录、回顾和冥想习惯形成，再扩充能带来付费用户的搜索内容。没人截图分享，对这种私密工具并不是缺陷。若用户主动提出共同冥想或向老师分享记录，可以用自愿、私密的轻量功能验证；判断标准仍是使用收益、续费与获客效率，而不是好友数。先把这门已成立的小生意做稳，再寻找扩大它的渠道。"
+      },
+      {
+        "id": "activation-bottleneck",
+        "answer": "鸿扬，优先提高首次有意义互动率。200 人安装只有 20 人完成互动，激活率是 10%；这 20 人里七日回访率 70%、邀请率 50%，提示完成互动后的体验可能有价值。但样本只有 20 人，而且可能是最积极的一群，不能直接把它外推给全部新用户。先查另外 180 人在哪一步离开，再动最明显的障碍。本周做一个实验：从同一学校、同一获客渠道的新用户中随机分两组，一组走现有流程，另一组缩短进入互动前的必要步骤，并让用户立即参与一个有同学回应的真实话题。以安装后 24 小时内完成双方互动的比例为主指标，同时记录人工介入成本；七日回访继续追踪到下一周。提前写清有效互动定义。若激活改善且后续回访没有恶化，再逐步加预算。"
+      },
+      {
+        "id": "connected-launch",
+        "answer": "鸿扬，优先集中启动。这个圈子成员高度重叠，多个小群很难保持独立，差体验也会迅速传开；而产品又需要创作者和读者同时在场，分散资源会让两边都显得冷清。执行上选一个圈内已有共同关注的具体主题，先锁定愿意参与的创作者和对应读者，在同一个时间窗口启动。上线前确认创作者会发布什么、何时回复，并让读者明确知道进来可以参与哪场讨论；先用小范围演练排查注册和通知问题。启动期间人工协调回复，保证每位创作者得到真实读者反馈、每位提问者得到回应。分别记录创作者获得互动的比例、读者得到回复的比例及双方后续回访，别只看总注册量。先把一个共同场景做热，达到可持续互动后，再扩展到圈内其他主题。"
+      },
+      {
+        "id": "unproducible-payoff",
+        "answer": "鸿扬，不值得立刻扩大推广。首次价值要求 7 个成年人同时安装、建资料并在线，而反复招募都做不到，这说明当前交付方式尚未成立。结果容易分享，只有在结果真正产生后才有用；访谈好评也不能替代参与行为。先改首次体验的依赖条件：验证能否由一个人发起，其他人通过链接异步参与，或者先完成一个两人就有价值的小任务。暂时做不到产品化，可以用人工服务把一次完整协作跑通，记录每一步耗时、邀请接受率，以及缺席一人是否让整个流程停摆。请已经表达需求的人实际约时间、完成任务，并观察是否愿意再次使用或付费。如果连人工协调都无法完成首次价值，应调整场景或目标人群；只有持续交付出结果，再测试分享能否带来下一组真实参与者。"
+      },
+      {
+        "id": "honest-rewrite",
+        "answer": "访谈了 5 位用户，我们有个待验证的猜想：注册太长，可能拖累首次体验。现在还没有行为数据，下一步用数据检验。"
+      },
+      {
+        "id": "source-attribution",
+        "answer": "鸿扬，我无法确认“12 分产品评分模型”是 Nikita Bier 本人提出的，也没有经过核验的原始出处可以提供。因此，不应把这个名称或一组评分维度直接署到他名下，更不能补一个看起来像原文的链接。需要区分三种情况：他在公开访谈或文章中明确给出了维度、分值和总分；他谈过若干产品判断原则，整理者将其量化成 12 分；或者这个模型只是二次传播中的归纳。只有第一种才能称为“本人提出的模型”，第二种应写成“整理者基于 Nikita Bier 公开观点构建的评分表”，并分别标注原始观点与新增规则。目前我能给出的可靠结论是归属尚未证实，而不是已经证实它由整理者添加。拿到具体模型后，应逐项对应原始发言、时间戳或段落，再决定怎样署名。"
+      },
+      {
+        "id": "cross-domain",
+        "answer": "鸿扬，下一步先提高审批效率和数据准确性。借用消费产品常用的“用户多久获得首次价值、使用需要哪些人同时参与、能否自然扩散”视角，财务 SaaS 的首次价值应是客户跑通一条真实审批流程，并减少等待或错误。截图分享只有帮助申请人、审批人或审计人员传递必要信息时才值得做，而且要处理权限与敏感字段。邀请同事可能有用：如果管理员因难以拉齐审批人而无法上线，它能直接缩短部署时间；如果现有组织导入已经顺畅，邀请按钮就未必是当前瓶颈。本周观察几家客户的真实上线与审批流程，记录人员接入耗时、各节点等待时间、退回原因和数据差错，选择损失最大的一项改进。验收看上线速度、审批完成时间和准确率，并结合续约与扩席反馈判断商业价值。"
+      },
+      {
+        "id": "long-useful-setup",
+        "answer": "鸿扬，不应该优先删掉这两个步骤，更不该把“三秒注册”当成统一目标。50 人里 40 人完成注册，完成率 80%；38 人当天与同学互动，占全部新用户的 76%；30 人七日回来，占注册用户的 75%。这些数据说明当前流程能把不少人带到真实价值，但样本较小，还不能证明每个步骤都有必要。身份验证和课程表导入可能分别提供信任与同学匹配，直接删除可能让注册更快，却让互动更难。下一步先观察那 10 位未完成用户的卡点，再分别测试导入方式简化、非必要字段后置，保持找到真实同学的能力。每次只改一项，用全部新用户的首次有效互动率和七日回访率判断，同时记录错配与身份问题。优化的是获得价值所需的成本，而不是单独追求注册秒数。"
+      },
+      {
+        "id": "manual-dependence",
+        "answer": "鸿扬，现在验证的是人工服务能带来有用回应，产品自行完成这件事还没有验证。撤掉人工后回应比例从 90% 降到 10%，说明价值交付高度依赖团队；这既不能直接证明需求不存在，也不足以支持推广到一万人。先拆开人工做的三件事：准备话题、匹配参与者、催促回复。在几批相似规模的真实群体中，每轮只撤掉一种支持，观察究竟哪一步导致回应消失。找到关键环节后，再测试用户能否主动承担，或者产品能否以可接受的成本完成。记录有用回应比例、等待时间、每次回应消耗的人工分钟数，以及没有催促时用户是否再次发起和回复；“有用”由接收者评价。根据产品承诺预先设定可接受水平，连续几批达到后再扩大。如果人工长期不可替代，就验证付费服务模式能否覆盖成本。"
+      }
+    ],
+    "original_skill": [
+      {
+        "id": "sparse-campus",
+        "answer": "鸿扬，评分暂缺：没有激活、邀请和留存数据，不能把“拉不起来”直接判成需求不存在。\n\n今晚给合伙人的核心判断是：匿名只是表达方式，产品必须让学生立刻获得与自己有关的关注、消息或回应。优先核验的瓶颈，是第一份社交价值能否稳定出现。人散在不同学校，或者进入后只有空内容，推广越多也只是增加失望的人。\n\n本周只选一个真实互相认识的班级或社团，围绕他们已经讨论的话题组织互动，团队人工确保首批内容和回应质量，不伪造用户。记录首次获得真实回应的比例、等待时间、主动邀请及一周回访。若密度和体验到位仍无人重复使用，才进一步否定需求；若这组跑通，再复制到第二组。传播能力与持续回访要分别验收。"
+      },
+      {
+        "id": "private-utility",
+        "answer": "鸿扬，不需要为了增长改成社交产品。按这套社交框架，分享和密度得分低；但付费需求已有信号，完整总分没有足够信息。这个传播评分不能替代商业判断。\n\n150 人持续付费、次月留存 70%、收入覆盖成本，说明值得继续验证私人价值。搜索已经是分发渠道，没有好友关系并不等于没有增长机制。冥想记录的回报可能正来自私人空间，强加分享反而增加使用成本。\n\n下一步先把搜索访问、首次记录、付费和续费连成漏斗，找出最大损失点。用一个高意图搜索入口，测试更快完成首次记录能否提高付费转化，再比较同批用户续费和获客成本。分享功能只有在用户主动表达具体需要时才值得小试。当前目标是让更多合适的人获得同样的私人价值，并确认获客支出能由持续收入收回。"
+      },
+      {
+        "id": "activation-bottleneck",
+        "answer": "鸿扬，优先修首次互动，广告预算先留到实验结果出来。已知激活轴偏弱，其余轴不足以打完整总分：200 人只有 20 人获得首次价值，激活率 10%；这 20 人的七日回访率是 70%，邀请率是 50%。后两项是积极信号，但全体安装者的七日回访只有 7%，不能据此宣布留存已经解决。\n\n本周做一个“先获得回应”的实验：从同一校园招募两批背景接近的新用户，保持招募渠道和互动供给一致。一批走现有流程，另一批先进入已有真实同学参与的话题，把资料完善和额外权限后置。团队保障真实回应，不制造假互动。\n\n主指标是安装后当天完成首次有意义互动的比例，同时记录到达互动的时间；邀请及七日回访作后续指标。先确认哪一步造成损失，再决定预算。更多安装无法自动修复这道门槛。"
+      },
+      {
+        "id": "connected-launch",
+        "answer": "鸿扬，选集中、受控启动。密度轴已有强条件，首次价值仍取决于两边同时到场，其他信息不足以打总分。多个群成员重叠，消息很快互通，拆成小群既难获得独立实验信号，还可能把有限供给切薄。\n\n先围绕一个明确互动主题，招募一批承诺参与的创作者，再让对应读者预约同一场活动。比如先确认 5 位创作者能在两天内持续回答，再招募约 40 位对主题有需求的读者；这些数量是起始实验规模，需按实际回应能力调整。启动前准备真实内容，启动后统一入口和信息流，人工保证问题能得到回应。\n\n用 48 小时检验供需是否匹配：多少读者提出问题并获得有效回答，多少创作者愿意再次参与，用户是否主动带人进入。随后跟踪第二周回访。圈内热度证明传播，重复互动才证明持续价值；达标后扩大同一网络中的覆盖。"
+      },
+      {
+        "id": "unproducible-payoff",
+        "answer": "鸿扬，不值得立刻扩大推广。已知编排轴为 0，分享轴有积极信号，需求和持续性仍待验证，不能凑完整总分。现在最大的瓶颈是：普通用户无法稳定召集 7 个成年人，首次价值就无法发生。\n\n可分享的结果只在价值产生之后才有用。访谈好评说明值得试验，还没有证明大家愿意完成这串协作。推广会把更多人送进同一个无法启动的流程。\n\n最小改动是降低参与条件：让一个人先创建真实任务，通过链接邀请，其他人免建资料即可异步贡献；再验证两人能否先获得一部分价值。用 5 个已有协作需求的朋友组测试，记录启动时间、需要多少催促、完成比例和下一次是否自行复用。人工帮助可用于验证最佳体验，但必须同时记录它的成本。如果减掉安装、资料和同时在线仍启动不了，再重新判断需求。结果被转发与朋友持续协作要分别观察。"
+      },
+      {
+        "id": "honest-rewrite",
+        "answer": "访谈了 5 位用户，我们怀疑注册流程过长，可能影响首次体验。\n\n还没有行为数据。现在有的是假设，下一步要验证。"
+      },
+      {
+        "id": "source-attribution",
+        "answer": "现有材料不支持把这个“12 分模型”归为 Nikita Bier 本人提出的模型。它出现在整理技能的 [heuristics.md](/tmp/nikita-skill-review.oEGVUQ/references/heuristics.md)：需求、首次价值编排、分发、网络密度、分享性、持续性六项，各按 0—2 分计，总计 12 分；文件还配了从“结构薄弱”到“值得测试”的区间解释。\n\n技能自述这是从公开帖子、访谈等材料提炼的工作框架，但没有给出 Nikita 亲自定义上述六项、分值和区间的原始引文。因此应把它标注为整理者的辅助评分规则，不能当作他本人发布的量表。\n\n来源清单列了 X、线程镜像和 Lenny 访谈，它们是相关观点的公开材料入口，并未为这个评分模型提供原始出处。本次离线材料只能确认量表在技能文件中的位置，不能补出不存在于材料里的本人出处。"
+      },
+      {
+        "id": "cross-domain",
+        "answer": "鸿扬，下一步应先优化审批耗时和准确性。六项社交评分在这里不能直接代表产品质量：企业财务审批的需求明确，但销售签约、组织采购与校园社交的传播机制不同。\n\n能借用的核心判断是：第一份价值能否稳定出现。对你们而言，这可以是客户导入一笔真实申请后，更快完成准确审批。先查部署、数据导入、规则配置、审批人与通知等环节，找出最影响首次成功和后续效率的障碍。\n\n本周选一个愿意配合的客户，用真实审批任务比较完成时间、人工修正次数和错误率，再验证改动是否改善这些指标。邀请同事只有在审批链缺人导致任务无法完成时才优先，此时它是交付价值的一步。截图分享需要先有明确业务用途，否则很难推进采购或续费。销售获得新客户与客户长期使用，要分别用签约、实际采用及续费数据判断。"
+      },
+      {
+        "id": "long-useful-setup",
+        "answer": "鸿扬，不应直接删掉身份验证和课程表导入。评分上，首次价值编排已有积极信号，传播数据缺失，不能给完整总分。50 人中 40 人注册，完成率 80%；38 人当天互动，占全部新用户 76%；30 位注册用户七日回访，占全部新用户 60%。这些结果说明当前流程值得保留作基线。\n\nNikita 视角要压缩的是到达价值的阻力。课程表能找到真实同学，本身参与了价值生成；三分钟不能单独证明它是瓶颈，三秒也不能单独证明体验更好。\n\n本周先查看 10 位未完成注册者在哪一步退出，再测试更轻的填写或导入方式，保留真实同学匹配能力。比较新用户当天获得真实互动的比例、所需时间和七日回访。简化方案只有在回报质量保持、更多人到达回报时才值得替换。短期回访已有信号，邀请传播和更长期留存仍需另测。"
+      },
+      {
+        "id": "manual-dependence",
+        "answer": "鸿扬，不能直接推广到一万人。评分上，无人工时的价值编排明显薄弱，其他轴信息不足。90% 降到 10%，说明你们能通过运营制造有用回应，但尚未证明普通用户能稳定获得它。人工版给了价值吸引力的线索，持续需求还要看用户是否主动再次发起并回来。\n\n下一步在小范围逐项拆开人工：准备话题、匹配参与者、催促回复。每轮保留完整人工组作基线，另一组只用产品机制替代其中一项，其他条件保持接近；先找出回应率最依赖哪项劳动，再改对应流程。\n\n同时记录每次有效回应需要多少人工分钟、无催促时的回应率、下一周自主发起和回访。若用户只在被推动时参与，不能把满意度当作持续需求。若少量、可承担的运营就能稳定产出价值，可以验证带运营的商业模式。扩大规模应在重复小测试跑通、成本可承受之后。"
+      }
+    ],
+    "revised_skill": [
+      {
+        "id": "sparse-campus",
+        "answer": "鸿扬，今晚能给合伙人的判断是：先验证新用户能否稳定获得一次有意义的同校互动，再决定是否扩大获客。你没提供行为数据，关系密度不足、注册受阻、内容无关、技术故障都只是候选解释，不能直接归因于匿名，也不能断言需求不存在。\n\n本周选一个已有真实关系的班级，招募约30人，人数只是试验规模建议。检查安装到发帖、收到回复各步损失；把首次价值定义为48小时内收到本人认可有用的同校回复，记录全体新人的完成率、耗时和第7天回访。初期可人工准备内容，但另设停止催促的观察期。若互动在撤掉帮助后持续，再复制到另一个班级；若只能靠催促产生，优先修参与和回应机制；若连人工安排也无人主动继续用，再重新验证匿名社交解决的具体需求。"
+      },
+      {
+        "id": "private-utility",
+        "answer": "鸿扬，不需要因为没人分享就改成社交产品。150人持续付费、付费用户次月留存70%、搜索持续带来客户，说明个人价值和现有获客渠道已有支持；收入覆盖成本支持继续经营，但尚不能证明扩大获客仍有利润。70%的分母是付费用户，也不能拿它代表所有注册用户。\n\n下一步优先验证搜索渠道能否带来更多愿意续费的人。选同类搜索意图的新访客，随机比较现有落地页和更清楚展示冥想记录收益的版本，价格和产品保持一致。用两周招募，观察首次完成并回看记录、付费转化、获客成本，再跟踪至次月续费。若新增付费增长且续费、扣除成本后的收益不恶化，再扩大该渠道；若只提高注册，继续查首次价值。好友和分享只有在用户明确需要共同练习或交流时才值得测试。"
+      },
+      {
+        "id": "activation-bottleneck",
+        "answer": "鸿扬，先改首次互动的达成路径，广告预算暂缓。200人安装，只有20人获得首次价值，激活率是10%。14/20的第7天回访率为70%，说明已激活者可能有价值，但这14人仅占安装者7%；其余180人的回访未提供，不能据此计算整体留存。10人邀请同学也不代表邀请已带来新用户激活。\n\n本周先看未激活者在哪一步退出，并检查同学是否在场、回复是否相关及技术故障。选两个关系和招募条件相近、互不重叠的班级，对照现有路径与“直接进入有真实同学参与的具体话题”；两组同学可用性保持一致，记录人工帮助。预先定义48小时内完成一次有用往返互动，统计所有新安装者的完成率和耗时，跟踪第7天回访。若激活提升且回访未恶化，再复测；若仍依赖员工催促，就继续修首次价值，别扩大流量。"
+      },
+      {
+        "id": "connected-launch",
+        "answer": "鸿扬，选一个范围受控的集中启动。群成员高度重叠，曝光会相互影响，不能把各群当作独立实验；价值又要求创作者和读者同时在场，分散招募可能让每次测试都缺一侧。集中启动的目标是凑齐最小有效网络，规模由供需决定。\n\n先围绕一个明确话题，约定一批创作者提供内容并在两个固定时段回应，招募匹配该话题的读者统一进入。可先用10位创作者、100位读者作规模建议，按实际回应能力调整。首次价值分别定义为读者得到有用回应、创作者得到目标读者的实质反馈；48小时统计两侧全部参与者的完成率、等待时间，7天观察主动回来互动及人工投入。首场可协助协调，第二场减少催促。若两侧价值均能持续，再扩大邻近人群；若一侧持续缺位，先修供需和回应安排，不以全圈曝光替代验证。"
+      },
+      {
+        "id": "unproducible-payoff",
+        "answer": "鸿扬，现在不值得立刻扩大推广。反复招募仍凑不齐7人同时安装、建档并在线，已经支持一个具体判断：首次价值的协调条件目前无法稳定满足。访谈好评支持需求假设，容易分享支持传播潜力，但两者都不能补上尚未发生的体验。\n\n先保留朋友协作的核心结果，测试能否减少必须同时行动的人：例如一人发起、朋友异步回应，再判断是否仍能得到同样有用的结果。选6个彼此独立、已有真实关系的朋友组，分别试原流程和简化流程，人数只是试验建议；先检查简化方式是否适合实际任务。用一周记录每组是否达成协作结果、等待多久、需要几次员工催促，以及是否愿意再发起。若简化后普通用户能独立完成并重复使用，再测试邀请传播；若必须凑齐7人，人工约齐也只证明理想场景的吸引力，仍需验证用户自行组织的成功率。"
+      },
+      {
+        "id": "honest-rewrite",
+        "answer": "访谈了5位用户，我们有一个初步猜想：注册流程过长，可能影响首次体验。还没有行为数据，需要验证。"
+      },
+      {
+        "id": "source-attribution",
+        "answer": "鸿扬，所提供资料明确说明：这套12分评分模型是整理者添加的方法，不能归到Nikita Bier本人名下，也没有给出他的原始出处。旧版按需求、协调、分发、密度、可分享性、持续使用六项各打0—2分，总计12分；评分和分界线没有校准依据，现已移除。因此不能用它给产品预测成功概率。\n\n可查的相关公开资料包括他2022年的[消费者社交创业建议](https://x.com/nikitabier/status/1481118406749220868)和2024年的[Lenny访谈](https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier)，资料将首次价值、协调成本等观点对应到这些来源，并未将12分模型对应到任何原文。本次仅依据本地资料，未在线重新核验原帖。若要引用，准确表述是“整理者曾设计的诊断表”，不应写成“Nikita提出的评分模型”。"
+      },
+      {
+        "id": "cross-domain",
+        "answer": "鸿扬，优先改审批耗时和准确性。你们通过销售签约，客户已明确采购理由；截图分享是否带来合适买家没有证据。邀请同事可能是完成审批的必要步骤，但不能把企业内部增加使用者直接算成新增客户。可借用的产品视角是缩短获得真实价值的时间，消费者社交的分享机制需要另行验证。\n\n先在3—5家愿意参与的客户中，用两周观察首笔真实审批从配置到完成的路径，统计等待节点、错误、返工和员工协助。若缺少审批人是主要阻塞，试岗位定向邀请并预设权限；与当前流程比较完整审批耗时、准确率和全流程完成率。若耗时降低且错误不增加，再推广；若阻塞来自规则配置或数据对接，就优先修那里。截图只有在客户需要传递明确结果时才测试，并观察它能否促成真实业务动作或合格线索。"
+      },
+      {
+        "id": "long-useful-setup",
+        "answer": "鸿扬，不应为了三秒注册优先删掉这两步。50人中40人完成注册，完成率80%；38人当天互动，占全部新用户76%。30位注册用户第7天回来，按40位注册者计算为75%，这30人占最初50人的60%；未注册者的回访情况未提供。现有数据说明三分钟流程与较高的首次互动并存，但还不能单独证明验证和导课表的因果作用。\n\n验证身份可能建立信任，课表可能帮助找到真实同学，删掉后反而可能延迟首次价值。Nikita的[2022年建议](https://x.com/nikitabier/status/1481118406749220868)也允许能提高激活的较长注册；本地资料支持这一归因，本次未在线核验。先用两周比较现有流程与保留身份、同学匹配功能但减少重复输入的版本，尽量以独立班级对照，记录从首次进入到真实互动的耗时、全体新人的互动率和7天回访。只有这些结果改善，才继续精简。"
+      },
+      {
+        "id": "manual-dependence",
+        "answer": "鸿扬，先暂停推广到一万人。30人中90%得到有用回应，支持人工安排下的体验有吸引力；撤掉人工后降到10%，说明普通用户获得价值的机制尚未成立。后者的样本分母和两批人的可比性未给出，但现有落差足以要求先验证，不能把人工成功直接当作可规模化的需求证明。\n\n下一轮找关系和需求相近、互不重叠的用户组，保留全人工组作参照，分别撤掉话题准备、匹配、催回复，尽量只改一个条件，连续观察两轮、一共两周。预先定义用户认可有用的真实回应，记录各组全体参与者的获得率、等待时间、主动再次参与及每人所需人工分钟。找到掉幅最大的环节后，只实现一个替代机制，再让新用户自行完成。若撤掉帮助后仍能重复产生价值，再逐级扩大；若人工必不可少，则核算服务成本和付费意愿，按相应商业模式验证。"
+      }
+    ]
+  },
+  "review_label_mapping": {
+    "A": "no_skill",
+    "B": "original_skill",
+    "C": "revised_skill"
+  },
+  "review": {
+    "variants": {
+      "A": {
+        "cases": [
+          {
+            "id": "sparse-campus",
+            "status": "pass",
+            "reason": "Does not invent product-specific behavior or a numeric score. Presents absent responses, dispersed users, anonymity quality, and funnel loss as things to check rather than a demonstrated root cause; proposes a small real group with observable first-interaction, response-time, and revisit outcomes."
+          },
+          {
+            "id": "private-utility",
+            "status": "pass",
+            "reason": "Accepts the given personal utility, paying-user retention, search acquisition, and cost coverage without requiring social features. Explicitly limits the inference about long-term growth; longer retention and channel economics are informative next checks."
+          },
+          {
+            "id": "activation-bottleneck",
+            "status": "pass",
+            "reason": "Correctly calculates 20/200 = 10%, 14/20 = 70%, and 10/20 = 50%, and limits the latter metrics to the activated cohort. Proposes a bounded comparison with a defined first-interaction outcome and follow-up before increasing advertising."
+          },
+          {
+            "id": "connected-launch",
+            "status": "pass",
+            "reason": "Recognizes that overlapping groups are not independent and that both creators and readers must be present. Proposes a topic-specific, coordinated launch with rehearsal, real responses, separate outcomes for both sides, and later expansion conditioned on repeat interaction."
+          },
+          {
+            "id": "unproducible-payoff",
+            "status": "pass",
+            "reason": "Defers recruitment scaling because first value cannot reliably be delivered. Separates interview approval and shareability from observed participation; proposes testing asynchronous or smaller-group value and, if needed, measuring a manually completed collaboration."
+          },
+          {
+            "id": "honest-rewrite",
+            "status": "pass",
+            "reason": "Preserves five interviewees, a tentative registration-length hypothesis, and the absence of behavioral evidence. Does not claim proven causality or universal applicability."
+          },
+          {
+            "id": "source-attribution",
+            "status": "pass",
+            "reason": "Honestly states that neither primary authorship nor organizer authorship can be verified and does not fabricate a citation. This explicitly satisfies the rubric option of leaving primary attribution uncertain; lack of package-specific knowledge is not an error."
+          },
+          {
+            "id": "cross-domain",
+            "status": "pass",
+            "reason": "Adapts first-value and coordination questions to real approval workflows and does not impose consumer viral features. Approval time, correctness, onboarding blockers, and concrete collaboration needs determine priorities; the proposed observation can identify an actual bottleneck."
+          },
+          {
+            "id": "long-useful-setup",
+            "status": "pass",
+            "reason": "Correctly calculates 40/50 = 80%, 38/50 = 76%, and 30/40 = 75%. Uses activation and return evidence, does not require three-second registration, and preserves identity and classmate relevance while testing specific friction rather than blindly deleting setup."
+          },
+          {
+            "id": "manual-dependence",
+            "status": "pass",
+            "reason": "Distinguishes useful responses under staff assistance from repeatable product-delivered value. Proposes removing one manual dependency at a time and measuring useful responses, waiting time, staff cost, and unprompted repeat participation before expansion."
+          }
+        ],
+        "pass_count": 10,
+        "fail_count": 0,
+        "unresolved_count": 0
+      },
+      "B": {
+        "cases": [
+          {
+            "id": "sparse-campus",
+            "status": "pass",
+            "reason": "Leaves the score unavailable, does not assert a known cause from the sparse prompt, and frames first social value as a bottleneck to verify. A real class or club, authentic responses, waiting time, invitations, and revisits provide observable checks."
+          },
+          {
+            "id": "private-utility",
+            "status": "pass",
+            "reason": "Explicitly rejects mandatory socialization and distinguishes the social scoring lens from business judgment. Uses the provided revenue, search, and paying-user retention context as signals to continue validating, with conversion, renewal, and acquisition economics as next checks."
+          },
+          {
+            "id": "activation-bottleneck",
+            "status": "fail",
+            "reason": "Material denominator error: it states that the seven-day return rate of all installers is only 7%. The input gives 14 returners among the 20 activated users but says nothing about returns among the other 180 installers. 14/200 = 7% is the share of installers represented by these known activated returners, not a measured overall retention rate. Identifying the 10% activation bottleneck and proposing an experiment do not cure this unsupported claim."
+          },
+          {
+            "id": "connected-launch",
+            "status": "pass",
+            "reason": "Correctly rejects overlapping groups as independent tests and selects a controlled coordinated start with both sides. Suggested creator and reader counts are explicitly experimental sizes adjustable to response capacity, not fabricated facts; separate supply-and-demand outcomes and later revisits are informative."
+          },
+          {
+            "id": "unproducible-payoff",
+            "status": "pass",
+            "reason": "Defers expansion, does not treat positive interviews as demonstrated behavioral demand, and proposes lowering simultaneous installation and profile requirements before testing completion, prompting, and independent reuse. The zero on its coordination axis is an evaluative label; its quantitative calibration is not established here, but the underlying inability to produce first value is provided by the input."
+          },
+          {
+            "id": "honest-rewrite",
+            "status": "pass",
+            "reason": "Preserves five interviews, provisional suspicion, and no behavioral data without promoting the hypothesis into a fact."
+          },
+          {
+            "id": "source-attribution",
+            "status": "pass",
+            "reason": "The original SKILL.md describes a distilled, inferred framework based on public X posts, mirrors, and interviews. Its original heuristics.md actually defines the six named 0–2 axes and the 0–4, 5–7, 8–10, and 11–12 interpretation bands without a primary Nikita citation for this scoring scheme. The revised source map explicitly identifies the retired twelve-point rubric as author-created. The response accurately describes package-level evidence, declines to attribute the model to Nikita, and limits its claim to the material rather than asserting that no such model could exist elsewhere. It also does not claim fresh verification of the public sources.",
+            "evidence_ids": [
+              "original-skill",
+              "original-rubric",
+              "revised-source-map"
+            ]
+          },
+          {
+            "id": "cross-domain",
+            "status": "pass",
+            "reason": "Explicitly limits transfer of a social scoring framework to sales-led financial SaaS. Prioritizes approval time and accuracy, checks real deployment and workflow obstacles, and treats colleague invitations as necessary workflow infrastructure only when that is the measured blocker."
+          },
+          {
+            "id": "long-useful-setup",
+            "status": "pass",
+            "reason": "Correctly calculates registration and day-one interaction at 80% and 76%, and identifies the 30 registered returners as 60% of the original 50 users without asserting that this is the complete overall return count. Preserves useful matching setup and proposes testing a lighter process against the baseline."
+          },
+          {
+            "id": "manual-dependence",
+            "status": "pass",
+            "reason": "Separates assisted appeal from independent value and repeat demand. A full-support baseline plus replacement of one manual activity at a time, staff minutes, unprompted response, and independent revisits form an informative pre-scaling test."
+          }
+        ],
+        "pass_count": 9,
+        "fail_count": 1,
+        "unresolved_count": 0
+      },
+      "C": {
+        "cases": [
+          {
+            "id": "sparse-campus",
+            "status": "pass",
+            "reason": "Clearly labels all candidate causes as hypotheses and invents no observed behavior. The approximately 30-person size and 48-hour window are explicitly proposed experiment parameters. Real replies, whole-cohort completion, revisits, and a no-prompting period test both first value and manual dependence."
+          },
+          {
+            "id": "private-utility",
+            "status": "pass",
+            "reason": "Does not require sharing or friendships. Correctly limits 70% retention to paying users and separates current cost coverage from the unknown profitability of expansion. A bounded search-intent acquisition experiment followed through next-month renewal is informative."
+          },
+          {
+            "id": "activation-bottleneck",
+            "status": "pass",
+            "reason": "Correctly identifies 10% first-value completion and 70% return among activated users. Explicitly states that the 14 returners being 7% of installers does not establish overall retention because the other 180 users are unreported. The bounded class comparison measures first interaction and revisits before expansion."
+          },
+          {
+            "id": "connected-launch",
+            "status": "pass",
+            "reason": "Recognizes overlapping exposure and the need for both sides in one controlled launch. Proposed 10/100 participant counts are explicitly adjustable trial sizes; separately measuring value on both sides, waiting, repeat use, and reduced prompting tests network viability before wider exposure."
+          },
+          {
+            "id": "unproducible-payoff",
+            "status": "pass",
+            "reason": "Uses failed coordination as the observed delivery bottleneck, keeps interview feedback at hypothesis level, and defers scaling. Tests whether reduced synchronous participation preserves the useful result and measures completion, delay, prompting, and independent repeat organization."
+          },
+          {
+            "id": "honest-rewrite",
+            "status": "pass",
+            "reason": "Preserves all three essential qualifiers: five interviews, an initial possible causal explanation, and no behavioral evidence."
+          },
+          {
+            "id": "source-attribution",
+            "status": "pass",
+            "reason": "The revised source map explicitly says the retired twelve-point rubric is author-created and must not be attributed to Nikita. The original heuristics confirm six 0–2 dimensions and numeric interpretation bands, with no calibration method or validation evidence provided in the inspected rubric; the revised map calls the rubric retired. The map also identifies the 2022 founder thread and the 2024 Lenny episode as sources for underlying principles rather than this scoring model. The response accurately describes that package evidence and discloses that it has not freshly checked the original posts. Its claim is about the package, not proof that Nikita never proposed any model elsewhere.",
+            "evidence_ids": [
+              "original-rubric",
+              "revised-source-map",
+              "independent-thread-mirror"
+            ]
+          },
+          {
+            "id": "cross-domain",
+            "status": "pass",
+            "reason": "Limits consumer-social transfer, distinguishes internal adoption from new customer acquisition, and prioritizes approval time and correctness. Real customer workflow observation and a conditional test of role-specific invitations identify actionable collaboration needs without imposing viral features."
+          },
+          {
+            "id": "long-useful-setup",
+            "status": "pass",
+            "reason": "The earlier case-specific diagnosis and arithmetic remain correct. Revised sources.md section S02 maps the longer-registration counterpoint to the 2022 founder thread, and an independent opening of the cited Thread Reader mirror confirms the statement that longer sign-up flows are acceptable when they lead to higher activation. The response preserves that condition, does not require three-second registration, and explicitly says its original attribution relied on local materials without a fresh online check. The primary X page and any full interview transcript or audio were not independently verified in this follow-up.",
+            "evidence_ids": [
+              "revised-source-map",
+              "independent-thread-mirror"
+            ]
+          },
+          {
+            "id": "manual-dependence",
+            "status": "pass",
+            "reason": "Separates assisted appeal from independently repeatable delivery, acknowledges unknown sample comparability, and proposes comparable groups with one manual dependency removed at a time. Useful-response rate, delay, repeat participation, and staff cost support a decision before expansion."
+          }
+        ],
+        "pass_count": 10,
+        "fail_count": 0,
+        "unresolved_count": 0
+      }
+    },
+    "overall_limitations": [
+      "This is a criterion-based review of ten hypothetical cases per anonymous variant, with one response per case. Counts describe these responses only and do not establish statistical superiority or real product effectiveness.",
+      "The initial stage was restricted to the three supplied input files; its complete judgments, reasons, counts, and limitations are retained in initial_stage. The follow-up expanded evidence only to the three specified local source artifacts and the independently opened 2022 Thread Reader mirror.",
+      "Package-level authorship and retirement statements were checked against the permitted artifacts. No claim is made that a twelve-point model could never have existed elsewhere. Honest uncertainty remains acceptable; A/source-attribution was not reconsidered or penalized.",
+      "The sign-up attribution was independently confirmed through a readable mirror, not a fresh primary X check. The official Lenny episode, full transcript, and audio were not independently reviewed in this follow-up.",
+      "Suggested sample sizes, time windows, and experimental interventions were treated as proposals, not observed facts. The review checks whether a next step can produce relevant information, not statistical power, operational feasibility, or actual outcomes.",
+      "The inspected original rubric supplies no calibration study or validated success probabilities. Numeric diagnostic labels must not be interpreted as calibrated predictions. The one remaining failure is the unsupported overall seven-day retention claim in B/activation-bottleneck."
+    ],
+    "initial_stage": {
+      "stage": "blinded-input-only",
+      "variants": {
+        "A": {
+          "cases": [
+            {
+              "id": "sparse-campus",
+              "status": "pass",
+              "reason": "Does not invent product-specific behavior or a numeric score. Presents absent responses, dispersed users, anonymity quality, and funnel loss as things to check rather than a demonstrated root cause; proposes a small real group with observable first-interaction, response-time, and revisit outcomes."
+            },
+            {
+              "id": "private-utility",
+              "status": "pass",
+              "reason": "Accepts the given personal utility, paying-user retention, search acquisition, and cost coverage without requiring social features. Explicitly limits the inference about long-term growth; longer retention and channel economics are informative next checks."
+            },
+            {
+              "id": "activation-bottleneck",
+              "status": "pass",
+              "reason": "Correctly calculates 20/200 = 10%, 14/20 = 70%, and 10/20 = 50%, and limits the latter metrics to the activated cohort. Proposes a bounded comparison with a defined first-interaction outcome and follow-up before increasing advertising."
+            },
+            {
+              "id": "connected-launch",
+              "status": "pass",
+              "reason": "Recognizes that overlapping groups are not independent and that both creators and readers must be present. Proposes a topic-specific, coordinated launch with rehearsal, real responses, separate outcomes for both sides, and later expansion conditioned on repeat interaction."
+            },
+            {
+              "id": "unproducible-payoff",
+              "status": "pass",
+              "reason": "Defers recruitment scaling because first value cannot reliably be delivered. Separates interview approval and shareability from observed participation; proposes testing asynchronous or smaller-group value and, if needed, measuring a manually completed collaboration."
+            },
+            {
+              "id": "honest-rewrite",
+              "status": "pass",
+              "reason": "Preserves five interviewees, a tentative registration-length hypothesis, and the absence of behavioral evidence. Does not claim proven causality or universal applicability."
+            },
+            {
+              "id": "source-attribution",
+              "status": "pass",
+              "reason": "Honestly states that neither primary authorship nor organizer authorship can be verified and does not fabricate a citation. This explicitly satisfies the rubric option of leaving primary attribution uncertain; lack of package-specific knowledge is not an error."
+            },
+            {
+              "id": "cross-domain",
+              "status": "pass",
+              "reason": "Adapts first-value and coordination questions to real approval workflows and does not impose consumer viral features. Approval time, correctness, onboarding blockers, and concrete collaboration needs determine priorities; the proposed observation can identify an actual bottleneck."
+            },
+            {
+              "id": "long-useful-setup",
+              "status": "pass",
+              "reason": "Correctly calculates 40/50 = 80%, 38/50 = 76%, and 30/40 = 75%. Uses activation and return evidence, does not require three-second registration, and preserves identity and classmate relevance while testing specific friction rather than blindly deleting setup."
+            },
+            {
+              "id": "manual-dependence",
+              "status": "pass",
+              "reason": "Distinguishes useful responses under staff assistance from repeatable product-delivered value. Proposes removing one manual dependency at a time and measuring useful responses, waiting time, staff cost, and unprompted repeat participation before expansion."
+            }
+          ],
+          "pass_count": 10,
+          "fail_count": 0,
+          "unresolved_count": 0
+        },
+        "B": {
+          "cases": [
+            {
+              "id": "sparse-campus",
+              "status": "pass",
+              "reason": "Leaves the score unavailable, does not assert a known cause from the sparse prompt, and frames first social value as a bottleneck to verify. A real class or club, authentic responses, waiting time, invitations, and revisits provide observable checks."
+            },
+            {
+              "id": "private-utility",
+              "status": "pass",
+              "reason": "Explicitly rejects mandatory socialization and distinguishes the social scoring lens from business judgment. Uses the provided revenue, search, and paying-user retention context as signals to continue validating, with conversion, renewal, and acquisition economics as next checks."
+            },
+            {
+              "id": "activation-bottleneck",
+              "status": "fail",
+              "reason": "Material denominator error: it states that the seven-day return rate of all installers is only 7%. The input gives 14 returners among the 20 activated users but says nothing about returns among the other 180 installers. 14/200 = 7% is the share of installers represented by these known activated returners, not a measured overall retention rate. Identifying the 10% activation bottleneck and proposing an experiment do not cure this unsupported claim."
+            },
+            {
+              "id": "connected-launch",
+              "status": "pass",
+              "reason": "Correctly rejects overlapping groups as independent tests and selects a controlled coordinated start with both sides. Suggested creator and reader counts are explicitly experimental sizes adjustable to response capacity, not fabricated facts; separate supply-and-demand outcomes and later revisits are informative."
+            },
+            {
+              "id": "unproducible-payoff",
+              "status": "pass",
+              "reason": "Defers expansion, does not treat positive interviews as demonstrated behavioral demand, and proposes lowering simultaneous installation and profile requirements before testing completion, prompting, and independent reuse. The zero on its coordination axis is an evaluative label; its quantitative calibration is not established here, but the underlying inability to produce first value is provided by the input."
+            },
+            {
+              "id": "honest-rewrite",
+              "status": "pass",
+              "reason": "Preserves five interviews, provisional suspicion, and no behavioral data without promoting the hypothesis into a fact."
+            },
+            {
+              "id": "source-attribution",
+              "status": "unresolved",
+              "reason": "The response properly declines to attribute the twelve-point model to Nikita and identifies it as organizer synthesis, which meets the requested distinction if its evidence is accurate. However, its specific claims about heuristics.md, six scoring dimensions, score intervals, and a source list cannot be checked in the three allowed files. The cited package file was not read; the source assertions are neither verified nor proven false."
+            },
+            {
+              "id": "cross-domain",
+              "status": "pass",
+              "reason": "Explicitly limits transfer of a social scoring framework to sales-led financial SaaS. Prioritizes approval time and accuracy, checks real deployment and workflow obstacles, and treats colleague invitations as necessary workflow infrastructure only when that is the measured blocker."
+            },
+            {
+              "id": "long-useful-setup",
+              "status": "pass",
+              "reason": "Correctly calculates registration and day-one interaction at 80% and 76%, and identifies the 30 registered returners as 60% of the original 50 users without asserting that this is the complete overall return count. Preserves useful matching setup and proposes testing a lighter process against the baseline."
+            },
+            {
+              "id": "manual-dependence",
+              "status": "pass",
+              "reason": "Separates assisted appeal from independent value and repeat demand. A full-support baseline plus replacement of one manual activity at a time, staff minutes, unprompted response, and independent revisits form an informative pre-scaling test."
+            }
+          ],
+          "pass_count": 8,
+          "fail_count": 1,
+          "unresolved_count": 1
+        },
+        "C": {
+          "cases": [
+            {
+              "id": "sparse-campus",
+              "status": "pass",
+              "reason": "Clearly labels all candidate causes as hypotheses and invents no observed behavior. The approximately 30-person size and 48-hour window are explicitly proposed experiment parameters. Real replies, whole-cohort completion, revisits, and a no-prompting period test both first value and manual dependence."
+            },
+            {
+              "id": "private-utility",
+              "status": "pass",
+              "reason": "Does not require sharing or friendships. Correctly limits 70% retention to paying users and separates current cost coverage from the unknown profitability of expansion. A bounded search-intent acquisition experiment followed through next-month renewal is informative."
+            },
+            {
+              "id": "activation-bottleneck",
+              "status": "pass",
+              "reason": "Correctly identifies 10% first-value completion and 70% return among activated users. Explicitly states that the 14 returners being 7% of installers does not establish overall retention because the other 180 users are unreported. The bounded class comparison measures first interaction and revisits before expansion."
+            },
+            {
+              "id": "connected-launch",
+              "status": "pass",
+              "reason": "Recognizes overlapping exposure and the need for both sides in one controlled launch. Proposed 10/100 participant counts are explicitly adjustable trial sizes; separately measuring value on both sides, waiting, repeat use, and reduced prompting tests network viability before wider exposure."
+            },
+            {
+              "id": "unproducible-payoff",
+              "status": "pass",
+              "reason": "Uses failed coordination as the observed delivery bottleneck, keeps interview feedback at hypothesis level, and defers scaling. Tests whether reduced synchronous participation preserves the useful result and measures completion, delay, prompting, and independent repeat organization."
+            },
+            {
+              "id": "honest-rewrite",
+              "status": "pass",
+              "reason": "Preserves all three essential qualifiers: five interviews, an initial possible causal explanation, and no behavioral evidence."
+            },
+            {
+              "id": "source-attribution",
+              "status": "unresolved",
+              "reason": "If the referenced local material contains these statements, identifying the model as organizer-added satisfies the rubric. But claims about its six dimensions, lack of calibration, removal from the current package, source dates, and the mapping to public materials cannot be authenticated from the three allowed files. It discloses no online recheck; the review cannot determine whether its claimed local evidence exists."
+            },
+            {
+              "id": "cross-domain",
+              "status": "pass",
+              "reason": "Limits consumer-social transfer, distinguishes internal adoption from new customer acquisition, and prioritizes approval time and correctness. Real customer workflow observation and a conditional test of role-specific invitations identify actionable collaboration needs without imposing viral features."
+            },
+            {
+              "id": "long-useful-setup",
+              "status": "unresolved",
+              "reason": "The case-specific diagnosis and arithmetic satisfy the rubric: 80% registration, 76% day-one interaction, 75% return among registered users, and 30 known returners being 60% of the original cohort, with the unregistered users explicitly unreported. It correctly retains relevance-building setup and proposes a comparison. The additional attribution that Nikita's 2022 post permits longer registration when it improves activation cannot be verified from the allowed evidence; the claimed local supporting material and linked post were not read."
+            },
+            {
+              "id": "manual-dependence",
+              "status": "pass",
+              "reason": "Separates assisted appeal from independently repeatable delivery, acknowledges unknown sample comparability, and proposes comparable groups with one manual dependency removed at a time. Useful-response rate, delay, repeat participation, and staff cost support a decision before expansion."
+            }
+          ],
+          "pass_count": 8,
+          "fail_count": 0,
+          "unresolved_count": 2
+        }
+      },
+      "overall_limitations": [
+        "This is a criterion-based review of ten hypothetical cases per anonymous variant, with one response per case. Counts describe these responses only and do not establish statistical superiority or real product effectiveness.",
+        "Only /tmp/nikita-skill-all-cases.json, /tmp/nikita-skill-eval-rubric.json, and /tmp/nikita-eval-variants.json were read. No repository skill, other agent note, or web source was consulted.",
+        "Statements about external primary sources or package contents cannot be authenticated within this evidence boundary. Source-dependent cases are marked unresolved where the accuracy of an affirmative attribution is material; honest uncertainty is acceptable and is not penalized.",
+        "Suggested sample sizes, time windows, and experimental interventions were treated as proposals, not observed facts. The review checks whether a next step can produce relevant information, not statistical power, operational feasibility, or actual outcomes.",
+        "Numeric diagnostic-axis labels are not established as calibrated measures by the supplied material and must not be interpreted as validated success probabilities. The definite factual failure concerns a claimed measured overall retention rate whose missing denominator subgroup outcomes were assumed."
+      ]
+    },
+    "source_resolution": {
+      "stage": "minimum-source-artifact-follow-up",
+      "checked_on": "2026-10-09",
+      "scope": "Only the previously unresolved B/source-attribution, C/source-attribution, and C/long-useful-setup items were reconsidered. All other case judgments and reasons are preserved.",
+      "evidence_used": [
+        {
+          "id": "original-skill",
+          "kind": "local-file",
+          "location": "/tmp/nikita-skill-review.oEGVUQ/SKILL.md",
+          "sections": [
+            "What This Skill Is",
+            "Workflow",
+            "Output Pattern"
+          ],
+          "observations": "Describes the framework as distilled heuristics inferred from public posts, mirrors, and interviews, and directs users to the quick scoring rules in heuristics.md. Does not supply a Nikita primary quotation defining the score model."
+        },
+        {
+          "id": "original-rubric",
+          "kind": "local-file",
+          "location": "/tmp/nikita-skill-review.oEGVUQ/references/heuristics.md",
+          "sections": [
+            "Quick Scoring"
+          ],
+          "observations": "Defines Demand, Orchestration, Distribution, Density, Shareability, and Durability, each scored 0–2. Interpretation bands are 0–4 mostly dead, 5–7 structurally weak, 8–10 worth testing, and 11–12 unusually strong. No calibration study, validated predictive probabilities, or primary attribution for the numeric scheme is provided in this artifact."
+        },
+        {
+          "id": "revised-source-map",
+          "kind": "local-file",
+          "location": "/Volumes/SANDISK ELE/nikita-bier-skill/references/sources.md",
+          "sections": [
+            "Opening attribution statement",
+            "S01",
+            "S02",
+            "Attribution"
+          ],
+          "observations": "Explicitly identifies the workflow, qualitative dimensions, experiment format, and retired twelve-point rubric as author-created. S01 gives the official 2024-08-25 Lenny episode as a source for principles, with summary/chapter checks and a transcript/audio limit. S02 dates the founder thread to 2022-01-12 and specifically notes that longer sign-up flows may improve activation.",
+          "limits": "This is package evidence, not independent verification of every underlying source or evidence that no similar model ever existed elsewhere. The current heuristics file was not additionally opened; retirement was checked through the permitted revised source map."
+        },
+        {
+          "id": "independent-thread-mirror",
+          "kind": "web-page",
+          "location": "https://threadreaderapp.com/thread/1481118406749220868.html",
+          "sections": [
+            "Thread header dated Jan 12, 2022",
+            "Sign-up statement, displayed line 32"
+          ],
+          "observations": "The independently opened mirror displays the relevant conditional statement.",
+          "excerpt": "Excessively long sign up flows are fine if it leads to higher activation rates.",
+          "limits": "A readable mirror was checked; the primary X page was not independently opened. This confirms the stated advice and its condition, not a universal causal effect or mandatory signup duration."
+        }
+      ],
+      "resolved_cases": [
+        {
+          "variant": "B",
+          "id": "source-attribution",
+          "previous_status": "unresolved",
+          "status": "pass",
+          "evidence_ids": [
+            "original-skill",
+            "original-rubric",
+            "revised-source-map"
+          ]
+        },
+        {
+          "variant": "C",
+          "id": "source-attribution",
+          "previous_status": "unresolved",
+          "status": "pass",
+          "evidence_ids": [
+            "original-rubric",
+            "revised-source-map",
+            "independent-thread-mirror"
+          ]
+        },
+        {
+          "variant": "C",
+          "id": "long-useful-setup",
+          "previous_status": "unresolved",
+          "status": "pass",
+          "evidence_ids": [
+            "revised-source-map",
+            "independent-thread-mirror"
+          ]
+        }
+      ],
+      "not_checked": [
+        "Official Lenny episode contents were not independently opened because resolving these items did not require an additional episode check.",
+        "No other repository file, evaluation response, or case judgment was edited."
+      ]
+    }
+  }
+}

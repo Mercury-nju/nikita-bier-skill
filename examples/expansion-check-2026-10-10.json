@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-10",
+  "skill_path": "SKILL.md",
+  "purpose": "Behavioral regression on newly included material; not a holdout fidelity or effectiveness comparison.",
+  "context_control": {
+    "prior_eval_responses_or_gold_read": false,
+    "repository_modified": false,
+    "other_threads_or_users_contacted": false,
+    "applications": "Two prompts answered in one independent subagent session; no separate fresh context per prompt, no baseline condition, no blind judge.",
+    "parent_history_inherited": false
+  },
+  "applications": [
+    {
+      "id": "A",
+      "prompt": "Nikita 以前说产品经理不是正经工作、合作不要做、MVP没用，但后来又当X产品负责人。我该怎么学，是否就是矛盾？我们连续三轮独立校园测试，关键交互流畅、相关同学供给够，结果仍很少有人自发回来。是不是应该照他说的坚持迭代到大家看到价值？",
+      "response": "鸿扬，学他的“约束—取舍”，别背口号。PM批评被他承认为夸张，主要针对零到一消费者产品里脱离界面的岗位；他承认协调、监管和规模化需求，后来管X不能仅凭职称判作全面反转（S01/C32）。合作也有显著互补价值的例外（S31/C37）。2024年MVP表述确有变化：不完整激活会污染“不使用”的信号；但与早先反复失败就换方向的建议仍有停损张力，材料没有客观规则（S15/C36；S02）。\n\n三轮独立测试、交互和供给过关，削弱了执行缺陷或缺人的解释，但不自动证明用户获得首个价值。低回访可能是重复价值弱，也可能观察窗口错配使用频率；缺少人数、首值完成和窗口，不能宣布需求不存在（S15/C36；S01/C10）。\n\n我的建议：只为一个明确新假设再测一次。找可比的新校园，保持招募和供给一致，比较现版与一个核心价值改动；预定义首值（如收到同学有用回应），按自然频率观察，分别报告全体入组及已首值用户的无催促回访。事先约定业务最低可接受结果；仍失败就停止该假设或换方向，有清晰改善才继续。这是有界实验建议，不是他已验证的停损标准。",
+      "character_count": 461,
+      "self_review": {
+        "observed_behavior": [
+          "Explicitly retains the PM qualification and distinguishes zero-to-one craft from mature-platform coordination (S01/C32).",
+          "Retains the complementary partnership exception (S31/C37).",
+          "Treats MVP reconsideration as an expressed change and preserves the unresolved stopping-rule tension with S02 (S15/C36).",
+          "Uses the supplied three independent tests as evidence against execution/density confounds without claiming first value or absent demand.",
+          "Separates first-value activation and natural-cadence return, and specifies fresh audience, comparison, value event, denominators, window and decision rule.",
+          "Labels the bounded stopping proposal as case advice, rather than an established Nikita rule."
+        ],
+        "limits": [
+          "No cohort counts, actual first-value event or natural usage cadence were supplied; the response therefore cannot diagnose demand or quantify retention.",
+          "The maximum-length constraint favors case/source IDs rather than full source URLs and evidence-tier explanations.",
+          "The suggested single further experiment is case advice conditional on a new hypothesis; source material does not establish its optimality."
+        ],
+        "source_case_support": {
+          "S01/C32": "Explicit PM exaggeration and coordination/regulation/scale caveats; official video 49:14–51:43.",
+          "S31/C37": "July 2024 complementary partnership exception.",
+          "S15/C36; S02": "Explicit MVP conviction change, execution validity, and unresolved tension with repeated-failure advice.",
+          "S01/C10": "Acquisition/virality and durable repeat use are separate outcomes."
+        }
+      }
+    },
+    {
+      "id": "B",
+      "prompt": "我想把这个免费skill推荐给创业朋友，告诉他们它能像Nikita付费顾问一样在上线前确定转化率。Gas赚了钱被收购，就证明他能做长期产品吧？我们也想靠给用户发钱来增加帖子和API收入，同时加AI代写。这些是否符合他的公开思路？",
+      "response": "鸿扬，推荐时可说“依据公开材料拆解产品决策、设计可证伪测试”，不能承诺上线前确定转化率。付费服务还含亲自做设计、引荐与未公开平台知识；预测及客户回报是有利益关系的自述，未经审计，免费skill没有复制这些投入（S34、S01/C42）。\n\nGas赚钱、被收购支持商业化和创始人退出有价值，不证明长期留存；其2023年关闭是已报道背景，具体失败原因未知。早期成本券也不是可持续利润。长期经营需另测自然频率留存、重复付费及无临时补贴的贡献利润（S01/C34；S38/C35）。\n\n发钱换帖来增API收入，与他2026年1月的公开取舍相冲突：他宣布撤销奖励发帖应用的API访问，并称放弃它们支付的企业API收入以减少AI垃圾内容；这是政策及因果自述，不是已验证改善或今天权限（S33/C39）。AI代写须区分帮助真人表达与机器或赞助方冒充独立真人；材料不支持全面禁AI，也不保证披露后就合适（S33/C41）。\n\n我的建议：在可比独立群体小测奖励与无奖励，让AI辅助真人表达并由本人审核发布；按自然周期比较有用回应、无补贴回访和读者体验，扣除奖励成本。若只涨帖量、净贡献或信任变差就停；这检验你们的假设，不能替代真实转化测试。",
+      "character_count": 511,
+      "self_review": {
+        "observed_behavior": [
+          "Rejects consultant equivalence and guaranteed conversion prediction, while explaining the missing execution, introductions and unpublished knowledge (S34/S01/C42).",
+          "Separates founder proceeds, paid demand, subsidized early cash flow and durable use (S01/C34; S38/C35).",
+          "Uses Gas closure only as reported company-context evidence and leaves its precise causal explanation unknown.",
+          "Retrieves the explicit API-revenue versus integrity tradeoff and labels announced causation/outcomes as unverified (S33/C39).",
+          "Retains the human augmentation versus misrepresented independent human presence distinction, without a blanket AI ban or blanket disclosure approval (S33/C41).",
+          "Offers a conditional small-group comparison and measures useful value, return, reader costs and economics rather than post count alone."
+        ],
+        "limits": [
+          "Historical X policy material is not a check of current API permissions.",
+          "The response gives no paid-advisory prediction accuracy, product-effect estimate, universal conversion target or success probability.",
+          "An AI tool reviewed by its user is only a proposed design condition; its actual authenticity, trust and incentive effects still require observation.",
+          "The proposed experiment is case advice and does not demonstrate that the monetary-incentive mechanism is viable."
+        ],
+        "source_case_support": {
+          "S34; S01/C42": "Service inputs and interested marketing claims, without audited conversion guarantee.",
+          "S01/C34": "Gas payment-demand recollection, temporary startup credits, near-term cash flow and exit objectives.",
+          "S38/C35": "Reported Discord spokesperson confirmation of November 2023 Gas closure; not a complete retention/causal record.",
+          "S33/C39": "January 2026 rewarded-post API revocation and stated foregone Enterprise API revenue.",
+          "S33/C41": "Augmentation before automation and opposition to misrepresented human/independent expression."
+        }
+      }
+    }
+  ],
+  "references_read": [
+    "SKILL.md",
+    "references/decision-model.md",
+    "references/casebook.md",
+    "references/distilled-principles.md",
+    "references/heuristics.md",
+    "references/reasoning-atlas.md",
+    "references/claim-ledger.md",
+    "references/theme-matrix.md",
+    "references/sources.md",
+    "references/interview-notes.md",
+    "references/anti-patterns.md"
+  ],
+  "practical_failures": [
+    {
+      "type": "Retrieval friction",
+      "detail": "One batched multi-reference read exceeded the combined tool-output budget and truncated relevant principles/atlas text. Targeted reads recovered the needed sections. This was a tool batching failure, not a broken skill reference."
+    },
+    {
+      "type": "Instruction and discoverability burden",
+      "detail": "The prescribed path spans decision model, casebook, principles, heuristics, reasoning atlas, claim ledger, theme matrix, sources, interview notes and anti-patterns. Exact topic/ID searches worked, but a compact topical entry point would reduce repeated cross-reference navigation for short responses."
+    },
+    {
+      "type": "Attribution limitation retained",
+      "detail": "Several applicable cases rely on third-party X JSON or captions without independent audio verification; Gas closure is reported company context. The skill makes these limits explicit. This application read the current package, rather than independently verifying primary artifacts."
+    },
+    {
+      "type": "Duplicate source card during initial retrieval",
+      "detail": "The same November 2024 MVP post initially appeared under the existing S15 and an additional source card. The parent is consolidating that duplicate into S15; responses and source maps have been aligned without counting it as independent evidence."
+    }
+  ],
+  "assessment_scope": "The record describes the two produced behaviors and practical retrieval limits only. It does not measure business effectiveness, establish complete fidelity, or constitute a fresh holdout test.",
+  "source_registry_alignment": "MVP full-mirror evidence is cited as existing S15 after the parent consolidated the duplicate source card; the case remains C36.",
+  "version_note": "Answers were produced during the uncommitted expansion, before final routing, table-format and wording repairs. No evaluated snapshot was frozen; the hashes below identify the published review artifacts, not an exact frozen evaluation input.",
+  "parent_review": {
+    "attribution_review": "Independent subagent compared new claims with local source passages. One unsupported expansion inference was corrected from expanding again to relaunching.",
+    "other_repairs": [
+      "Merged duplicate MVP source into S15 instead of increasing the source count.",
+      "Repaired table continuity in claim ledger and reasoning atlas.",
+      "Added topic routes to reduce reference-reading burden."
+    ],
+    "observations": "Both retained responses preserve important qualifications, missing financial/outcome evidence and the service boundary. This observation is not a scored fidelity or usefulness result.",
+    "fresh_holdout_completed": false
+  },
+  "published_reference_sha256": {
+    "SKILL.md": "ff2d81e79f6da9b168ab5ee94e852c13dbe69aaf18950c97c58760806722c65d",
+    "references/anti-patterns.md": "a11bde47baab0fc470b98af151e7eb8a974143e5a1944ece1b4593171c72042a",
+    "references/benchmarks.md": "5b12f0fc7c52b3b41b77f293d63b9e3353ab111c2f966e145f42f8ad096302a2",
+    "references/casebook.md": "e517f51e458e59476e2852e1567deed8b98f66292a4a914887b1c2bb5300e0d0",
+    "references/claim-ledger.md": "c6e53ae6668e94f43fafda714632a47d8ee55580687bf73989af3163e3c1934e",
+    "references/corpus-index.md": "dec618c0c48f70b6636e92f0d75929e25cf3ce968e025ca90cf0775beb372111",
+    "references/decision-model.md": "9386e24882b0c8ad4a41805b0d66ca78d3c332a1881112c5e7dd9ebbaa58f848",
+    "references/distilled-principles.md": "115ded8c60b575091296aac846b27ca20526ced86ce3da40b9bcad9dbc881449",
+    "references/fidelity-evaluation.md": "d023d94d4fa567de7ef602b9043f94f46597572db577855980b78ae582100c54",
+    "references/heuristics.md": "11a2e1e3b7e93d4931b5901270259732b22ec58f6d96bdce182b4b62b0f9c8a0",
+    "references/interview-notes.md": "b2ab4c64b71119a00e301e35d0836cd534a29578f216cc2ccbcc4d0183f5a87e",
+    "references/posting-playbook.md": "594ae6001a621d763cd7aaac8eb1ee5881709bdef38a3f4b025843814d025273",
+    "references/reasoning-atlas.md": "d44a72d89effe57861768acd446cda42cd36b64633a1c469ab84bb49cd700576",
+    "references/source-coverage.md": "92c137b86ce4756c2273656d9e1ee74b368c715eb1ddb58c3ebfea83fe4970d3",
+    "references/sources.md": "713bf5a1d5f2c315190198cec41a0d7470332f8efbf18b74567adf75dd6c7352",
+    "references/theme-matrix.md": "691881eb700f1b1253c332044d20104c2e04312a5ac815997c4ea6d3b95c0860"
+  }
+}
