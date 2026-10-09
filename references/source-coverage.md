@@ -21,16 +21,18 @@ The local artifact checked had SHA-256 `494f86a0cc127b3dee96539e381b1d9cf9878a35
 
 The [corpus index](corpus-index.md) now has **698 unique X URLs**: the original 662 plus **36 non-overlapping post texts** extracted from complete S02, S03, S05, S11, and S24 mirrors. The latest continuation adds three URLs to the previous 695. S02/S03 were already known sources, but their complete posts were absent from the indexed corpus. The five mirrors contain 1,315 whitespace-separated words, including a non-substantive joking reply in S03. Attached media were not reviewed.
 
-Four complete publisher audio files were also acquired and locally machine-transcribed:
+Six complete publisher audio files were acquired and locally machine-transcribed, including two additional episodes on 2026-10-10:
 
 | Source | Published | Acquired audio | Attribution/review status |
 | --- | --- | --- | --- |
 | S17, Out of Office | 2026-02-10 | 75:17 | Full ASR text read; no independent listening verification |
 | S18, Where It Happens | 2022-02-15 | 72:50 | Substantive guest segment 06:56–26:46 read; later hosts-only content excluded |
-| S19, Three Cartoon Avatars #2 | 2022-02-05 | 41:23 | Full ASR collected; reliable speaker attribution pending |
-| S20, Three Cartoon Avatars #11 | 2022-04-09 | 54:22 | Full ASR collected; reliable speaker attribution pending |
+| S19, Three Cartoon Avatars #2 | 2022-02-05 | 41:23 | Selected Wordle answers contextually bounded; no independent audio verification |
+| S20, Three Cartoon Avatars #11 | 2022-04-09 | 54:22 | Selected Twitter answers contextually bounded; no independent audio verification |
+| S26, Three Cartoon Avatars #7 | 2022-03-12 | 44:07 | Selected domain/podcast answers contextually bounded; no independent audio verification |
+| S27, Three Cartoon Avatars #9 | 2022-03-26 | 45:00 | Selected behavioral-dependency answer contextually bounded; no independent audio verification |
 
-Total acquired audio is approximately **4 hours 4 minutes**, including other speakers, ads, and non-product conversation. It is not four hours of Nikita's own statements. Dynamic ads can change future episode bytes and timing.
+Total acquired audio is approximately **5 hours 33 minutes**, including other speakers, ads, and non-product conversation. The added two episodes contribute about 89 minutes and 16,602 all-speaker ASR words, bringing the all-speaker ASR total to 59,730. Neither duration nor word count measures Nikita's own speech or thinking coverage. Dynamic ads can change future episode bytes and timing.
 
 Three complete official video-caption exports were subsequently acquired:
 
@@ -58,7 +60,7 @@ Multiple posts by the same person, a mirror of those posts, and an interview rep
 
 ## Representation And Evaluation
 
-The twenty-five source entries have uneven review depth; two cohost episodes are collected but not used to justify principles. C24 also records an unknown early-product outcome rather than supporting a growth principle.
+The twenty-seven source entries have uneven review depth. C24 records an unknown early-product outcome rather than supporting a growth principle. The four cohost episodes support only selected question/answer passages; most of their transcripts remain unattributed.
 
 | Review depth | Entries |
 | --- | --- |
@@ -68,15 +70,15 @@ The twenty-five source entries have uneven review depth; two cohost episodes are
 | Institutional event report or independent profile | S12, S13 |
 | Direct X page metadata; short posts, no full conversation context | S14, S15, S16 |
 | Complete official audio plus local ASR; relevant text reviewed, no independent listening verification | S17, S18 |
-| Complete official audio plus local ASR; reliable speaker attribution pending | S19, S20 |
+| Complete official audio plus local ASR; selected answers contextually bounded, no independent listening verification | S19, S20, S26, S27 |
 | Complete automatic captions; answer boundaries inferred from moderator prompts | S21 |
 | Complete official captions, single-presenter context with transcriber/reviewer credits | S22 |
 | Direct contemporaneous company announcement; interested testimony | S23 |
 | Contemporaneous institutional report; full visible article body read | S25 |
 
-New data adds concrete platform choices, an early model-boundary explanation, crypto-product hypotheses, naming decisions, and specific early-product records. It does not systematically reconstruct the individual failed apps, all alternatives considered, or every change of view. The paywalled Alex Heath interview remains unacquired; the Solana panel is acquired and its duplicate card is excluded. Neither discovered links nor hosts' statements inflate the attributed evidence.
+New data adds concrete platform choices, an early model-boundary explanation, crypto-product hypotheses, naming decisions, and early-product records. The 2026-10-10 review also adds daily sharing/return, founder-capacity and exit considerations, network-wide exposure tradeoffs, domains, adjacent audio features, and unproven behavioral dependencies. It does not systematically reconstruct individual failed apps, all alternatives considered, or every change of view. The Alex Heath interview remains unacquired: the normal browser offers a free-post unlock requiring an account/subscription and the app; that offer was not claimed. The Solana panel's duplicate card is excluded. Neither discovered links nor hosts' statements inflate the attributed evidence.
 
-The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures, not fidelity to Nikita's reasoning, and demonstrates no incremental benefit on that suite. The grouped, single-run design cannot establish equivalence or general effectiveness either.
+The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures and demonstrates no incremental benefit on that suite. A separate [frozen-version fidelity pilot](fidelity-evaluation.md) now compares 14 answers on seven real-source probes. Its passage agreement scores are not business outcomes, complete thought fidelity, or a validation of the subsequently revised skill.
 
 ## Distillation Standard
 
@@ -87,7 +89,9 @@ The package now treats a “complete” public distillation as a chain with four
 3. **Claim:** state the reusable mechanism with its precondition and a way it could be falsified.
 4. **Holdout:** test whether the model can apply the claim to a case that was not used while writing the rule.
 
-The repository currently contains 24 reconstructed cases and 26 claims for the first three links. See the cases in [casebook.md](casebook.md) and [claim-ledger.md](claim-ledger.md). The fourth link has a protocol but no successful fidelity result yet. This is why the package can be substantially more useful and auditable without claiming to be a complete replica of a living person's private judgment.
+The repository contains 31 reconstructed cases and 31 claims for the first three links. The fourth link now has a small actual pilot, with its frozen version, raw outputs, criteria and limitations recorded. See [fidelity-evaluation.md](fidelity-evaluation.md). S19/S20 were previously collected but not distilled; S26/S27 are new sources absent from the snapshot. All seven passages were withheld from the frozen input package and then incorporated into the current skill; they are no longer holdouts for the current skill.
+
+The [reasoning atlas](reasoning-atlas.md) reconstructs stakeholder outcomes, alternatives, costs and changes of view, with explicit unknowns. It contains no calibrated universal preference weights. This is a bounded public reconstruction, not a complete replica of private judgment; full public coverage is itself unproven.
 
 Further research should preserve decisions as cases: goal and constraints -> alternatives -> choice and stated rationale -> reported outcome and limitations. Cover multiple products and career stages, including failures and counterexamples. Cross-reference each inferred pattern to its actual passages and distinguish a recurring preference from a context-specific tactic.
 
@@ -95,7 +99,7 @@ Before claiming fidelity, reserve real source cases from the distillation proces
 
 ## Known Limits
 
-- The original 662-record harvest's search queries and completeness are not documented sufficiently to reproduce it. The fourteen-input manifest documents a separate selected collection: threads/audio/articles use the collector, while video captions and browser-only article bodies require the explicitly documented imports.
+- The original 662-record harvest's search queries and completeness are not documented sufficiently to reproduce it. The sixteen-input manifest documents a separate selected collection: threads/audio/articles use the collector, while video captions and browser-only article bodies require the explicitly documented imports.
 - Some X pages and mirrors are inaccessible. A retained local record is distinguished from a newly checked original.
 - Empty records, missing media, replies without their parent, and ASR errors may omit or distort important context. ASR word counts include all speakers and can contain repetitions; they are not verified Nikita-word counts.
 - Most examples concern consumer-social products, including tightly connected teen networks; transfer to other markets requires checking the mechanism.

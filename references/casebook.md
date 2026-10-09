@@ -238,6 +238,69 @@ Use a case to generate a hypothesis. Do not turn one case into a threshold, benc
 - **Transfer limit:** retrieve this case for chronology and as an example of missing evidence, not as a successful tactic or a verified failed-app diagnosis. Five is not Five Labs.
 - **Source:** S25, tier C for institutional reporting.
 
+## C25 — Wordle: completion, sharing, and an external daily reminder
+
+- **Situation:** a short game gives players an achievement or failure they can communicate.
+- **Explanation:** Nikita links completion to sharing, a daily round to a repeated common occasion, and recurring exposure on existing networks to remembering to return.
+- **Competing design:** unlimited consecutive play may provide enjoyment but lacks that same staggered reminder. This comparison is his explanation, not a reported cadence experiment.
+- **Observation limit:** no measured Wordle acquisition or retention comparison is supplied. His categorical claim about external exposure is not evidence it is the only way any product forms habits.
+- **Transfer limit:** test the game experience, meaningful sharing, and voluntary return separately; a daily limit cannot create demand for an unsatisfying game.
+- **Source:** S19, 07:35–08:54, tier B; the moderator explicitly asks Nikita, and the next direct question marks the boundary.
+
+## C26 — Wordle sale: growth and founder outcomes are different objectives
+
+- **Situation:** a solo, unbacked game founder accepts an acquisition during rapid growth.
+- **Interpretation:** Nikita considers operational crises, founder capacity, uncertain longevity of a hit, and a personally meaningful exit. He relates the operational burden to his own experience at tbh.
+- **Alternative explanation:** an offer can appear low if much of the growth occurred after the terms were negotiated.
+- **Observation limit:** his account of the other founder's stress and negotiation timing is speculation. It does not establish Wordle's actual operational state, term-sheet date, or an optimal valuation.
+- **Transfer limit:** ask for the founder's goals, actual workload, repeat use, economics and deal terms before recommending an exit; consider certainty and independence without inventing investor obligations.
+- **Source:** S19, 10:10–11:36, tier B; explicitly addressed question and bounded answer. This is commentary on another person's choice, not a documented decision Nikita made for that person.
+
+## C27 — Twitter: contacts cannot automatically import an interest graph
+
+- **Situation:** a public conversation product depends on relevant accounts and content rather than only existing friendships.
+- **Explanation:** Nikita describes Twitter as a structured global conversation and identifies feed tuning as the activation problem; importing acquaintances does not automatically solve it.
+- **Reported experience:** he says he created his account years before becoming a regular user. One autobiographical interval is not an onboarding benchmark.
+- **Observation limit:** the answer gives no randomized comparison or specific onboarding design outcome.
+- **Transfer limit:** determine whether people or interests create first value; compare actual useful first and repeat experiences instead of copying a superficially similar signup flow.
+- **Source:** S20, 16:39–19:05, tier B. The subsequent host's TikTok comparison, account statistics and biographical discussion are excluded.
+
+## C28 — Twitter recommendations: assess the network as well as established viewers
+
+- **Situation:** a host with a carefully tuned feed objects to recommended tweets, while new authors lack exposure.
+- **Explanation:** Nikita favors considering the whole system and suggests that exposure can help new authors remain on the network. He hypothesizes that engagement data may justify choices established users dislike.
+- **Competing outcome:** reader relevance, control and trust still have costs; these are review considerations, not a measured tradeoff supplied in the passage.
+- **Observation limit:** no Twitter experiment result is supplied. Do not turn “likely the data showed” into an observed increase, or new-author exposure into proven retention.
+- **Transfer limit:** measure reader and author outcomes, exposure distribution, repeat activity and spillovers before preferring a design. Whole-network reasoning is not permission to disregard every user complaint.
+- **Source:** S20, question 21:57–22:32; answer 22:32–23:23, tier B.
+
+## C29 — Twitter podcasts: audience fit can coexist with limits on market size
+
+- **Situation:** Twitter already has live audio and leading accounts that publish podcasts elsewhere.
+- **Explanation:** Nikita considers long-form attention demands and concentration among a few shows, while supporting podcasts as an adjacent extension that can keep existing creator activity inside the platform.
+- **Tradeoff:** a large platform audience is not automatically a large habitual podcast audience. Recording and promoting live audio is a smaller extension than building an unrelated destination.
+- **Observation limit:** this is his 2022 product hypothesis, not a measured market-size estimate or proof that a later feature worked. Jokes about the hosts' families are excluded.
+- **Transfer limit:** test demand among ordinary relevant followers, repeat listening, creator supply and incremental value to the existing network.
+- **Source:** S26, 33:03–34:53, tier B; explicit moderator prompt and coherent response context.
+
+## C30 — Premium domains: align conditional upside without assuming a necessity
+
+- **Situation:** a cash-constrained startup wants a scarce domain owned by an established company.
+- **Reported experience:** Nikita describes negotiating access in exchange for equity, with the domain reverting on shutdown or pivot. He also says mobile app-store discovery weakens the necessity of a matching .com.
+- **Proposed mechanism:** the owner keeps recoverable asset value while participating in upside; the startup reduces initial cash requirements at the cost of dilution. The owner loses other opportunities while the asset is locked up.
+- **Observation limit:** the reported deal structure and fundraising effect are not independently documented. His equity and valuation figures are examples, not universal pricing or causal evidence.
+- **Transfer limit:** demonstrate the domain's actual benefit before negotiation; verify workable terms and ownership. This case explains incentives, not current legal drafting or valuation advice.
+- **Source:** S26, 08:18–10:25 and 10:56–11:58, tier B; bounded question/answer turns.
+
+## C31 — NFT game pitch: asset ownership is not ongoing attention
+
+- **Situation:** an NFT-image collection proposes a widely used game and virtual world supported by large funding.
+- **Explanation:** Nikita contrasts images held in wallets with attention already available inside a platform. He expresses skepticism about the stack of unproven steps required for holders to onboard, enjoy a new game and keep using it.
+- **Decision structure:** examine how many conditional behaviors must occur, and which dependency has the least supporting evidence. This is not a formula multiplying known probabilities.
+- **Observation limit:** the passage gives a dated product/investment opinion, not a prediction validated by later performance. Subsequent speakers' counterarguments, revenue statistics and numerical success odds are excluded from this attribution.
+- **Transfer limit:** test the proposed activity itself and reduce unnecessary dependencies. Funding and ownership do not establish attention, demand or repeat play.
+- **Source:** S27, 11:12–12:53, tier B; the moderator names Nikita, with another speaker beginning at the end of the answer.
+
 ## Cross-case patterns
 
 The strongest repeated structure is conditional rather than absolute:

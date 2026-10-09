@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "review_date": "2026-10-09",
-  "scope": "Fourteen acquired inputs; not an exhaustive bibliography. Caption/ASR counts include hosts, ads, and audience cues, not only Nikita statements.",
+  "review_date": "2026-10-10",
+  "scope": "Sixteen acquired inputs; not an exhaustive bibliography. Caption/ASR counts include hosts, ads, and audience cues, not only Nikita statements.",
   "sources": [
     {
       "id": "S02",
@@ -161,9 +161,21 @@
           "speaker_attribution": "not_diarized",
           "human_audio_verified": false
         },
-        "text_review_windows_seconds": [],
-        "used_for_principles": false,
-        "raw_artifacts_shipped": false
+        "text_review_windows_seconds": [
+          [
+            455,
+            534
+          ],
+          [
+            610,
+            696
+          ]
+        ],
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false,
+        "speaker_attribution": "inferred_from_explicit_prompts_and_question_response_context",
+        "text_review_date": "2026-10-10",
+        "used_as_frozen_version_holdout": true
       }
     },
     {
@@ -194,9 +206,21 @@
           "speaker_attribution": "not_diarized",
           "human_audio_verified": false
         },
-        "text_review_windows_seconds": [],
-        "used_for_principles": false,
-        "raw_artifacts_shipped": false
+        "text_review_windows_seconds": [
+          [
+            999,
+            1145
+          ],
+          [
+            1317,
+            1403
+          ]
+        ],
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false,
+        "speaker_attribution": "inferred_from_explicit_prompts_and_question_response_context",
+        "text_review_date": "2026-10-10",
+        "used_as_frozen_version_holdout": true
       }
     },
     {
@@ -411,22 +435,114 @@
         "raw_artifacts_shipped": false,
         "used_for_principles": true
       }
+    },
+    {
+      "id": "S26",
+      "name": "Three Cartoon Avatars episode 7",
+      "kind": "podcast",
+      "url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 7: Bain Capital Crypto, Bolt's Breslow back w/ Crypto Pharma, Alumni Ventures and Standard VC Fees, Tiger Partners Fund Seed Managers",
+      "publication_date": "12 Mar 2022",
+      "observed": {
+        "id": "S26",
+        "retrieved_at": "2026-10-09T16:18:24.055158+00:00",
+        "url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/twg875471maq8zqwiprjeohx.mp3",
+        "duration_seconds": 2647.170612,
+        "audio_bytes": 31719027,
+        "audio_sha256": "fcf67b2adbea607ff9b249790acfeb81df628dcc59b7a47fe8af1c754337fa2d",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "words": 8048,
+          "segments": 598,
+          "sha256": "ae97e254016c61f3112515c78fce1ea779fc9993283dc7867bb8cae69f2195c1",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false,
+          "engine": "mlx-whisper",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb"
+        },
+        "text_review_windows_seconds": [
+          [
+            498,
+            625
+          ],
+          [
+            656,
+            718
+          ],
+          [
+            1983,
+            2093
+          ]
+        ],
+        "speaker_attribution": "inferred_from_explicit_prompts_and_question_response_context",
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false,
+        "text_review_date": "2026-10-10",
+        "used_as_frozen_version_holdout": true
+      }
+    },
+    {
+      "id": "S27",
+      "name": "Three Cartoon Avatars episode 9",
+      "kind": "podcast",
+      "url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "feed_url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+      "episode_title": "EP 9: Facebook Execs Go Extremely Remote, Bored Ape Yacht Club’s Gaming Era, Ethereum Regret and Nikita’s Back Once Again!",
+      "publication_date": "26 Mar 2022",
+      "observed": {
+        "id": "S27",
+        "retrieved_at": "2026-10-09T16:20:47.864537+00:00",
+        "url": "https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml",
+        "status": "collected",
+        "audio_url": "https://episode.flightcast.com/oymmx2p7s7w1erbvc80dspfg.mp3",
+        "duration_seconds": 2700.329796,
+        "audio_bytes": 32355997,
+        "audio_sha256": "2520087473dde26b9b74a0bf5bc18dc4cad5aba207360478a5566e578ea5b496",
+        "feed_sha256": "089939643e6e7105947233016a466797db5ce99735ac4f90cdf73d400a7e9fa8",
+        "asr": {
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "words": 8554,
+          "segments": 460,
+          "sha256": "51bbd42647421cd2bbec0209138a6d1968cb7772afd369da3863407362d118f9",
+          "speaker_attribution": "not_diarized",
+          "human_audio_verified": false,
+          "engine": "mlx-whisper",
+          "model_revision": "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb"
+        },
+        "text_review_windows_seconds": [
+          [
+            672,
+            773
+          ]
+        ],
+        "speaker_attribution": "inferred_from_explicit_prompts_and_question_response_context",
+        "used_for_principles": true,
+        "raw_artifacts_shipped": false,
+        "text_review_date": "2026-10-10",
+        "used_as_frozen_version_holdout": true
+      }
     }
   ],
   "unacquired": [
     {
       "url": "https://sources.news/p/x-wants-its-haters-back",
       "title": "X wants its haters back",
-      "status": "public teaser collected; full interview paywalled"
+      "status": "public teaser read; full interview not acquired",
+      "normal_browser_check_date": "2026-10-10",
+      "access_note": "Publisher offers a one-post free unlock requiring a subscription/account and the Substack app; no account was created and no unlock was claimed."
     }
   ],
   "totals": {
     "added_unique_x_posts": 36,
     "indexed_unique_x_posts": 698,
     "new_thread_words": 1315,
-    "acquired_audio_files": 4,
-    "acquired_audio_duration_seconds": 14632.263,
-    "raw_asr_words_all_speakers": 43128,
+    "acquired_audio_files": 6,
+    "acquired_audio_duration_seconds": 19979.763356,
+    "raw_asr_words_all_speakers": 59730,
     "attributed_nikita_word_count": null,
     "acquired_caption_exports": 3,
     "caption_video_duration_seconds": 7657,
@@ -434,9 +550,9 @@
     "newly_added_distinct_video_duration_seconds": 1756,
     "early_article_bodies": 2,
     "early_article_words": 690,
-    "source_entries": 25,
-    "casebook_entries": 24,
-    "claim_ledger_entries": 26
+    "source_entries": 27,
+    "casebook_entries": 31,
+    "claim_ledger_entries": 31
   },
   "rejected_or_duplicate_leads": [
     {
@@ -451,5 +567,6 @@
       "url": "https://threadreaderapp.com/thread/1460652115823497221.html",
       "reason": "A mock lessons thread and an empty/media-only post, not the substantive 2022 founder thread."
     }
-  ]
+  ],
+  "latest_review_date": "2026-10-10"
 }

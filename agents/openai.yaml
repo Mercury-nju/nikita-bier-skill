@@ -1,4 +1,4 @@
 interface:
   display_name: "Nikita Bier Skill"
-  short_description: "Consumer-social diagnosis and experiment design"
-  default_prompt: "Use $nikita-bier-skill to assess this consumer-social product, retrieve comparable public cases, distinguish evidence from hypotheses, and propose the smallest informative experiment."
+  short_description: "Evidence-based product reasoning and tradeoffs"
+  default_prompt: "Use $nikita-bier-skill to retrieve relevant public cases, identify the decision owner, constraints and competing outcomes, distinguish evidence from hypotheses, and recommend a bounded next decision or experiment."

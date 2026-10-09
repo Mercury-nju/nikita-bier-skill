@@ -2,7 +2,7 @@
 
 The package combines public statements with author inference. The workflow, qualitative dimensions, experiment format, and retired 12-point rubric are author-created; do not attribute them to Nikita Bier.
 
-Verification notes below describe what was checked on 2026-10-09. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
+Verification notes describe checks on 2026-10-09 and the additional passage review/audio acquisition on 2026-10-10. An accessible mirror is not a guarantee of completeness. A local harvested record is supporting material, not fresh verification of an X page.
 
 The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 and 36 non-overlapping posts from five complete mirrors, with access metadata. The [casebook](casebook.md), [claim ledger](claim-ledger.md), and [decision model](decision-model.md) show how selected records were connected to mechanisms, counterexamples, and decision rules.
 
@@ -12,7 +12,7 @@ The [corpus index](corpus-index.md) lists 698 public X URLs: the original 662 an
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the twenty-five source entries below (two cohost episodes are collected but not distilled). The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement remains a background reference. S24 adds one selected statement from November 2025; it does not establish continuous historical coverage.
+- These are background sources, separate from the twenty-seven source entries below. The original 662-record X harvest ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement remains a background reference. S24 adds one selected statement from November 2025; it does not establish continuous historical coverage.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
@@ -154,13 +154,13 @@ The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800
 
 - [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
 - Checked: publisher description explicitly names Nikita alongside Logan Bartlett and Zak Kukoff. Complete 41:23 audio was acquired and machine-transcribed.
-- Status: collected research material; not reliably speaker-attributed or distilled into principles. The episode covers Wordle, Miami Tech, and Facebook earnings. Do not attribute the whole transcript to Nikita.
+- Reviewed on 2026-10-10: explicit moderator prompts bound selected Wordle-mechanism and acquisition-commentary answers; see C25/C26 and [passage notes](interview-notes.md#s19--s20--three-cartoon-avatars-2022). These were withheld from the frozen version's reasoning for H01/H02, then incorporated. Do not attribute the whole transcript to Nikita or treat his guesses about Wordle's founder as facts.
 
 ## S20 — Three Cartoon Avatars, Episode 11, 2022-04-09
 
 - [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
 - Checked: the episode explicitly refers to Nikita's contribution; complete 54:22 audio was acquired and machine-transcribed.
-- Status: collected research material; not reliably speaker-attributed or distilled into principles. Twitter history and product commentary may merit further review; other speakers' explanations are not Nikita evidence.
+- Reviewed on 2026-10-10: bounded answers explain interest-graph activation and a network-wide recommendation tradeoff; see C27/C28. These supplied H03/H04 before incorporation. Other speakers' history, TikTok examples and account statistics are excluded. Attribution is contextual, without independent audio verification; the reply about probable engagement data does not report an experiment result.
 
 ## S21 — Solana Ship Or Die Panel, 2025-05-22
 
@@ -197,11 +197,25 @@ The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800
 - Supports: Five's actual campus-email restriction and semi-anonymous topic rooms; a specific earlier product distinct from Five Labs.
 - Limit: initial downloads provide no activation, retention, revenue, or later failure explanation. Its design is context, not a validated tactic.
 
+## S26 — Three Cartoon Avatars, Episode 7, 2022-03-12
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: complete 44:07 publisher audio acquired and locally transcribed. Selected domain and podcast answers reviewed through question/answer boundaries; see C29/C30 and [passage notes](interview-notes.md#s26--s27--additional-three-cartoon-avatars-audio-2022).
+- Supports: conditional domain access as an incentive structure, app-store discovery vs. domain necessity, and adjacent product fit despite limits on the podcast audience.
+- Limit: no independent listening, deal documents or product outcome. His reported percentages are contextual examples. Whole-transcript attribution is not supported.
+
+## S27 — Three Cartoon Avatars, Episode 9, 2022-03-26
+
+- [Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml); [show listing](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839).
+- Checked: complete 45:00 publisher audio acquired and locally transcribed. The moderator-bounded answer at 11:12–12:53 was read; see C31.
+- Supports: reasoning about unproven behavioral dependencies and the difference between NFT ownership and existing platform attention.
+- Limit: a dated opinion, not a measured or calibrated investment prediction. Subsequent speakers' counterarguments, statistics and numerical odds are excluded. Most of the transcript remains unattributed.
+
 ## Located But Not Yet Acquired Or Distilled
 
 - The earlier caption/audio failures for the Solana panel were resolved through the official video's browser caption export; see S21. The old `kCht01Ycif0` pointer is a Solana Actions tutorial, not a Nikita interview, and was rejected. The Originals card embeds S21 and is counted once.
 - [Alex Heath's X interview](https://sources.news/p/x-wants-its-haters-back), 2025-12-12: a public teaser was read; the full interview is paywalled. It is not counted as a complete interview or a principle source.
-- S19 and S20 have full audio/ASR but remain pending reliable speaker attribution. The show feed has 163 episodes; that catalogue is not 163 Nikita interviews.
+- S19/S20/S26/S27 have full audio/ASR, with selected answers contextually bounded; full voice attribution and listening verification remain incomplete. The show feed has 163 episodes; that catalogue is not 163 Nikita interviews.
 - See [acquisition manifest](acquisition-manifest.json) for actual artifacts, hashes, and statuses, and [collection instructions](interview-notes.md#reproduce-the-collection) for reproducible acquisition.
 
 ## Attribution

@@ -49,7 +49,30 @@ The episode is useful partly because it contradicts a caricature of an expert wi
 - S19, episode 2, 2022-02-05: Wordle, Miami Tech, and Facebook earnings. The publisher explicitly lists Logan Bartlett, Zak Kukoff, and Nikita Bier as hosts. Acquired audio: 41:23.
 - S20, episode 11, 2022-04-09: Twitter history, Elon Musk's stake, Fast, and Nikita's best-man speech. Acquired audio: 54:22.
 
-These expand the accessible early-career material. Their full ASR includes multiple speakers. They are **collected, not reliably speaker-attributed or distilled**. No case or principle in this package relies on assigning an ambiguous passage to Nikita. The feed contains 163 episodes, many without him; 163 is not a count of Nikita sources.
+Selected passages were reviewed on 2026-10-10. Attribution is inferred from explicit moderator prompts and coherent question/answer turns, not voice diarization or independent listening. The rest of these full transcripts is not attributed to Nikita.
+
+| Passage | Attributed explanation | Boundary and limitation |
+| --- | --- | --- |
+| S19, 07:35–08:54 | Wordle couples completion and shareable self-expression with a daily occasion; repeated exposure on existing networks helps users remember the game. | Moderator asks Nikita directly; the next direct question ends the answer. No retention experiment is supplied. |
+| S19, 10:10–11:36 | A solo founder may prefer an exit because of operating burden, uncertain hit longevity and personally meaningful liquidity; growth during negotiation may explain a low-looking price. | Direct question to Nikita. Wordle's stress and deal timing are his speculation; only the comparison to his own operating experience is a first-person recollection. |
+| S20, 16:39–19:05 | Twitter organizes global conversation through follows; its interest graph cannot simply be imported from contacts, and activation requires an engaging feed. | Explicitly addressed question. The following host's TikTok comparison and account statistics are excluded. |
+| S20, question 21:57–22:32, answer 22:32–23:23 | Recommendation tradeoffs can benefit the network and give new authors an audience rather than satisfy only established readers. | The host states the viewer complaint before a coherent reply. Nikita's suggested engagement evidence is a hypothesis, not a reported test. The next speaker's platform statistics are excluded. |
+
+These four passages were withheld from the frozen skill's reasoning and used as H01–H04 in the [fidelity pilot](fidelity-evaluation.md), before adding C25–C28. Full audio had already been collected; this is passage holdout, not wholly unseen source acquisition. The feed contains 163 episodes, many without him; 163 is not a count of Nikita sources.
+
+## S26 / S27 — Additional Three Cartoon Avatars Audio, 2022
+
+[Publisher RSS](https://rss2.flightcast.com/jlx9l0yn04wt3r710o051jtm.xml) · [Show](https://podcasts.apple.com/us/podcast/three-cartoon-avatars/id1606770839)
+
+Two additional complete official audio files were acquired and locally transcribed on 2026-10-10: S26, episode 7 (2022-03-12), 44:07; S27, episode 9 (2022-03-26), 45:00. All-speaker ASR contains 8,048 and 8,554 words respectively. Only the passages below support new attributed cases. Intervening cohost material, jokes, and later numerical investment opinions are excluded.
+
+| Passage | Attributed explanation | Boundary and limitation |
+| --- | --- | --- |
+| S26, 08:18–10:25; 10:56–11:58 | Scarce domains are hard to appraise. He reports offering equity with reversion on shutdown/pivot, preserving owner upside and limiting irreversible asset loss; mobile app discovery reduces the necessity of a matching .com. | Questions and first-person examples establish turn context. The owner's lock-up cost remains; his reported equity/valuation figures are not universal terms or independently measured effects. |
+| S26, 33:03–34:53 | Podcast attention demands and concentration limit scale, but existing creators and live audio make an adjacent Twitter feature plausible. | Moderator explicitly asks Nikita. Host-family jokes are not market evidence; no implementation result is supplied. |
+| S27, 11:12–12:53 | An NFT game thesis requires a large stack of unproven behaviors; images in wallets do not provide the ongoing attention of an existing platform. | Moderator names Nikita before the answer; another speaker's counterargument begins at the end. No calibrated success probability or later outcome is established. |
+
+S26/S27 are source additions absent from the frozen version. Their reviewed passages supplied H05–H07 before incorporation into C29–C31. Once published in the skill, these passages are learning material and cannot serve as fresh holdout cases for the revised version.
 
 ## S01 — Official Lenny Video Captions, 2024-08-25
 
@@ -144,4 +167,4 @@ Publisher articles can be fetched with `--source S23`. If a normal browser is re
 
 ## Remaining acquisition gaps
 
-The Alex Heath interview has a readable teaser and a paywall; its full content remains unacquired. Historical X coverage, most failed-app decision records, replies/media context, and reliable speaker attribution of S19/S20 remain incomplete. The Solana acquisition gap is now resolved for S21, and its duplicate card is explicitly excluded from source counts.
+The Alex Heath interview has a readable teaser and a paywall; its full content remains unacquired. Historical X coverage, most failed-app decision records, replies/media context, and independent audio verification of multiparty passages remain incomplete. Selected S19/S20/S26/S27 answers now have bounded contextual attribution; the full transcripts do not. The Solana acquisition gap is resolved for S21, and its duplicate card is excluded from source counts.

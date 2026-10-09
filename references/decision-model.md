@@ -32,7 +32,7 @@ S17 also describes a different starting point for an operating product: identify
 
 ## Decision sequence
 
-1. **Name the decision.** Examples: change onboarding, choose a launch shape, add messaging, or expand acquisition.
+1. **Name the decision and owner.** Examples: change onboarding, choose a launch shape, add messaging, or expand acquisition. A mature network may trade an established viewer's preference against a new author's exposure; a founder exit also depends on capacity and personal stakes. Use the [reasoning atlas](reasoning-atlas.md) when these outcomes conflict. Do not force all decisions through a new-user funnel.
 2. **Write the value event.** Use a behavioral event a user would recognize as useful; do not use install or account creation unless that is the product's actual value.
 3. **Map the preconditions.** List the minimum peers, content, permissions, delivery reliability, manual work, or infrastructure needed for the event.
 4. **Protect the signal.** Make the critical path credible enough to reach consideration. Keep scope small, but remove obvious execution confounds.

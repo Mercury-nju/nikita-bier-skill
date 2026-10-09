@@ -16,7 +16,7 @@ Use this map to find the relevant entry in [sources.md](sources.md). A source ma
 | Viral vs durable | S01, S06 | Measure separate cohorts and outcomes |
 | Temporary distribution advantages | S07 | Verify current constraints before copying tactics |
 | Messaging competition | S09 | Main-inbox replacement differs from task-specific communication |
-| Interest-graph activation | S10 | Relevant feeds need usable signals; AI predictions are not current facts |
+| Interest-graph activation | S10, S20, C27 | Contacts cannot automatically supply an interest graph; relevant feeds need usable signals |
 | Early community fragmentation | S11 | Content density matters; audience segmentation can still be appropriate |
 | Test quality as a validity condition | S14, S15 | Complete the critical value path enough to avoid confusing poor execution with absent demand |
 | Network density as activation work | S16 | One Gas example; estimate the minimum graph needed for value |
@@ -36,5 +36,12 @@ Use this map to find the relevant entry in [sources.md](sources.md). A source ma
 | Consumer interest vs institutional procurement | S01, S23, C23 | A successful-bid announcement is not completed procurement or recurring revenue |
 | Specific earlier campus experiment | S25, C24 | Five's design is documented; its outcome and lesson remain unknown |
 | Shipping as repeated user learning | S24, S03, S01 | Preserve feedback and test quality; do not treat shipping speed as the only objective |
+| Shared daily completion and external reminders | S19, C25 | A short game must itself be satisfying; no controlled cadence experiment |
+| Solo-founder capacity, uncertainty and exits | S19, C26 | Commentary on Wordle's founder contains speculation about stress and negotiation timing |
+| Reader preference vs. new-author exposure | S20, C28 | Network-wide reasoning requires outcomes on both sides, not assumed engagement results |
+| Adjacent audio features vs. podcast market limits | S26, C29 | Existing creator/activity fit is a hypothesis, not measured adoption |
+| Conditional asset access and mobile discovery | S26, C30 | Domain reversion preserves recoverability but leaves dilution and lock-up costs |
+| Unproven behavioral dependencies | S27, C31 | Asset ownership is not attention; no universal probability calculation |
+| Stakeholder priorities and view comparisons | Package-author synthesis in reasoning-atlas.md | Separate explicit changes of view from differences in product or role |
 | Qualitative diagnostic dimensions and experiment format | Package-author synthesis | Not a published Nikita rubric or a validated predictor |
 | Retired 12-point scoring model | Package-author addition | Removed; no primary source or calibrated cutoffs |

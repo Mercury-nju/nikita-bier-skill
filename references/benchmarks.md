@@ -1,5 +1,7 @@
 # Behavioral Regression Cases
 
+For the separate real-source mechanism-agreement pilot, see [fidelity-evaluation.md](fidelity-evaluation.md). The hypothetical cases below do not measure fidelity to a person's documented reasoning.
+
 These cases test observable advisory behavior, not imitation of a sample answer. They are hypothetical fixtures, not customer results or a proven accuracy benchmark.
 
 ## Running A Comparison
