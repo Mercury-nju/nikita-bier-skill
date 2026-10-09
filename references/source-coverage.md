@@ -9,6 +9,8 @@ The original package used a best-effort local collection of public X records, pu
 - 25 records without text, which cannot independently support text-based principles;
 - 176 records with at least 100 characters; length alone is not relevance or quality.
 
+On 2026-10-09, a direct page-metadata recovery pass fetched 658 nonempty descriptions from the 662 public X URLs. All 25 records that were previously empty received nonempty metadata; some recovered rows are only @mentions or replies, and four already-nonempty rows hit transient TLS errors. The recovery improves verification of selected posts but does not make the corpus complete, representative, or context-complete. The recovered raw output is not shipped.
+
 This collection includes replies, jokes, and platform commentary as well as product advice. Record count is not a count of useful growth principles. It excludes the earlier founder thread and does not establish complete historical coverage.
 
 Nikita announced joining X as Head of Product on 2025-06-30 and stepping down on 2026-08-05, with a stated plan to remain an advisor. The collection includes some public expression during that tenure, but ends in April 2026 and does not cover the full tenure or departure. Dated biographical references in [sources.md](sources.md#biographical-context) supplement the reader introduction without expanding or recounting the 662-record corpus.
@@ -23,16 +25,20 @@ Multiple posts by the same person, a mirror of those posts, and an interview rep
 
 ## Representation And Evaluation
 
-The eleven principle-source entries have uneven review depth:
+The seventeen principle-source entries have uneven review depth:
 
 | Review depth | Entries |
 | --- | --- |
-| Official interview summary and chapters; no full transcript/audio review | S01 |
+| Official interview summary and chapters plus a readable third-party transcript; no independent audio review | S01 |
 | Complete thread text available through a mirror | S02, S03 |
 | Retained local harvested text; no fresh original-page verification | S04, S06, S07, S08, S09, S10 |
 | Partial mirror excerpts | S05, S11 |
+| Institutional event report | S12 |
+| Independent media profile | S13 |
+| Direct X page metadata; short posts, no full conversation context | S14, S15, S16 |
+| Official episode listing plus a public transcript excerpt; full episode not reviewed | S17 |
 
-This supports selected attributed learning material, not a representative model of the person. The package has not systematically reconstructed failed launches, alternatives considered, changing constraints, or changes in his views. The February 2026 Out of Office interview is a newly located gap: its official description and chapter list were checked, but its full content has not been reviewed or distilled. See [pending material](sources.md#located-but-not-yet-distilled).
+This supports selected attributed learning material, not a representative model of the person. The package has not systematically reconstructed failed launches, alternatives considered, changing constraints, or changes in his views. The February 2026 Out of Office interview is partly reviewed through public metadata and an excerpt, but its full content has not been reviewed or distilled. See [pending material](sources.md#located-but-not-yet-distilled).
 
 The recorded regression run passed 10/10 cases both with the revised skill and without a skill. It checks common advisory failures, not fidelity to Nikita's reasoning, and demonstrates no incremental benefit on that suite. The grouped, single-run design cannot establish equivalence or general effectiveness either.
 

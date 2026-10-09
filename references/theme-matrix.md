@@ -18,5 +18,10 @@ Use this map to find the relevant entry in [sources.md](sources.md). A source ma
 | Messaging competition | S09 | Main-inbox replacement differs from task-specific communication |
 | Interest-graph activation | S10 | Relevant feeds need usable signals; AI predictions are not current facts |
 | Early community fragmentation | S11 | Content density matters; audience segmentation can still be appropriate |
+| Test quality as a validity condition | S14, S15 | Complete the critical value path enough to avoid confusing poor execution with absent demand |
+| Network density as activation work | S16 | One Gas example; estimate the minimum graph needed for value |
+| Sequential proof obligations | S01 | Validate core value, peer-group spread, and cross-group spread as separate obligations; the sequence is a heuristic |
+| Consumer design, pixels, and flows | S01 | Product craft can affect the validity of a demand test; it does not create demand by itself |
+| Abuse-resistant product constraints | S12, S17 | One reported TBH case and a partial interview excerpt support a defensive review habit, not a complete safety model |
 | Qualitative diagnostic dimensions and experiment format | Package-author synthesis | Not a published Nikita rubric or a validated predictor |
 | Retired 12-point scoring model | Package-author addition | Removed; no primary source or calibrated cutoffs |

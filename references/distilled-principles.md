@@ -58,6 +58,46 @@ These summaries are learning prompts, not universal laws. Source IDs resolve in 
 
 **Limit:** examples and predictions do not establish today's platform behavior. Messaging's competitive baseline is a warning about replacing the main inbox, not a prohibition on every task-specific communication feature.
 
+## 8. Sequence The Proof Obligations
+
+**Public basis:** S01's interview describes validating the core flow first, then checking spread within a peer group, then testing movement across peer groups. It also recommends fully executing one stage while keeping later stages minimal so the signal is interpretable.
+
+**Application:** write the few conditions that must all be true for the product to work, then prove them in sequence. Keep the chain short enough to act on—roughly four major obligations is a useful starting heuristic. Do not call a launch successful because a later distribution step worked while the core value remains unproven.
+
+**Limit:** this is an interview heuristic, not a universal maximum or a substitute for product-specific causal testing. Some products have more dependencies; the point is to expose them and test one meaningful stage at a time.
+
+## 9. Treat Consumer Design As Product
+
+**Public basis:** S01's interview frames the product as the pixels, hierarchy, and flows a user experiences, and describes the designer's role as central to consumer-product quality.
+
+**Application:** review copy, hierarchy, interaction flow, and visual execution as part of the product hypothesis. When testing demand, make the tested path credible enough that weak craft does not mask the value.
+
+**Limit:** this is especially relevant to consumer software and does not imply that visual polish can compensate for missing demand, operational reliability, or a broken business model.
+
+## 10. Design For Abuse Resistance
+
+**Public basis:** S12 reports that TBH constrained input and answer formats to reduce abuse and cyberbullying. S17's public transcript excerpt attributes an adversarial lens to Nikita's early software experiments: anticipate spam, manipulation, and unintended use.
+
+**Application:** treat foreseeable misuse as a product requirement. Enumerate how a feature could be gamed or weaponized, then change affordances, defaults, rate limits, or moderation paths and test the failure modes. Keep the analysis defensive; do not reproduce attack instructions.
+
+**Limit:** the evidence is one reported product case and one partial interview excerpt. It supports a review habit, not a claim that all abuse can be designed away.
+
+## 11. Make The Tested Path Credible
+
+**Public basis:** S14 and S15 argue that an underdeveloped core flow can prevent users from seriously evaluating an idea, making aggregate non-use hard to interpret.
+
+**Application:** build the smallest complete version of the value event before judging demand. Keep the scope narrow, but make the critical path coherent enough that obvious execution defects do not swamp the signal.
+
+**Limit:** this does not justify polishing every edge case or postponing learning. A credible test is a condition for interpretable evidence, not a promise of adoption.
+
+## 12. Budget For Network Density
+
+**Public basis:** S16 describes paying a real infrastructure cost to create the friends-of-friends density needed by Gas's prototype.
+
+**Application:** include graph creation in the activation plan: recruiting, matching, seeding, moderation, and infrastructure may be part of the product's first-value cost. Estimate the minimum density for one useful interaction and test whether it can be produced repeatedly.
+
+**Limit:** one Gas cost example is not a benchmark. Do not assume every social product needs a dense graph or that spending more automatically creates value.
+
 ## Contextual Extensions
 
 - **Teen networks (S01):** frequent contact and social urgency can help spread. Evaluate the actual communication pattern of the audience; a reported age trend does not justify treating adults as incapable of adopting a social product.

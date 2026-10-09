@@ -10,15 +10,18 @@ Verification notes below describe what was checked on 2026-10-09. An accessible 
 - On 2025-06-30, he announced joining X as **Head of Product**. [Original announcement](https://x.com/nikitabier/status/1939723101723574703); [contemporaneous report](https://www.theblock.co/news/business/2025-06-30-solana-advisor-serial-social-media-app-entrepreneur-nikita-bier-joins-x-360399).
 - On 2026-08-05, he announced stepping down from leading product and said he would continue as an advisor. [Original announcement](https://x.com/nikitabier/status/2085105586966827343); [departure report](https://www.socialmediatoday.com/news/head-of-product-at-x-steps-down/827289/).
 - Checked: the profile and reports were readable; direct announcement-post access returned HTTP 403. The announcement dates and title are supported by the linked reporting. This chronology is stated as of 2026-10-09 and does not independently confirm subsequent advisory activity.
-- These are background sources, separate from the eleven principle-source entries below. The collected X corpus ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
+- These are background sources, separate from the fourteen principle-source entries below. The collected X corpus ends in April 2026 and therefore covers only part of his product-lead tenure; the August departure announcement is a separate background reference, not an added corpus record.
 
 ## S01 — Lenny's Podcast, 2024-08-25
 
 - [Official episode and summary](https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier)
+- [Readable timestamped transcript mirror](https://www.usetranscribe.io/yt/bhnfZhJWCWY/viral-growth-strategies)
+- Selected direct posts: [teen invitation pattern](https://x.com/nikitabier/status/1573365055802036224), [inverting time to value](https://x.com/nikitabier/status/1813735668276928682), [basic motivations](https://x.com/nikitabier/status/1481118417973243907)
 - Relevant sections: 08:42 consumer apps; 13:45 TBH; 16:43 teens; 01:13:14 durability; 01:26:53 Dupe and first value.
-- Checked: official summary and chapter list were readable. This check does not claim a full transcript or audio review.
-- Supports: motivation, latent demand, rapid payoff, observed teen invitation patterns, and the distinction between viral and durable products.
+- Checked: official summary and chapter list were readable. A third-party page exposed timestamped transcript segments, including product design, staged validation, growth funnels, and the distinction between viral and durable products. The three direct X pages returned public page metadata. No independent audio review was completed.
+- Supports: motivation, latent demand, rapid payoff, observed teen invitation patterns, staged validation, the role of pixels and flows in consumer products, and the distinction between viral and durable products.
 - Limit: the age-related invitation figure and three-second framing are his reported observations/advice, not universally validated coefficients or deadlines.
+- Limit: the transcript mirror is secondary and may omit context; a single interview cannot represent his complete or stable view.
 
 ## S02 — Consumer-Social Founder Thread, 2022-01-12
 
@@ -91,18 +94,59 @@ Verification notes below describe what was checked on 2026-10-09. An accessible 
 - Checked: readable mirror excerpts link fragmentation with diluted early engagement.
 - Limit: the thread's percentage language is not a calibrated estimate of failure probability. Segmentation may be necessary when audience needs differ.
 
+## S12 — UC Berkeley Talk Report, 2018-02-02
+
+- [Berkeley event report](https://begin.berkeley.edu/how-to-build-a-viral-app-tbh-founder-gives-startup-advice-at-uc-berkeley-2/)
+- Checked: an institutional report of his UC Berkeley talk. It describes 14 earlier apps being shut down, Politify's reported early reach, TBH's concentrated school launch, and product constraints intended to reduce abuse and cyberbullying.
+- Supports: persistence through failed attempts, concentrated launches when network value is local, and using product constraints to shape safer behavior.
+- Limit: this is reportage rather than a full talk transcript; reported figures are not independently recalculated benchmarks.
+
+## S13 — San Francisco Standard Profile, 2025-07-02
+
+- [Profile](https://sfstandard.com/2025/07/02/nikita-bier-leads-product-x/)
+- Checked: the profile was readable and covers his TBH/Gas background, X product-lead role, shorter development cycles, and his criticism of bureaucratic pressure on intellectual honesty.
+- Supports: career context and a hypothesis that speed and direct product judgment matter to his working style.
+- Limit: this is independent reporting, not a complete first-person account; some claims are contextual or sourced through prior interviews.
+
+## S14 — Test Quality Before Reading The Signal, 2024-12-15
+
+- [Original post](https://x.com/nikitabier/status/1868429071140684175)
+- Checked: direct X page metadata was readable. He compares a test product's core experience to a well-made physical object and warns that a half-baked flow can distort whether users consider the idea.
+- Supports: making the tested critical path credible enough to separate weak execution from weak demand.
+- Limit: this is a short statement, not a measured quality threshold. “Polish” should serve the tested value event rather than become an excuse to delay learning.
+
+## S15 — A Minimum Viable Product Still Needs A Believable Core, 2024-11-16
+
+- [Original post](https://x.com/nikitabier/status/1857896428317630893)
+- Checked: direct X page metadata was readable. He questions releasing an underdeveloped core flow and then interpreting aggregate non-use as proof that the idea has no viability.
+- Supports: distinguish a weak product test from a weak product hypothesis; state the core belief being tested before launch.
+- Limit: this is a founder opinion, not a rejection of every MVP. Scope the prototype tightly while completing the one experience whose value is under test.
+
+## S16 — Network Density Is A Real Product Cost, 2024-02-06
+
+- [Original post](https://x.com/nikitabier/status/1754896706880127185)
+- Checked: direct X page metadata was readable. He describes the cost of a Gas prototype's friends-of-friends feature and its role in creating social-graph density.
+- Supports: include the cost of creating the relevant graph in the activation plan; a network feature can be a prerequisite for value, not optional decoration.
+- Limit: the reported server-cost example is one product and time period, not a benchmark. Measure the minimum density required for the user's value event.
+
 ## Historical Link With Unavailable Text
 
 The earlier [2024-06 launch/test mirror](https://threadreaderapp.com/thread/1800197768981762396.html) returned an access error during verification. It is retained here as a historical pointer, not as checked evidence. Use S02 and S04 for the supported launch discussion.
 
+## S17 — Out Of Office, 2026-02-10
+
+- [Publisher's episode listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201); [official video](https://www.youtube.com/watch?v=tF4j4LB-2rk); [public transcript excerpt](https://podscan.fm/podcasts/out-of-office-16/episodes/nikita-bier-is-out-of-office); [Lightspeed's episode announcement](https://www.linkedin.com/posts/lightspeed-venture-partners_so-much-of-a-businesss-success-these-days-activity-7427037840208760832-l0Z2).
+- Checked: the official listing's date, description, and chapter markers, plus the public transcript excerpt. The excerpt attributes to Nikita an early lesson about thinking like an adversary so consumer software can anticipate spam, manipulation, and unintended use. This is used only as a defensive product-review lens.
+- Supports: checking misuse and unintended behavior as part of product design, alongside the episode's stated topics of X, product leadership, growth, tbh/Gas, and AI.
+- Limit: the full episode remains gated or unavailable for independent review. AI-generated summaries were used for discovery only and are not treated as evidence. This source does not support claims about app-store rankings or a complete X product strategy.
+
 ## Located But Not Yet Distilled
 
-### Out Of Office, 2026-02-10
+### Full Out Of Office Episode
 
-- [Publisher's episode listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201); [official video](https://www.youtube.com/watch?v=tF4j4LB-2rk); [Lightspeed's episode announcement](https://www.linkedin.com/posts/lightspeed-venture-partners_so-much-of-a-businesss-success-these-days-activity-7427037840208760832-l0Z2).
-- Checked: the official listing's date, description, and chapter markers, plus the publisher's short promotional transcript. The full video fetch was throttled; no full transcript or audio review was completed.
+- The [official listing](https://podcasts.apple.com/in/podcast/nikita-bier-is-out-of-office/id1851032430?i=1000749072201) exposes chapter markers, while the [public transcript page](https://podscan.fm/podcasts/out-of-office-16/episodes/nikita-bier-is-out-of-office) exposes only an initial excerpt. The full video fetch was throttled; no full transcript or audio review was completed.
 - Relevant chapters to review: 09:14 X growth, 15:44 product leadership, 29:13 free speech and authenticity, 34:58 AI and links, 37:22 engagement, 50:13 tbh/Gas, and 01:10:09 AI and app development.
-- This identifies a substantive coverage gap. Chapter titles locate material; they do not establish the speaker's reasoning or support new product rules. This entry is separate from S01-S11 and has not been incorporated into the principle map.
+- This remains a substantive coverage gap. Chapter titles and a short excerpt locate material; they do not establish the speaker's complete reasoning or support a full product playbook. S17 therefore contributes one narrow, attributed safety lens rather than a broad new theory.
 
 ## Attribution
 

@@ -33,6 +33,8 @@ Inspect the largest observed loss before prescribing a fix. Low activation could
 
 If no bottleneck is supported, name the leading hypotheses and choose the check that would distinguish them. Do not manufacture certainty to produce a single diagnosis.
 
+For a multi-step social product, make the proof obligations explicit: core value, spread within the first relevant peer group, and movement to another group are different checks. Fully execute the stage being tested and keep later stages minimal where possible. Limit the list to the few conditions that can actually block the product; the “about four” guideline is a working heuristic, not a law.
+
 ## Choose An Informative Test
 
 Specify the detail needed to run the test:
@@ -43,6 +45,8 @@ Specify the detail needed to run the test:
 - **Measurement:** event rate with denominators, time to value, repeat use, and manual work needed. Track invitations through activation when evaluating distribution.
 - **Window and comparison:** fit the natural use cycle. User-level randomization in a social network can contaminate groups; use independent network-level comparisons where available.
 - **Decision:** agree before the test what supports continuing, changing the hypothesis, or stopping. With little baseline data, use a pilot to estimate it; do not invent universal conversion targets or call a small sample statistically conclusive.
+
+For consumer products, add a misuse pass to the test plan: identify likely spam, manipulation, or unintended use, then test safer defaults and affordances. Describe the risk and mitigation without giving operational abuse instructions.
 
 Example: in a campus community, keep recruitment and real peer availability consistent while testing a revised route to the first exchange. Record the fraction of new users completing that exchange within a defined window. Follow the same cohort for repeat use. If interactions disappear when staff stop prompting, the result supports assisted demand, not yet a self-sustaining loop.
 
