@@ -1,57 +1,54 @@
-# Example Prompts
+# 提问示例
 
-## Product Diagnosis
+## 分析一个产品
 
 ```text
-用 nikita-bier-skill 帮我判断这个匿名校园社交产品为什么起不来。
+用 $nikita-bier-skill 分析这个产品：
+目标用户：……
+用户想完成的事情：……
+第一次获得价值需要哪些人、内容或操作：……
+已知行为或数据：……
+我现在要做的决定：……
+请区分事实、假设和未知，给出最值得验证的瓶颈。
 ```
 
+这些信息有多少填多少，不必为了使用 Skill 先做完整报告。
+
+## 只有一个点子
+
 ```text
-用 Nikita Bier 的公开 heuristics 看这个 network product 的冷启动策略。
+用 $nikita-bier-skill 看这个匿名校园产品点子：……
+目前没有行为数据，请给候选解释和最小验证方法。
 ```
 
+## 选择启动方式
+
 ```text
-这个产品 retain 还行，但没人邀请朋友。用 Nikita lens 诊断一下。
+用 $nikita-bier-skill 帮我选择测试方式。
+目标社区有多少个、是否相似、用户是否重叠：……
+产品需要同时参与的人或供给：……
+我们能组织的第一批真实用户：……
+请说明哪些条件支持小群重复测试，哪些支持集中启动。
 ```
 
-## Launch And Distribution
+## 检查一个实验
 
 ```text
-用这个 skill 帮我看，我们应该 mega launch 还是先在 closed communities 反复测试？
+用 $nikita-bier-skill 检查这个实验：……
+它能否区分需求不足和首次体验没有跑通？
+请检查指标分母、人工协助和曝光泄漏，给出继续或调整的依据。
 ```
 
+## 改写观点
+
 ```text
-这是不是一个 dead-on-arrival 的 idea？请直接一点。
+用 $nikita-bier-skill 把下面这段产品观点写得简洁清楚：……
+保留现有事实、证据强度和必要的不确定性，不添加未经验证的结论。
 ```
 
-```text
-从 dense network、time-to-value、shareability 三个角度拆这个产品。
-```
-
-## Post Rewriting
+## 学习原文
 
 ```text
-把这段增长建议改写得更有 Nikita Bier 公开材料里的 mechanism feel，不要 cosplay。
-```
-
-```text
-把这个软绵绵的观点压缩成一句更能被截图传播的话。
-```
-
-```text
-帮我写 5 条 operator-style 的 consumer growth takes。
-```
-
-## Good Follow-Ups
-
-```text
-继续，把 viral potential 和 durable potential 分开打分。
-```
-
-```text
-继续，把最该砍掉的部分直接指出来。
-```
-
-```text
-继续，把它改成适合发在 X 上的 3 个版本。
+用 $nikita-bier-skill 解释首次价值编排这个原则。
+给出可核对的来源、适用条件、一个不适用的例子，以及如何在自己的产品上验证。
 ```

@@ -1,128 +1,33 @@
-# Posting Playbook
+# Writing And Rewriting
 
-Use this when the user wants posts, rewrites, replies, or sharper framing.
+Use only when the user asks for a post, reply, or rewrite. Preserve the user's point and evidence rather than manufacturing an operator persona.
 
-## Voice Target
+## Editing Method
 
-Aim for:
+1. Identify the supported claim, evidence, and uncertainty that matters.
+2. Remove repetition and throat-clearing. Keep concrete nouns, actions, and quantities.
+3. Explain one mechanism if the input supports it. Otherwise frame it as a hypothesis or question; do not invent causality.
+4. Preserve scope and attribution. Do not convert five interviews into an industry-wide finding, a correlation into causation, or a suspicion into certainty.
+5. Offer alternative wording only when useful. Keep the user's language unless asked to translate.
 
-- concise
-- certain
-- internet-native
-- socially observant
-- mildly ruthless
-- mechanism-first
+## Example
 
-Avoid:
+Input:
 
-- pure insult
-- forced edginess
-- fake insider bravado
-- long explanatory threads unless asked
+> We interviewed five users and suspect a long registration flow may hurt the first experience. We have no behavioral data yet.
 
-## Post Anatomy
+Faithful rewrite:
 
-The default shape is:
+> Five interviews point to a hypothesis: registration may be delaying first value. We still need behavioral data to test it.
 
-```text
-sharp observation
-hidden truth
-mechanism
-```
+Unfaithful rewrite:
 
-Example skeleton:
+> Registration kills growth. Most apps lose users before they deliver value.
 
-```text
-Most consumer apps die because they confuse utility with urgency.
+The second version adds certainty and an unsupported generalization.
 
-People try useful things.
-They invite friends into social situations.
-```
+## Voice
 
-If the post cannot answer "what is the mechanism?" in one sentence, it is probably still too soft.
+Favor clear, concise, concrete prose. Avoid habitual “people think X, the real reason is Y” structures, empty provocation, gratuitous jargon, and breaking every sentence into a dramatic line. Product evidence is more useful than a forced quotable line.
 
-## Common Structures
-
-### 1. Contrarian Compression
-
-```text
-[Common belief] is overrated.
-[Short reason].
-[What actually matters].
-```
-
-### 2. Mechanism Reveal
-
-```text
-People think [surface explanation].
-The real reason is [deeper social dynamic].
-```
-
-### 3. Dead-on-Arrival Diagnosis
-
-```text
-This won't spread.
-It's solving a task, not creating a situation.
-```
-
-### 4. Product Operator Take
-
-```text
-The mistake is not the feature.
-The mistake is where the dopamine shows up.
-```
-
-### 5. DOA Callout
-
-```text
-The idea isn't bad.
-The activation conditions are impossible to reproduce.
-```
-
-### 6. Dense Network Wedge
-
-```text
-This doesn't need a bigger market.
-It needs a smaller, denser one.
-```
-
-## Reply Style
-
-Replies should do one of three things:
-
-- sharpen the original point
-- expose the mechanism
-- dismiss a bad frame with one clean sentence
-
-Good reply shapes:
-
-```text
-Yes, but that's downstream of distribution.
-You're describing retention. The problem is acquisition.
-That's a feature insight, not a network insight.
-```
-
-## Editing Rules
-
-When rewriting a user's draft:
-
-1. delete throat-clearing
-2. remove hedges
-3. cut to one claim
-4. add one social or product mechanism
-5. stop before it becomes overperformed
-
-## Quality Bar
-
-A strong post here usually feels:
-
-- easy to screenshot
-- easy to quote-tweet
-- grounded in a real mechanism
-- short enough to survive out of context
-
-## Safety Rail
-
-Do not claim to be Nikita Bier.
-Do not fabricate personal anecdotes, access, or inside information.
-Write "inspired by Nikita Bier's public consumer-growth heuristics," not "from Nikita."
+A mechanism-focused rewrite is an editorial choice, not evidence of how Nikita would phrase this exact statement. Do not claim authorship, endorsement, private access, or personal experience on his behalf.

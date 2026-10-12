@@ -1,0 +1,1044 @@
+{
+  "date": "2026-10-10",
+  "status": "exploratory frozen-version mechanism-agreement pilot; no improvement demonstrated",
+  "protocol": {
+    "created_at": "2026-10-09T16:18:26.189450+00:00",
+    "snapshot_commit": "29a3f044a95eff60090d8b439ff640e412e4b89b",
+    "scope": "Seven held-out reasoning passages from four 2022 cohost episodes. S19/S20 audio was previously collected but its selected reasoning was not distilled. S26/S27 are newly acquired sources absent from the snapshot. Related themes were present, scenario recognition is possible, and pretraining-disjointness is unknown. Probes from the same episode are correlated.",
+    "design": "One fresh agent per case per condition; baseline uses no skill files; treatment reads only frozen SKILL.md and references. No browsing, source lookup or gold access. Same inherited model and prompt. One response per cell.",
+    "scoring": "Blind independent judge: each of four predeclared criteria receives 0 absent/contradicted, 1 partial, 2 explicit correct. Case total 0–8. Report criterion totals and unsupported claims, no pass threshold or overall fidelity probability.",
+    "cases": [
+      {
+        "id": "H01",
+        "prompt": "A browser word game takes about a minute per round, and players can complete more rounds. The team is choosing its repeat-use and acquisition design. Explain the mechanism you would prioritize and the tradeoffs. Propose a concrete flow; do not assume paid acquisition or notifications will solve it.",
+        "source": "S19",
+        "window_seconds": [
+          455,
+          534
+        ],
+        "criteria": [
+          "Build sharing into completion, with a compact result that expresses achievement or failure.",
+          "Consider a shared daily cadence rather than unlimited rounds as the default.",
+          "Explain repeated exposure on existing networks as an external reminder that supports return.",
+          "Keep this a context-specific mechanism; notifications are not universally useless."
+        ]
+      },
+      {
+        "id": "H02",
+        "prompt": "A solo founder with no investors runs a simple game that has suddenly gone viral. A publisher offers a seven-figure acquisition, while the audience is still growing rapidly. Should the founder keep operating independently or consider selling? Explain what determines the answer and how to interpret an apparently low offer. No operational, retention or offer-timing data are supplied.",
+        "source": "S19",
+        "window_seconds": [
+          610,
+          696
+        ],
+        "criteria": [
+          "Consider operational crises and founder capacity, not just audience growth.",
+          "Consider hit-driven decay and certainty of a personally meaningful exit for a solo, unbacked founder.",
+          "Offer timing and growth during negotiation can explain apparent underpricing, as a hypothesis needing verification.",
+          "Do not claim to know founder mental state, actual term-sheet date or future game longevity."
+        ]
+      },
+      {
+        "id": "H03",
+        "prompt": "A public short-text network lets users follow accounts and converse broadly. Many new accounts do not become regular users. The team proposes copying a phone-contact-import onboarding flow from a friends network. Diagnose the bottleneck, explain whether this is the right analogy, and recommend the next direction without assuming unpublished metrics.",
+        "source": "S20",
+        "window_seconds": [
+          999,
+          1145
+        ],
+        "criteria": [
+          "Distinguish an interest graph from a friend graph.",
+          "Explain why contacts do not automatically import an engaging interest feed.",
+          "Activation means tuning an engaging feed rather than merely creating the account.",
+          "Preserve the following structure as a way to organize conversation/reach; do not invent a numeric target."
+        ]
+      },
+      {
+        "id": "H04",
+        "prompt": "A short-text network is inserting recommended posts into feeds. Long-time users who carefully curated their follows complain, while new authors with few followers struggle to get any audience. The product team must decide whether to remove recommendations. Explain the tradeoff and the evidence needed; no experiment results are given.",
+        "source": "S20",
+        "window_seconds": [
+          1317,
+          1403
+        ],
+        "criteria": [
+          "Evaluate network-wide value rather than optimize solely for complaints from established users.",
+          "Explain that giving new authors exposure can support their retention and the supply side of the network.",
+          "Treat increased viewer engagement as something data might establish, not a supplied fact.",
+          "Keep the tradeoff testable and contextual; do not dismiss user costs as always irrelevant."
+        ]
+      },
+      {
+        "id": "H05",
+        "prompt": "A large public text network already has live-audio rooms, and several of its leading accounts also publish podcasts elsewhere. It is considering an in-app podcast feature. Should it pursue that expansion? Explain audience fit, scale limits, and why the proposal might or might not fit the existing product. No demand or usage experiment has been supplied.",
+        "source": "S26",
+        "window_seconds": [
+          1983,
+          2093
+        ],
+        "criteria": [
+          "Recognize the attention burden of long-form listening and the limited scale of most podcasts.",
+          "Evaluate fit with this network's interested audience and existing creators, rather than reject or pursue audio universally.",
+          "Explain the extension from live rooms to recording, distribution and retaining existing creator activity in the app.",
+          "Treat market-size and product-fit reasoning as a dated hypothesis, not evidence the expansion succeeded."
+        ]
+      },
+      {
+        "id": "H06",
+        "prompt": "A cash-constrained startup wants a specific premium .com domain owned by an established company. Cash purchase is unaffordable. Most discovery for the planned consumer app will happen in mobile app stores. Evaluate whether the domain is necessary and propose a possible deal structure if it is worth pursuing, including the owner's downside and the startup's cost.",
+        "source": "S26",
+        "window_seconds": [
+          498,
+          688
+        ],
+        "criteria": [
+          "Separate mobile app-store discovery from needing the matching .com.",
+          "Consider an equity-based arrangement as a possible alternative to an unaffordable cash purchase.",
+          "Consider reverting the domain to its owner if the startup closes or pivots, while preserving upside on success.",
+          "Name dilution and the owner's opportunity cost of locking up a scarce asset; do not assume a universal price or equity percentage."
+        ]
+      },
+      {
+        "id": "H07",
+        "prompt": "A company whose main existing asset is a popular collection of NFT images proposes building a broadly adopted consumer game and virtual world. It has access to substantial funding and a community of holders. Evaluate the leap from the existing asset to the proposed product, identify the assumptions that matter most, and compare this with adding a use case to a platform that already holds users' attention. Do not recommend buying or selling financial assets.",
+        "source": "S27",
+        "window_seconds": [
+          672,
+          773
+        ],
+        "criteria": [
+          "Distinguish owning images in wallets from possessing ongoing user attention or engaged game users.",
+          "Identify a chain of dependencies: holders must onboard, enjoy the new product, and continue using it.",
+          "Treat the number and fragility of unproven conditional steps as a reason for skepticism or simpler tests, rather than let funding substitute for evidence.",
+          "Explain why extending a platform with existing attention can require a smaller behavioral leap; avoid claiming an outcome or calibrated success probability."
+        ]
+      }
+    ],
+    "case_batches": [
+      {
+        "case_ids": [
+          "H01",
+          "H02",
+          "H03",
+          "H04"
+        ],
+        "defined_at": "2026-10-09T16:18:26.189450+00:00"
+      },
+      {
+        "case_ids": [
+          "H05",
+          "H06"
+        ],
+        "defined_at": "2026-10-09T16:22:38.679165+00:00",
+        "note": "Added after first-batch generation began; criteria defined before these cases were run."
+      },
+      {
+        "case_ids": [
+          "H07"
+        ],
+        "defined_at": "2026-10-09T16:26:22.614353+00:00",
+        "note": "Added on reviewing newly acquired S27, before H07 generation; prior batches already underway."
+      }
+    ]
+  },
+  "frozen_snapshot": {
+    "commit": "29a3f044a95eff60090d8b439ff640e412e4b89b",
+    "selection": "SKILL.md and references only",
+    "holdout_sources_added": false,
+    "files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "88766df3061d2709f26cc337acd75e23c9b5d376d6c435ed0c08aa44ad22c5d8"
+      },
+      {
+        "path": "references/acquisition-manifest.json",
+        "sha256": "2caf0709ecfbd7dd6dcfeee6b0cc61fe0d2cc7cb0d4e56e9392c600bdd3b8978"
+      },
+      {
+        "path": "references/anti-patterns.md",
+        "sha256": "fcdbd9f3d19530b25e8ed9dd0d2e251eb1ab70d960ec95900c7045f698453b6c"
+      },
+      {
+        "path": "references/benchmarks.md",
+        "sha256": "ce34a7146a872a7b2066e8018a916699f77105d3ed7f241c8396134fa83c4e6e"
+      },
+      {
+        "path": "references/casebook.md",
+        "sha256": "ac2dd6ec395d4c4428d219809438059612fcbed1b61d6f001b129834d10014df"
+      },
+      {
+        "path": "references/claim-ledger.md",
+        "sha256": "1732a0a61ef25a2572a9022752a3e1223aa5fafab804dc0c3a34792172864570"
+      },
+      {
+        "path": "references/corpus-index.csv",
+        "sha256": "5a50d7d86fe88743b4795b40d5f4dfb34f056e41632e856e9f1dee7cbc49a7ab"
+      },
+      {
+        "path": "references/corpus-index.md",
+        "sha256": "8b5a23a05c399bc487fa84b36e18912aa4108714e1cc6238ae9a80ce8e0557a6"
+      },
+      {
+        "path": "references/decision-model.md",
+        "sha256": "e802f4c849a4e4d5a6a73944fc2074ee7ef00a6ffa5c900d9c49602dbd1a9bae"
+      },
+      {
+        "path": "references/distilled-principles.md",
+        "sha256": "6058356fe29a1b894d409a5ac5489131e2b81b90e3e5f16ba1af57826917ef37"
+      },
+      {
+        "path": "references/heuristics.md",
+        "sha256": "11a2e1e3b7e93d4931b5901270259732b22ec58f6d96bdce182b4b62b0f9c8a0"
+      },
+      {
+        "path": "references/interview-notes.md",
+        "sha256": "6619da46021144e59ceb6ab14c3454bf971065f3d46f4c40a515b314883842eb"
+      },
+      {
+        "path": "references/posting-playbook.md",
+        "sha256": "594ae6001a621d763cd7aaac8eb1ee5881709bdef38a3f4b025843814d025273"
+      },
+      {
+        "path": "references/source-coverage.md",
+        "sha256": "5e7fffcbb9f0c51a4c924f4f2041e4455d8c96c8932af341791ae5a63914f285"
+      },
+      {
+        "path": "references/sources.md",
+        "sha256": "a95b75e6fa0d60244ee50865f53f17fe20ada9668877e7a9f2a0b86341d8f8ff"
+      },
+      {
+        "path": "references/theme-matrix.md",
+        "sha256": "971504134baf6277671c0803a7459ce7a603b04e424cbbfbe646853855c17f7d"
+      }
+    ]
+  },
+  "generation_settings": {
+    "model": "inherited parent model; exact model/sampling settings not exported by the agent tool",
+    "contexts": "fresh fork_turns=none agent for each case and condition",
+    "responses_per_cell": 1,
+    "response_word_limit_requested": 350,
+    "word_counts": {
+      "H01-baseline": 311,
+      "H01-skill": 327,
+      "H02-baseline": 273,
+      "H02-skill": 322,
+      "H03-baseline": 286,
+      "H03-skill": 324,
+      "H04-baseline": 300,
+      "H04-skill": 321,
+      "H05-baseline": 287,
+      "H05-skill": 324,
+      "H06-baseline": 282,
+      "H06-skill": 297,
+      "H07-baseline": 320,
+      "H07-skill": 346
+    },
+    "read_constraints": "Baseline received no skill/source files. Treatment allowed only frozen SKILL.md and references. Restrictions were instructions, not an enforced filesystem sandbox. No independent access audit was performed."
+  },
+  "responses": [
+    {
+      "case_id": "H01",
+      "condition": "baseline",
+      "response": "I would prioritize social comparison around a shared daily puzzle. A one-minute game has little switching cost; another round alone may provide entertainment without creating a reason to return tomorrow. A common puzzle gives players something specific to compare and discuss, while an invitation offers the recipient an immediate activity.\n\nThe concrete flow:\n\n1. Open a link and play immediately, without an account or tutorial screen. Teach the rules through the first interaction.\n2. Finish and see your result, with a spoiler-free share card and a clear invitation: ‘Try today’s puzzle—can you beat my score?’ The link opens the same puzzle.\n3. When the recipient finishes, show both results. Offer a lightweight friends board; require identity only when someone wants to preserve it across visits. Never make inviting friends a condition of playing.\n4. Offer more rounds immediately. Keep the daily puzzle visually distinct so unlimited play does not erase the common reference point. Extra rounds can be shared as individual challenges.\n5. On a subsequent visit, open the new daily puzzle and show relevant previous comparisons. The recurring appointment and relationships must earn the return; notifications would only amplify an existing reason.\n\nThe tradeoff is depth versus breadth. Unlimited rounds can satisfy enthusiastic players, but can also exhaust the novelty and scatter conversation across different puzzles. One common daily puzzle concentrates attention, yet its cadence will not suit everyone. Social comparison may motivate competitive players and discourage others, so emphasize personal progress and small friend groups rather than a global leaderboard.\n\nThis is a hypothesis, not evidence that the audience wants competition. Test it against a simple replay flow. Measure next-day and next-week returns, invitations that produce completed games, and whether invited players subsequently return or invite someone themselves. A high share rate without those downstream actions is not acquisition. Keep the game enjoyable for someone whose friends never join."
+    },
+    {
+      "case_id": "H01",
+      "condition": "skill",
+      "response": "I would test a shared daily challenge as the main loop, with unlimited practice as a secondary mode. The mechanism is a common reference point and a clear stopping moment: completing today’s puzzle creates an accomplishment worth comparing; tomorrow offers something new. Endless rounds can satisfy play, but can also postpone sharing indefinitely and make scores less comparable.\n\nThis is a hypothesis. We know round length and replay availability; we do not know whether players enjoy the first round, already share, or return without prompting. A solitary game can work without a social network. First validate that completing a round delivers a satisfying payoff.\n\nConcrete flow:\n\n1. A link opens today’s puzzle directly, with a brief inline instruction and no account required before play.\n2. After completion, show the result, an explanation, and a spoiler-free card: puzzle identifier, attempts or score, and a recognizable pattern of play.\n3. Offer “Compare with a friend.” The link opens the identical puzzle and reveals the inviter’s result after the recipient finishes. Use existing chats.\n4. Mark today as complete and show when the next challenge arrives. Put optional practice below the result and sharing action. Keep practice results distinct so daily comparisons remain meaningful.\n\nThe tradeoff is less immediate play and possible frustration for enthusiasts. Practice preserves that demand, but may weaken the stopping moment. A daily schedule also requires consistently good puzzles; scarcity cannot rescue an uninteresting game.\n\nRun a two-week pilot with actual word-game players, comparing this flow with unlimited play using the same core game. If participants share within groups, compare separate groups to reduce spillover. Measure first-round completion, voluntary return across days among all entrants and completers separately, and shared-link recipients who finish a round—not share clicks alone.\n\nContinue if the daily flow improves repeat use and activated referrals without materially harming first value. If only sharing rises, acquisition improved; durability remains unresolved. If players mainly seek continuous practice, prioritize that experience and test sharing separately."
+    },
+    {
+      "case_id": "H02",
+      "condition": "baseline",
+      "response": "The founder should consider selling, but rapid audience growth and a seven-figure headline are not enough to decide.\n\nThe central question is whether the risk-adjusted value of continuing exceeds the value of the acquisition to this particular founder. With no investors, the founder can prioritize personal financial security, creative freedom, and appetite for running the business. A life-changing cash payment may be rational even if continuing could produce a larger outcome.\n\nThe missing facts determine the answer:\n\n- Durability: Are players returning, or is growth mainly a temporary burst of attention?\n- Economics: What revenue, profit, and monetization potential does that audience support?\n- Execution: Can one person reliably maintain the game, handle demand, and develop it further?\n- Independence: How exposed is the game to platforms, copying, or a sudden loss of distribution?\n- Deal terms: How much is guaranteed cash, versus an earnout, equity, or payment contingent on staying employed?\n\nAn apparently low offer is not necessarily evidence that the publisher is exploiting the founder. Buyers value expected future cash flows and their uncertainty, not audience size alone. They may expect the viral wave to fade or anticipate substantial costs. Conversely, the publisher may have distribution or monetization advantages that make the game worth more to it than the offer suggests. Its opening bid is not an objective valuation.\n\nThe founder should clarify those assumptions, compare the offer with plausible independent outcomes, and seek competing interest if practical. Negotiate both price and terms. Without retention, operating, or offer-timing data, there is no basis to recommend an immediate sale or confident independence. Continued growth creates potential upside; guaranteed liquidity has value too."
+    },
+    {
+      "case_id": "H02",
+      "condition": "skill",
+      "response": "The founder should seriously consider selling while continuing to operate. Rapid audience growth alone does not justify rejecting a seven-figure offer, and the offer alone does not justify accepting it.\n\nThe decision turns on three things:\n\n- **The business beneath the spike.** Are successive cohorts returning at the game’s natural frequency? Does use generate sustainable profit after infrastructure, support, and other costs? New arrivals can conceal departing players; growth and durable demand need separate measurements.\n- **The founder’s ability and desire to operate it.** A simple game can still create substantial operational work at scale. Whether that is happening here is unknown. Independence is more attractive if the founder enjoys the work, can handle it, and has a credible path to continued value.\n- **The actual deal and personal stakes.** Compare cash received at closing with contingent payments, ongoing employment obligations, and lost control. With no investors, there is no venture-return hurdle to satisfy. A sum that materially changes the founder’s life can rationally outweigh uncertain upside.\n\nAn apparently low offer may be a bargaining anchor, a discount for uncertain retention or monetization, or a reflection of that publisher’s particular economics. These are hypotheses, not established explanations. Popularity is not a valuation model, and one bid does not establish the market price. Ask the publisher to explain its assumptions, negotiate, and seek credible competing interest.\n\nBefore deciding, obtain the offer’s deadline and terms. If the available window permits, follow early and recent player cohorts through at least two natural play cycles; measure completed play, repeat use with clear denominators, net revenue, and founder hours. Strong repeat demand, viable economics, and manageable operations strengthen the case for independence or a higher price. Weak economics, burdensome operations, or a personally compelling guaranteed payout strengthen the case for selling.\n\nThere is no supplied evidence that the founder is overwhelmed, retention is poor, or the offer will disappear. Those missing facts prevent a categorical sell-or-hold verdict."
+    },
+    {
+      "case_id": "H03",
+      "condition": "baseline",
+      "response": "“New accounts do not become regular users” describes an outcome, not a diagnosed bottleneck. We do not know whether newcomers encounter an empty or irrelevant feed, struggle to find worthwhile accounts, receive no response when posting, or simply find little reason to return. Contact import would address only some of those problems.\n\nA friends network and a public short-text network have different sources of value. In a friends network, finding people you already know can immediately make the product useful. In a public network, the valuable graph may consist of experts, commentators, communities, and strangers who share your interests. A phone address book does not necessarily contain those people—or people who actively use this network. Copying the flow because it worked elsewhere mistakes a similar interface for a similar mechanism.\n\nFirst, observe newcomers using the product and examine their paths through the first session and subsequent visits. Identify what they hoped to get, whether they reached a satisfying feed or conversation, and where that experience broke down. Compare retention across relevant experiences and acquisition sources, while treating correlations as clues rather than proof.\n\nThe next direction should be to shorten the path to the network’s actual value. If discovery is the bottleneck, test a lightweight interest selection, curated active accounts, or recommendations that produce relevant content before users must build a following graph. If participation is the bottleneck, test ways to help newcomers enter active, relevant conversations and receive meaningful responses.\n\nContact import remains a hypothesis for users whose reason to join involves existing relationships. Test it against the strongest discovery alternative, measuring sustained useful activity and return behavior—not merely imports, follows, or onboarding completion. Choose the flow that creates a repeatable reason to come back."
+    },
+    {
+      "case_id": "H03",
+      "condition": "skill",
+      "response": "The leading hypothesis is an interest-graph cold start: newcomers may fail to find people, content, or conversations worth returning for. But “many accounts do not become regular users” does not locate the loss. Setup friction, poor audience targeting, technical failures, or weak repeat value could produce the same outcome.\n\nContact import is a conditional analogy. A friends network uses existing relationships to create value; a public text network can create value through strangers sharing an interest. Phone contacts reveal acquaintances, not necessarily the topics or voices someone wants to follow. Import could help users whose purpose is following friends, but that precondition needs evidence. Nikita Bier’s [interest-graph discussion](https://x.com/nikitabier/status/1922864090277392756) makes this distinction; it does not establish your network’s bottleneck.\n\nStart with the existing funnel, segmented by acquisition source and user intent: arrival → setup → first useful experience → repeat useful visit. Observe new-user sessions and departures. Check whether users see relevant material, can express preferences, and can enter conversations that receive useful responses. If first value already occurs reliably, investigate why it stops recurring.\n\nThen run a bounded onboarding experiment:\n\n- **Audience:** newcomers with one identifiable interest and sufficient existing active accounts/content to serve it.\n- **Intervention:** let users express that interest, then offer a small, reviewed set of accounts and current discussions. Compare with current onboarding under similar acquisition conditions.\n- **First value:** finding a discussion the user identifies as useful, or receiving a useful human reply—not simply completing signup or following accounts.\n- **Measurement:** first-value rate and time, then repeat useful visits over an initial two-week observation window. Report both all-new-account and activated-account denominators; calibrate the window to observed usage cadence.\n- **Decision:** continue if relevance and repeat useful visits improve together. If only setup completion or time spent increases, the retention problem remains unresolved. If contact-based cohorts outperform because friends supply the value, revisit contact import.\n\nCurate manually to test appeal, then test whether ordinary onboarding reproduces it without staff assistance."
+    },
+    {
+      "case_id": "H04",
+      "condition": "baseline",
+      "response": "Recommendations solve a distribution problem but can break the feed’s promise. A user who carefully chose whom to follow expects that work to determine what they see. Unwanted recommendations consume attention and can weaken trust. Removing them, however, could make discovery depend almost entirely on existing connections, leaving new authors unable to reach readers and making the network harder to enter.\n\nNeither side is established by the facts given. Complaints do not tell us how widespread the harm is, and recommended impressions do not prove that new authors gain an audience. Recommendations might primarily reward already popular accounts.\n\nThe team needs evidence on three questions:\n\n- **What are users protecting?** Segment feedback and behavior by tenure, follow count, and feed usage. Determine whether the problem is irrelevant content, recommendation volume, displacement of followed posts, or lack of control. Measure satisfaction and retention, not just clicks or time spent.\n- **Does discovery create lasting value?** Track whether recommendations give new authors relevant readers, meaningful replies, repeat readership, and followers—and whether those authors keep posting. Examine how exposure is distributed rather than relying on averages.\n- **What would removal actually change?** Compare the current feed with a following-only feed and a version that preserves discovery while giving users clear control. Randomize where feasible, measure effects separately for established readers and new authors, and allow enough time to observe return behavior. Because authors and readers affect one another, account for network spillovers.\n\nI would not remove recommendations globally based on complaints alone. I would make the curated following experience reliably accessible while gathering that evidence. Keep recommendations if they produce durable reader and author value at an acceptable cost to existing users; change their placement or frequency if intrusion is the problem; remove them if the tested benefits fail to justify the harm."
+    },
+    {
+      "case_id": "H04",
+      "condition": "skill",
+      "response": "Do not remove recommendations platform-wide on complaints alone. The tradeoff is between honoring an established reader’s chosen network and giving an unknown author a path to a relevant audience.\n\nLong-time users invested effort in curating their feeds; inserted posts can displace the people they came to read and weaken their sense of control. But a follows-only feed distributes attention through existing relationships. New authors may struggle to earn their first audience, potentially reducing the future supply of worthwhile writing. Recommendations help only if they create valuable connections; extra impressions alone do not establish that benefit.\n\nThe supplied facts establish complaints and an author-distribution problem. They do not tell us how widespread the reader harm is, whether recommendations reach suitable readers, or whether those encounters produce lasting value. Poor relevance, excessive insertion, and unwanted loss of control are different explanations that need different fixes.\n\nInspect the funnel by cohort: established readers with carefully curated graphs, newer readers, and authors with few followers. Measure which followed posts recommendations displace, relevance and satisfaction, hides or mutes, and repeat visits. For authors, follow recommended exposure through substantive replies, follows, returning readers, and subsequent posting. Include all eligible new authors in the denominator, not just those whose posts received distribution; inspect whether gains concentrate among a few winners.\n\nRun a bounded comparison of the current feed, follows-only, and a clearly separated discovery surface. Four weeks is a proposed starting window, to be adjusted to normal reading and posting cycles. Account for network spillovers: changing reader exposure also changes author behavior, so reader-level results alone may miss supply effects.\n\nAgree on decision rules beforehand. Retain recommendations if they create recurring reader–author relationships without unacceptable reader harm. Reduce their frequency or change placement if discovery works but insertion causes dissatisfaction. Removal becomes justified if meaningful discovery benefits fail to appear and reader value improves without them. Preserve accessible control over a curated following feed while resolving that uncertainty."
+    },
+    {
+      "case_id": "H05",
+      "condition": "baseline",
+      "response": "It should investigate the opportunity, but the supplied facts do not justify committing to a full podcast product.\n\nAudience fit is plausible: followers of leading accounts may want longer conversations, and the existing graph could help them discover episodes. Those creators already have material and production habits. But following someone’s short posts requires much less attention than listening to a podcast. We do not know how much the network’s audience overlaps with regular podcast listeners, whether they want to listen inside this app, or whether creators would bring their shows over. Live-audio rooms provide a relevant distribution channel, but their mere existence supplies no evidence of sustained listening demand.\n\nScale depends on the intersection of interested followers, habitual audio listeners, and people willing to change their listening destination. The network’s total user count therefore overstates the immediately addressable audience. Leading accounts may support a successful niche without producing broad adoption. Podcasts also consume substantial time per episode, limiting how many creators each listener can follow meaningfully. No numerical ceiling can be inferred from the information given.\n\nThe feature fits if it extends an existing behavior: discovering an account through posts, following its ideas, and continuing into a deeper conversation. Episode excerpts, discussions, and notifications could connect listening to that loop. Fit weakens if success requires building a separate destination with its own library, subscriptions, playback habits, and creator acquisition, while adding little value to the public text network.\n\nStart with a small creator cohort and a lightweight episode experience. Compare native listening with existing external links, measuring repeat listeners, completed listening, creator participation, and incremental retention—not just launch clicks. Expand only if users repeatedly choose the experience and the resulting value warrants the product and operating costs."
+    },
+    {
+      "case_id": "H05",
+      "condition": "skill",
+      "response": "Do not commit to a broad podcast expansion yet. The supplied facts justify a focused test, not a conclusion that users want an in-app podcast product.\n\nAudience fit is plausible: people following these accounts may want their longer-form thinking, and the existing follow graph could help listeners discover relevant episodes. But creator overlap is evidence of available supply, not listener demand. Live-audio rooms demonstrate an existing audio format, not demand for recorded shows: attending a timely conversation and routinely listening to an episode are different behaviors. We have no usage evidence for either.\n\nThe addressable audience is the intersection of users interested in these creators, willing to consume long-form audio, and willing to do so here. It is not the network’s entire user base. A feature could be valuable to a niche yet too small to become a meaningful platform growth engine. Existing podcast habits and the ongoing cost of attracting reliable publishing supply also constrain expansion. No numbers supplied establish that ceiling.\n\nThe strongest product fit is an extension of following and discussing people: discover an episode through a post, listen, and discuss a specific passage in the public conversation. A separate podcast destination would require a stronger reason to change listening habits. The key uncertainty is whether integration produces additional value or merely relocates consumption already happening elsewhere.\n\nTest a small set of participating creators over several release cycles. Give a bounded sample of relevant followers a complete listening path, including reliable playback and resuming; compare with equivalent posts linking to the same episodes externally. Measure meaningful listening among all eligible users, voluntary return for another episode, subsequent discussion, creator publishing effort, and effects on core network use. Assess less-engaged followers separately from superfans.\n\nContinue if ordinary followers repeatedly choose the integrated experience and it adds worthwhile value at sustainable cost. If uptake is concentrated among a few enthusiasts or replaces existing activity without added benefit, retain a lightweight integration or stop."
+    },
+    {
+      "case_id": "H06",
+      "condition": "baseline",
+      "response": "The premium .com is probably unnecessary for launch. If discovery happens mainly in app stores, the critical assets are a searchable app name, a strong listing, and a product people recommend. An affordable alternative domain can support the website, email, and links. Do not divert scarce cash from proving demand to securing an address.\n\nRevisit the domain if there is evidence that it materially improves trust, referral conversion, or acquisition—or if the alternative creates persistent confusion. Check trademark rights separately; owning a domain does not establish the right to use the brand.\n\nIf it is worth pursuing, propose a time-limited domain license with an option to acquire it in exchange for a negotiated equity stake. Keep any upfront fee within the startup’s actual budget. Define the equity consideration, option deadline, permitted uses, renewal terms, and transfer conditions in advance. The owner could retain title during the license and recover control if the startup shuts down or fails to meet agreed conditions. Any recovery provision must be explicit and workable if the startup becomes insolvent.\n\nThe owner gains potential upside without investing cash, but startup equity may become worthless. It also ties up an asset that could otherwise be sold or used, and consumer confusion could damage its existing brand. If the domain supports its current business, those costs may make a deal unattractive regardless of the offered equity.\n\nThe startup pays through dilution, legal costs, any license fees, and dependence on the owner while the license lasts. Equity can become far more expensive than a cash purchase if the app succeeds. Negotiate against a defensible domain value, and walk away if the terms threaten funding, continuity, or ownership of the eventual brand."
+    },
+    {
+      "case_id": "H06",
+      "condition": "skill",
+      "response": "The premium .com is probably unnecessary at this stage. Given app-store-led discovery, the important question is whether people can find the app, recognize it, and reach its first useful experience. An exact-match web address is worth pursuing only if it materially improves that path or enables a specific web interaction. A desirable name alone is insufficient evidence.\n\nUse an affordable, clear address initially. For a proposed one-week pilot, ask target users to find the app from its name and follow its website/referral links. Record confusion, failed discovery, and successful first use. If no meaningful loss is attributable to the address, preserve cash and founder attention. The app's actual behavior, brand requirements, and the owner's use of the domain remain unknown.\n\nIf there is a real benefit, propose an exclusive domain-use agreement in exchange for a negotiated small equity stake, with the owner retaining title initially. Define the startup's operating rights, duration, renewal, and a purchase or permanent-transfer option in advance. If the startup shuts down or abandons the domain, use rights end and the owner recovers control. Avoid a structure where the owner can withdraw it arbitrarily after the startup builds its brand.\n\nThe owner's upside is participation in a successful startup while retaining a recoverable asset. Its downside includes forgone sale or use opportunities during the agreement, reputational association, administration, and equity that may become worthless. Reversion reduces the risk of permanently losing the domain; it does not eliminate these costs. If the company actively relies on the domain, the proposal may be unattractive.\n\nThe startup's cost is dilution, negotiation and legal expense, domain upkeep, and possible migration costs. Equity is not free: a small stake can become much more expensive than a cash purchase. Compare that cost with the domain's demonstrated incremental value before agreeing."
+    },
+    {
+      "case_id": "H07",
+      "condition": "baseline",
+      "response": "A popular NFT collection demonstrates demand for the collectible and its identity. It does not establish demand for a game, or for spending time in a virtual world. The proposal therefore needs to be evaluated as a new consumer product with some useful starting assets: recognizable imagery, a reachable audience, and funding.\n\nThe critical assumptions are:\n\n- **A compelling activity exists.** What would people repeatedly do there, and why would they choose it over their current games and social spaces? A world is a setting; it still needs a reason to visit and return.\n- **Holders are prospective users.** Ownership, enthusiasm, and willingness to promote the project do not necessarily translate into sustained play. It matters whether holders enjoy the experience and whether people without NFTs want it.\n- **The team can deliver that experience.** Running a collectible community and building an engaging game require different capabilities. Funding can buy production capacity and time, but does not prove product judgment.\n- **The experience can reach sufficient participation.** If enjoyment depends on other people being present, the launch must produce overlapping, recurring activity. An audience count alone does not establish that.\n- **The product can sustain itself commercially.** Its costs, acquisition model, and willingness to pay need evidence beyond the existing collectible business.\n\nI would test the smallest playable version of the central activity, with both holders and outsiders. Look for voluntary repeat play, retention after incentives end, and invitations driven by enjoyment. Broad adoption remains unproven until those behaviors appear outside the original community.\n\nAdding a use case to a platform that already holds attention starts closer to actual consumption: people already visit, have relationships there, and can encounter the feature inside an established habit. That reduces distribution and coordination friction. The feature must still improve their experience, but it can build on demonstrated usage. The NFT proposal must first convert ownership and community interest into a durable attention habit."
+    },
+    {
+      "case_id": "H07",
+      "condition": "skill",
+      "response": "The proposal is a new-product bet with an IP and distribution head start. Popular NFT images establish demand for the collection; they do not establish demand for a game or willingness to spend hours in its world. Funding buys development capacity and experiments. It does not prove compelling gameplay or a recurring reason to return.\n\nFour assumptions matter most:\n\n- **Motivation transfers:** people who value ownership, identity, or collectibility also want this particular play experience. Holder support may reflect their existing stake rather than enjoyment.\n- **The product earns attention:** the team can create a distinctive, well-executed game that people choose over their existing entertainment. Relevant development capability and a playable core are unknown.\n- **The world stays useful:** if value depends on other players or creators, enough relevant participants and content must be present together. A holder count does not establish concurrent activity.\n- **Adoption extends beyond holders:** ordinary consumers can reach first value and return without owning an NFT, receiving rewards, or responding to launch publicity. The acquisition path and sustainable economics remain unknown.\n\nAdding a use case to a platform that already holds attention begins from a different position: users already visit, relationships or content already exist, and the feature can meet them inside an established behavior. It still needs to prove usefulness and repeat use, but it may inherit prerequisites that this proposed destination must build. That advantage weakens if the feature requires a separate app, new network, or unrelated habit.\n\nBefore committing to a broad world, run a four-week test of one polished game loop with holders and target non-holders, reporting each cohort separately. For multiplayer, coordinate enough real players to make the experience credible. Track all entrants through a completed meaningful session, voluntary replay, and subsequent unprompted returns; record staff assistance and incentives. Compare branded and unbranded versions where feasible to test the IP's contribution.\n\nSet continuation criteria before recruitment. Broad voluntary repeat use would justify further investment; holder-only enthusiasm would support a narrower product hypothesis. Failure with a credible core should trigger a gameplay rethink before expanding the world."
+    }
+  ],
+  "blinded_input": {
+    "rubric": "Blind independent judge: each of four predeclared criteria receives 0 absent/contradicted, 1 partial, 2 explicit correct. Case total 0–8. Report criterion totals and unsupported claims, no pass threshold or overall fidelity probability.",
+    "source_limits": "Gold is a package-author paraphrase of moderator-bounded machine transcript passages, without independent listening verification. Assess mechanism agreement, not optimal business advice. Do not award agreement for merely saying to run a test. Cases from the same episode are correlated.",
+    "cases": [
+      {
+        "case_id": "H01",
+        "prompt": "A browser word game takes about a minute per round, and players can complete more rounds. The team is choosing its repeat-use and acquisition design. Explain the mechanism you would prioritize and the tradeoffs. Propose a concrete flow; do not assume paid acquisition or notifications will solve it.",
+        "reference_criteria": [
+          "Build sharing into completion, with a compact result that expresses achievement or failure.",
+          "Consider a shared daily cadence rather than unlimited rounds as the default.",
+          "Explain repeated exposure on existing networks as an external reminder that supports return.",
+          "Keep this a context-specific mechanism; notifications are not universally useless."
+        ],
+        "source_window": [
+          455,
+          534
+        ],
+        "source_id": "S19",
+        "responses": {
+          "A": "I would prioritize social comparison around a shared daily puzzle. A one-minute game has little switching cost; another round alone may provide entertainment without creating a reason to return tomorrow. A common puzzle gives players something specific to compare and discuss, while an invitation offers the recipient an immediate activity.\n\nThe concrete flow:\n\n1. Open a link and play immediately, without an account or tutorial screen. Teach the rules through the first interaction.\n2. Finish and see your result, with a spoiler-free share card and a clear invitation: ‘Try today’s puzzle—can you beat my score?’ The link opens the same puzzle.\n3. When the recipient finishes, show both results. Offer a lightweight friends board; require identity only when someone wants to preserve it across visits. Never make inviting friends a condition of playing.\n4. Offer more rounds immediately. Keep the daily puzzle visually distinct so unlimited play does not erase the common reference point. Extra rounds can be shared as individual challenges.\n5. On a subsequent visit, open the new daily puzzle and show relevant previous comparisons. The recurring appointment and relationships must earn the return; notifications would only amplify an existing reason.\n\nThe tradeoff is depth versus breadth. Unlimited rounds can satisfy enthusiastic players, but can also exhaust the novelty and scatter conversation across different puzzles. One common daily puzzle concentrates attention, yet its cadence will not suit everyone. Social comparison may motivate competitive players and discourage others, so emphasize personal progress and small friend groups rather than a global leaderboard.\n\nThis is a hypothesis, not evidence that the audience wants competition. Test it against a simple replay flow. Measure next-day and next-week returns, invitations that produce completed games, and whether invited players subsequently return or invite someone themselves. A high share rate without those downstream actions is not acquisition. Keep the game enjoyable for someone whose friends never join.",
+          "B": "I would test a shared daily challenge as the main loop, with unlimited practice as a secondary mode. The mechanism is a common reference point and a clear stopping moment: completing today’s puzzle creates an accomplishment worth comparing; tomorrow offers something new. Endless rounds can satisfy play, but can also postpone sharing indefinitely and make scores less comparable.\n\nThis is a hypothesis. We know round length and replay availability; we do not know whether players enjoy the first round, already share, or return without prompting. A solitary game can work without a social network. First validate that completing a round delivers a satisfying payoff.\n\nConcrete flow:\n\n1. A link opens today’s puzzle directly, with a brief inline instruction and no account required before play.\n2. After completion, show the result, an explanation, and a spoiler-free card: puzzle identifier, attempts or score, and a recognizable pattern of play.\n3. Offer “Compare with a friend.” The link opens the identical puzzle and reveals the inviter’s result after the recipient finishes. Use existing chats.\n4. Mark today as complete and show when the next challenge arrives. Put optional practice below the result and sharing action. Keep practice results distinct so daily comparisons remain meaningful.\n\nThe tradeoff is less immediate play and possible frustration for enthusiasts. Practice preserves that demand, but may weaken the stopping moment. A daily schedule also requires consistently good puzzles; scarcity cannot rescue an uninteresting game.\n\nRun a two-week pilot with actual word-game players, comparing this flow with unlimited play using the same core game. If participants share within groups, compare separate groups to reduce spillover. Measure first-round completion, voluntary return across days among all entrants and completers separately, and shared-link recipients who finish a round—not share clicks alone.\n\nContinue if the daily flow improves repeat use and activated referrals without materially harming first value. If only sharing rises, acquisition improved; durability remains unresolved. If players mainly seek continuous practice, prioritize that experience and test sharing separately."
+        }
+      },
+      {
+        "case_id": "H02",
+        "prompt": "A solo founder with no investors runs a simple game that has suddenly gone viral. A publisher offers a seven-figure acquisition, while the audience is still growing rapidly. Should the founder keep operating independently or consider selling? Explain what determines the answer and how to interpret an apparently low offer. No operational, retention or offer-timing data are supplied.",
+        "reference_criteria": [
+          "Consider operational crises and founder capacity, not just audience growth.",
+          "Consider hit-driven decay and certainty of a personally meaningful exit for a solo, unbacked founder.",
+          "Offer timing and growth during negotiation can explain apparent underpricing, as a hypothesis needing verification.",
+          "Do not claim to know founder mental state, actual term-sheet date or future game longevity."
+        ],
+        "source_window": [
+          610,
+          696
+        ],
+        "source_id": "S19",
+        "responses": {
+          "A": "The founder should seriously consider selling while continuing to operate. Rapid audience growth alone does not justify rejecting a seven-figure offer, and the offer alone does not justify accepting it.\n\nThe decision turns on three things:\n\n- **The business beneath the spike.** Are successive cohorts returning at the game’s natural frequency? Does use generate sustainable profit after infrastructure, support, and other costs? New arrivals can conceal departing players; growth and durable demand need separate measurements.\n- **The founder’s ability and desire to operate it.** A simple game can still create substantial operational work at scale. Whether that is happening here is unknown. Independence is more attractive if the founder enjoys the work, can handle it, and has a credible path to continued value.\n- **The actual deal and personal stakes.** Compare cash received at closing with contingent payments, ongoing employment obligations, and lost control. With no investors, there is no venture-return hurdle to satisfy. A sum that materially changes the founder’s life can rationally outweigh uncertain upside.\n\nAn apparently low offer may be a bargaining anchor, a discount for uncertain retention or monetization, or a reflection of that publisher’s particular economics. These are hypotheses, not established explanations. Popularity is not a valuation model, and one bid does not establish the market price. Ask the publisher to explain its assumptions, negotiate, and seek credible competing interest.\n\nBefore deciding, obtain the offer’s deadline and terms. If the available window permits, follow early and recent player cohorts through at least two natural play cycles; measure completed play, repeat use with clear denominators, net revenue, and founder hours. Strong repeat demand, viable economics, and manageable operations strengthen the case for independence or a higher price. Weak economics, burdensome operations, or a personally compelling guaranteed payout strengthen the case for selling.\n\nThere is no supplied evidence that the founder is overwhelmed, retention is poor, or the offer will disappear. Those missing facts prevent a categorical sell-or-hold verdict.",
+          "B": "The founder should consider selling, but rapid audience growth and a seven-figure headline are not enough to decide.\n\nThe central question is whether the risk-adjusted value of continuing exceeds the value of the acquisition to this particular founder. With no investors, the founder can prioritize personal financial security, creative freedom, and appetite for running the business. A life-changing cash payment may be rational even if continuing could produce a larger outcome.\n\nThe missing facts determine the answer:\n\n- Durability: Are players returning, or is growth mainly a temporary burst of attention?\n- Economics: What revenue, profit, and monetization potential does that audience support?\n- Execution: Can one person reliably maintain the game, handle demand, and develop it further?\n- Independence: How exposed is the game to platforms, copying, or a sudden loss of distribution?\n- Deal terms: How much is guaranteed cash, versus an earnout, equity, or payment contingent on staying employed?\n\nAn apparently low offer is not necessarily evidence that the publisher is exploiting the founder. Buyers value expected future cash flows and their uncertainty, not audience size alone. They may expect the viral wave to fade or anticipate substantial costs. Conversely, the publisher may have distribution or monetization advantages that make the game worth more to it than the offer suggests. Its opening bid is not an objective valuation.\n\nThe founder should clarify those assumptions, compare the offer with plausible independent outcomes, and seek competing interest if practical. Negotiate both price and terms. Without retention, operating, or offer-timing data, there is no basis to recommend an immediate sale or confident independence. Continued growth creates potential upside; guaranteed liquidity has value too."
+        }
+      },
+      {
+        "case_id": "H03",
+        "prompt": "A public short-text network lets users follow accounts and converse broadly. Many new accounts do not become regular users. The team proposes copying a phone-contact-import onboarding flow from a friends network. Diagnose the bottleneck, explain whether this is the right analogy, and recommend the next direction without assuming unpublished metrics.",
+        "reference_criteria": [
+          "Distinguish an interest graph from a friend graph.",
+          "Explain why contacts do not automatically import an engaging interest feed.",
+          "Activation means tuning an engaging feed rather than merely creating the account.",
+          "Preserve the following structure as a way to organize conversation/reach; do not invent a numeric target."
+        ],
+        "source_window": [
+          999,
+          1145
+        ],
+        "source_id": "S20",
+        "responses": {
+          "A": "The leading hypothesis is an interest-graph cold start: newcomers may fail to find people, content, or conversations worth returning for. But “many accounts do not become regular users” does not locate the loss. Setup friction, poor audience targeting, technical failures, or weak repeat value could produce the same outcome.\n\nContact import is a conditional analogy. A friends network uses existing relationships to create value; a public text network can create value through strangers sharing an interest. Phone contacts reveal acquaintances, not necessarily the topics or voices someone wants to follow. Import could help users whose purpose is following friends, but that precondition needs evidence. Nikita Bier’s [interest-graph discussion](https://x.com/nikitabier/status/1922864090277392756) makes this distinction; it does not establish your network’s bottleneck.\n\nStart with the existing funnel, segmented by acquisition source and user intent: arrival → setup → first useful experience → repeat useful visit. Observe new-user sessions and departures. Check whether users see relevant material, can express preferences, and can enter conversations that receive useful responses. If first value already occurs reliably, investigate why it stops recurring.\n\nThen run a bounded onboarding experiment:\n\n- **Audience:** newcomers with one identifiable interest and sufficient existing active accounts/content to serve it.\n- **Intervention:** let users express that interest, then offer a small, reviewed set of accounts and current discussions. Compare with current onboarding under similar acquisition conditions.\n- **First value:** finding a discussion the user identifies as useful, or receiving a useful human reply—not simply completing signup or following accounts.\n- **Measurement:** first-value rate and time, then repeat useful visits over an initial two-week observation window. Report both all-new-account and activated-account denominators; calibrate the window to observed usage cadence.\n- **Decision:** continue if relevance and repeat useful visits improve together. If only setup completion or time spent increases, the retention problem remains unresolved. If contact-based cohorts outperform because friends supply the value, revisit contact import.\n\nCurate manually to test appeal, then test whether ordinary onboarding reproduces it without staff assistance.",
+          "B": "“New accounts do not become regular users” describes an outcome, not a diagnosed bottleneck. We do not know whether newcomers encounter an empty or irrelevant feed, struggle to find worthwhile accounts, receive no response when posting, or simply find little reason to return. Contact import would address only some of those problems.\n\nA friends network and a public short-text network have different sources of value. In a friends network, finding people you already know can immediately make the product useful. In a public network, the valuable graph may consist of experts, commentators, communities, and strangers who share your interests. A phone address book does not necessarily contain those people—or people who actively use this network. Copying the flow because it worked elsewhere mistakes a similar interface for a similar mechanism.\n\nFirst, observe newcomers using the product and examine their paths through the first session and subsequent visits. Identify what they hoped to get, whether they reached a satisfying feed or conversation, and where that experience broke down. Compare retention across relevant experiences and acquisition sources, while treating correlations as clues rather than proof.\n\nThe next direction should be to shorten the path to the network’s actual value. If discovery is the bottleneck, test a lightweight interest selection, curated active accounts, or recommendations that produce relevant content before users must build a following graph. If participation is the bottleneck, test ways to help newcomers enter active, relevant conversations and receive meaningful responses.\n\nContact import remains a hypothesis for users whose reason to join involves existing relationships. Test it against the strongest discovery alternative, measuring sustained useful activity and return behavior—not merely imports, follows, or onboarding completion. Choose the flow that creates a repeatable reason to come back."
+        }
+      },
+      {
+        "case_id": "H04",
+        "prompt": "A short-text network is inserting recommended posts into feeds. Long-time users who carefully curated their follows complain, while new authors with few followers struggle to get any audience. The product team must decide whether to remove recommendations. Explain the tradeoff and the evidence needed; no experiment results are given.",
+        "reference_criteria": [
+          "Evaluate network-wide value rather than optimize solely for complaints from established users.",
+          "Explain that giving new authors exposure can support their retention and the supply side of the network.",
+          "Treat increased viewer engagement as something data might establish, not a supplied fact.",
+          "Keep the tradeoff testable and contextual; do not dismiss user costs as always irrelevant."
+        ],
+        "source_window": [
+          1317,
+          1403
+        ],
+        "source_id": "S20",
+        "responses": {
+          "A": "Recommendations solve a distribution problem but can break the feed’s promise. A user who carefully chose whom to follow expects that work to determine what they see. Unwanted recommendations consume attention and can weaken trust. Removing them, however, could make discovery depend almost entirely on existing connections, leaving new authors unable to reach readers and making the network harder to enter.\n\nNeither side is established by the facts given. Complaints do not tell us how widespread the harm is, and recommended impressions do not prove that new authors gain an audience. Recommendations might primarily reward already popular accounts.\n\nThe team needs evidence on three questions:\n\n- **What are users protecting?** Segment feedback and behavior by tenure, follow count, and feed usage. Determine whether the problem is irrelevant content, recommendation volume, displacement of followed posts, or lack of control. Measure satisfaction and retention, not just clicks or time spent.\n- **Does discovery create lasting value?** Track whether recommendations give new authors relevant readers, meaningful replies, repeat readership, and followers—and whether those authors keep posting. Examine how exposure is distributed rather than relying on averages.\n- **What would removal actually change?** Compare the current feed with a following-only feed and a version that preserves discovery while giving users clear control. Randomize where feasible, measure effects separately for established readers and new authors, and allow enough time to observe return behavior. Because authors and readers affect one another, account for network spillovers.\n\nI would not remove recommendations globally based on complaints alone. I would make the curated following experience reliably accessible while gathering that evidence. Keep recommendations if they produce durable reader and author value at an acceptable cost to existing users; change their placement or frequency if intrusion is the problem; remove them if the tested benefits fail to justify the harm.",
+          "B": "Do not remove recommendations platform-wide on complaints alone. The tradeoff is between honoring an established reader’s chosen network and giving an unknown author a path to a relevant audience.\n\nLong-time users invested effort in curating their feeds; inserted posts can displace the people they came to read and weaken their sense of control. But a follows-only feed distributes attention through existing relationships. New authors may struggle to earn their first audience, potentially reducing the future supply of worthwhile writing. Recommendations help only if they create valuable connections; extra impressions alone do not establish that benefit.\n\nThe supplied facts establish complaints and an author-distribution problem. They do not tell us how widespread the reader harm is, whether recommendations reach suitable readers, or whether those encounters produce lasting value. Poor relevance, excessive insertion, and unwanted loss of control are different explanations that need different fixes.\n\nInspect the funnel by cohort: established readers with carefully curated graphs, newer readers, and authors with few followers. Measure which followed posts recommendations displace, relevance and satisfaction, hides or mutes, and repeat visits. For authors, follow recommended exposure through substantive replies, follows, returning readers, and subsequent posting. Include all eligible new authors in the denominator, not just those whose posts received distribution; inspect whether gains concentrate among a few winners.\n\nRun a bounded comparison of the current feed, follows-only, and a clearly separated discovery surface. Four weeks is a proposed starting window, to be adjusted to normal reading and posting cycles. Account for network spillovers: changing reader exposure also changes author behavior, so reader-level results alone may miss supply effects.\n\nAgree on decision rules beforehand. Retain recommendations if they create recurring reader–author relationships without unacceptable reader harm. Reduce their frequency or change placement if discovery works but insertion causes dissatisfaction. Removal becomes justified if meaningful discovery benefits fail to appear and reader value improves without them. Preserve accessible control over a curated following feed while resolving that uncertainty."
+        }
+      },
+      {
+        "case_id": "H05",
+        "prompt": "A large public text network already has live-audio rooms, and several of its leading accounts also publish podcasts elsewhere. It is considering an in-app podcast feature. Should it pursue that expansion? Explain audience fit, scale limits, and why the proposal might or might not fit the existing product. No demand or usage experiment has been supplied.",
+        "reference_criteria": [
+          "Recognize the attention burden of long-form listening and the limited scale of most podcasts.",
+          "Evaluate fit with this network's interested audience and existing creators, rather than reject or pursue audio universally.",
+          "Explain the extension from live rooms to recording, distribution and retaining existing creator activity in the app.",
+          "Treat market-size and product-fit reasoning as a dated hypothesis, not evidence the expansion succeeded."
+        ],
+        "source_window": [
+          1983,
+          2093
+        ],
+        "source_id": "S26",
+        "responses": {
+          "A": "It should investigate the opportunity, but the supplied facts do not justify committing to a full podcast product.\n\nAudience fit is plausible: followers of leading accounts may want longer conversations, and the existing graph could help them discover episodes. Those creators already have material and production habits. But following someone’s short posts requires much less attention than listening to a podcast. We do not know how much the network’s audience overlaps with regular podcast listeners, whether they want to listen inside this app, or whether creators would bring their shows over. Live-audio rooms provide a relevant distribution channel, but their mere existence supplies no evidence of sustained listening demand.\n\nScale depends on the intersection of interested followers, habitual audio listeners, and people willing to change their listening destination. The network’s total user count therefore overstates the immediately addressable audience. Leading accounts may support a successful niche without producing broad adoption. Podcasts also consume substantial time per episode, limiting how many creators each listener can follow meaningfully. No numerical ceiling can be inferred from the information given.\n\nThe feature fits if it extends an existing behavior: discovering an account through posts, following its ideas, and continuing into a deeper conversation. Episode excerpts, discussions, and notifications could connect listening to that loop. Fit weakens if success requires building a separate destination with its own library, subscriptions, playback habits, and creator acquisition, while adding little value to the public text network.\n\nStart with a small creator cohort and a lightweight episode experience. Compare native listening with existing external links, measuring repeat listeners, completed listening, creator participation, and incremental retention—not just launch clicks. Expand only if users repeatedly choose the experience and the resulting value warrants the product and operating costs.",
+          "B": "Do not commit to a broad podcast expansion yet. The supplied facts justify a focused test, not a conclusion that users want an in-app podcast product.\n\nAudience fit is plausible: people following these accounts may want their longer-form thinking, and the existing follow graph could help listeners discover relevant episodes. But creator overlap is evidence of available supply, not listener demand. Live-audio rooms demonstrate an existing audio format, not demand for recorded shows: attending a timely conversation and routinely listening to an episode are different behaviors. We have no usage evidence for either.\n\nThe addressable audience is the intersection of users interested in these creators, willing to consume long-form audio, and willing to do so here. It is not the network’s entire user base. A feature could be valuable to a niche yet too small to become a meaningful platform growth engine. Existing podcast habits and the ongoing cost of attracting reliable publishing supply also constrain expansion. No numbers supplied establish that ceiling.\n\nThe strongest product fit is an extension of following and discussing people: discover an episode through a post, listen, and discuss a specific passage in the public conversation. A separate podcast destination would require a stronger reason to change listening habits. The key uncertainty is whether integration produces additional value or merely relocates consumption already happening elsewhere.\n\nTest a small set of participating creators over several release cycles. Give a bounded sample of relevant followers a complete listening path, including reliable playback and resuming; compare with equivalent posts linking to the same episodes externally. Measure meaningful listening among all eligible users, voluntary return for another episode, subsequent discussion, creator publishing effort, and effects on core network use. Assess less-engaged followers separately from superfans.\n\nContinue if ordinary followers repeatedly choose the integrated experience and it adds worthwhile value at sustainable cost. If uptake is concentrated among a few enthusiasts or replaces existing activity without added benefit, retain a lightweight integration or stop."
+        }
+      },
+      {
+        "case_id": "H06",
+        "prompt": "A cash-constrained startup wants a specific premium .com domain owned by an established company. Cash purchase is unaffordable. Most discovery for the planned consumer app will happen in mobile app stores. Evaluate whether the domain is necessary and propose a possible deal structure if it is worth pursuing, including the owner's downside and the startup's cost.",
+        "reference_criteria": [
+          "Separate mobile app-store discovery from needing the matching .com.",
+          "Consider an equity-based arrangement as a possible alternative to an unaffordable cash purchase.",
+          "Consider reverting the domain to its owner if the startup closes or pivots, while preserving upside on success.",
+          "Name dilution and the owner's opportunity cost of locking up a scarce asset; do not assume a universal price or equity percentage."
+        ],
+        "source_window": [
+          498,
+          688
+        ],
+        "source_id": "S26",
+        "responses": {
+          "A": "The premium .com is probably unnecessary for launch. If discovery happens mainly in app stores, the critical assets are a searchable app name, a strong listing, and a product people recommend. An affordable alternative domain can support the website, email, and links. Do not divert scarce cash from proving demand to securing an address.\n\nRevisit the domain if there is evidence that it materially improves trust, referral conversion, or acquisition—or if the alternative creates persistent confusion. Check trademark rights separately; owning a domain does not establish the right to use the brand.\n\nIf it is worth pursuing, propose a time-limited domain license with an option to acquire it in exchange for a negotiated equity stake. Keep any upfront fee within the startup’s actual budget. Define the equity consideration, option deadline, permitted uses, renewal terms, and transfer conditions in advance. The owner could retain title during the license and recover control if the startup shuts down or fails to meet agreed conditions. Any recovery provision must be explicit and workable if the startup becomes insolvent.\n\nThe owner gains potential upside without investing cash, but startup equity may become worthless. It also ties up an asset that could otherwise be sold or used, and consumer confusion could damage its existing brand. If the domain supports its current business, those costs may make a deal unattractive regardless of the offered equity.\n\nThe startup pays through dilution, legal costs, any license fees, and dependence on the owner while the license lasts. Equity can become far more expensive than a cash purchase if the app succeeds. Negotiate against a defensible domain value, and walk away if the terms threaten funding, continuity, or ownership of the eventual brand.",
+          "B": "The premium .com is probably unnecessary at this stage. Given app-store-led discovery, the important question is whether people can find the app, recognize it, and reach its first useful experience. An exact-match web address is worth pursuing only if it materially improves that path or enables a specific web interaction. A desirable name alone is insufficient evidence.\n\nUse an affordable, clear address initially. For a proposed one-week pilot, ask target users to find the app from its name and follow its website/referral links. Record confusion, failed discovery, and successful first use. If no meaningful loss is attributable to the address, preserve cash and founder attention. The app's actual behavior, brand requirements, and the owner's use of the domain remain unknown.\n\nIf there is a real benefit, propose an exclusive domain-use agreement in exchange for a negotiated small equity stake, with the owner retaining title initially. Define the startup's operating rights, duration, renewal, and a purchase or permanent-transfer option in advance. If the startup shuts down or abandons the domain, use rights end and the owner recovers control. Avoid a structure where the owner can withdraw it arbitrarily after the startup builds its brand.\n\nThe owner's upside is participation in a successful startup while retaining a recoverable asset. Its downside includes forgone sale or use opportunities during the agreement, reputational association, administration, and equity that may become worthless. Reversion reduces the risk of permanently losing the domain; it does not eliminate these costs. If the company actively relies on the domain, the proposal may be unattractive.\n\nThe startup's cost is dilution, negotiation and legal expense, domain upkeep, and possible migration costs. Equity is not free: a small stake can become much more expensive than a cash purchase. Compare that cost with the domain's demonstrated incremental value before agreeing."
+        }
+      },
+      {
+        "case_id": "H07",
+        "prompt": "A company whose main existing asset is a popular collection of NFT images proposes building a broadly adopted consumer game and virtual world. It has access to substantial funding and a community of holders. Evaluate the leap from the existing asset to the proposed product, identify the assumptions that matter most, and compare this with adding a use case to a platform that already holds users' attention. Do not recommend buying or selling financial assets.",
+        "reference_criteria": [
+          "Distinguish owning images in wallets from possessing ongoing user attention or engaged game users.",
+          "Identify a chain of dependencies: holders must onboard, enjoy the new product, and continue using it.",
+          "Treat the number and fragility of unproven conditional steps as a reason for skepticism or simpler tests, rather than let funding substitute for evidence.",
+          "Explain why extending a platform with existing attention can require a smaller behavioral leap; avoid claiming an outcome or calibrated success probability."
+        ],
+        "source_window": [
+          672,
+          773
+        ],
+        "source_id": "S27",
+        "responses": {
+          "A": "A popular NFT collection demonstrates demand for the collectible and its identity. It does not establish demand for a game, or for spending time in a virtual world. The proposal therefore needs to be evaluated as a new consumer product with some useful starting assets: recognizable imagery, a reachable audience, and funding.\n\nThe critical assumptions are:\n\n- **A compelling activity exists.** What would people repeatedly do there, and why would they choose it over their current games and social spaces? A world is a setting; it still needs a reason to visit and return.\n- **Holders are prospective users.** Ownership, enthusiasm, and willingness to promote the project do not necessarily translate into sustained play. It matters whether holders enjoy the experience and whether people without NFTs want it.\n- **The team can deliver that experience.** Running a collectible community and building an engaging game require different capabilities. Funding can buy production capacity and time, but does not prove product judgment.\n- **The experience can reach sufficient participation.** If enjoyment depends on other people being present, the launch must produce overlapping, recurring activity. An audience count alone does not establish that.\n- **The product can sustain itself commercially.** Its costs, acquisition model, and willingness to pay need evidence beyond the existing collectible business.\n\nI would test the smallest playable version of the central activity, with both holders and outsiders. Look for voluntary repeat play, retention after incentives end, and invitations driven by enjoyment. Broad adoption remains unproven until those behaviors appear outside the original community.\n\nAdding a use case to a platform that already holds attention starts closer to actual consumption: people already visit, have relationships there, and can encounter the feature inside an established habit. That reduces distribution and coordination friction. The feature must still improve their experience, but it can build on demonstrated usage. The NFT proposal must first convert ownership and community interest into a durable attention habit.",
+          "B": "The proposal is a new-product bet with an IP and distribution head start. Popular NFT images establish demand for the collection; they do not establish demand for a game or willingness to spend hours in its world. Funding buys development capacity and experiments. It does not prove compelling gameplay or a recurring reason to return.\n\nFour assumptions matter most:\n\n- **Motivation transfers:** people who value ownership, identity, or collectibility also want this particular play experience. Holder support may reflect their existing stake rather than enjoyment.\n- **The product earns attention:** the team can create a distinctive, well-executed game that people choose over their existing entertainment. Relevant development capability and a playable core are unknown.\n- **The world stays useful:** if value depends on other players or creators, enough relevant participants and content must be present together. A holder count does not establish concurrent activity.\n- **Adoption extends beyond holders:** ordinary consumers can reach first value and return without owning an NFT, receiving rewards, or responding to launch publicity. The acquisition path and sustainable economics remain unknown.\n\nAdding a use case to a platform that already holds attention begins from a different position: users already visit, relationships or content already exist, and the feature can meet them inside an established behavior. It still needs to prove usefulness and repeat use, but it may inherit prerequisites that this proposed destination must build. That advantage weakens if the feature requires a separate app, new network, or unrelated habit.\n\nBefore committing to a broad world, run a four-week test of one polished game loop with holders and target non-holders, reporting each cohort separately. For multiplayer, coordinate enough real players to make the experience credible. Track all entrants through a completed meaningful session, voluntary replay, and subsequent unprompted returns; record staff assistance and incentives. Compare branded and unbranded versions where feasible to test the IP's contribution.\n\nSet continuation criteria before recruitment. Broad voluntary repeat use would justify further investment; holder-only enthusiasm would support a narrower product hypothesis. Failure with a credible core should trigger a gameplay rethink before expanding the world."
+        }
+      }
+    ]
+  },
+  "blind_scores": {
+    "evaluation_notes": [
+      "Read only blind-input.json. No condition labels were inferred.",
+      "Scores assess agreement with the four stated mechanisms, not the attractiveness of the proposed business advice. Measurement proposals alone receive no mechanism credit.",
+      "This is an exploratory pilot using author-paraphrased, ASR-grounded reference notes without independent listening verification. It is not a validated benchmark or evidence of full thinking fidelity.",
+      "Criterion positions mean different things across cases; their aggregate totals are bookkeeping, not a common four-dimensional construct. Cases drawn from the same episode are correlated."
+    ],
+    "cases": [
+      {
+        "case_id": "H01",
+        "A": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Completion explicitly produces a result and spoiler-free share card with a score-comparison invitation.",
+            "Prioritizes a shared daily puzzle and discusses how unlimited rounds can scatter conversation and exhaust novelty; extra rounds are subordinate to the daily reference point.",
+            "Explains a recurring appointment and comparison, but never explains repeated exposure to others' shared results on existing networks as an external reminder to return.",
+            "Treats the design as a hypothesis for this audience and says notifications can amplify an existing reason to return, rather than declaring notifications universally useless."
+          ],
+          "unsupported_claims": [
+            "The categorical statement that a one-minute game has little switching cost is an inference not established by the supplied round duration."
+          ]
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "criterion_reasons": [
+            "Completion explicitly produces a spoiler-free card containing puzzle identity, attempts or score, and a recognizable pattern of play.",
+            "Explicitly proposes the shared daily challenge as the main loop, unlimited practice as secondary, and a stopping moment before practice.",
+            "Uses existing chats for sharing, but does not explain repeated network exposure as a reminder that causes return; tomorrow's new puzzle is a different mechanism.",
+            "Explicitly makes this an audience-dependent hypothesis, but does not discuss the contextual usefulness of notifications."
+          ],
+          "unsupported_claims": []
+        },
+        "caveat": "The prompt does not ask respondents to classify notifications universally. B's silence on their usefulness is an omission of part of the criterion, not evidence that it believes notifications are always useless."
+      },
+      {
+        "case_id": "H02",
+        "A": {
+          "criterion_scores": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly discusses substantial operational work at scale, founder hours, and the founder's ability and desire to operate.",
+            "Explicitly recognizes a life-changing guaranteed payout and the absence of a venture-return hurdle; it discusses retention uncertainty but does not specifically explain the decay risk of a hit-driven game.",
+            "Offers bargaining, retention, monetization, and buyer-economics explanations, but omits the possibility that an earlier offer became apparently cheap as growth continued during negotiation.",
+            "Explicitly says overwhelm, poor retention, and disappearing offers are not established; it asserts no actual mental state, term-sheet date, or future longevity."
+          ],
+          "unsupported_claims": []
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly asks whether one person can maintain the game and handle demand, making capacity part of the decision.",
+            "Explicitly combines temporary viral attention and possible fading of the wave with personally valuable financial security for a founder without investors.",
+            "Acknowledges missing offer-timing data, but never explains the proposed timing-and-growth mechanism for apparent underpricing.",
+            "Explicitly withholds a confident decision because retention, operating, and timing data are absent; it invents no mental state, term-sheet date, or longevity."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      {
+        "case_id": "H03",
+        "A": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly calls the likely issue an interest-graph cold start and contrasts strangers sharing interests with existing friendship relationships.",
+            "Explicitly explains that phone contacts identify acquaintances rather than the topics or voices someone wants to follow.",
+            "Moves first value beyond signup to relevant material and useful discussion; proposes interest expression and curated accounts/content to establish that experience.",
+            "Retains following voices and recommending accounts as useful discovery structures, without a numeric follow target, but does not explicitly explain following as the structure organizing conversation and reach."
+          ],
+          "unsupported_claims": [
+            "Attributes the interest-graph distinction to a specific Nikita Bier X post. The blind input does not establish that linked post's contents or authenticity."
+          ]
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly contrasts a friends network with a public graph of experts, communities, and strangers sharing interests.",
+            "Explicitly says an address book need not contain the valuable accounts or active users needed for the public network.",
+            "Identifies a satisfying relevant feed or conversation as first value and proposes interest selection, curated accounts, and recommendations instead of treating account creation as activation.",
+            "Keeps a following graph and worthwhile accounts in the product model and invents no numeric target, but does not explicitly defend following as an organizing structure for conversation and reach."
+          ],
+          "unsupported_claims": []
+        },
+        "caveat": "Criterion 4 requests an affirmative explanation of the following structure that the prompt does not specifically request. Neither response proposes eliminating following, so the partial scores should not be read as evidence that either rejects it."
+      },
+      {
+        "case_id": "H04",
+        "A": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly refuses a global removal decision based on complaints alone and evaluates established readers, new authors, and network spillovers.",
+            "Explains new-author discovery and proposes tracking lasting audiences and whether authors keep posting, recognizing the supply-side retention mechanism.",
+            "Explicitly says impressions do not prove a lasting audience and requires evidence of durable reader value rather than claiming viewer engagement already rose.",
+            "Recognizes attention, trust, satisfaction, and control costs; gives conditional keep/change/remove decisions tied to a comparison of feed variants."
+          ],
+          "unsupported_claims": []
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly evaluates platform-wide consequences, multiple cohorts, and supply effects instead of letting established-user complaints determine the decision.",
+            "Explicitly connects new authors' inability to earn an audience with reduced future supply and tracks subsequent posting after exposure.",
+            "Explicitly says neither suitable distribution nor lasting reader value is established and requires behavioral evidence.",
+            "Treats displacement, relevance, and loss of control as real costs and gives testable conditional decisions for retaining, modifying, or removing recommendations."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      {
+        "case_id": "H05",
+        "A": {
+          "criterion_scores": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly explains the time burden of podcasts and bounds the potential audience, but does not state the reference's broader claim that most podcasts have limited scale.",
+            "Explicitly evaluates the overlap of interested followers, existing podcast creators, and habitual listeners, making pursuit contingent on this network's fit.",
+            "Mentions live rooms as a relevant distribution channel, existing creator material, and native listening, but does not explain extending live rooms into recording and distribution to retain existing creator activity.",
+            "Explicitly treats fit and addressable audience as hypotheses and makes no success claim, but provides no dated or historical qualification."
+          ],
+          "unsupported_claims": []
+        },
+        "B": {
+          "criterion_scores": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "criterion_reasons": [
+            "Recognizes long-form consumption and a potentially small addressable niche, but does not explicitly develop the attention burden or the reference's general limited-scale claim about most podcasts.",
+            "Explicitly evaluates relevant followers, creator supply, existing listening habits, and in-app demand rather than taking a universal position on audio.",
+            "Discusses existing live audio, recorded episodes, native playback, and consumption currently happening elsewhere, but does not give the live-room-to-recording-and-distribution extension mechanism.",
+            "Explicitly withholds a product-fit conclusion and treats scale as uncertain, but does not locate this reasoning as a dated hypothesis."
+          ],
+          "unsupported_claims": []
+        },
+        "caveat": "The prompt supplies neither a source date nor a request to assess a historical claim, making the dated component of criterion 4 poorly elicited. It also asks about scale limits without explicitly asking for the reference's general claim about most podcasts. Both responses avoid claiming success. These omissions weaken interpretation of the absolute scores."
+      },
+      {
+        "case_id": "H06",
+        "A": {
+          "criterion_scores": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly separates app-store discovery from website needs and recommends an affordable alternate domain for launch.",
+            "Explicitly proposes a domain license and acquisition option with a negotiated equity stake as an alternative to an unaffordable cash purchase.",
+            "Preserves owner equity upside and control recovery on shutdown or failure of agreed conditions, but does not explicitly provide recovery when the startup pivots or abandons the use case.",
+            "Explicitly names startup dilution, potentially expensive successful equity, and the owner's forgone sale/use opportunities, without assigning a universal price or percentage."
+          ],
+          "unsupported_claims": []
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly connects app-store-led discovery to app findability and treats the exact-match web address as conditional on demonstrated incremental value.",
+            "Explicitly proposes exclusive domain-use rights for negotiated equity while the owner initially retains title.",
+            "Explicitly ends use rights on shutdown or abandonment of the domain, allowing recovery while preserving equity participation on success; abandonment covers a pivot away from the domain's use case.",
+            "Explicitly names dilution and the owner's forgone sale/use opportunities during the agreement, with no universal percentage or fixed price."
+          ],
+          "unsupported_claims": []
+        },
+        "caveat": "Pivot-specific recovery is a reference detail not directly requested by the prompt. A already covers shutdown and failed conditions, so its partial score reflects the absent pivot/abandonment detail rather than absence of a recoverable-asset arrangement."
+      },
+      {
+        "case_id": "H07",
+        "A": {
+          "criterion_scores": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly distinguishes collectible ownership, identity, and a reachable audience from demand for a game or sustained time in a world.",
+            "Explains that holders must enjoy the product and become repeat users, but does not explicitly articulate holder onboarding as a separate dependency in the chain.",
+            "Lists unproven assumptions, says funding cannot prove product judgment, and proposes a smaller playable test; it does not explicitly explain how the number and fragility of conditional dependencies make the overall bet less credible.",
+            "Explicitly explains that an attention-holding platform inherits visits, relationships, distribution, and coordination, reducing the leap; it asserts no outcome or success probability."
+          ],
+          "unsupported_claims": []
+        },
+        "B": {
+          "criterion_scores": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly distinguishes demand for NFT images from willingness to play or spend hours in a virtual world, and separates holder counts from concurrent activity.",
+            "Discusses motivation transfer, compelling play, first value, and returns, but the complete holder-onboarding-to-enjoyment-to-continuation chain remains implicit and distributed across assumptions.",
+            "Explicitly refuses to use funding as evidence and proposes a bounded game-loop test, but does not explain skepticism through the accumulating conditional dependencies or their fragility.",
+            "Explicitly explains that an existing platform may inherit attention, relationships, content, and habits, while qualifying when the advantage weakens; it claims no outcome or calibrated probability."
+          ],
+          "unsupported_claims": []
+        },
+        "caveat": "Both responses cover many component assumptions and propose smaller tests. Partial scores on criteria 2 and 3 reflect missing explicit dependency-chain reasoning, not an assessment that their tests or product advice are poor."
+      }
+    ],
+    "totals": {
+      "A": {
+        "criterion_position_totals": [
+          13,
+          12,
+          7,
+          12
+        ],
+        "case_totals": [
+          6,
+          5,
+          7,
+          8,
+          5,
+          7,
+          6
+        ],
+        "total": 44,
+        "maximum": 56
+      },
+      "B": {
+        "criterion_position_totals": [
+          13,
+          13,
+          8,
+          11
+        ],
+        "case_totals": [
+          5,
+          6,
+          7,
+          8,
+          5,
+          8,
+          6
+        ],
+        "total": 45,
+        "maximum": 56
+      }
+    }
+  },
+  "condition_map_revealed_after_scoring": {
+    "H01": {
+      "A": "baseline",
+      "B": "skill"
+    },
+    "H02": {
+      "A": "skill",
+      "B": "baseline"
+    },
+    "H03": {
+      "A": "skill",
+      "B": "baseline"
+    },
+    "H04": {
+      "A": "baseline",
+      "B": "skill"
+    },
+    "H05": {
+      "A": "baseline",
+      "B": "skill"
+    },
+    "H06": {
+      "A": "baseline",
+      "B": "skill"
+    },
+    "H07": {
+      "A": "baseline",
+      "B": "skill"
+    }
+  },
+  "unblinded_scores": [
+    {
+      "case_id": "H01",
+      "conditions": {
+        "baseline": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Completion explicitly produces a result and spoiler-free share card with a score-comparison invitation.",
+            "Prioritizes a shared daily puzzle and discusses how unlimited rounds can scatter conversation and exhaust novelty; extra rounds are subordinate to the daily reference point.",
+            "Explains a recurring appointment and comparison, but never explains repeated exposure to others' shared results on existing networks as an external reminder to return.",
+            "Treats the design as a hypothesis for this audience and says notifications can amplify an existing reason to return, rather than declaring notifications universally useless."
+          ],
+          "unsupported_claims": [
+            "The categorical statement that a one-minute game has little switching cost is an inference not established by the supplied round duration."
+          ]
+        },
+        "skill": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "criterion_reasons": [
+            "Completion explicitly produces a spoiler-free card containing puzzle identity, attempts or score, and a recognizable pattern of play.",
+            "Explicitly proposes the shared daily challenge as the main loop, unlimited practice as secondary, and a stopping moment before practice.",
+            "Uses existing chats for sharing, but does not explain repeated network exposure as a reminder that causes return; tomorrow's new puzzle is a different mechanism.",
+            "Explicitly makes this an audience-dependent hypothesis, but does not discuss the contextual usefulness of notifications."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": "The prompt does not ask respondents to classify notifications universally. B's silence on their usefulness is an omission of part of the criterion, not evidence that it believes notifications are always useless."
+    },
+    {
+      "case_id": "H02",
+      "conditions": {
+        "skill": {
+          "criterion_scores": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly discusses substantial operational work at scale, founder hours, and the founder's ability and desire to operate.",
+            "Explicitly recognizes a life-changing guaranteed payout and the absence of a venture-return hurdle; it discusses retention uncertainty but does not specifically explain the decay risk of a hit-driven game.",
+            "Offers bargaining, retention, monetization, and buyer-economics explanations, but omits the possibility that an earlier offer became apparently cheap as growth continued during negotiation.",
+            "Explicitly says overwhelm, poor retention, and disappearing offers are not established; it asserts no actual mental state, term-sheet date, or future longevity."
+          ],
+          "unsupported_claims": []
+        },
+        "baseline": {
+          "criterion_scores": [
+            2,
+            2,
+            0,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly asks whether one person can maintain the game and handle demand, making capacity part of the decision.",
+            "Explicitly combines temporary viral attention and possible fading of the wave with personally valuable financial security for a founder without investors.",
+            "Acknowledges missing offer-timing data, but never explains the proposed timing-and-growth mechanism for apparent underpricing.",
+            "Explicitly withholds a confident decision because retention, operating, and timing data are absent; it invents no mental state, term-sheet date, or longevity."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": null
+    },
+    {
+      "case_id": "H03",
+      "conditions": {
+        "skill": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly calls the likely issue an interest-graph cold start and contrasts strangers sharing interests with existing friendship relationships.",
+            "Explicitly explains that phone contacts identify acquaintances rather than the topics or voices someone wants to follow.",
+            "Moves first value beyond signup to relevant material and useful discussion; proposes interest expression and curated accounts/content to establish that experience.",
+            "Retains following voices and recommending accounts as useful discovery structures, without a numeric follow target, but does not explicitly explain following as the structure organizing conversation and reach."
+          ],
+          "unsupported_claims": [
+            "Attributes the interest-graph distinction to a specific Nikita Bier X post. The blind input does not establish that linked post's contents or authenticity."
+          ]
+        },
+        "baseline": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly contrasts a friends network with a public graph of experts, communities, and strangers sharing interests.",
+            "Explicitly says an address book need not contain the valuable accounts or active users needed for the public network.",
+            "Identifies a satisfying relevant feed or conversation as first value and proposes interest selection, curated accounts, and recommendations instead of treating account creation as activation.",
+            "Keeps a following graph and worthwhile accounts in the product model and invents no numeric target, but does not explicitly defend following as an organizing structure for conversation and reach."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": "Criterion 4 requests an affirmative explanation of the following structure that the prompt does not specifically request. Neither response proposes eliminating following, so the partial scores should not be read as evidence that either rejects it."
+    },
+    {
+      "case_id": "H04",
+      "conditions": {
+        "baseline": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly refuses a global removal decision based on complaints alone and evaluates established readers, new authors, and network spillovers.",
+            "Explains new-author discovery and proposes tracking lasting audiences and whether authors keep posting, recognizing the supply-side retention mechanism.",
+            "Explicitly says impressions do not prove a lasting audience and requires evidence of durable reader value rather than claiming viewer engagement already rose.",
+            "Recognizes attention, trust, satisfaction, and control costs; gives conditional keep/change/remove decisions tied to a comparison of feed variants."
+          ],
+          "unsupported_claims": []
+        },
+        "skill": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly evaluates platform-wide consequences, multiple cohorts, and supply effects instead of letting established-user complaints determine the decision.",
+            "Explicitly connects new authors' inability to earn an audience with reduced future supply and tracks subsequent posting after exposure.",
+            "Explicitly says neither suitable distribution nor lasting reader value is established and requires behavioral evidence.",
+            "Treats displacement, relevance, and loss of control as real costs and gives testable conditional decisions for retaining, modifying, or removing recommendations."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": null
+    },
+    {
+      "case_id": "H05",
+      "conditions": {
+        "baseline": {
+          "criterion_scores": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "criterion_reasons": [
+            "Explicitly explains the time burden of podcasts and bounds the potential audience, but does not state the reference's broader claim that most podcasts have limited scale.",
+            "Explicitly evaluates the overlap of interested followers, existing podcast creators, and habitual listeners, making pursuit contingent on this network's fit.",
+            "Mentions live rooms as a relevant distribution channel, existing creator material, and native listening, but does not explain extending live rooms into recording and distribution to retain existing creator activity.",
+            "Explicitly treats fit and addressable audience as hypotheses and makes no success claim, but provides no dated or historical qualification."
+          ],
+          "unsupported_claims": []
+        },
+        "skill": {
+          "criterion_scores": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "criterion_reasons": [
+            "Recognizes long-form consumption and a potentially small addressable niche, but does not explicitly develop the attention burden or the reference's general limited-scale claim about most podcasts.",
+            "Explicitly evaluates relevant followers, creator supply, existing listening habits, and in-app demand rather than taking a universal position on audio.",
+            "Discusses existing live audio, recorded episodes, native playback, and consumption currently happening elsewhere, but does not give the live-room-to-recording-and-distribution extension mechanism.",
+            "Explicitly withholds a product-fit conclusion and treats scale as uncertain, but does not locate this reasoning as a dated hypothesis."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": "The prompt supplies neither a source date nor a request to assess a historical claim, making the dated component of criterion 4 poorly elicited. It also asks about scale limits without explicitly asking for the reference's general claim about most podcasts. Both responses avoid claiming success. These omissions weaken interpretation of the absolute scores."
+    },
+    {
+      "case_id": "H06",
+      "conditions": {
+        "baseline": {
+          "criterion_scores": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly separates app-store discovery from website needs and recommends an affordable alternate domain for launch.",
+            "Explicitly proposes a domain license and acquisition option with a negotiated equity stake as an alternative to an unaffordable cash purchase.",
+            "Preserves owner equity upside and control recovery on shutdown or failure of agreed conditions, but does not explicitly provide recovery when the startup pivots or abandons the use case.",
+            "Explicitly names startup dilution, potentially expensive successful equity, and the owner's forgone sale/use opportunities, without assigning a universal price or percentage."
+          ],
+          "unsupported_claims": []
+        },
+        "skill": {
+          "criterion_scores": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly connects app-store-led discovery to app findability and treats the exact-match web address as conditional on demonstrated incremental value.",
+            "Explicitly proposes exclusive domain-use rights for negotiated equity while the owner initially retains title.",
+            "Explicitly ends use rights on shutdown or abandonment of the domain, allowing recovery while preserving equity participation on success; abandonment covers a pivot away from the domain's use case.",
+            "Explicitly names dilution and the owner's forgone sale/use opportunities during the agreement, with no universal percentage or fixed price."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": "Pivot-specific recovery is a reference detail not directly requested by the prompt. A already covers shutdown and failed conditions, so its partial score reflects the absent pivot/abandonment detail rather than absence of a recoverable-asset arrangement."
+    },
+    {
+      "case_id": "H07",
+      "conditions": {
+        "baseline": {
+          "criterion_scores": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly distinguishes collectible ownership, identity, and a reachable audience from demand for a game or sustained time in a world.",
+            "Explains that holders must enjoy the product and become repeat users, but does not explicitly articulate holder onboarding as a separate dependency in the chain.",
+            "Lists unproven assumptions, says funding cannot prove product judgment, and proposes a smaller playable test; it does not explicitly explain how the number and fragility of conditional dependencies make the overall bet less credible.",
+            "Explicitly explains that an attention-holding platform inherits visits, relationships, distribution, and coordination, reducing the leap; it asserts no outcome or success probability."
+          ],
+          "unsupported_claims": []
+        },
+        "skill": {
+          "criterion_scores": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "criterion_reasons": [
+            "Explicitly distinguishes demand for NFT images from willingness to play or spend hours in a virtual world, and separates holder counts from concurrent activity.",
+            "Discusses motivation transfer, compelling play, first value, and returns, but the complete holder-onboarding-to-enjoyment-to-continuation chain remains implicit and distributed across assumptions.",
+            "Explicitly refuses to use funding as evidence and proposes a bounded game-loop test, but does not explain skepticism through the accumulating conditional dependencies or their fragility.",
+            "Explicitly explains that an existing platform may inherit attention, relationships, content, and habits, while qualifying when the advantage weakens; it claims no outcome or calibrated probability."
+          ],
+          "unsupported_claims": []
+        }
+      },
+      "judge_caveat": "Both responses cover many component assumptions and propose smaller tests. Partial scores on criteria 2 and 3 reflect missing explicit dependency-chain reasoning, not an assessment that their tests or product advice are poor."
+    }
+  ],
+  "totals": {
+    "baseline": 45,
+    "skill": 44
+  },
+  "maximum_per_condition": 56,
+  "interpretation": [
+    "Seven probes across four 2022 episodes are not representative of all public reasoning.",
+    "No observed improvement on this pilot; a one-point difference in one run does not establish harm or equivalence.",
+    "Cases and criteria were authored and added in batches before their own generations, not globally preregistered.",
+    "Reference criteria are ASR-grounded paraphrases without independent listening verification.",
+    "Several rubric requirements were weakly elicited; judge caveats are preserved unchanged.",
+    "Condition labels were randomized, but prose and source citations could suggest which response used a skill.",
+    "The judge flags a citation as unverifiable from its restricted input; that is not a verified false attribution.",
+    "The source passages are absent from frozen reasoning, but pretraining contamination and scenario recognition cannot be excluded.",
+    "S19/S20 had been collected before the snapshot; S26/S27 are new sources.",
+    "The newly revised skill contains all seven cases and has not been evaluated on a fresh fidelity holdout."
+  ]
+}
